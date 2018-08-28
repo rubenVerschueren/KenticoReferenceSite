@@ -1,0 +1,2 @@
+﻿#run the following scrip in a command line 
+Powershell.exe -executionpolicy Unrestricted -File "D:\Projects\KenticoReferenceSite\KenticoReferenceSite\CMS\KenticoReferenceSite\CIScripts\Restore-CI.ps1" "D:\Sites\KenticoReferenceSite\CMS"
