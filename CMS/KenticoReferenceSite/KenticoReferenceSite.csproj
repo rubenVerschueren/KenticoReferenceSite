@@ -66,9 +66,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticoreferencesite.mypagetype.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticoreferencesite.mypagetype.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Themes\KenticoReferenceSite.css" />
-    <Content Include="CMSScripts\Custom\KenticoReferenceSite.js" />
+    <Content Include="CMSScripts\Custom\KenticoReferenceSite.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -77,11 +81,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppOffline.htm_" />
     <None Include="App_Config\AppSettings.Template.config" />
     <Content Include="App_Config\AppSettings.config" />
     <Content Include="App_Config\connectionStrings.config" />
     <None Include="App_Config\connectionStrings.Template.config" />
-    <Content Include="CIScripts\ExecuteCIScript.txt" />
+    <None Include="CIScripts\ExecuteCIScript.txt" />
     <None Include="CIScripts\Restore-CI.ps1" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
