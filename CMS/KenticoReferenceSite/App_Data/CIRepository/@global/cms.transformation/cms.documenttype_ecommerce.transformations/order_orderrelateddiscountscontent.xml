@@ -9,7 +9,7 @@
 <![CDATA[
 <tr>
 <td style="padding: 0px 8px 0px 5px; text-align: left;">{%HTMLEncode(Localize(Name))%}</td>
-<td style="vertical-align: top; text-align: right;">&#8209;&nbsp;{%HTMLEncode(Value.Format(Currency.CurrencyFormatString))|(identity)GlobalAdministrator|(hash)fb02928fc40e576688379d09cdb1abcd4217782e52f2f0707ad2e9b36edf9ea2%}</td>
+<td style="vertical-align: top; text-align: right;">&#8209;&nbsp;{%HTMLEncode(Value.Format(Currency.CurrencyFormatString))|(identity)GlobalAdministrator|(hash)4e8e235616a55da63c89e75d1d7f1a73b98daa9c284fd147100d780ef172305d%}</td>
 </tr>
 ]]>
   </TransformationCode>

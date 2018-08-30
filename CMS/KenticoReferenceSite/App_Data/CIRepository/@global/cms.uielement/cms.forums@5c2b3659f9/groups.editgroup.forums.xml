@@ -37,7 +37,7 @@
       <ParentObjectType>community.group</ParentObjectType>
       <TitleText>{$forumgrouplist.headerforumgrouplist$}</TitleText>
       <WhereCondition>
-        <![CDATA[(GroupSiteID = {% CMSContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)521c2fddd91bb1c062335ff16a5bb44bf5768adb0407c9c645ae25708cc26e5e%}) and (GroupGroupID = {?parentobjectid |(default)0?})]]>
+        <![CDATA[(GroupSiteID = {% CMSContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)78e82f72c98d850bca3023ce28196f2727bc556a5560e80b29bb5b29739a1cc2%}) and (GroupGroupID = {?parentobjectid |(default)0?})]]>
       </WhereCondition>
     </Data>
   </ElementProperties>

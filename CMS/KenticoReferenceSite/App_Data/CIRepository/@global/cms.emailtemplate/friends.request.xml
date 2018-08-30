@@ -10,9 +10,9 @@
 <![CDATA[
 {%FORMATTEDSENDERNAME%} wants to be your friend.
 
-Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}
+Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)bd49bc39e8d556d20f6561a0a2af897b4b6689d2b0316a864cc38565dc73d3a1%}
 
-Sent: {%Friendship.FriendRequestedWhen|(identity)GlobalAdministrator|(hash)91b7d38c5afb9c93982160348137a8e6dc635c44213ed63d1cf55b5df131ff9d%}
+Sent: {%Friendship.FriendRequestedWhen|(identity)GlobalAdministrator|(hash)a9aaae1bfd5d1a94f5a855076b00a12389242362817868331d05d55f5a216602%}
 
 Choose one of the following actions:
 
@@ -29,8 +29,8 @@ User profile URL: {%PROFILEURL%}
   </head>
   <body>
     <p>{%FORMATTEDSENDERNAME%} wants to be your friend.</p>
-    <p>Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}</p>
-    <p>Sent: {%Friendship.FriendRequestedWhen.HTMLEncode()|(identity)GlobalAdministrator|(hash)0ce4cdc5f7799c3f4e35cc235ca23751b6a1b034527fdec962c21d4cb2d30118%}</p>
+    <p>Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)bd49bc39e8d556d20f6561a0a2af897b4b6689d2b0316a864cc38565dc73d3a1%}</p>
+    <p>Sent: {%Friendship.FriendRequestedWhen.HTMLEncode()|(identity)GlobalAdministrator|(hash)a33b190bb4dedf30582f3b704f471fd8bb5aea8be33565a27a3de2763108a8ec%}</p>
     <p>Choose one of the following actions:</p>    
     <p><a href="{%MANAGEMENTURL%}">Accept or reject</a></p>
     <p><a href="{%PROFILEURL%}">Open user profile</a></p>

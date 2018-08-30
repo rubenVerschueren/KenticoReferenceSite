@@ -7,7 +7,7 @@
   <TableQuery>
 <![CDATA[
 DECLARE @globalCurrency bit;
-SET @globalCurrency = {%Settings.CMSStoreUseGlobalCurrencies?1:0|(identity)GlobalAdministrator|(hash)70e9c9070eea2fe26b179f78a5cd9e17e4904f0258059b49697a552c17f95544%};
+SET @globalCurrency = {%Settings.CMSStoreUseGlobalCurrencies?1:0|(identity)GlobalAdministrator|(hash)6430077d0f46d0117823a462bc4bf46f3ff9975da29303e78eac8be45c56b54c%};
 
 DECLARE @totalsum float;
 SET @totalsum = (SELECT SUM(OrderGrandTotalInMainCurrency) 

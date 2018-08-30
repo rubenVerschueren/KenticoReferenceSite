@@ -33,7 +33,7 @@
       <checkmodifypermission>True</checkmodifypermission>
       <resourceprefix>polls_poll.select</resourceprefix>
       <listprefacetext>
-        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.polls_poll").ToLower()) |(identity)GlobalAdministrator|(hash)83fb3dada0f33cd7589e252e27a9bbfdb303c8b64ae103ab478dd4fc2a3d39fa%}]]>
+        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.polls_poll").ToLower()) |(identity)GlobalAdministrator|(hash)7d8a5a4eef28ca760b9206f712d40baa6306de4b78a848d18d7e8001ad495b57%}]]>
       </listprefacetext>
       <displaybreadcrumbs>False</displaybreadcrumbs>
       <dialogwherecondition>

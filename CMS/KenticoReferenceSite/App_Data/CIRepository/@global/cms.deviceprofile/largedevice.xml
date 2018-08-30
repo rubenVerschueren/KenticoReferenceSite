@@ -15,7 +15,7 @@ if (!CurrentDevice.Data["IsMobile"]
     return false;
 }
 
-return true;|(identity)GlobalAdministrator|(hash)7435d900663d81ff2650bb3910b41ca8c16bd254901772eb71e6f3450fe47496%}
+return true;|(identity)GlobalAdministrator|(hash)80134603b4e8edb4efde8caf1d2e640879b1e932a7fef702809718180413936d%}
 ]]>
   </ProfileMacro>
   <ProfileName>LargeDevice</ProfileName>

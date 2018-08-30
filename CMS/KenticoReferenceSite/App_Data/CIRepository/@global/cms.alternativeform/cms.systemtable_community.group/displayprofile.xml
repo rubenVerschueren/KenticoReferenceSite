@@ -39,7 +39,7 @@
       <field column="GroupAvatarID" fieldcaption="Group avatar ID">
         <settings>
           <OutputFormat>
-            <![CDATA[{%GetGroupAvatarImage(Value, GetResourceString("general.avatar"), MaxSideSize)|(identity)GlobalAdministrator|(hash)2c6af116d9978220023f4f6c96c0f0fd9df561a129b7f18026ab7dde3d2c3ca8%}]]>
+            <![CDATA[{%GetGroupAvatarImage(Value, GetResourceString("general.avatar"), MaxSideSize)|(identity)GlobalAdministrator|(hash)51f7828d56de7b45ed3369fd12f12d73707e090cbc20695acaa3583d791c9b5f%}]]>
           </OutputFormat>
           <controlname>viewgroupavatar</controlname>
           <MaxSideSize>200</MaxSideSize>

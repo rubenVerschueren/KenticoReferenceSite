@@ -23,7 +23,7 @@
       <field column="GroupName" visible="" guid="e9e06de7-2f70-4b9a-add7-1f5be2f8b4f1">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CommunityContext.CurrentGroup.GroupName|(identity)GlobalAdministrator|(hash)fc78baeb7ce52cbced6c2755675437dbcfdd61d09c70ecd20a348e67b4a958b2%}]]>
+            <![CDATA[{%CommunityContext.CurrentGroup.GroupName|(identity)GlobalAdministrator|(hash)2317ec7227921f9f2b1219959572eca968bc3c73034b1e0055f5fa3cf43e2c3d%}]]>
           </defaultvalue>
         </properties>
       </field>

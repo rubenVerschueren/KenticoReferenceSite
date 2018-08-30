@@ -32,7 +32,7 @@
       <DefaultFormLayout>Divs</DefaultFormLayout>
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <informationtext>
-        <![CDATA[{% EditedObject.HasCoupons ? "" : GetResourceString("com.giftcard.createcouponcodes") |(identity)GlobalAdministrator|(hash)69e9faabcefc0cefb156c765f47375036441d10c190108973a82fae8de8e6f32%}]]>
+        <![CDATA[{% EditedObject.HasCoupons ? "" : GetResourceString("com.giftcard.createcouponcodes") |(identity)GlobalAdministrator|(hash)93d7bde7be0de9e04f6ba5d3b1f88101a384716b844d8d3a14760e5a6dd89ff7%}]]>
       </informationtext>
       <ObjectType>ecommerce.giftcard</ObjectType>
     </Data>

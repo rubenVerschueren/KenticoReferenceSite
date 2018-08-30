@@ -93,7 +93,7 @@
         <properties>
           <fieldcaption>{$com.siteselector.manage$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%EditedObject.ManufacturerID == null|(identity)GlobalAdministrator|(hash)0b03bb3acd18d5de6f44f10a0d63591f6cea1619453fe208464f4d51987a77af%}]]>
+            <![CDATA[{%EditedObject.ManufacturerID == null|(identity)GlobalAdministrator|(hash)2e977bb9ec0ff203a5d89a540e3fd575fdbb6f24cd42b4853eb26a56d064f806%}]]>
           </visiblemacro>
         </properties>
         <settings>

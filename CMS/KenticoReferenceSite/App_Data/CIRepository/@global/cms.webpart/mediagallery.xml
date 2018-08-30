@@ -47,7 +47,7 @@
         </settings>
         <rules>
           <rule errormsg="The path must not contain special characters!">
-            <![CDATA[{%Rule("Value.Matches(\"^([^:*?<>{}\\\\\\\\\\\"|]*)+$\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^([^:*?&lt;&gt;{}\\\\&quot;|]*)+$</t><v>^([^:*?&lt;&gt;{}\\\\&quot;|]*)+$</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)bb31c1daaaf3636ed7df468a5465c48ac9e4f8bdde727c833c0266a9161b22cc%}]]>
+            <![CDATA[{%Rule("Value.Matches(\"^([^:*?<>{}\\\\\\\\\\\"|]*)+$\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^([^:*?&lt;&gt;{}\\\\&quot;|]*)+$</t><v>^([^:*?&lt;&gt;{}\\\\&quot;|]*)+$</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)eee7be4781b54a976ccdb7f83affaae632b172de65590713f366e5710115d4e6%}]]>
           </rule>
         </rules>
       </field>

@@ -98,7 +98,7 @@
       <field column="CacheDependencies" visible="" guid="e538e91e-dbdd-4d10-aec8-51acfc3760d3" reftype="Required">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[nodes|{%CurrentSite.SiteName.ToLower()|(identity)GlobalAdministrator|(hash)fff46067cf87ac5fbf9e640e51c3201240736f0b381b80ac60dfefa1c8d88225%}|cms.blogpost|all]]>
+            <![CDATA[nodes|{%CurrentSite.SiteName.ToLower()|(identity)GlobalAdministrator|(hash)83ded2aaefd8993b421d0bb6f05f90bf3e07eea36e6bafa982e8587914f5eab0%}|cms.blogpost|all]]>
           </defaultvalue>
         </properties>
       </field>

@@ -30,7 +30,7 @@
   <ElementProperties>
     <data>
       <listprefacetext>
-        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.cms_cssstylesheet").ToLower()) |(identity)GlobalAdministrator|(hash)f083e48c1f8b315bac66a3380e3364013bed7f920e798bc7dec76778ff895708%}]]>
+        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.cms_cssstylesheet").ToLower()) |(identity)GlobalAdministrator|(hash)dba7c8d64156a75fa46e784efbeee9814b953ee9a4c1cf5b63ccc77d69114462%}]]>
       </listprefacetext>
       <includejquery>False</includejquery>
       <bindingobjectprovidertype>CMS.CSSStylesheetSite</bindingobjectprovidertype>

@@ -10,11 +10,11 @@
 <table class="productsList" width="100%" cellspacing="0" cellpadding="2" style="text-align: right">
   <thead>
     <tr>
-      <th style="text-align: left; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.SKUName")|(identity)GlobalAdministrator|(hash)50713d22bf48a3cc3c19c2563c01cf7ec7ee9ab9658c5313f7d75f898408c579%}</th>
-      <th style="text-align: right; padding: 21px 2px 2px 2px;">{%GetResourceString("InvoiceTemplate.SKUUnits")|(identity)GlobalAdministrator|(hash)3b188e945b429e618b7412a3a0b3beddbf17cc8fdbbf9dabe003b743e8191a0e%}</th>
-      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.SKUPrice")|(identity)GlobalAdministrator|(hash)cca110cf46cd546247f380d64a635dcb41292ea069facb7051550d3f9447afa7%}</th>
-      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.LineDiscount")|(identity)GlobalAdministrator|(hash)96d3d7277ca3667a6f32e5b840ecc080bd56c593bed9f7bea86638dbb765fa86%}</th>
-      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.Subtotal")|(identity)GlobalAdministrator|(hash)718dfaaa689df7e975b94547dd2db914b3a15f11234b6ef6646934d2c578de0d%}</th>
+      <th style="text-align: left; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.SKUName")|(identity)GlobalAdministrator|(hash)65bcf51d4df45e31ad12ff880d76f80f428001a55443813d74e087f875a0a9d6%}</th>
+      <th style="text-align: right; padding: 21px 2px 2px 2px;">{%GetResourceString("InvoiceTemplate.SKUUnits")|(identity)GlobalAdministrator|(hash)3c8134aad77b571bcc63bb7bfb0acd2216254fa4149a6c3d288e1fe863948e90%}</th>
+      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.SKUPrice")|(identity)GlobalAdministrator|(hash)c7b2027aa279000b82f26896d7dda6e5969f4173da9e342ef87e84a6cb05e967%}</th>
+      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.LineDiscount")|(identity)GlobalAdministrator|(hash)9afb9294177bdef695d00d460e8fb2b3cef2e9bcc9298f71213f13671c367cd1%}</th>
+      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.Subtotal")|(identity)GlobalAdministrator|(hash)9805e213f55b245c96b35d0948642396971e08c77599db9ed30362d5b6be18e8%}</th>
     </tr>
   </thead>
   <tbody>

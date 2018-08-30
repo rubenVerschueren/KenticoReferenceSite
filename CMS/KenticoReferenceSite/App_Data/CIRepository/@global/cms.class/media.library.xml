@@ -57,7 +57,7 @@
       <field column="LibraryFolder" columnsize="250" columntype="text" guid="06f6b6a9-08ca-4735-8732-20cc75d11802" publicfield="false" system="true" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%FormMode == FormModeEnum.Insert|(identity)GlobalAdministrator|(hash)bffb77cf1b8b6ddd7e5486a306245d081894e2a8e1fd47f2ae07259348ebde76%}]]>
+            <![CDATA[{%FormMode == FormModeEnum.Insert|(identity)GlobalAdministrator|(hash)f4da7af76d84b54d76f50e98ed19eadaa281dc5a017fb9babc9eb4fdbde3e885%}]]>
           </enabledmacro>
           <fieldcaption>{$general.foldername$}</fieldcaption>
           <fielddescription>{$medialibrary.libraryfolder.description$}</fielddescription>
@@ -100,7 +100,7 @@
       <field column="LibrarySiteID" columntype="integer" guid="99746a1e-3514-4c13-b878-7bb7b39ddb3d" publicfield="false" system="true" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)d74ba6722bdeeec743e2c2a5cb092d6121dea5d3c1140845201bfa84f1b9b00c%}]]>
+            <![CDATA[{%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)dad94845f4e4fe57dbcd45a60989a7e0151619a6ccdf77ceef6a0f3d6bdf4adb%}]]>
           </defaultvalue>
           <fieldcaption>LibrarySiteID</fieldcaption>
         </properties>

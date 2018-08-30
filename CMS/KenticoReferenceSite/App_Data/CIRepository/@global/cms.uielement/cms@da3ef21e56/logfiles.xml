@@ -38,6 +38,6 @@
   <ElementTargetURL>~/CMSModules/System/Debug/System_LogFiles.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Debug.AnyDebugLogToFileEnabled|(identity)GlobalAdministrator|(hash)ca4d6642817bb62f22f2d6d3183e819ab92a87d24b4a1d56799ae42c29d118cb%}]]>
+    <![CDATA[{%Debug.AnyDebugLogToFileEnabled|(identity)GlobalAdministrator|(hash)7cc25e82f983af4e522175e38b27e5d3f07d8a317e9b5b672fe33fe52bdfe12d%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

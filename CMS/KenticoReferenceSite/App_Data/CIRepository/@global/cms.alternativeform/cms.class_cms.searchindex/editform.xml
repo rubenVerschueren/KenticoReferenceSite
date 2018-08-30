@@ -13,7 +13,7 @@
           <controlname>labelcontrol</controlname>
           <OutputFormat>
 <![CDATA[
-{% GetResourceString("smartsearch.indextype." + IndexType.ToString()); |(identity)GlobalAdministrator|(hash)8c85221d22b632c9962893924f17ad9f091e7b2d516e199e9bafabc8c1593d63%}
+{% GetResourceString("smartsearch.indextype." + IndexType.ToString()); |(identity)GlobalAdministrator|(hash)b61a2aa8e1cecb51049e619bf6be8a2b7bd3aa7e226ce2d4456413faeb26273f%}
 
 
 

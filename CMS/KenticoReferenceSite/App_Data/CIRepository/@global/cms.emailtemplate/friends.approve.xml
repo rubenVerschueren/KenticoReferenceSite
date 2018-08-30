@@ -10,9 +10,9 @@
 <![CDATA[
 {%FORMATTEDSENDERNAME%} is now your friend.
 
-Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}
+Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)bd49bc39e8d556d20f6561a0a2af897b4b6689d2b0316a864cc38565dc73d3a1%}
 
-Sent: {%Friendship.FriendApprovedWhen|(identity)GlobalAdministrator|(hash)5475f4468a40f24c0b02fda789e8ec981e9f3e0686a0e3ab9e00d75fd862c8c0%}
+Sent: {%Friendship.FriendApprovedWhen|(identity)GlobalAdministrator|(hash)e6a78f3de7bbfbb4342edf066b85331268a811d80ae851b84f88608afee922e2%}
 
 ]]>
   </EmailTemplatePlainText>
@@ -24,8 +24,8 @@ Sent: {%Friendship.FriendApprovedWhen|(identity)GlobalAdministrator|(hash)5475f4
   </head>
   <body>
     <p>{%FORMATTEDSENDERNAME%} is now your friend.</p>
-    <p>Comment: {%Friendship.FriendComment.HTMLEncode()|(identity)GlobalAdministrator|(hash)7b6bc2c802d6112b2740a6e785cf737a6fb621a88f0e40c3848ea548f6dd9ecb%}</p>
-    <p>Sent: {%Friendship.FriendApprovedWhen|(identity)GlobalAdministrator|(hash)5475f4468a40f24c0b02fda789e8ec981e9f3e0686a0e3ab9e00d75fd862c8c0%}</p>
+    <p>Comment: {%Friendship.FriendComment.HTMLEncode()|(identity)GlobalAdministrator|(hash)9a73a37d3273ab50ea75a480879775164164efd1f135cca1456f08877fa1be95%}</p>
+    <p>Sent: {%Friendship.FriendApprovedWhen|(identity)GlobalAdministrator|(hash)e6a78f3de7bbfbb4342edf066b85331268a811d80ae851b84f88608afee922e2%}</p>
   </body>
 </html>
 ]]>

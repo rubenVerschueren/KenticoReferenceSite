@@ -25,7 +25,7 @@
       <field column="FromDate" columntype="datetime" guid="67a40990-d133-4367-aa95-37448b790c95" publicfield="false" visibility="none" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddWeeks(-15).Date|(identity)GlobalAdministrator|(hash)94eed62dec88839e2bf9ca547da7ab135c9232a4c3e6195bcb8db5545c146127%}]]>
+            <![CDATA[{%CurrentDateTime.AddWeeks(-15).Date|(identity)GlobalAdministrator|(hash)ed5980358ecd00f2271e67d367ec8a71d6f0721417329690d5380813e260f197%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

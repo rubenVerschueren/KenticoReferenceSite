@@ -38,15 +38,15 @@
       <allowall>False</allowall>
       <wherecondition>
 <![CDATA[
-{% System.FormatId(UIContext.SiteID, " EmailTemplateSiteID ={0}", " EmailTemplateSiteID IS NULL") |(identity)GlobalAdministrator|(hash)90742ea72e4e14fb0f92e4fc98ea3d44081669670c889b71d51d80b26ded26e0%}
+{% System.FormatId(UIContext.SiteID, " EmailTemplateSiteID ={0}", " EmailTemplateSiteID IS NULL") |(identity)GlobalAdministrator|(hash)485089b1b1aca519d2d9f20a3161df8064fc2d3e7a593660fa70f29a92415e27%}
 	
 ]]>
       </wherecondition>
       <siteid>
-        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) ? (QueryString.SiteID != null? ToInt(QueryString.SiteID) : SiteContext.CurrentSiteID) : SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)197aee076df836b8aa0be7685c2d029f3ce0c1d2e7c4e904c037f0467abca3c4%}]]>
+        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) ? (QueryString.SiteID != null? ToInt(QueryString.SiteID) : SiteContext.CurrentSiteID) : SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)bf3d465980f690dcd9a7a2866b7c35d24d67b4df27538b3e8c430e0b555ecc58%}]]>
       </siteid>
       <siteselectorvisibility>
-        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) |(identity)GlobalAdministrator|(hash)f20611cf856fc9001109bd4e348e5ca76d2fec02be3b4d0f76589f7f0174bb44%}]]>
+        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) |(identity)GlobalAdministrator|(hash)f6d4364ddb8862b756bde90c225d3c99695578688d054549bc681bf2a72efcd4%}]]>
       </siteselectorvisibility>
       <selectortype>Classic</selectortype>
       <gridextender>App_Code</gridextender>

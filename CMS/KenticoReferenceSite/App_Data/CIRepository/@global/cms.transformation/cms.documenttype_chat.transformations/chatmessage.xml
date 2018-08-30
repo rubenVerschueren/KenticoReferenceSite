@@ -15,7 +15,7 @@
 	{{if RejectMessage}}
         	<div class="RejectButton">
                 	<a href="#" onclick="${RejectMessage}">
-                        	<img src='{%GetImageUrl("CMSModules/CMS_Chat/reject.png")|(identity)GlobalAdministrator|(hash)9aaa67b24167be2d2e72770b9e2ae4e13462f09321f6bdfb2c5b72ddd9620b20%}' alt="{$chat.rejectmessage$}" title="{$chat.rejectmessage$}" width="8px" height="8px"/>
+                        	<img src='{%GetImageUrl("CMSModules/CMS_Chat/reject.png")|(identity)GlobalAdministrator|(hash)0cfae33cf41fee4b414993534da7074eedaddfe668bdf61641fe0392aee82224%}' alt="{$chat.rejectmessage$}" title="{$chat.rejectmessage$}" width="8px" height="8px"/>
                 	</a>
         	</div>
         {{/if}}

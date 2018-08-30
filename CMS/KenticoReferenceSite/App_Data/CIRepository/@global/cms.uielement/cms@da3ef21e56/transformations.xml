@@ -31,7 +31,7 @@
       <category_name_breadcrumbs>False</category_name_breadcrumbs>
       <includejquery>False</includejquery>
       <wherecondition>
-        <![CDATA[TransformationClassID = {% EditedObjectParent.ID |(identity)GlobalAdministrator|(hash)fd17beda88d4b93257726d54071fb9a52d7236f473f5bbac273bb593a0dd6468%}]]>
+        <![CDATA[TransformationClassID = {% EditedObjectParent.ID |(identity)GlobalAdministrator|(hash)b5bae29b63cd9c3717551bae955e17921a9e68fb0fa25c6fa1f7a0ee96aba142%}]]>
       </wherecondition>
       <extenderclassname>TransformationListControlExtender</extenderclassname>
       <category_name_header>False</category_name_header>
@@ -48,6 +48,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%SystemContext.DevelopmentMode|(identity)GlobalAdministrator|(hash)b0d901d81573d6517c178afc2bd5952ad4de09d3dca1382c6da3f7f27f710ad2%}]]>
+    <![CDATA[{%SystemContext.DevelopmentMode|(identity)GlobalAdministrator|(hash)e800e7c202dbaea5b009f90dd141acfbf29292d2aaaf1a28451d113913542d2c%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

@@ -11,7 +11,7 @@
         {{if Abandon}}
         <div class="AbandonButton">
         	<a href="#" onclick="${Abandon}">
-                	<img src='{%GetImageUrl("CMSModules/CMS_Chat/delete.png")|(identity)GlobalAdministrator|(hash)7c3aec28264a4cc1fd53ace5ff8c08ade19020d536c590984b8afaa462e48c6a%}' alt="{$chat.abandon$}" title="{$chat.abandon$}" width="12px" height="12px"/>
+                	<img src='{%GetImageUrl("CMSModules/CMS_Chat/delete.png")|(identity)GlobalAdministrator|(hash)c2dd3936058c896266222c73aba20ad1d6113c4a6ac2b6a356f7e59f396f5753%}' alt="{$chat.abandon$}" title="{$chat.abandon$}" width="12px" height="12px"/>
                 </a>
         </div>        
         {{/if}}
@@ -19,7 +19,7 @@
         {{if Delete}}
         <div class="DeleteButton">
         	<a href="#" onclick="${Delete}">
-                	<img src='{%GetImageUrl("CMSModules/CMS_Chat/reject.png")|(identity)GlobalAdministrator|(hash)9aaa67b24167be2d2e72770b9e2ae4e13462f09321f6bdfb2c5b72ddd9620b20%}' alt="{$general.disable$}" title="{$general.disable$}" width="12px" height="12px"/>
+                	<img src='{%GetImageUrl("CMSModules/CMS_Chat/reject.png")|(identity)GlobalAdministrator|(hash)0cfae33cf41fee4b414993534da7074eedaddfe668bdf61641fe0392aee82224%}' alt="{$general.disable$}" title="{$general.disable$}" width="12px" height="12px"/>
                 </a>
         </div>        
         {{/if}}
@@ -27,7 +27,7 @@
         {{if Edit}}
         <div class="EditButton">
         	<a href="#" onclick="${Edit}">
-                	<img src='{%GetImageUrl("CMSModules/CMS_Chat/edit.png")|(identity)GlobalAdministrator|(hash)7352e1bcc36749ab8681a24f7191d012cb5b76b8d1a032eb7538b6b39fa638d2%}' alt="{$general.edit$}" title="{$general.edit$}" width="12px" height="12px"/>
+                	<img src='{%GetImageUrl("CMSModules/CMS_Chat/edit.png")|(identity)GlobalAdministrator|(hash)68f2a8442d73b5a8273a9fbd3a7f4e49856f07db3cfeba3fe357a132822a8455%}' alt="{$general.edit$}" title="{$general.edit$}" width="12px" height="12px"/>
                 </a>
         </div>        
         {{/if}}
@@ -56,10 +56,10 @@
   
         <span class="ChatRoomInfoIcons">   
         {{if IsPrivate}}
-            <img src='{%GetImageUrl("CMSModules/CMS_Chat/private_room16.png")|(identity)GlobalAdministrator|(hash)03d9d3cb299753e4faf9b45c151cade00801a7d32c949e02b814ce26d5db7c5d%}' alt="{$chat.privateroom$}" title="{$chat.privateroom$}" width="12px" height="12px"/>
+            <img src='{%GetImageUrl("CMSModules/CMS_Chat/private_room16.png")|(identity)GlobalAdministrator|(hash)910385109dd80419b64627efc412e13c5662fac91c3acd9acda7e8ea54e02b79%}' alt="{$chat.privateroom$}" title="{$chat.privateroom$}" width="12px" height="12px"/>
         {{/if}}
         {{if HasPassword}}
-            <img src='{%GetImageUrl("CMSModules/CMS_Chat/password.png")|(identity)GlobalAdministrator|(hash)f78f56d03f06f4817224e31c75b6bf39a4cadcb8db23c6770423ffe06e19b9d8%}' alt="{$chat.passwordprotected$}" title="{$chat.passwordprotected$}" width="12px" height="12px"/>
+            <img src='{%GetImageUrl("CMSModules/CMS_Chat/password.png")|(identity)GlobalAdministrator|(hash)1c0168ec43bcb1b2d7d98ce2735173ee7125d66207fcd14e6bb04d77c0e094b0%}' alt="{$chat.passwordprotected$}" title="{$chat.passwordprotected$}" width="12px" height="12px"/>
         {{/if}}
         </span>
         </div>

@@ -13,7 +13,7 @@
   IfEmpty(CustomerCompany, "", HTMLEncode(CustomerCompany) + "<br/>") +
   Localize("{$customers_edit.lblorganizationid$} ") + IfEmpty(CustomerOrganizationID, Localize("{$general.na$}"), HTMLEncode(CustomerOrganizationID)) + "<br />" +
   Localize("{$customers_edit.lbltaxregistrationid$} ") + IfEmpty(CustomerTaxRegistrationID, Localize("{$general.na$}"), HTMLEncode(CustomerTaxRegistrationID)) + "<br/>")
-|(identity)GlobalAdministrator|(hash)97db940abd9c741b74a0ef2c17335eac077e32a48170e1a325fbf6e4103127a8%}
+|(identity)GlobalAdministrator|(hash)5281a2949c268c88966da7eee0e01f8708c2fa4ab3c179c07dbbb576861f84d6%}
 ]]>
   </TransformationCode>
   <TransformationCSS />

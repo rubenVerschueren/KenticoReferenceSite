@@ -46,6 +46,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Friends","Read")|(identity)GlobalAdministrator|(hash)27c8ea02b7787328fbe2fe2630a9acea57b257a11abe75eaa1c94de5dfe1189a%}]]>
+    <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Friends","Read")|(identity)GlobalAdministrator|(hash)729033396026bd1f79272c35791efca3ddef98373bcf07daf07fdfbab1404e5d%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

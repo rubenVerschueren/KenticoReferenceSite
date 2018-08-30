@@ -32,6 +32,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObjectParent.ResourceName.ToLower() != "cms.wysiwygeditor"|(identity)GlobalAdministrator|(hash)9776a68b43cd522bef981b4d9ecc1541a6402462c4ae8dcffd748d9b64e32e1f%}]]>
+    <![CDATA[{%EditedObjectParent.ResourceName.ToLower() != "cms.wysiwygeditor"|(identity)GlobalAdministrator|(hash)43ab66b5e87fd0cdbb89290205c9242e97b94ee76da3fc661a540a8a47c2ae90%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

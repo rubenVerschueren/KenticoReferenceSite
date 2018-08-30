@@ -18,7 +18,7 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Length <= 100", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)ef5f366de03cec94a6b16ccc1cf18f6bbe18056730cdf128ca0a57d22a8dad6c%}]]>
+            <![CDATA[{%Rule("Value.Length <= 100", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)4e652f5598135348d668f9a0f9562ecfaff671a14db09ca8eabd7222efdb558d%}]]>
           </rule>
         </rules>
       </field>

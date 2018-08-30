@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>Admin</t><v>Admin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)81fff195b07d6df63f7405d85d6040907b6d4b3e974b39a7a17f1adb46952752%}]]>
+    <![CDATA[{%Rule("CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>Admin</t><v>Admin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)ce53f6b802b0425cc733240a9bdd6c008c97a987e90c47ff4e95c6b4a6a0edba%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$com.ui.carriers$}</ElementCaption>
   <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>
@@ -39,7 +39,7 @@
       <ObjectType>ecommerce.carrier</ObjectType>
       <OpenInDialog>False</OpenInDialog>
       <WhereCondition ismacro="True">
-        <![CDATA[CarrierSiteID = {%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)c413ed558da74e93d768292c88468890bb7126d174067c98975ecb7df0ba31ec%}]]>
+        <![CDATA[CarrierSiteID = {%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)26005f3eec3b92e44e7f87e36f9e7080fa13cca60dc088f1a4912180e2707d72%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>
@@ -52,6 +52,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Rule("CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>Admin</t><v>Admin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)81fff195b07d6df63f7405d85d6040907b6d4b3e974b39a7a17f1adb46952752%}]]>
+    <![CDATA[{%Rule("CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>Admin</t><v>Admin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)ce53f6b802b0425cc733240a9bdd6c008c97a987e90c47ff4e95c6b4a6a0edba%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

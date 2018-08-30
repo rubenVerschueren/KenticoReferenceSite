@@ -7,7 +7,7 @@
   <ClassDefaultObjectType />
   <ClassDisplayName>CSS stylesheet</ClassDisplayName>
   <ClassEditingPageUrl>
-    <![CDATA[{% UIContext.GetElementDialogUrl("cms.design", "EditStylesheet", EditedObject.ID, "") |(identity)GlobalAdministrator|(hash)71552cfa526e27b4f1684f430acb47b3846f192fbd8e50a9505703f02bbc3e6b%}]]>
+    <![CDATA[{% UIContext.GetElementDialogUrl("cms.design", "EditStylesheet", EditedObject.ID, "") |(identity)GlobalAdministrator|(hash)609d6ecd5d9a7220bd44ff8b42fc953414390be400afebefeaf711dd93c7b986%}]]>
   </ClassEditingPageUrl>
   <ClassFormDefinition>
     <form version="2">
@@ -28,7 +28,7 @@
       <field column="StylesheetDisplayName" columnsize="200" columntype="text" guid="9f19d3a0-ff81-4fd7-818e-ca9c964e2c1d" publicfield="false" system="true" translatefield="true" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Design","ModifyCMSCSSStylesheet") || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)|(identity)GlobalAdministrator|(hash)712d48101eade0f3305d37bacc94c88d66f468181a6da3b8f1b0a482d39c83e2%}]]>
+            <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Design","ModifyCMSCSSStylesheet") || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)|(identity)GlobalAdministrator|(hash)aa44bb4410c152b5dec6a724708cbed70475b55db5ea4822fb5854a4800829ac%}]]>
           </enabledmacro>
           <fieldcaption>{$general.displayname$}</fieldcaption>
         </properties>
@@ -40,7 +40,7 @@
       <field column="StylesheetName" columnsize="200" columntype="text" guid="f0a6eecf-5ba4-40de-8c0b-3a17dee2484f" publicfield="false" system="true" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Design","ModifyCMSCSSStylesheet") || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)|(identity)GlobalAdministrator|(hash)712d48101eade0f3305d37bacc94c88d66f468181a6da3b8f1b0a482d39c83e2%}]]>
+            <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Design","ModifyCMSCSSStylesheet") || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)|(identity)GlobalAdministrator|(hash)aa44bb4410c152b5dec6a724708cbed70475b55db5ea4822fb5854a4800829ac%}]]>
           </enabledmacro>
           <fieldcaption>{$general.codename$}</fieldcaption>
         </properties>
@@ -53,7 +53,7 @@
         <properties>
           <defaultvalue>plaincss</defaultvalue>
           <enabledmacro ismacro="true">
-            <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Design","ModifyCMSCSSStylesheet") || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin) || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin)|(identity)GlobalAdministrator|(hash)bfa5a7d10363a3b733c55f05203ca9f4b9e93e382497315382e89c36e63a5efb%}]]>
+            <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Design","ModifyCMSCSSStylesheet") || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin) || CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin)|(identity)GlobalAdministrator|(hash)d465c46a450f06e053fc5226b72ba9ac1a1ae827244d9037c4f784e0ca752317%}]]>
           </enabledmacro>
           <fieldcaption>{$general.language$}</fieldcaption>
           <fielddescription>
@@ -79,18 +79,18 @@
       <field allowempty="true" column="StylesheetCodePreview" columnsize="50" columntype="text" dummy="mainform" guid="1ba801d5-d211-4b8c-ac9f-874b10d05bf0" hasdependingfields="true" publicfield="false" system="true" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% StylesheetDynamicLanguage.Value |(identity)GlobalAdministrator|(hash)0e1c193c3ec3bd224a07c97b333b4bfc6535a36b8ec116643686640afd3c5acf%}]]>
+            <![CDATA[{% StylesheetDynamicLanguage.Value |(identity)GlobalAdministrator|(hash)c020c5f1aac2667b15802fb6b12a517aaf0f219b517743ef377b6146cc167ab7%}]]>
           </defaultvalue>
           <visiblemacro ismacro="true">
-            <![CDATA[{%EditedObject.StylesheetDynamicLanguage != "plaincss"|(identity)GlobalAdministrator|(hash)a3028637fb4087d8815d805676b7cf0dcd91b4a6b9cebf4e4762e54230e78e01%}]]>
+            <![CDATA[{%EditedObject.StylesheetDynamicLanguage != "plaincss"|(identity)GlobalAdministrator|(hash)444868bf2f9703b3b2f98c9be352976519a37d938a14bc7d95f99924bf160dfc%}]]>
           </visiblemacro>
         </properties>
         <settings>
           <controlname>radiobuttonscontrol</controlname>
           <Options ismacro="true">
 <![CDATA[
-{% EditedObject.StylesheetDynamicLanguage |(identity)GlobalAdministrator|(hash)dbee4e918b268cd99e939ab80ab1ebeeee6fdda2d9176abc6a6eeac7b7d18a31%};{% CssPreprocessorDisplayName(EditedObject.StylesheetDynamicLanguage) |(identity)GlobalAdministrator|(hash)888481fd9cc78703287acd05ef6dd24247ebb9324476cacd1f5a96db1176dffa%}
-preview;{% GetResourceString("cssstylesheet.plaincsspreview") |(identity)GlobalAdministrator|(hash)bc4f3d0b54ed6ad0ab59fe020d316a9abd3ce1835d4cfd1fb63de206e270431a%}
+{% EditedObject.StylesheetDynamicLanguage |(identity)GlobalAdministrator|(hash)d6e65b436a7c02e81bd84c60d6b7e5bd56688eaaee0e16edec702ff4502e69aa%};{% CssPreprocessorDisplayName(EditedObject.StylesheetDynamicLanguage) |(identity)GlobalAdministrator|(hash)69f3ac9a76430c32c1fc30b1f48ff76303b206b5d2dade081204d04bf19d4e98%}
+preview;{% GetResourceString("cssstylesheet.plaincsspreview") |(identity)GlobalAdministrator|(hash)afbcfa8655640ff60b422f213fa80db21f317eb434757c88ca7e6c7c206e6b17%}
 
 ]]>
           </Options>
@@ -102,7 +102,7 @@ preview;{% GetResourceString("cssstylesheet.plaincsspreview") |(identity)GlobalA
           <controlcellcssclass>textarea-full-width editing-form-value-cell</controlcellcssclass>
           <fielddescription>The stylesheet text represents actual CSS code.</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%(EditedObject.StylesheetDynamicLanguage != "plaincss")|(identity)GlobalAdministrator|(hash)187fb6f25fb8cc9ab76933208b34d0eb6c49b607d6c12b8c14a994ff0ed07259%}]]>
+            <![CDATA[{%(EditedObject.StylesheetDynamicLanguage != "plaincss")|(identity)GlobalAdministrator|(hash)e798bab01e9887f8db591ed5f0d3c6f728a0372db2622ad1ffbdf1818ee128ee%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -130,7 +130,7 @@ preview;{% GetResourceString("cssstylesheet.plaincsspreview") |(identity)GlobalA
           <fieldcaption>{$cssstylesheet_general.text$}</fieldcaption>
           <fielddescription>The stylesheet text represents actual CSS code.</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%(EditedObject.StylesheetDynamicLanguage == "plaincss") || (EditedObject.StylesheetDynamicLanguage == "") || (StylesheetCodePreview.Value == "preview")|(identity)GlobalAdministrator|(hash)f5697c8b35b6702da0233c4bf130ee64db52ac9bfd752311ff7ca430c43b0f27%}]]>
+            <![CDATA[{%(EditedObject.StylesheetDynamicLanguage == "plaincss") || (EditedObject.StylesheetDynamicLanguage == "") || (StylesheetCodePreview.Value == "preview")|(identity)GlobalAdministrator|(hash)425b2ca5f82c0ebeedc3430cf4938f283915805be34e71b5b78f9cd1cbaca653%}]]>
           </visiblemacro>
         </properties>
         <settings>

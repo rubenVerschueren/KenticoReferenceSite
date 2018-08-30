@@ -24,7 +24,7 @@
   <ElementProperties>
     <data>
       <helptopicname ismacro="True">
-        <![CDATA[{% EditedObject.IssueIsABTest ? "newsletterab_send" : "send_tab"|(identity)GlobalAdministrator|(hash)0274ee920e400831261407f4e274dc4fb585416b7d0a3eea9c8a5207a7756695%}]]>
+        <![CDATA[{% EditedObject.IssueIsABTest ? "newsletterab_send" : "send_tab"|(identity)GlobalAdministrator|(hash)5e615b8999b9dffee0d0433d074554852b156dd255c529811f2c39b04c39ff30%}]]>
       </helptopicname>
       <category_name_codebehind>False</category_name_codebehind>
       <category_name_header>False</category_name_header>

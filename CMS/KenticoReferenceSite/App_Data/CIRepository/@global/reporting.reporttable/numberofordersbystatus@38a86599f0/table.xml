@@ -7,7 +7,7 @@
   <TableQuery>
 <![CDATA[
 DECLARE @GlobalStatus bit;
-SET @GlobalStatus = {%Settings.CMSStoreUseGlobalOrderStatus?1:0|(identity)GlobalAdministrator|(hash)78c1b58f4a9dc51c0f12f5f184202b253d200f46f6e441da69fe4645d22612be%}; 
+SET @GlobalStatus = {%Settings.CMSStoreUseGlobalOrderStatus?1:0|(identity)GlobalAdministrator|(hash)5449d598527242a6424257e1cf290055633dbe12da7a6c4a7df6f9558b46ed40%}; 
 
 SELECT 
    StatusDisplayName AS '{$com.report.orderstatus$}',

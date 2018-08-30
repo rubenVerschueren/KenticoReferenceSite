@@ -7,7 +7,7 @@
   <ClassDefaultObjectType />
   <ClassDisplayName>Template device layout</ClassDisplayName>
   <ClassEditingPageUrl>
-    <![CDATA[{% UIContext.GetElementDialogUrl("cms.design", "EditDeviceLayouts", EditedObject.ID, "aliaspath=/&editonlycode=1&deviceactions=0&templateid=" + EditedObject.ParentID) |(identity)GlobalAdministrator|(hash)3196998ad2f3c32f330187b330a566e7fc200de5bb45e0cd2254fa16a66f9408%}]]>
+    <![CDATA[{% UIContext.GetElementDialogUrl("cms.design", "EditDeviceLayouts", EditedObject.ID, "aliaspath=/&editonlycode=1&deviceactions=0&templateid=" + EditedObject.ParentID) |(identity)GlobalAdministrator|(hash)02b5d599dfc49a2387a6cf0e8a42feb41bcb1b75dc4032cbae2bb0ad48800fe7%}]]>
   </ClassEditingPageUrl>
   <ClassFormDefinition>
     <form version="2">

@@ -18,7 +18,7 @@
 <p>
 	&nbsp;</p>
 <p>
-	<span style="font-size:14px;"><strong>{%om.conversion.results|(identity)GlobalAdministrator|(hash)738d374844b44295f83901cb84891e7bbf405738125c7077e1f2586abc236b3a%}</strong></span></p>
+	<span style="font-size:14px;"><strong>{%om.conversion.results|(identity)GlobalAdministrator|(hash)49e96b47b7ac420204aae4eac623f4ddec2e2793c966871dc1b0a52ee0728627%}</strong></span></p>
 <p>
 	%%control:ReportTable?mvtestconversioncount.dayreport.table%%</p>
 <p>
@@ -36,7 +36,7 @@
       <field column="FromDate" visible="true" columntype="datetime" fieldtype="CustomUserControl" allowempty="true" publicfield="false" spellcheck="false" guid="7a87603b-60ec-420a-a955-dc19779a2db7" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddMonths(-1).Date|(identity)GlobalAdministrator|(hash)95aa6d775f38a13ef872bad12d3eefda995a56f332a6fd56c823384aa36f390a%}]]>
+            <![CDATA[{%CurrentDateTime.AddMonths(-1).Date|(identity)GlobalAdministrator|(hash)c444f02e055f208d3f873581aded0bf2befd36330b2d22fe49765388168dda8c%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

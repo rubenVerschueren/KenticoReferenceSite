@@ -40,6 +40,6 @@
   <ElementTargetURL>~/CMSModules/Modules/Pages/Class/New.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%UIContext.EditedObjectParent.IsEditable|(identity)GlobalAdministrator|(hash)bdc7f2ddfea1fa8c0946ec1992d506b23ae291289e899de7da77fc3345162924%}]]>
+    <![CDATA[{%UIContext.EditedObjectParent.IsEditable|(identity)GlobalAdministrator|(hash)4beaf4cf52f5da34821c6e988bf9abe201a7bf2b7d56470ea80a1a836c4aed7d%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

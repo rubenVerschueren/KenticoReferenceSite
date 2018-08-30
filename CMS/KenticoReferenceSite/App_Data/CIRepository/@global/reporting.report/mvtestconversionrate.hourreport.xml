@@ -17,7 +17,7 @@
 	%%control:ReportGraph?mvtestconversionrate.hourreport.graph%%<br />
 	&nbsp;</p>
 <p>
-	<span style="font-size:14px;"><strong>{%om.conversionrate.results|(identity)GlobalAdministrator|(hash)bc5faba21657bed907bb3592f0404e59af747618c7f0b1be59c9a95f2cec6956%}</strong></span></p>
+	<span style="font-size:14px;"><strong>{%om.conversionrate.results|(identity)GlobalAdministrator|(hash)3eabef3d6a2d8f6d808590d970eed7766dc55ae61c380e332191801e01ac5947%}</strong></span></p>
 <p>
 	%%control:ReportTable?mvtestconversionrate.hourreport.table%%</p>
 <p>
@@ -35,7 +35,7 @@
       <field column="FromDate" visible="true" columntype="datetime" fieldtype="CustomUserControl" publicfield="false" guid="10d3caf8-85fe-4959-b285-f6a4c17a5c00" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddDays(-1)|(identity)GlobalAdministrator|(hash)e01b74da504513be4ad75d5b807dd12131d15090f8263d18ed7cb184b5aad389%}]]>
+            <![CDATA[{%CurrentDateTime.AddDays(-1)|(identity)GlobalAdministrator|(hash)10cd1b585e4c747d6eec9858408dd9222ec64eec281a7d72a5d9249058c513ef%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

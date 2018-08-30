@@ -4,7 +4,8 @@
 #    [string]$Path
 #)
 
-$Path = "D:\Sites\KenticoReferenceSite\CMS"
+$Path = "D:\Sites\KenticoReferenceQA\CMS"
+ $bringApplicationOnline = $false
 
 # Stops any external Kentico services registered for the instance
 $services = @(Get-WmiObject win32_service `

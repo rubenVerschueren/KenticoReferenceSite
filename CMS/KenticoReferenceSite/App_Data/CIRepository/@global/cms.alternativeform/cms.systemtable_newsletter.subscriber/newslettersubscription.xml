@@ -37,7 +37,7 @@
       <field column="SubscriberSiteID" reftype="Required">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)b61114579c9eb7dbc8478d538fdbf40bd3bdac069784d208796b0503504b4204%}]]>
+            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)324f4b862ace36fe54067970958d9ee126c3100ca0b352e14efbb8cb2b5eda61%}]]>
           </defaultvalue>
         </properties>
       </field>

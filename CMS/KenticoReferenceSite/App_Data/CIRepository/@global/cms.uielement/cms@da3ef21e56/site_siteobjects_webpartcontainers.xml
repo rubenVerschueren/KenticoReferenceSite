@@ -30,7 +30,7 @@
   <ElementProperties>
     <data>
       <listprefacetext>
-        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.cms_webpartcontainer").ToLower()) |(identity)GlobalAdministrator|(hash)51223dbe7fa1e13e58c3e1fd81203687c6c69355a77494c2e4480b0d2e54703e%}]]>
+        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.cms_webpartcontainer").ToLower()) |(identity)GlobalAdministrator|(hash)4ccbc38e78504d613f7529cf5c755d25fed00b1e3fcffa4576fb92b89d35dae9%}]]>
       </listprefacetext>
       <includejquery>False</includejquery>
       <bindingobjectprovidertype>CMS.WebPartContainerSite</bindingobjectprovidertype>

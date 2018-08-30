@@ -32,7 +32,7 @@
       <EditInDialog>False</EditInDialog>
       <includejquery>False</includejquery>
       <informationtext>
-        <![CDATA[{% (!EditedObjectParent.MultiBuyDiscountUsesCoupons)? GetResourceString("com.discount.couponcodenotused"):"" |(identity)GlobalAdministrator|(hash)01b07b8335e1a06e1ed9fd2bcb91e98e33fb02ad4e7418cb31a61c7bee7b464a%}]]>
+        <![CDATA[{% (!EditedObjectParent.MultiBuyDiscountUsesCoupons)? GetResourceString("com.discount.couponcodenotused"):"" |(identity)GlobalAdministrator|(hash)e9fca838821a282ef630bf1b8095da7c3c232617561b32877c874211e6dc851a%}]]>
       </informationtext>
       <ObjectType>ecommerce.multibuycouponcode</ObjectType>
       <OpenInDialog>False</OpenInDialog>
@@ -43,7 +43,7 @@
         <![CDATA[{% GetMultiBuyCouponsMessage(EditedObjectParent); %}]]>
       </Text>
       <WhereCondition ismacro="True">
-        <![CDATA[MultiBuyCouponCodeMultiBuyDiscountID = {%EditedObjectParent.MultiBuyDiscountID|(identity)GlobalAdministrator|(hash)31677782905ff0588c87fdc030d5dab8d95c0a9799d21557589f45b2f1d63091%}]]>
+        <![CDATA[MultiBuyCouponCodeMultiBuyDiscountID = {%EditedObjectParent.MultiBuyDiscountID|(identity)GlobalAdministrator|(hash)cd05833e5bbb4be0eb76cceadb3092af4f134f252ba7cfc826abc2dd1410938a%}]]>
       </WhereCondition>
       <ZeroRowsText ismacro="True">{$com.discount.codenodatafound$}</ZeroRowsText>
     </Data>
@@ -57,6 +57,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObject.HasOrUsesCoupon|(identity)GlobalAdministrator|(hash)386ff9b9e3a95c78b1eb55b2e176ebf3f2bc6d6d057145aa69563d1a3d79189e%}]]>
+    <![CDATA[{%EditedObject.HasOrUsesCoupon|(identity)GlobalAdministrator|(hash)59dc4b5636d42774106d1f379d16c26ab92aac231e12857e9308e963758a7fc9%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

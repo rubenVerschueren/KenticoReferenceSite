@@ -9,7 +9,7 @@
   <TaskDisplayName>Send module usage data</TaskDisplayName>
   <TaskEnabled>True</TaskEnabled>
   <TaskGUID>4badf7ab-dfbd-4afd-9a4c-c292969b790f</TaskGUID>
-  <TaskInterval>week;8/27/2018 3:02:00 AM;1</TaskInterval>
+  <TaskInterval>week;8/30/2018 3:37:00 AM;1</TaskInterval>
   <TaskName>ModuleUsageTrackingTask</TaskName>
   <TaskResourceID>
     <CodeName>CMS.ModuleUsageTracking</CodeName>

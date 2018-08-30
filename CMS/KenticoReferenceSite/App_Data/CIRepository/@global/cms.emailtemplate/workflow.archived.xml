@@ -7,7 +7,7 @@
 <![CDATA[
 This is an automatic notification sent by Kentico CMS. The following page has been archived.
 
-Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% ifEmpty(DocumentPreviewUrl, "", "([url=" + DocumentPreviewUrl + "]preview[/url])")|(identity)GlobalAdministrator|(hash)8b436df33bf879f81a60b3986c8b5b8dab492b4638903c765a965d92d14eb364%}
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% ifEmpty(DocumentPreviewUrl, "", "([url=" + DocumentPreviewUrl + "]preview[/url])")|(identity)GlobalAdministrator|(hash)982f9b021328a313e3661f2a6a3eac19919f053eaf8c75250f0d7127c1b542e9%}
 Archived by: {%approvedby%}
 Archived when: {%approvedwhen%}
 Comment: 

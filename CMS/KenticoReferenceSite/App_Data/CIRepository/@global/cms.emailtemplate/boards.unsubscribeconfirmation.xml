@@ -7,7 +7,7 @@
   <EmailTemplateGUID>e5b8609e-94c6-4096-8aa3-f37fa4b7d320</EmailTemplateGUID>
   <EmailTemplateName>Boards.UnsubscribeConfirmation</EmailTemplateName>
   <EmailTemplatePlainText>
-    <![CDATA[You have been successfully unsubscribed from Message board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}. ]]>
+    <![CDATA[You have been successfully unsubscribed from Message board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}. ]]>
   </EmailTemplatePlainText>
   <EmailTemplateSubject>Message board unsubscription notification</EmailTemplateSubject>
   <EmailTemplateText>
@@ -25,7 +25,7 @@
 	<body>
 	<p>
 	  You have been successfully unsubscribed from		
-	<strong>Message board</strong> {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}.		    
+	<strong>Message board</strong> {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}.		    
 	<p/>	
 	</body>
 </html>

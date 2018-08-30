@@ -21,7 +21,7 @@
           <DisplayRuleType>0</DisplayRuleType>
           <MaxWidth>250</MaxWidth>
           <RuleCategoryNames ismacro="true">
-            <![CDATA[{%UIContext.ConditionsCategory|(identity)GlobalAdministrator|(hash)2c6aa7d61bbcc3c23898d065c8ce2c89ec4efe14811692649c71262b3d766b57%}]]>
+            <![CDATA[{%UIContext.ConditionsCategory|(identity)GlobalAdministrator|(hash)88a9a6533f4d586d1ad2b23af54e5a74b7f1353c0daea91219c3b94c4c8143c9%}]]>
           </RuleCategoryNames>
           <ShowAutoCompletionAbove>False</ShowAutoCompletionAbove>
           <ShowGlobalRules>True</ShowGlobalRules>

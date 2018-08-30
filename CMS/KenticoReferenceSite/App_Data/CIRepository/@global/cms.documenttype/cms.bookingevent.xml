@@ -80,7 +80,7 @@
         </settings>
         <rules>
           <rule errormsg="End date can not precede Start date.">
-            <![CDATA[{%Rule("Value >= Fields[\"60d4632f-b1b8-47b7-92e8-047851def573\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Start date</t><v>60d4632f-b1b8-47b7-92e8-047851def573</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than or equal</t><v>&gt;=</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)e24026fc0d3453272505100059052ab836cfdc276d0211bac94e858921f9ef1e%}]]>
+            <![CDATA[{%Rule("Value >= Fields[\"60d4632f-b1b8-47b7-92e8-047851def573\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Start date</t><v>60d4632f-b1b8-47b7-92e8-047851def573</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than or equal</t><v>&gt;=</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)a6b635975982d5e4fca2757f48208f4ee0423dc2993434e75a490e235fc7c346%}]]>
           </rule>
         </rules>
       </field>
@@ -144,7 +144,7 @@
         </settings>
         <rules>
           <rule errormsg="Open to can not precede Open from.">
-            <![CDATA[{%Rule("Value >= Fields[\"c45e5b03-0fc7-419c-9d61-69c30f14a93b\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Open from</t><v>c45e5b03-0fc7-419c-9d61-69c30f14a93b</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than or equal</t><v>&gt;=</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)5b39b180497f710c6c317d409c95cba7478119575472f94b5432b0a4aeb8eee4%}]]>
+            <![CDATA[{%Rule("Value >= Fields[\"c45e5b03-0fc7-419c-9d61-69c30f14a93b\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Open from</t><v>c45e5b03-0fc7-419c-9d61-69c30f14a93b</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than or equal</t><v>&gt;=</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)76261e108bf8b988e3f65f4e1088aa90591edd7c4b768dead5e171d0bab75968%}]]>
           </rule>
         </rules>
       </field>

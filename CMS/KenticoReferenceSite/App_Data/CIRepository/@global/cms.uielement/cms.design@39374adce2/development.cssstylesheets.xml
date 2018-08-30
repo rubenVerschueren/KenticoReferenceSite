@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%(CurrentUser.IsAuthorizedPerResource("CMS.Design","ReadCMSCSSStylesheet"))|(identity)GlobalAdministrator|(hash)915106deed000807690b7d27d038d70306ecd94b8a6d9e4a11bfadc3ebc47e83%}]]>
+    <![CDATA[{%(CurrentUser.IsAuthorizedPerResource("CMS.Design","ReadCMSCSSStylesheet"))|(identity)GlobalAdministrator|(hash)dfc2a747622b4650c86f497714e6754d6ed7c7975fa840de3c8b6f72d73da93e%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$development.cssstylesheets$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
@@ -37,7 +37,7 @@
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <EditInDialog>False</EditInDialog>
       <GridName ismacro="True">
-        <![CDATA[{% if (CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)) { "~/App_Data/CMSModules/Design/UI/Grids/CMS_CSSStylesheet/Default.xml" } else { "~/App_Data/CMSModules/Design/UI/Grids/CMS_CSSStylesheet/SingleSiteGridDefinition.xml" } |(identity)GlobalAdministrator|(hash)80c185da18daca26fc788c665797ab820d751237a11e34b93fc96529c2195934%}]]>
+        <![CDATA[{% if (CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)) { "~/App_Data/CMSModules/Design/UI/Grids/CMS_CSSStylesheet/Default.xml" } else { "~/App_Data/CMSModules/Design/UI/Grids/CMS_CSSStylesheet/SingleSiteGridDefinition.xml" } |(identity)GlobalAdministrator|(hash)de9cdac62240aaf8155cb48a651f519ec534cf200f941906ec2272449899a258%}]]>
       </GridName>
       <includejquery>False</includejquery>
       <ObjectType>cms.cssstylesheet</ObjectType>
@@ -45,7 +45,7 @@
       <WhereCondition ismacro="True">
 <![CDATA[
 {% if((CurrentUser.IsAuthorizedPerResource("CMS.Design","ReadCMSCSSStylesheet")) && (!CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin)))
-{"[StylesheetID] IN (Select [StylesheetID] FROM [CMS_CssStylesheetSite] Where [SiteID] = " + CurrentSite.SiteID + ")";} |(identity)GlobalAdministrator|(hash)17849365d65c059b71d2e5361c8d9aca72c71228196cd277944bf6d2b3c450ef%}
+{"[StylesheetID] IN (Select [StylesheetID] FROM [CMS_CssStylesheetSite] Where [SiteID] = " + CurrentSite.SiteID + ")";} |(identity)GlobalAdministrator|(hash)7b8bdf44ff065b6d3d37ce94f3d65151b9f72ccc0cf1211a5c5c61fc750378a5%}
 ]]>
       </WhereCondition>
     </Data>

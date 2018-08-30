@@ -26,7 +26,7 @@
       <field column="Path" visible="" guid="781264e4-3b56-4431-bcc4-5deda3019da4">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%cmscontext.currentdepartment.nodealiaspath|(identity)GlobalAdministrator|(hash)9aea96f07c591bcee65f28cfc89706e3a41529f372b7b6aed7cecd5e8da9eca9%}/Calendar/%]]>
+            <![CDATA[{%cmscontext.currentdepartment.nodealiaspath|(identity)GlobalAdministrator|(hash)ac82a8212d3bd9e7a2c30a8235e3d626b63d0a72b4586390d0020734705c20d0%}/Calendar/%]]>
           </defaultvalue>
         </properties>
       </field>
@@ -138,7 +138,7 @@
           <defaultvalue ismacro="true">
 <![CDATA[
 </div>
-<a href="~{%cmscontext.currentdepartment.nodealiaspath|(identity)GlobalAdministrator|(hash)9aea96f07c591bcee65f28cfc89706e3a41529f372b7b6aed7cecd5e8da9eca9%}/Calendar/Events-list.aspx">View all events</a>
+<a href="~{%cmscontext.currentdepartment.nodealiaspath|(identity)GlobalAdministrator|(hash)ac82a8212d3bd9e7a2c30a8235e3d626b63d0a72b4586390d0020734705c20d0%}/Calendar/Events-list.aspx">View all events</a>
 ]]>
           </defaultvalue>
         </properties>
@@ -188,7 +188,7 @@
             <![CDATA[{$documentation.widgetproperties.containercustomcontent$}]]>
           </fielddescription>
           <defaultvalue>
-            <![CDATA[~{%cmscontext.currentdepartment.nodealiaspath|(identity)GlobalAdministrator|(hash)9aea96f07c591bcee65f28cfc89706e3a41529f372b7b6aed7cecd5e8da9eca9%}/RSS/Events.aspx]]>
+            <![CDATA[~{%cmscontext.currentdepartment.nodealiaspath|(identity)GlobalAdministrator|(hash)ac82a8212d3bd9e7a2c30a8235e3d626b63d0a72b4586390d0020734705c20d0%}/RSS/Events.aspx]]>
           </defaultvalue>
           <fieldcaption>Container custom content</fieldcaption>
         </properties>

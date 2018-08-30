@@ -12,7 +12,7 @@
 For more information about custom layout transformation, please refer to our documentation: https://docs.kentico.com/x/CYJsAw
 For available fields, please refer to Strands Recommender documentation: http://recommender.strands.com/developers/#advRenderer
 
-*/|(identity)GlobalAdministrator|(hash)1e759c2a31e6f46b1d236e3965459dda61453eff3c62596f5b98b9850470c1cc%}
+*/|(identity)GlobalAdministrator|(hash)f67b0bbc6c406c115b3e33c22408bd99bf5da922f868393ea5e1775281a20a2d%}
 <div class="strandsLinkTemplate">
   <h1 class="uiLight">
     Recommendation title
@@ -24,7 +24,7 @@ For available fields, please refer to Strands Recommender documentation: http://
         <img src="${rec.metadata.picture}" alt="${rec.metadata.name}" />
         <h2 class="uiLight">${rec.metadata.name}</h2>
       </a>
-      <span clas="price">{% ECommerceContext.CurrentCurrency != null ? string.FormatString(ECommerceContext.CurrentCurrency.CurrencyFormatString, "${rec.metadata.price}") : "${rec.metadata.price}" |(identity)GlobalAdministrator|(hash)387f56e29d33b437377ae2873c45a436bf88d0f1e0dbef748be7b3857feab608%}</span>
+      <span clas="price">{% ECommerceContext.CurrentCurrency != null ? string.FormatString(ECommerceContext.CurrentCurrency.CurrencyFormatString, "${rec.metadata.price}") : "${rec.metadata.price}" |(identity)GlobalAdministrator|(hash)171dca6d9ab88908194c9033b7e85c15ac760ab827f9e6b217e47a9764842c14%}</span>
     </li>
     {{/each}}
   </ul>

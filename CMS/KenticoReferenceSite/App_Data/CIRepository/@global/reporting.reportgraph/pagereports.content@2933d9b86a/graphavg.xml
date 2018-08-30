@@ -7,14 +7,14 @@
   <GraphName>graphAvg</GraphName>
   <GraphQuery>
 <![CDATA[
- SET @FromDate ={%DatabaseSchema%}.Func_Analytics_DateTrim(@FromDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)28c209aa60e6a1a143893d9419fcabf0ff452c70b9b62b96b4543787ea9c58ef%}');
+ SET @FromDate ={%DatabaseSchema%}.Func_Analytics_DateTrim(@FromDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)7028f8875a9da639c6887714d17eecc01cfbf272edcaf753657e06700290627e%}');
  
- SELECT {%if (Columns == null) { "Date" } else { Columns }|(identity)GlobalAdministrator|(hash)27f4f17d0170620c9916be715f405805aef74dfc712ba988a194599e7c8a72af%} AS StartTime , T1.Hits   AS Time FROM
-  {%DatabaseSchema%}.Func_Analytics_EnsureDates (@FromDate,@ToDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)28c209aa60e6a1a143893d9419fcabf0ff452c70b9b62b96b4543787ea9c58ef%}') AS Dates   
+ SELECT {%if (Columns == null) { "Date" } else { Columns }|(identity)GlobalAdministrator|(hash)5c711fbcaf84b8857c367a8ab518b317f96f54bd74667fc678fb10375007c55a%} AS StartTime , T1.Hits   AS Time FROM
+  {%DatabaseSchema%}.Func_Analytics_EnsureDates (@FromDate,@ToDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)7028f8875a9da639c6887714d17eecc01cfbf272edcaf753657e06700290627e%}') AS Dates   
   LEFT JOIN
   (SELECT HitsStartTime AS StartTime, SUM(HitsValue) / SUM(HitsCount) AS hits
   FROM Analytics_Statistics
-  INNER JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)b8ec447e0b995b5c0eda4d5f07606433a4a136d7487ee2fbf2be06ac769a7b77%} ON {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)b8ec447e0b995b5c0eda4d5f07606433a4a136d7487ee2fbf2be06ac769a7b77%}.HitsStatisticsID = Analytics_Statistics.StatisticsID
+  INNER JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)dfafdb7f90ce291a967b1389d7be8e2bddccda18529aa1ac6303ae022e1f173d%} ON {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)dfafdb7f90ce291a967b1389d7be8e2bddccda18529aa1ac6303ae022e1f173d%}.HitsStatisticsID = Analytics_Statistics.StatisticsID
   WHERE (StatisticsSiteID = @CMSContextCurrentSiteID) AND
   (StatisticsCode = 'avgtimeonpage') AND StatisticsObjectID = @NodeID AND StatisticsObjectCulture = @CultureCode
   GROUP BY HitsStartTime) AS T1
@@ -45,8 +45,8 @@
       <seriesgradient>None</seriesgradient>
       <seriesitemtooltip>
 <![CDATA[
-#VALX{%xValueFormat%} - #SER: {%Format(ToInt((yval / 3600), ""), "{0:00}")|(identity)GlobalAdministrator|(hash)6ab2bcbb4afdb7d9a55546a0349e095aa4a534078c3c3845c2ec35764fe2b341%}:
-{%Format(round(yval/60), "{0:00}")|(identity)GlobalAdministrator|(hash)dc400ea9bac5f4653f0c743a560b96cf2ff0d97a0e7c2e28535d15a01db94070%}:{%Format(modulo(round(yval),60), "{0:00}")|(identity)GlobalAdministrator|(hash)23d23a88ea0c6441bbf80b6bcf3845b83e8d1f3df895137f7986fed28e0b12e2%} 
+#VALX{%xValueFormat%} - #SER: {%Format(ToInt((yval / 3600), ""), "{0:00}")|(identity)GlobalAdministrator|(hash)575cbed8ad1bbfa2e44fc81c2e4905b9055a276b0a7c6708d78700c9898b1ad5%}:
+{%Format(round(yval/60), "{0:00}")|(identity)GlobalAdministrator|(hash)cf79bbed8263d3f444daa7dc81751f5a402513851add9cfb059fdb3027449d50%}:{%Format(modulo(round(yval),60), "{0:00}")|(identity)GlobalAdministrator|(hash)0c9ed62648430d778bc8e107eff2b045c77e09c7a21212a3b45efac3ac373c0f%} 
 
 
 ]]>

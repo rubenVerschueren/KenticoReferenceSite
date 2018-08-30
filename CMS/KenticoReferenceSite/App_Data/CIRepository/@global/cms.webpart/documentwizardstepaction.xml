@@ -54,7 +54,7 @@ previous;Previous
             <![CDATA[Indicates whether the wizard validates the step's data when performing the 'skip' action. If the validation fails, the wizard does NOT skip the step and displays the validation error message. The step validation requirements depend on the implementation of the web parts placed on the step.]]>
           </fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%ActionType.Value == "skip"|(identity)GlobalAdministrator|(hash)0d8f13788b3bf3470d986745b4dc3cd9a9147006ad70d6caf91db28056391f1d%}]]>
+            <![CDATA[{%ActionType.Value == "skip"|(identity)GlobalAdministrator|(hash)9fdcc3e9e3c9c2fe2f63e8b2b2a0f5f4c0425fc93e82f0d29184161f9d90dfe6%}]]>
           </visiblemacro>
         </properties>
         <settings>

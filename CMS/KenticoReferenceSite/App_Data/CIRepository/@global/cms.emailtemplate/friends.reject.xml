@@ -10,9 +10,9 @@
 <![CDATA[
 {%FORMATTEDSENDERNAME%} has rejected the friendship.
 
-Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}
+Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)bd49bc39e8d556d20f6561a0a2af897b4b6689d2b0316a864cc38565dc73d3a1%}
 
-Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)1fb9171d71c8510a5331d72d023694f9caf41c948f182be1e4ecd72421d373f2%}
+Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)036c244eed420384b50c5737a14540fbacea82597fb05f4ca9f95aacdb46bcec%}
 
 ]]>
   </EmailTemplatePlainText>
@@ -24,8 +24,8 @@ Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)1fb917
   </head>
   <body>
     <p>{%FORMATTEDSENDERNAME%} rejected the friendship.</p>
-    <p>Comment: {%Friendship.FriendComment.HTMLEncode()|(identity)GlobalAdministrator|(hash)7b6bc2c802d6112b2740a6e785cf737a6fb621a88f0e40c3848ea548f6dd9ecb%}</p>
-    <p>Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)1fb9171d71c8510a5331d72d023694f9caf41c948f182be1e4ecd72421d373f2%}</p>
+    <p>Comment: {%Friendship.FriendComment.HTMLEncode()|(identity)GlobalAdministrator|(hash)9a73a37d3273ab50ea75a480879775164164efd1f135cca1456f08877fa1be95%}</p>
+    <p>Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)036c244eed420384b50c5737a14540fbacea82597fb05f4ca9f95aacdb46bcec%}</p>
   </body>
 </html>
 ]]>

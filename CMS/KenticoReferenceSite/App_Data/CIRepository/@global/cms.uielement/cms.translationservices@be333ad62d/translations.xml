@@ -43,6 +43,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Settings.CMSEnableTranslations|(identity)GlobalAdministrator|(hash)dd9d698fc19010cee808ef2ba02fb1cc9511f00a37412c46c05df55700a96f72%}]]>
+    <![CDATA[{%Settings.CMSEnableTranslations|(identity)GlobalAdministrator|(hash)25ff48a82535ce66bdc86b4c5d9d34a28931f7e5b0a36bb7daff4ace35ba9dd7%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

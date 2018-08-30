@@ -10,16 +10,16 @@
 <![CDATA[
 New message was added and now is waiting for your approval: 
 
-Board:   {%Board.BoardDsiplayName|(identity)GlobalAdministrator|(hash)80f653c62c123550191da5ca692d279d56c449279b460b8768572d5912b7677b%}
+Board:   {%Board.BoardDsiplayName|(identity)GlobalAdministrator|(hash)f9205bf4afa47f46235d0c6c57fcb1b5aad1473d2b8e71a574cf7e9b28e620ce%}
 Board URL:   {%DocumentLink%}
-Added by:   {%TrimSitePrefix(Message.MessageUserName)|(identity)GlobalAdministrator|(hash)e0fc64adb08984ba5f0a114f05d4c1fdcb470c531f14a6578d1188385f6174cf%}  
-Date and time:   {%Message.MessageInserted|(identity)GlobalAdministrator|(hash)60c4560531ae39c067b2334d58e194c31b7900a2c6f7758f47cb884168f6bc17%}  
-Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)eb60e90368048910794ec287b52640f5c3b164fab1bc89c11048d69cc8f309b4%}
+Added by:   {%TrimSitePrefix(Message.MessageUserName)|(identity)GlobalAdministrator|(hash)c06d75935d48ad41f2561b9fdb747eb63401823395126aa5f250cb3c33932f45%}  
+Date and time:   {%Message.MessageInserted|(identity)GlobalAdministrator|(hash)ef6158b4b0043e91a96964074763dc6bf8bb0704893f9e99a1d3492f7d5bc649%}  
+Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)e1ed9d3ac69a06d728b17d0e8ee66090ef920e466382fce333131d5b826e9ff7%}
 
 ]]>
   </EmailTemplatePlainText>
   <EmailTemplateSubject>
-    <![CDATA[Message needs to be approved in the board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}]]>
+    <![CDATA[Message needs to be approved in the board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}]]>
   </EmailTemplateSubject>
   <EmailTemplateText>
 <![CDATA[
@@ -43,7 +43,7 @@ Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)eb60e903680489
     <strong>Board:&nbsp;</strong>
     </td>
     <td>
-    <a href="{%DocumentLink%}">{%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}</a>
+    <a href="{%DocumentLink%}">{%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}</a>
     </td>
     </tr>
     <tr valign="top">
@@ -51,7 +51,7 @@ Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)eb60e903680489
     <strong>Added by:&nbsp;</strong>
     </td>
     <td>
-    {%TrimSitePrefix(Message.MessageUserName)|(identity)GlobalAdministrator|(hash)e0fc64adb08984ba5f0a114f05d4c1fdcb470c531f14a6578d1188385f6174cf%}
+    {%TrimSitePrefix(Message.MessageUserName)|(identity)GlobalAdministrator|(hash)c06d75935d48ad41f2561b9fdb747eb63401823395126aa5f250cb3c33932f45%}
     </td>
     </tr>
     <tr valign="top">
@@ -59,7 +59,7 @@ Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)eb60e903680489
     <strong>Date and time:&nbsp;</strong>
     </td>
     <td>
-    {%Message.MessageInserted|(identity)GlobalAdministrator|(hash)60c4560531ae39c067b2334d58e194c31b7900a2c6f7758f47cb884168f6bc17%}
+    {%Message.MessageInserted|(identity)GlobalAdministrator|(hash)ef6158b4b0043e91a96964074763dc6bf8bb0704893f9e99a1d3492f7d5bc649%}
     </td>
     </tr>
     <tr valign="top">
@@ -67,7 +67,7 @@ Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)eb60e903680489
     <strong>Text:&nbsp;</strong>
     </td>
     <td>
-    {%Message.MessageText|(identity)GlobalAdministrator|(hash)eb60e90368048910794ec287b52640f5c3b164fab1bc89c11048d69cc8f309b4%}
+    {%Message.MessageText|(identity)GlobalAdministrator|(hash)e1ed9d3ac69a06d728b17d0e8ee66090ef920e466382fce333131d5b826e9ff7%}
     </td>
     </tr>
   </table>    

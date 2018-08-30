@@ -9,7 +9,7 @@
 <![CDATA[
 <br />
 - {%GetResourceString(OrderItemSKUName)%} (<a href="{%GetEproductUrl(Token, FileName, OrderSiteID)%}" target="_blank" >{%FileName%}</a>)
-{% String.IsNullOrEmpty(OrderItemValidTo) ? "never expires" : "expires after " + GetCurrentDateTimeString(Format(OrderItemValidTo, "{0:G}"), Customer.CustomerUser.UserName)|(identity)GlobalAdministrator|(hash)0749d3ba8ccde64dddf66a471075d27c971ee9160b8e4a5c5509a598686aa79c%}
+{% String.IsNullOrEmpty(OrderItemValidTo) ? "never expires" : "expires after " + GetCurrentDateTimeString(Format(OrderItemValidTo, "{0:G}"), Customer.CustomerUser.UserName)|(identity)GlobalAdministrator|(hash)2932b4567a335f7815c83e7f46c59ef288ebf51934cbbab942e6c22cc7adb001%}
 ]]>
   </TransformationCode>
   <TransformationCSS />

@@ -49,7 +49,7 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Matches(\"([a-zA-Z]{2})?\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>([a-zA-Z]{2})?</t><v>([a-zA-Z]{2})?</v><r>false</r><d></d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)793da7e8f2e37454585b71bd4208a7f94a4a9707c493b5a0db19e817e1e88219%}]]>
+            <![CDATA[{%Rule("Value.Matches(\"([a-zA-Z]{2})?\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>([a-zA-Z]{2})?</t><v>([a-zA-Z]{2})?</v><r>false</r><d></d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)a273b9c4bf6e20fb0d188041bf80008eb0285fe5bd50e997d1db2881be8d35bc%}]]>
           </rule>
         </rules>
       </field>
@@ -69,7 +69,7 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Matches(\"([a-zA-Z]{3})?\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>([a-zA-Z]{3})?</t><v>([a-zA-Z]{3})?</v><r>false</r><d></d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)d4ebb4b1a707eeb8b0c70ffcce661b3b4ce97af6a41e5336dba4de22ee30ce9a%}]]>
+            <![CDATA[{%Rule("Value.Matches(\"([a-zA-Z]{3})?\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>([a-zA-Z]{3})?</t><v>([a-zA-Z]{3})?</v><r>false</r><d></d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)e42ffa2530d025d5c851c21460dd5325dae78dd7fc5fc4136cf4633a921d8387%}]]>
           </rule>
         </rules>
       </field>

@@ -57,7 +57,7 @@
           <EncodeOutput>False</EncodeOutput>
           <ObjectType>ecommerce.customer</ObjectType>
           <Transformation>
-            <![CDATA[{%EditedObject.ApplyTransformation("Ecommerce.Transformations.Order_CustomerDetail")|(identity)GlobalAdministrator|(hash)1f1e9c5decffb2955fa3c4f335e7fe161ce334ecfe386ad652ac9a745304d18b%}]]>
+            <![CDATA[{%EditedObject.ApplyTransformation("Ecommerce.Transformations.Order_CustomerDetail")|(identity)GlobalAdministrator|(hash)82365641b3bb5683fdacbed97d939609564bea9beba11895c4b93100a89fc4ab%}]]>
           </Transformation>
         </settings>
         <properties>
@@ -69,11 +69,11 @@
         <properties>
           <controlcssclass>form-control-text</controlcssclass>
           <defaultvalue ismacro="true">
-            <![CDATA[{% OrderCustomerID.Value |(identity)GlobalAdministrator|(hash)0fa038f9e17a60ea6945619c77e9653ed3688e6c731992b159bd9e9679534293%}]]>
+            <![CDATA[{% OrderCustomerID.Value |(identity)GlobalAdministrator|(hash)ab51e4ea9a1f3085b61c6bf6c1f43652acf8114a4452cea5741eb1f524684568%}]]>
           </defaultvalue>
           <fieldcaption>{$customerlist.company$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%EditedObject.OrderCustomer.CustomerHasCompanyInfo|(identity)GlobalAdministrator|(hash)b1564b853377aca7ecd543a4722304727aa1c33b9a0aaba9fd111dbc0b641521%}]]>
+            <![CDATA[{%EditedObject.OrderCustomer.CustomerHasCompanyInfo|(identity)GlobalAdministrator|(hash)749b7e004c069c2adcf69e07d6d343c8d83d53fca07d54a416320124d533fe26%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -81,7 +81,7 @@
           <EncodeOutput>False</EncodeOutput>
           <ObjectType>ecommerce.customer</ObjectType>
           <Transformation>
-            <![CDATA[{%EditedObject.ApplyTransformation("Ecommerce.Transformations.Order_CustomerCompanyDetail")|(identity)GlobalAdministrator|(hash)c9209524f4f054ee0bab59ef74c30b06d32d305f34b6c368d3d2a15641089d9b%}]]>
+            <![CDATA[{%EditedObject.ApplyTransformation("Ecommerce.Transformations.Order_CustomerCompanyDetail")|(identity)GlobalAdministrator|(hash)2b6c9ce33674eb62d8079b241418dcc27caaf7231db9c674874057d0fa7edc71%}]]>
           </Transformation>
         </settings>
       </field>
@@ -135,7 +135,7 @@
           <ReturnColumnType>id</ReturnColumnType>
           <SelectionMode>6</SelectionMode>
           <Transformation>
-            <![CDATA[{%EditedObject.OrderCompanyAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)41de6089e7c04dcc5ccd8770e917e4cc6fb9a226ba68c371d5d281339b424801%}]]>
+            <![CDATA[{%EditedObject.OrderCompanyAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)8ccd9602ffcdc85fd33baf1b18a37bb1e5162232d9c610a5b288d8802506df6d%}]]>
           </Transformation>
           <UseAutocomplete>False</UseAutocomplete>
           <ValuesSeparator>;</ValuesSeparator>
@@ -143,7 +143,7 @@
         <properties>
           <fieldcaption>{$order_edit.lblcompanyaddress$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%(OrderCompanyAddressID != null) && Settings.CMSStoreUseExtraCompanyAddress|(identity)GlobalAdministrator|(hash)b7b2747fb5339317ad734ff8ca856f6fd54f2275c98ed475f83fdf2015513ac5%}]]>
+            <![CDATA[{%(OrderCompanyAddressID != null) && Settings.CMSStoreUseExtraCompanyAddress|(identity)GlobalAdministrator|(hash)4c2163860f0423522c38271a61b24487cbf71d95d36e50868105033f6784f1f6%}]]>
           </visiblemacro>
         </properties>
       </field>

@@ -85,7 +85,7 @@ Macros in format {%ColumnName%} may be used to load values from the displayed ob
       <field allowempty="true" column="SiteID" columntype="integer" guid="2bb7a17e-f80a-4a42-a17a-9089619ff792" publicfield="false" resolvedefaultvalue="False">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% Form.ObjectSiteID |(identity)GlobalAdministrator|(hash)9d20df2ff815d3177eb3a01ac5ca25af3c46ae66d83a1eb44d98e47635d335ea%}]]>
+            <![CDATA[{% Form.ObjectSiteID |(identity)GlobalAdministrator|(hash)52e547607981fc599107cb17cce147887284ddcd45bcd6f4449c16de0f48cfc8%}]]>
           </defaultvalue>
           <fieldcaption>Return column name</fieldcaption>
           <fielddescription>

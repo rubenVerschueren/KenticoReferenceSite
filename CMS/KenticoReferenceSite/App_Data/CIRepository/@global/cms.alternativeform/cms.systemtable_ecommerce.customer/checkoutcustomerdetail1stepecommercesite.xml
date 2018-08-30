@@ -69,7 +69,7 @@ Company;Business
         <properties>
           <fieldcaption>{$com.companyname$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)c0a01f317be8fad36d37339e70613570a684dbef9794949d4cdf59c541c0eb32%}]]>
+            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)528ac245ff66d3b8d5792a0bbc98ec28f98a30eaafe508678e7f91fe95538618%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -84,7 +84,7 @@ Company;Business
         <properties>
           <fieldcaption>{$com.customer.organizationid$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)c0a01f317be8fad36d37339e70613570a684dbef9794949d4cdf59c541c0eb32%}]]>
+            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)528ac245ff66d3b8d5792a0bbc98ec28f98a30eaafe508678e7f91fe95538618%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -99,7 +99,7 @@ Company;Business
         <properties>
           <fieldcaption>{$com.customer.taxregistrationid$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)c0a01f317be8fad36d37339e70613570a684dbef9794949d4cdf59c541c0eb32%}]]>
+            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)528ac245ff66d3b8d5792a0bbc98ec28f98a30eaafe508678e7f91fe95538618%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -113,7 +113,7 @@ Company;Business
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% CMSContext.CurrentUser.FirstName |(identity)GlobalAdministrator|(hash)33ba36510cf76d6fefa6195e4aa0563ab995c57d1adde644be4442c8f8264590%}]]>
+            <![CDATA[{% CMSContext.CurrentUser.FirstName |(identity)GlobalAdministrator|(hash)2f9791df8d41da58e0c661a70c88b4aabb41b7a72c69407ad80b243ac30cadb2%}]]>
           </defaultvalue>
           <fieldcaption>{$com.customer.firstname$}</fieldcaption>
         </properties>
@@ -128,7 +128,7 @@ Company;Business
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% CMSContext.CurrentUser.LastName |(identity)GlobalAdministrator|(hash)e7f187796588e794a47c74a6ca819db1afad3cf82b924910a0fa37304107c8ee%}]]>
+            <![CDATA[{% CMSContext.CurrentUser.LastName |(identity)GlobalAdministrator|(hash)86b4e40ec9170b927f6acebbc76ee08fa35a6436ebda08c747ae83dfe8e1b0d1%}]]>
           </defaultvalue>
           <fieldcaption>{$com.customer.lastname$}</fieldcaption>
         </properties>
@@ -139,13 +139,13 @@ Company;Business
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% CMSContext.CurrentUser.Email |(identity)GlobalAdministrator|(hash)87f3d5bfcf98de3949de87dc021103839cac1b92a2aa807030d124d9ebd585fb%}]]>
+            <![CDATA[{% CMSContext.CurrentUser.Email |(identity)GlobalAdministrator|(hash)81c4027f2ac185518c0e36abcf379f515bf273099f92fb7ff9ed865bec07a5c2%}]]>
           </defaultvalue>
           <fieldcaption>{$com.customer.email$}</fieldcaption>
         </properties>
         <rules>
           <rule>
-            <![CDATA[{%Rule("(Value.Length <= 100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)74ad2e69b4696a16a36086609bc887c9bc5331181d34f39d00f21f8b6ff10b16%}]]>
+            <![CDATA[{%Rule("(Value.Length <= 100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)c4ec9c81347f432da7da3584e41d55c1cde54ce88f096aab84bfd4e88962b254%}]]>
           </rule>
         </rules>
       </field>
@@ -156,7 +156,7 @@ Company;Business
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% CMSContext.CurrentUser.UserPhone |(identity)GlobalAdministrator|(hash)b0a162a19903321ced58e92968e49ba233274e0c7b123db64735f5ffd69e5c2d%}]]>
+            <![CDATA[{% CMSContext.CurrentUser.UserPhone |(identity)GlobalAdministrator|(hash)520eabca752ffdd012628209908339ae326d9d181daec690544c5ac7211314e9%}]]>
           </defaultvalue>
           <fieldcaption>Phone number</fieldcaption>
         </properties>

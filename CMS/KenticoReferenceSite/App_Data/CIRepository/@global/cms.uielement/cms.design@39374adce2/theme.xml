@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%!UIContext.EditedObject.UsesExternalStorage && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin) && !UIContext.IsDialog|(identity)GlobalAdministrator|(hash)8b1791d53ebb6f0dfa12f53d50dff800c1f29c57f7ba09b65515f0fd39510c0b%}]]>
+    <![CDATA[{%!UIContext.EditedObject.UsesExternalStorage && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin) && !UIContext.IsDialog|(identity)GlobalAdministrator|(hash)dc4daf38cb73e39e1a3399e4e88a0a1c6ab382b17dc68180ebe25ca9c02f7fe3%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$Stylesheet.Theme$}</ElementCaption>
   <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>
@@ -45,6 +45,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%!UIContext.EditedObject.UsesExternalStorage && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin) && !UIContext.IsDialog|(identity)GlobalAdministrator|(hash)8b1791d53ebb6f0dfa12f53d50dff800c1f29c57f7ba09b65515f0fd39510c0b%}]]>
+    <![CDATA[{%!UIContext.EditedObject.UsesExternalStorage && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.Admin) && !UIContext.IsDialog|(identity)GlobalAdministrator|(hash)dc4daf38cb73e39e1a3399e4e88a0a1c6ab382b17dc68180ebe25ca9c02f7fe3%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

@@ -22,7 +22,7 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Length <= 200", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>200</t><v>200</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)8b1240fd225ed7f4a899c6c31c486e826a5273aeee201bd953fd83dc84f20865%}]]>
+            <![CDATA[{%Rule("Value.Length <= 200", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>200</t><v>200</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)1a2266adb3043f5e050e7a1a9f726509d9700bcb724b23ff88bb0f03939ea1bd%}]]>
           </rule>
         </rules>
       </field>

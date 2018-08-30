@@ -28,7 +28,7 @@
 <![CDATA[
 SELECT CampaignUTMCode, CampaignDisplayName
   FROM Analytics_Campaign
- WHERE CampaignSiteID = {%CMSContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)6e0e01a451a08572c9e566fa67bcb89fc0efacdbb75b1b065320d7ca43511612%}
+ WHERE CampaignSiteID = {%CMSContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)f936eac020e9f0c533c2a7e5549ea374c9b4cedb56e5ed9083b87a58bdebf8c9%}
 UNION SELECT '', '(none)'
 ]]>
           </Query>

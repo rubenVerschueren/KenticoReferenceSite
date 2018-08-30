@@ -34,7 +34,7 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Matches(\"^([01])?$|^((-)?0(\\.|,)[0-9]+)?$|^((-)?1((\\.|,)0+)?)?$\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^([01])?$|^((-)?0(\\.|,)[0-9]+)?$|^((-)?1((\\.|,)0+)?)?$</t><v>^([01])?$|^((-)?0(\\.|,)[0-9]+)?$|^((-)?1((\\.|,)0+)?)?$</v><r>false</r><d></d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)c6395bb353886ed185dec875fa4001178018bbed9008c5abecd75670d176b59d%}]]>
+            <![CDATA[{%Rule("Value.Matches(\"^([01])?$|^((-)?0(\\.|,)[0-9]+)?$|^((-)?1((\\.|,)0+)?)?$\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^([01])?$|^((-)?0(\\.|,)[0-9]+)?$|^((-)?1((\\.|,)0+)?)?$</t><v>^([01])?$|^((-)?0(\\.|,)[0-9]+)?$|^((-)?1((\\.|,)0+)?)?$</v><r>false</r><d></d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)fb2afc41b0ff7a80f8f396f0c274ba8abcb1568c72d4e7efa380275f1dcace87%}]]>
           </rule>
         </rules>
       </field>

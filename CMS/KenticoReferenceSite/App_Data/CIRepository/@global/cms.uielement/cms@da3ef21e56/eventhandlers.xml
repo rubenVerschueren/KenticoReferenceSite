@@ -30,6 +30,6 @@
   <ElementTargetURL>~/CMSModules/System/Debug/Log.aspx?name=handlers</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Debug.IsDebugEnabled("handlers")|(identity)GlobalAdministrator|(hash)76f743d91068c3d3aead50e0462516c173d57a783082275bd6230e2bec24c381%}]]>
+    <![CDATA[{%Debug.IsDebugEnabled("handlers")|(identity)GlobalAdministrator|(hash)2537c55c815fe98a9cbf3beac2772035158929eb7c13ecdfbb33f341e2b10aa6%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

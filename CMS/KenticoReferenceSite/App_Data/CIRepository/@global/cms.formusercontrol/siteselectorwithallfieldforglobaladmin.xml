@@ -31,7 +31,7 @@
         </settings>
         <properties>
           <defaultvalue>
-            <![CDATA[{% CurrentUser.UserIsGlobalAdministrator ? "" :  CurrentUser.UserName|(identity)GlobalAdministrator|(hash)3e88760177c45112758f8c7b784c04d1d6e3453a18d29033fb08c1fe68d4ad50%}]]>
+            <![CDATA[{% CurrentUser.UserIsGlobalAdministrator ? "" :  CurrentUser.UserName|(identity)GlobalAdministrator|(hash)9704b94e2d11bacc9e3f92387879df3e71a3bdbbf2785a12ad7e4220f3726a51%}]]>
           </defaultvalue>
           <fieldcaption />
           <fielddescription />
@@ -65,7 +65,7 @@
         <properties>
           <defaultvalue>
 <![CDATA[
-##ALL##;{$general.selectall$};{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) |(identity)GlobalAdministrator|(hash)f20611cf856fc9001109bd4e348e5ca76d2fec02be3b4d0f76589f7f0174bb44%}
+##ALL##;{$general.selectall$};{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) |(identity)GlobalAdministrator|(hash)f6d4364ddb8862b756bde90c225d3c99695578688d054549bc681bf2a72efcd4%}
 ##currentsite##;{$dialogs.config.currentsite$}
 ]]>
           </defaultvalue>

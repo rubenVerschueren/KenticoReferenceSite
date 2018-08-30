@@ -32,7 +32,7 @@
       <field allowempty="true" column="SiteID" columnsize="200" columntype="text" extra="true" guid="1f93a096-4fae-47da-b1e4-5976cbcada85" publicfield="false" order="2">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% Form.ObjectSiteID|(identity)GlobalAdministrator|(hash)88ac420e07ecc705ac2a20404feaab5164f88dd9990d286ee9f48701a52ccfc4%}]]>
+            <![CDATA[{% Form.ObjectSiteID|(identity)GlobalAdministrator|(hash)2d5bd4f36f6edf8cb53a78257ad02ca80e8324195a06a69a5023dc5d51a4c5ee%}]]>
           </defaultvalue>
           <fieldcaption>Allow setting permissions</fieldcaption>
           <fielddescription>

@@ -37,6 +37,6 @@
   <ElementTargetURL>~/CMSModules/System/Debug/System_DebugAll.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Debug.AnyDebugEnabled && Debug.IsDebugEnabled("requests")|(identity)GlobalAdministrator|(hash)42ea036f3025aa4275ff2ebfe312fc800169e9f44b26c3b928559a947fcc9e89%}]]>
+    <![CDATA[{%Debug.AnyDebugEnabled && Debug.IsDebugEnabled("requests")|(identity)GlobalAdministrator|(hash)e20a5dbaaa148e0d1b099c2cf1970733c9ff97d93f06161af5d538a1671e4320%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

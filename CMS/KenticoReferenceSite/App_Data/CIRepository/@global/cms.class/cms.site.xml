@@ -53,7 +53,7 @@
           <fieldcaption>{$site_edit.PresentationURL$}</fieldcaption>
           <fielddescription>{$site_edit.PresentationURL.description$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%SiteIsContentOnly.Value|(identity)GlobalAdministrator|(hash)83fedabbae16f4d73a0c3eab6b7da72381ddbf7aa6231bf7e4f5daf1c14496a7%}]]>
+            <![CDATA[{%SiteIsContentOnly.Value|(identity)GlobalAdministrator|(hash)4a544e03980add2ec03114bbaf95bb98a2eb4caab12a8fff201a49e83ced8ef6%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -105,7 +105,7 @@
           <ReturnColumnName>CultureCode</ReturnColumnName>
           <SelectionMode>1</SelectionMode>
           <SiteID>
-            <![CDATA[{% Form.ObjectSiteID|(identity)GlobalAdministrator|(hash)88ac420e07ecc705ac2a20404feaab5164f88dd9990d286ee9f48701a52ccfc4%}]]>
+            <![CDATA[{% Form.ObjectSiteID|(identity)GlobalAdministrator|(hash)2d5bd4f36f6edf8cb53a78257ad02ca80e8324195a06a69a5023dc5d51a4c5ee%}]]>
           </SiteID>
           <SpecialFields>;{$Site_Edit.Automatic$}</SpecialFields>
         </settings>
@@ -155,8 +155,8 @@
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
 <![CDATA[
-StylesheetID IN (SELECT StylesheetID FROM CMS_CssStylesheetSite WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)abc8562305c5dd01cf513348cc10d9bfc6e6d899f6bc04526b0119ba7630aa63%})
-OR StylesheetID IN (SELECT SiteDefaultStylesheetID FROM CMS_Site WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)abc8562305c5dd01cf513348cc10d9bfc6e6d899f6bc04526b0119ba7630aa63%})
+StylesheetID IN (SELECT StylesheetID FROM CMS_CssStylesheetSite WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)cd6a048f9cb80b89c4af025947c82b4c1708973bfa699d3ca19ac655421ff7ab%})
+OR StylesheetID IN (SELECT SiteDefaultStylesheetID FROM CMS_Site WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)cd6a048f9cb80b89c4af025947c82b4c1708973bfa699d3ca19ac655421ff7ab%})
 ]]>
           </WhereCondition>
         </settings>
@@ -201,8 +201,8 @@ OR StylesheetID IN (SELECT SiteDefaultStylesheetID FROM CMS_Site WHERE SiteID = 
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
 <![CDATA[
-StylesheetID IN (SELECT StylesheetID FROM CMS_CssStylesheetSite WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)abc8562305c5dd01cf513348cc10d9bfc6e6d899f6bc04526b0119ba7630aa63%})
-OR StylesheetID IN (SELECT SiteDefaultEditorStyleSheet FROM CMS_Site WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)abc8562305c5dd01cf513348cc10d9bfc6e6d899f6bc04526b0119ba7630aa63%})
+StylesheetID IN (SELECT StylesheetID FROM CMS_CssStylesheetSite WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)cd6a048f9cb80b89c4af025947c82b4c1708973bfa699d3ca19ac655421ff7ab%})
+OR StylesheetID IN (SELECT SiteDefaultEditorStyleSheet FROM CMS_Site WHERE SiteID = {% EditedObject.SiteID |(identity)GlobalAdministrator|(hash)cd6a048f9cb80b89c4af025947c82b4c1708973bfa699d3ca19ac655421ff7ab%})
 ]]>
           </WhereCondition>
         </settings>

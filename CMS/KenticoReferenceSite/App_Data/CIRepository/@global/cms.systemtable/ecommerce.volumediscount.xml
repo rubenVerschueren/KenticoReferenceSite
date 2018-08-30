@@ -58,7 +58,7 @@
           <fieldcaption>{$com.discount.discountisflat$}</fieldcaption>
           <fielddescription>{$com.discount.discountisflatdescription$}</fielddescription>
           <validationerrormessage ismacro="true">
-            <![CDATA[{% VolumeDiscountIsFlatValue.Value? GetResourceString("com.discount.valuerealposnumber"):GetResourceString("basicform.valuebetween0and100")|(identity)GlobalAdministrator|(hash)1c6d418d1ab1a41e02af68dbd140c460718cdb2c9c8e154ca9c0dfca8132591b%}]]>
+            <![CDATA[{% VolumeDiscountIsFlatValue.Value? GetResourceString("com.discount.valuerealposnumber"):GetResourceString("basicform.valuebetween0and100")|(identity)GlobalAdministrator|(hash)c3105d4b37686d9825dc4e00ee7fd81efe27d2b5f0745fa6c26cfa7a9ecdca56%}]]>
           </validationerrormessage>
         </properties>
         <settings>
@@ -77,7 +77,7 @@ true; {$com.discount.fixedamount$}
       <field column="VolumeDiscountValue" columnprecision="9" columnsize="18" columntype="decimal" dependsonanotherfield="true" guid="85872dc6-b413-4a5c-b534-193c93175e94" publicfield="false" system="true" visible="true">
         <properties>
           <contentafter>
-            <![CDATA[<span class="form-control-text">{% VolumeDiscountIsFlatValue.Value ? HTMLEncode(GetMainSiteCurrency(ParentObject.SKUSiteID).CurrencyCode) : "%"|(identity)GlobalAdministrator|(hash)53002dcf09eb86e9a8c81a921136161811b77b9a204bcb1573646947af0434d2%}</span>]]>
+            <![CDATA[<span class="form-control-text">{% VolumeDiscountIsFlatValue.Value ? HTMLEncode(GetMainSiteCurrency(ParentObject.SKUSiteID).CurrencyCode) : "%"|(identity)GlobalAdministrator|(hash)3701ee8c49c2151f46a74c0ec77a11eac0ca065b12229590ca20a9b4ca19100b%}</span>]]>
           </contentafter>
           <controlcssclass>input-width-40</controlcssclass>
           <defaultvalue>0</defaultvalue>
@@ -96,7 +96,7 @@ true; {$com.discount.fixedamount$}
         </settings>
         <rules>
           <rule errormsg="{$com.discount.amountpercentage$}">
-            <![CDATA[{%Rule("(VolumeDiscountIsFlatValue.Value? true : Value<=100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>VolumeDiscountIsFlatValue.Value? true : Value&lt;=100</t><v>VolumeDiscountIsFlatValue.Value? true : Value&lt;=100</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)6d5a69d072b928b6461e35fb9a4f7dbc471300dfbd77b3f9d5e9acb239a4ef7a%}]]>
+            <![CDATA[{%Rule("(VolumeDiscountIsFlatValue.Value? true : Value<=100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>VolumeDiscountIsFlatValue.Value? true : Value&lt;=100</t><v>VolumeDiscountIsFlatValue.Value? true : Value&lt;=100</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)e92ffd015067db94f496bc422f024cb074f45366181dfab407f836c8612f56ce%}]]>
           </rule>
           <rule errormsg="{$com.discount.minamount$}">
             <![CDATA[{%Rule("(Value > 0)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>Value &gt; 0</t><v>Value &gt; 0</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")%}]]>

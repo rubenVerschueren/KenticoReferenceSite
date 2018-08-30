@@ -25,12 +25,12 @@
       <field column="SKUEnabled" visibility="" order="2">
         <properties>
           <enabledmacro>
-            <![CDATA[{%!IsOptionUsedInVariants(SKUID.Value)|(identity)GlobalAdministrator|(hash)93a0013186ee1e896041eeb70f8de44a8db340ad11d31e9cbe4ed3b30b095122%}]]>
+            <![CDATA[{%!IsOptionUsedInVariants(SKUID.Value)|(identity)GlobalAdministrator|(hash)fab488bee2a9bbb80ac8e021fa5fe0029c4114a18f6444dace36c6a0c736a2d0%}]]>
           </enabledmacro>
           <contentafter>
 <![CDATA[
 <div class="FieldDescription">
-  {%IsOptionUsedInVariants(SKUID.Value)?GetResourceString("com.option.usedinvariants"):""|(identity)GlobalAdministrator|(hash)f0bb551f886edba331d5cd7f0b975cf7020b62d0eb97cbefe5b7ecc5c5bf2e0e%}
+  {%IsOptionUsedInVariants(SKUID.Value)?GetResourceString("com.option.usedinvariants"):""|(identity)GlobalAdministrator|(hash)6ae990abd6b2cc06cc4d3d5fcadfc05e55834a17359d96a1555c1bb6a1441577%}
 </div>
 ]]>
           </contentafter>

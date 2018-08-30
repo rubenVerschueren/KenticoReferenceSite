@@ -8,7 +8,7 @@
   <EmailTemplateName>Boards.SubscribeConfirmation</EmailTemplateName>
   <EmailTemplatePlainText>
 <![CDATA[
-You have been successfully subscribed to Message board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}.
+You have been successfully subscribed to Message board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}.
 
 Message board URL: {%BlogPostLink%}
 
@@ -31,7 +31,7 @@ Unsubscription URL: {%UnsubscriptionLink%}
 	<body>
 	<p>
 	  You have been successfully subscribed to		
-	<strong>Message board</strong> {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}.		    
+	<strong>Message board</strong> {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}.		    
 	<p/>
 	<p>
 	<a href="{%DocumentLink%}">Click here to view message board on-line</a> &nbsp;

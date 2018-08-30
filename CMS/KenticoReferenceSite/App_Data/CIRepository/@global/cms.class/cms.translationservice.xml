@@ -165,7 +165,7 @@
       <field allowempty="true" column="TranslationServiceParameter" columnsize="1000" columntype="text" guid="e7a711a0-1935-4f15-8a2b-16876c1a4b66" publicfield="false" system="true" visibility="none" visible="true">
         <properties>
           <fieldcaption ismacro="true">
-            <![CDATA[{% x = "translationservice." + TranslationServiceClassName + "Parameter"; y = GetResourceString(x); if (x == y) { GetResourceString("translationservice.parameter") } else { y } |(identity)GlobalAdministrator|(hash)4eec882d2af36afc9051b1f376b3748d91aea444662585ac3172ceba2612d17d%}]]>
+            <![CDATA[{% x = "translationservice." + TranslationServiceClassName + "Parameter"; y = GetResourceString(x); if (x == y) { GetResourceString("translationservice.parameter") } else { y } |(identity)GlobalAdministrator|(hash)54fedfba79ec61bfbcdfea037d71972dca99b0f753604ea30954436541e30b3f%}]]>
           </fieldcaption>
           <fielddescription>{$translationservice.parameter.description$}</fielddescription>
         </properties>

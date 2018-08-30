@@ -23,27 +23,27 @@
 ]]>
 <![CDATA[
 </description_{% cultureCode %}>
-  {% } |(identity)GlobalAdministrator|(hash)d4e09225e9fc12746745cc4ac0df1c85d6d4b2bbcd1182dcfb9860827f4f74d0%}
+  {% } |(identity)GlobalAdministrator|(hash)e1ba9f61c4887ce434d209508c83a7b4217a07a709b4ca1d39cc68b85f0cbd3a%}
   
   {% foreach (currency in Currencies) { %}
     {% currencyCode = currency.CurrencyCode.ToLower();; #%}
     <price_{% currencyCode %}>{% Math.Round(SKU.GetPrice(currency), currency.CurrencyRoundTo, "AwayFromZero") %}</price_{% currencyCode %}>
     <cur_{% currencyCode %}>{% currency.CurrencyCode %}</cur_{% currencyCode %}>
-  {% } |(identity)GlobalAdministrator|(hash)951d69edcf9bd4cc2b5901133839503ed5bc28ef5c78d8c79a8218e5781e89d1%}
+  {% } |(identity)GlobalAdministrator|(hash)10c9cff5900b99530eb496054b30347c78fd9d5f67597ebbfa11768301f191cf%}
   
-  <price>{% SKU.SKUPrice |(identity)GlobalAdministrator|(hash)a05c26ea70089189c7c47698556231d453442439e31b0e63c51135fce1b8ce4f%}</price>
-  <image_link><![CDATA[{% GetAbsoluteUrl(SKU.SKUImagePath) |(identity)GlobalAdministrator|(hash)e01e24a2aafb9bbd5f4fe6762d5aefef016b5950b24631e4a6a86a9f6b06d354%}
+  <price>{% SKU.SKUPrice |(identity)GlobalAdministrator|(hash)dfe3333d812ee89c86112d8cdb74fc6874bc22dba5f7ef1d8367cc99855e1c32%}</price>
+  <image_link><![CDATA[{% GetAbsoluteUrl(SKU.SKUImagePath) |(identity)GlobalAdministrator|(hash)b9fed8eb90d967a2f81170bfc53e71fb61738f0d2c790873447276850fa3eae9%}
 ]]>
 <![CDATA[
 </image_link>
   <category>{% ItemCategory %}</category>
-  <SKUDepartmentID>{% SKU.SKUDepartmentID |(identity)GlobalAdministrator|(hash)b41581e24697ad78f218bbb4bdc3355dfc789a131e85b4efeaed12b6e334f40d%}</SKUDepartmentID>
-  <SKUProductType><![CDATA[{% SKU.SKUProductType |(identity)GlobalAdministrator|(hash)630092c5352f0f936a19f2e06fb8f9bec33122de63939c2667890e2d27223e68%}
+  <SKUDepartmentID>{% SKU.SKUDepartmentID |(identity)GlobalAdministrator|(hash)69cfec365af522de2ed2e82df8dedf126645269a38e76ee5910eb97ecc2339b7%}</SKUDepartmentID>
+  <SKUProductType><![CDATA[{% SKU.SKUProductType |(identity)GlobalAdministrator|(hash)1b3e1c84540142db2404292a746af608ef88d146fe460064e5e8ef6c116dbe2a%}
 ]]>
 <![CDATA[
 </SKUProductType>
-  <SKUSupplierID>{% SKU.SKUSupplierID |(identity)GlobalAdministrator|(hash)d1d522725ed87ee59afe385fb3190d6ca1a1238a53fb28a26a0d852f35fdf597%}</SKUSupplierID>
-  <SKUManufacturerID>{% SKU.SKUManufacturerID |(identity)GlobalAdministrator|(hash)41140c354d320b56c56a81aabcae4f878c773ab02e0fbd533275c7e8140ea5c7%}</SKUManufacturerID>
+  <SKUSupplierID>{% SKU.SKUSupplierID |(identity)GlobalAdministrator|(hash)22ecd8a97808135c541c83c7b5faad3fd357d61a7d5941c04f6a768f21dfd9e0%}</SKUSupplierID>
+  <SKUManufacturerID>{% SKU.SKUManufacturerID |(identity)GlobalAdministrator|(hash)8199127563ebbb1611cd4403163583502c081082ce1c44652a1f5f1c13dc804e%}</SKUManufacturerID>
 </item>
 
 ]]>

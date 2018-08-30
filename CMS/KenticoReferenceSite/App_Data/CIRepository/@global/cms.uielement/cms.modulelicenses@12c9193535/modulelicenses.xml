@@ -45,7 +45,7 @@
       <OpenInDialog>False</OpenInDialog>
       <OrderBy>ResourceDisplayName</OrderBy>
       <ZeroRowsText ismacro="True">
-        <![CDATA[{% GetResourceString("modulelicenses.uilist.nolicenses") |(identity)GlobalAdministrator|(hash)f5df049c64c9be43c7023b3a9b7e8a788f22f0b05c1823c36d8c1193d88ad2e1%}]]>
+        <![CDATA[{% GetResourceString("modulelicenses.uilist.nolicenses") |(identity)GlobalAdministrator|(hash)789d1f62f4512d4e369f5569afbfd55b73a7e4b414d4a56674e336548e2212b6%}]]>
       </ZeroRowsText>
     </Data>
   </ElementProperties>

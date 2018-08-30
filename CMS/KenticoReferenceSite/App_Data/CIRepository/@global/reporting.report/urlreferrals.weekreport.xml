@@ -22,7 +22,7 @@
       <field column="FromDate" visible="true" columntype="datetime" fieldtype="CustomUserControl" publicfield="false" spellcheck="false" guid="ab8c20c2-4852-49e3-af06-47ca06dc180d" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddWeeks(-15).Date|(identity)GlobalAdministrator|(hash)94eed62dec88839e2bf9ca547da7ab135c9232a4c3e6195bcb8db5545c146127%}]]>
+            <![CDATA[{%CurrentDateTime.AddWeeks(-15).Date|(identity)GlobalAdministrator|(hash)ed5980358ecd00f2271e67d367ec8a71d6f0721417329690d5380813e260f197%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

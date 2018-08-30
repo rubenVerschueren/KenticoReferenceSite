@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Staging\",\"ManageServers\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Staging</t><v>CMS.Staging</v><r>false</r><d>select module</d><vt>text</vt></p><p n=\"permission\"><t>ManageServers</t><v>ManageServers</v><r>false</r><d>select permission</d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)71077833397661c79e7787faae7db79e42238ee58843d92f62ecdc1e95b8d7fb%}]]>
+    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Staging\",\"ManageServers\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Staging</t><v>CMS.Staging</v><r>false</r><d>select module</d><vt>text</vt></p><p n=\"permission\"><t>ManageServers</t><v>ManageServers</v><r>false</r><d>select permission</d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)091030db2cbe19e3cf313ceb20eab5a7dab84f0a0f1e07129036c41b2a35acdf%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$contentstaging.servers$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
@@ -40,7 +40,7 @@
       <ObjectType>staging.server</ObjectType>
       <OpenInDialog>False</OpenInDialog>
       <WhereCondition>
-        <![CDATA[ServerSiteID = {% CurrentSite.ID |(identity)GlobalAdministrator|(hash)7650ae484fa9063c21e71ecda8a1bd23d2797baaeb265ea03e3e74befefa2d53%}]]>
+        <![CDATA[ServerSiteID = {% CurrentSite.ID |(identity)GlobalAdministrator|(hash)7c54e8f858855e8d6c4447686ea681a993499ad5e3cb4dcf131bdb2657d74326%}]]>
       </WhereCondition>
       <ZeroRowsText>{$Server_List.nodatafound$}</ZeroRowsText>
     </Data>

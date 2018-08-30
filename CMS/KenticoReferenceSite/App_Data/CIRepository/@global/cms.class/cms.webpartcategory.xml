@@ -40,7 +40,7 @@
             <![CDATA[{$development-webpart_category.categorynamewebparttitle$}]]>
           </fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%CategoryName.Value != "/"|(identity)GlobalAdministrator|(hash)1e36e7769970ed7e4cf56a854841b54a70cbc2c072d2048f7f9599e744fb03af%}]]>
+            <![CDATA[{%CategoryName.Value != "/"|(identity)GlobalAdministrator|(hash)06471a17632b5fcf7fa16854054a8a3badc1e54624fdad5aca1b21d0bb4172e8%}]]>
           </visiblemacro>
         </properties>
         <settings>

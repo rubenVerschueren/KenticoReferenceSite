@@ -24,7 +24,7 @@
       <field column="Path" visible="" guid="781264e4-3b56-4431-bcc4-5deda3019da4">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[/Workgroups/{%CommunityContext.CurrentGroup.GroupName|(identity)GlobalAdministrator|(hash)fc78baeb7ce52cbced6c2755675437dbcfdd61d09c70ecd20a348e67b4a958b2%}/%]]>
+            <![CDATA[/Workgroups/{%CommunityContext.CurrentGroup.GroupName|(identity)GlobalAdministrator|(hash)2317ec7227921f9f2b1219959572eca968bc3c73034b1e0055f5fa3cf43e2c3d%}/%]]>
           </defaultvalue>
         </properties>
       </field>
@@ -128,7 +128,7 @@
           <defaultvalue ismacro="true">
 <![CDATA[
 </div>
-<a href="~/Workgroups/{%communitycontext.currentgroup.groupname|(identity)GlobalAdministrator|(hash)fc78baeb7ce52cbced6c2755675437dbcfdd61d09c70ecd20a348e67b4a958b2%}/Wiki.aspx">View all pages</a>
+<a href="~/Workgroups/{%communitycontext.currentgroup.groupname|(identity)GlobalAdministrator|(hash)2317ec7227921f9f2b1219959572eca968bc3c73034b1e0055f5fa3cf43e2c3d%}/Wiki.aspx">View all pages</a>
 ]]>
           </defaultvalue>
         </properties>

@@ -22,7 +22,7 @@
       <field column="FromDate" columntype="datetime" fieldtype="CustomUserControl" publicfield="false" guid="00f9400f-fb84-456d-9604-ad923c941a15" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddYears(-2).Date|(identity)GlobalAdministrator|(hash)9f60e56abf985b671bb2d5cb27cda4a48e6bd51897b83af0fb72a656e56d0942%}]]>
+            <![CDATA[{%CurrentDateTime.AddYears(-2).Date|(identity)GlobalAdministrator|(hash)ceadd00ff12cbfc44beda43e97533437024dc5078bc3eef7ecc7017a7cc9585d%}]]>
           </defaultvalue>
         </properties>
       </field>

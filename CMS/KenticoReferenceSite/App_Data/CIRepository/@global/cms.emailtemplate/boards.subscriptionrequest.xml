@@ -8,11 +8,11 @@
   <EmailTemplateName>Boards.subscriptionrequest</EmailTemplateName>
   <EmailTemplatePlainText>
 <![CDATA[
-You have requested subscription to our Message board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}. Please use the following URL to confirm your subscription.
+You have requested subscription to our Message board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}. Please use the following URL to confirm your subscription.
 
 Subscription URL: {%SubscriptionLink%}
 
-{%if(ToInt(OptInInterval,0)>0) {"NOTE: Confirmation link will be valid for next " + OptInInterval + " hours."} |(identity)GlobalAdministrator|(hash)480883a5ad6730bddf3d03b6d7c2499578f0444c087edafe8acee7fda2e17157%}
+{%if(ToInt(OptInInterval,0)>0) {"NOTE: Confirmation link will be valid for next " + OptInInterval + " hours."} |(identity)GlobalAdministrator|(hash)96eb4478f75b07150697b48ab2b8285e125294c8a8896122427bb4781ef1727e%}
 ]]>
   </EmailTemplatePlainText>
   <EmailTemplateSubject>Subscription request</EmailTemplateSubject>
@@ -30,9 +30,9 @@ Subscription URL: {%SubscriptionLink%}
 	</head>	
 	<body>
 	<p>
-	  You have requested subscription to our <strong>Message board</strong> {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)a70abc6772b489c38684b3f1b80c4d1e8d8c64f7d8cd827ce944e0253659cade%}. Please use the following link to confirm your subscription.<br />
+	  You have requested subscription to our <strong>Message board</strong> {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)91bd64fe04a5280e7796fa40b1c3c6a07a137810076bbc611119947fb658f957%}. Please use the following link to confirm your subscription.<br />
           <a href="{%SubscriptionLink%}">Click here to confirm the subscription</a><br /><br />
-          {%if(ToInt(OptInInterval,0)>0) {"NOTE: Confirmation link will be valid for next " + OptInInterval + " hours."} |(identity)GlobalAdministrator|(hash)480883a5ad6730bddf3d03b6d7c2499578f0444c087edafe8acee7fda2e17157%}
+          {%if(ToInt(OptInInterval,0)>0) {"NOTE: Confirmation link will be valid for next " + OptInInterval + " hours."} |(identity)GlobalAdministrator|(hash)96eb4478f75b07150697b48ab2b8285e125294c8a8896122427bb4781ef1727e%}
 	</p>
 	</body>
 </html>

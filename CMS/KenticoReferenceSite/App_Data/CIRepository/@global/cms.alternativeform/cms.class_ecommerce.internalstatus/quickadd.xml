@@ -23,7 +23,7 @@
         <properties>
           <visiblemacro ismacro="true">{%false%}</visiblemacro>
           <defaultvalue ismacro="true">
-            <![CDATA[{% if (!Settings.CMSStoreUseGlobalInternalStatus) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)e93d7b5c3f2c8c32ac931ef98c1f47b90b43a66288ba99913f5dcf9b94192b42%}]]>
+            <![CDATA[{% if (!Settings.CMSStoreUseGlobalInternalStatus) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)2959d7757e2f2699e40454aa3e256dfec74ebde997b8c076049474db2fb3b596%}]]>
           </defaultvalue>
           <fieldcaption>{$com.available$}</fieldcaption>
         </properties>

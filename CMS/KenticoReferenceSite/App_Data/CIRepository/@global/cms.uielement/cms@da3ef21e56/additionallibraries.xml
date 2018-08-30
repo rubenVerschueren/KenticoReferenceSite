@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%UIContext.EditedObject.ResourceIsInDevelopment && !UIContext.EditedObject.ResourceName.Equals("cms.customsystemmodule", true)|(identity)GlobalAdministrator|(hash)934a024cb23d343b2023e31bac01d1674aa1735f49c6d41c004beb541384c3a4%}]]>
+    <![CDATA[{%UIContext.EditedObject.ResourceIsInDevelopment && !UIContext.EditedObject.ResourceName.Equals("cms.customsystemmodule", true)|(identity)GlobalAdministrator|(hash)198ba14f246afe16890dae0fbd5b319949e9d0fa32d6a2cfd0bf8eea6c14bd2b%}]]>
   </ElementAccessCondition>
   <ElementCaption>Additional libraries</ElementCaption>
   <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>
@@ -53,6 +53,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%UIContext.EditedObject.ResourceIsInDevelopment && !UIContext.EditedObject.ResourceName.Equals("cms.customsystemmodule", true)|(identity)GlobalAdministrator|(hash)934a024cb23d343b2023e31bac01d1674aa1735f49c6d41c004beb541384c3a4%}]]>
+    <![CDATA[{%UIContext.EditedObject.ResourceIsInDevelopment && !UIContext.EditedObject.ResourceName.Equals("cms.customsystemmodule", true)|(identity)GlobalAdministrator|(hash)198ba14f246afe16890dae0fbd5b319949e9d0fa32d6a2cfd0bf8eea6c14bd2b%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

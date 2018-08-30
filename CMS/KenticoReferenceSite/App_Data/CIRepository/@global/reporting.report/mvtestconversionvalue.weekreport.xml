@@ -17,7 +17,7 @@
 	%%control:ReportGraph?mvtestconversionvalue.weekreport.graph%%<br />
 	&nbsp;</p>
 <p>
-	<span style="font-size:14px;"><strong>{%om.conversionvalue.results|(identity)GlobalAdministrator|(hash)804aa563a2c34fde0ed933d253993229c7de496d8deddc224e2603811bfb542c%}</strong></span></p>
+	<span style="font-size:14px;"><strong>{%om.conversionvalue.results|(identity)GlobalAdministrator|(hash)1b50c14c16faacbb8c419f48baf8784e25463fefee81127d943589d8b6711ae7%}</strong></span></p>
 <p>
 	%%control:ReportTable?mvtestconversionvalue.weekreport.table%%</p>
 <p>
@@ -35,7 +35,7 @@
       <field column="FromDate" visible="true" columntype="datetime" fieldtype="CustomUserControl" allowempty="true" publicfield="false" spellcheck="false" guid="7a87603b-60ec-420a-a955-dc19779a2db7" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddWeeks(-15).Date|(identity)GlobalAdministrator|(hash)94eed62dec88839e2bf9ca547da7ab135c9232a4c3e6195bcb8db5545c146127%}]]>
+            <![CDATA[{%CurrentDateTime.AddWeeks(-15).Date|(identity)GlobalAdministrator|(hash)ed5980358ecd00f2271e67d367ec8a71d6f0721417329690d5380813e260f197%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

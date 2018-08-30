@@ -63,13 +63,13 @@
       <field column="EmailTemplate" columnsize="450" columntype="text" guid="d9a2f538-e097-43b6-ae78-3d6fd6892ec4" publicfield="false" visibility="none" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%BasedOn.Value == "0"|(identity)GlobalAdministrator|(hash)4b37e834469972cb0a6f202163706ecf91c0791031ab02cc7530ac2e3ba1c68d%}]]>
+            <![CDATA[{%BasedOn.Value == "0"|(identity)GlobalAdministrator|(hash)57c00035a95437d925bfe1f98d1fb38de8ccde17454bb7d408f8da8e406d934c%}]]>
           </enabledmacro>
           <fieldcaption>{$ma.action.sendemails.template$}</fieldcaption>
           <fielddescription>{$ma.action.sendemails.template.desc$}</fielddescription>
           <validationerrormessage>{$emailtemplate_edit.fillcodenamefield$}</validationerrormessage>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BasedOn.Value == "0"|(identity)GlobalAdministrator|(hash)4b37e834469972cb0a6f202163706ecf91c0791031ab02cc7530ac2e3ba1c68d%}]]>
+            <![CDATA[{%BasedOn.Value == "0"|(identity)GlobalAdministrator|(hash)57c00035a95437d925bfe1f98d1fb38de8ccde17454bb7d408f8da8e406d934c%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -80,22 +80,22 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Length >= 1", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinLength\" ><p n=\"minlength\"><t>1</t><v>1</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)7208c87a7a9de472829fa097c67f3d9702f81c4f02f85ff1b4095c18dff2ec54%}]]>
+            <![CDATA[{%Rule("Value.Length >= 1", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinLength\" ><p n=\"minlength\"><t>1</t><v>1</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)0cf0cd9cea05536e81e22880a06816eddfa98e2679c252015c977b761406b7f1%}]]>
           </rule>
           <rule>
-            <![CDATA[{%Rule("Value.Matches(\"^(?!\\\\s*$).+\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^(?!\\s*$).+</t><v>^(?!\\s*$).+</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)0491f369570d2a10e88da8ac6affa0462b6fcf6e34450dd44d5284533d208723%}]]>
+            <![CDATA[{%Rule("Value.Matches(\"^(?!\\\\s*$).+\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^(?!\\s*$).+</t><v>^(?!\\s*$).+</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)b24bc6e08b9fece1c39efbbbab080416d40270d5d8bb71e00d72996cf909b219%}]]>
           </rule>
         </rules>
       </field>
       <field allowempty="true" column="Subject" columnsize="998" columntype="text" guid="45595d6d-814f-4590-a079-6dd895f9edc0" publicfield="false" visibility="none" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)2565dd802b8fd641e2bd7b83aec5cd9c0bbcb0b549f58f7c0c5cba82c3779213%}]]>
+            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)b4e970b9d8f9287d3be6a09d863b9e8e85f3e6ef4006ec229a632b220f0e7b68%}]]>
           </enabledmacro>
           <fieldcaption>{$general.subject$}</fieldcaption>
           <fielddescription>{$ma.action.sendemails.subject.desc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)2565dd802b8fd641e2bd7b83aec5cd9c0bbcb0b549f58f7c0c5cba82c3779213%}]]>
+            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)b4e970b9d8f9287d3be6a09d863b9e8e85f3e6ef4006ec229a632b220f0e7b68%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -110,12 +110,12 @@
       <field allowempty="true" column="Body" columntype="longtext" guid="f4ef4406-3691-44c1-9d02-8ad215c4ec24" publicfield="false" visibility="none" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)2565dd802b8fd641e2bd7b83aec5cd9c0bbcb0b549f58f7c0c5cba82c3779213%}]]>
+            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)b4e970b9d8f9287d3be6a09d863b9e8e85f3e6ef4006ec229a632b220f0e7b68%}]]>
           </enabledmacro>
           <fieldcaption>{$general.body$}</fieldcaption>
           <fielddescription>{$ma.action.sendemails.body.desc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)2565dd802b8fd641e2bd7b83aec5cd9c0bbcb0b549f58f7c0c5cba82c3779213%}]]>
+            <![CDATA[{%BasedOn.Value == "1"|(identity)GlobalAdministrator|(hash)b4e970b9d8f9287d3be6a09d863b9e8e85f3e6ef4006ec229a632b220f0e7b68%}]]>
           </visiblemacro>
         </properties>
         <settings>

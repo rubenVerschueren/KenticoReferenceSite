@@ -45,7 +45,7 @@
       <field column="WhereCondition" visible="false" guid="a94e8aa4-9604-4462-ba67-c5607644c1d1" ismacro="true">
         <properties>
           <defaultvalue>
-            <![CDATA[NodeOwner = '{%cmscontext.currentuser.userid|(identity)GlobalAdministrator|(hash)a0c17f0087eeb2290be56c1a880f8ded0502deac22ffbec88dd333c86d636ffb%}']]>
+            <![CDATA[NodeOwner = '{%cmscontext.currentuser.userid|(identity)GlobalAdministrator|(hash)7fefbe094f2d3303688f0ab1bdd37906379a37dbc263ebda29e0264bbecc42a9%}']]>
           </defaultvalue>
         </properties>
       </field>
@@ -86,7 +86,7 @@
       <field column="CacheDependencies" visible="false" guid="e538e91e-dbdd-4d10-aec8-51acfc3760d3" ismacro="true">
         <properties>
           <defaultvalue>
-            <![CDATA[nodes|{%ToLower(CurrentSite.SiteName)|(identity)GlobalAdministrator|(hash)04aa66246b0d69dfc97d37e3843d27336fa0b0207e9a7b6e5a396daed1bd357e%}|cms.blog|all]]>
+            <![CDATA[nodes|{%ToLower(CurrentSite.SiteName)|(identity)GlobalAdministrator|(hash)4731da80b0316a98fb189cf357820b465a8a2cbb3eb05118dec1162053e4414e%}|cms.blog|all]]>
           </defaultvalue>
         </properties>
       </field>

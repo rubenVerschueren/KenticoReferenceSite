@@ -22,7 +22,7 @@
       <field allowempty="true" column="AlreadyApprovedCaption" columnsize="100" columntype="text" guid="5c1bf011-362f-4ab1-b422-c8a1e847feea" publicfield="false" visible="true">
         <properties>
           <defaultvalue>
-            <![CDATA[You already are friend with {%CommunityContext.CurrentFriend.UserName|(identity)GlobalAdministrator|(hash)6373aeed1d04d53f48e189c46f2a7e6ac8c8acb1f9b7b115182b5388e611414e%}.]]>
+            <![CDATA[You already are friend with {%CommunityContext.CurrentFriend.UserName|(identity)GlobalAdministrator|(hash)b229d2c2ae58c03b2f835c842438c12f1ae31691096431e8612eba76c99549aa%}.]]>
           </defaultvalue>
           <fieldcaption>Already approved text</fieldcaption>
           <fielddescription>
@@ -36,7 +36,7 @@
       <field allowempty="true" column="ApprovedCaption" columnsize="100" columntype="text" guid="dcbe3ccd-c3b6-415d-8947-eab71c8d3208" publicfield="false" visibility="none" visible="true">
         <properties>
           <defaultvalue>
-            <![CDATA[You're now friend with {%CommunityContext.CurrentFriend.UserName|(identity)GlobalAdministrator|(hash)6373aeed1d04d53f48e189c46f2a7e6ac8c8acb1f9b7b115182b5388e611414e%}.]]>
+            <![CDATA[You're now friend with {%CommunityContext.CurrentFriend.UserName|(identity)GlobalAdministrator|(hash)b229d2c2ae58c03b2f835c842438c12f1ae31691096431e8612eba76c99549aa%}.]]>
           </defaultvalue>
           <fieldcaption>Approved text</fieldcaption>
           <fielddescription>
@@ -50,7 +50,7 @@
       <field allowempty="true" column="RejectedCaption" columnsize="100" columntype="text" guid="cb101f35-e5cd-4c1c-8c6a-26d0416d6d24" publicfield="false" visible="true">
         <properties>
           <defaultvalue>
-            <![CDATA[You rejected friendship with {%CommunityContext.CurrentFriend.UserName|(identity)GlobalAdministrator|(hash)6373aeed1d04d53f48e189c46f2a7e6ac8c8acb1f9b7b115182b5388e611414e%}.]]>
+            <![CDATA[You rejected friendship with {%CommunityContext.CurrentFriend.UserName|(identity)GlobalAdministrator|(hash)b229d2c2ae58c03b2f835c842438c12f1ae31691096431e8612eba76c99549aa%}.]]>
           </defaultvalue>
           <fieldcaption>Rejected text</fieldcaption>
           <fielddescription>Text displayed when friendship is being rejected.</fielddescription>
@@ -62,7 +62,7 @@
       <field allowempty="true" column="AlreadyRejectedCaption" columnsize="200" columntype="text" guid="955a4b06-9977-4e71-93f7-2e1cee5b126a" publicfield="false" visibility="none" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[You already rejected friendship with {%TrimSitePrefix(CommunityContext.CurrentFriend.UserName)|(identity)GlobalAdministrator|(hash)0daf8e7eb081107083c93daf66f4e36bb9be22b7008f8294b35c3df81d7c9acc%}.]]>
+            <![CDATA[You already rejected friendship with {%TrimSitePrefix(CommunityContext.CurrentFriend.UserName)|(identity)GlobalAdministrator|(hash)77b175594ee68327a89534fe43719e4b70d9085ed5ced4e60cf8d246e1a76daa%}.]]>
           </defaultvalue>
           <fieldcaption>Already rejected text</fieldcaption>
           <fielddescription>

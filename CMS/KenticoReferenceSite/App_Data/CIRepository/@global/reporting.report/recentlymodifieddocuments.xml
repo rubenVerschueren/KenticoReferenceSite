@@ -22,7 +22,7 @@
       <field column="ModifiedSince" visible="true" columntype="datetime" fieldtype="CustomUserControl" publicfield="false" spellcheck="false" guid="f5fc6aff-2c8d-4107-aae5-2782fc6dfeab" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddWeeks(-1)|(identity)GlobalAdministrator|(hash)55c5492c29df56a0f63a14afb9020d292d368c3d3b80c6d38a6608c50ce1e767%}]]>
+            <![CDATA[{%CurrentDateTime.AddWeeks(-1)|(identity)GlobalAdministrator|(hash)b48bf3be85ed0450723ad818513f73ca2cf1ba44f0ef13d62d697d7fd72dd790%}]]>
           </defaultvalue>
           <fieldcaption>Modified since</fieldcaption>
         </properties>

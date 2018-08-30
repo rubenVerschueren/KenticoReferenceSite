@@ -8,9 +8,9 @@
   <EmailTemplateName>Groups.MemberJoinedConfirmation</EmailTemplateName>
   <EmailTemplatePlainText>
 <![CDATA[
-Dear {%MemberUser.FirstName|(identity)GlobalAdministrator|(hash)d507aa30228a5514b75dd6dc609dd2ad8124ed44352dd79df51b2bce74e09e6c%},
+Dear {%MemberUser.FirstName|(identity)GlobalAdministrator|(hash)cac2e2167e8cf9adf8ca3da7930be520b9c823f56d17820ab0ddc664aa29c60c%},
 
-welcome to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.
+welcome to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)2833b065912c50f1eee73a004a230c43496bca47cdf43c416fca818f3cfa0f2c%}'.
 
 
 Best Regards,
@@ -25,9 +25,9 @@ The Community Team
 	<head>
 	</head>
 	<body>
-		<p>Dear {%MemberUser.FirstName|(identity)GlobalAdministrator|(hash)d507aa30228a5514b75dd6dc609dd2ad8124ed44352dd79df51b2bce74e09e6c%},<br />
+		<p>Dear {%MemberUser.FirstName|(identity)GlobalAdministrator|(hash)cac2e2167e8cf9adf8ca3da7930be520b9c823f56d17820ab0ddc664aa29c60c%},<br />
 		<br />
-		welcome to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.</p>
+		welcome to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)2833b065912c50f1eee73a004a230c43496bca47cdf43c416fca818f3cfa0f2c%}'.</p>
 		<br />
 		<br />
 		Best Regards,

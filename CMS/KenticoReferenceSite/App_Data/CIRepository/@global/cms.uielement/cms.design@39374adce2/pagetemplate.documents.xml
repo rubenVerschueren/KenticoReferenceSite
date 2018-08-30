@@ -40,7 +40,7 @@
   <ElementVisibilityCondition>
 <![CDATA[
 {%name = EditedObject.PageTemplateType;
-return name != "dashboard" && name != "UI"|(identity)GlobalAdministrator|(hash)2654539015ce9dd6320d4a28951fefa4e38a83e8b4b7e0677831bc0a7beb8b8d%}
+return name != "dashboard" && name != "UI"|(identity)GlobalAdministrator|(hash)2d0beb9b8a4a01457d3295a6014745981ab277f5bc8b5556ef2dd746ceffd3ac%}
 ]]>
   </ElementVisibilityCondition>
 </cms.uielement>

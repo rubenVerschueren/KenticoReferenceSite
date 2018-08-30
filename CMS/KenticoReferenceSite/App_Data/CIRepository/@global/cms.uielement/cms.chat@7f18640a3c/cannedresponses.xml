@@ -36,7 +36,7 @@
       <wherecondition>
 <![CDATA[
 ChatSupportCannedResponseChatUserID IS NULL 
-AND ( {%if (UIContext.SiteID == "-4") { return "ChatSupportCannedResponseSiteID IS NULL" } else{if (UIContext.SiteID == "-5"){return "ChatSupportCannedResponseSiteID IS NULL OR ChatSupportCannedResponseSiteID ="+ UIContext.SiteID} else { return "ChatSupportCannedResponseSiteID =" + UIContext.SiteID }}|(identity)GlobalAdministrator|(hash)241844612c55ca805212ad5fd7763bbb313c9688af114550a9d837fbff3baeb0%})
+AND ( {%if (UIContext.SiteID == "-4") { return "ChatSupportCannedResponseSiteID IS NULL" } else{if (UIContext.SiteID == "-5"){return "ChatSupportCannedResponseSiteID IS NULL OR ChatSupportCannedResponseSiteID ="+ UIContext.SiteID} else { return "ChatSupportCannedResponseSiteID =" + UIContext.SiteID }}|(identity)GlobalAdministrator|(hash)364e840ccf9d37bea5c40fd409c4909ae0aa44ac97fb5c62ded1422a535253b9%})
 ]]>
       </wherecondition>
     </data>

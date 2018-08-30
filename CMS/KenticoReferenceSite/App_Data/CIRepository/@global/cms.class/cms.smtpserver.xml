@@ -70,7 +70,7 @@
           <fieldcaption>{$smtpserver.deliverymethod$}</fieldcaption>
           <fielddescription>{$smtpserver.deliverymethoddesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%!SystemContext.IsRunningOnAzure|(identity)GlobalAdministrator|(hash)e4dd68fc29a7337c32a97242b1c8710dd8c14dcbcd99673acb2dfb719b736659%}]]>
+            <![CDATA[{%!SystemContext.IsRunningOnAzure|(identity)GlobalAdministrator|(hash)e453bfcb5aa0c351293dd02d62ff273b2c49f5908b5eb4b9bfa38fbba30fbb7b%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -86,7 +86,7 @@
         <properties>
           <fieldcaption>{$smtpserver_edit.serverusernamelabel$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%ServerDeliveryMethod.Value == 0|(identity)GlobalAdministrator|(hash)020bb10663da8b6c6328c8f3a3c3eb88ef38278a71e88c8464578415fda1ff3f%}]]>
+            <![CDATA[{%ServerDeliveryMethod.Value == 0|(identity)GlobalAdministrator|(hash)abef9b3df78b3ca7001853c80d931c7960d83e4e35e03668fd8e00c4be0f05fd%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -102,7 +102,7 @@
         <properties>
           <fieldcaption>{$general.password$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%ServerDeliveryMethod.Value == 0|(identity)GlobalAdministrator|(hash)020bb10663da8b6c6328c8f3a3c3eb88ef38278a71e88c8464578415fda1ff3f%}]]>
+            <![CDATA[{%ServerDeliveryMethod.Value == 0|(identity)GlobalAdministrator|(hash)abef9b3df78b3ca7001853c80d931c7960d83e4e35e03668fd8e00c4be0f05fd%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -114,7 +114,7 @@
           <defaultvalue>False</defaultvalue>
           <fieldcaption>{$system_email.ssl$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%ServerDeliveryMethod.Value == 0|(identity)GlobalAdministrator|(hash)020bb10663da8b6c6328c8f3a3c3eb88ef38278a71e88c8464578415fda1ff3f%}]]>
+            <![CDATA[{%ServerDeliveryMethod.Value == 0|(identity)GlobalAdministrator|(hash)abef9b3df78b3ca7001853c80d931c7960d83e4e35e03668fd8e00c4be0f05fd%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -126,7 +126,7 @@
           <fieldcaption>{$smtpserver.pickupdirectory$}</fieldcaption>
           <fielddescription>{$smtpserver.pickupdirectorydesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%ServerDeliveryMethod.Value == 1|(identity)GlobalAdministrator|(hash)ce7bfc291b7d29c000b3ff3426a8a4bd3ef845315f0e9edc465a707f851821cf%}]]>
+            <![CDATA[{%ServerDeliveryMethod.Value == 1|(identity)GlobalAdministrator|(hash)56b360c4b311a2bd3e385de6ffdb24f5a1519d2e9cb3379009adc80d77e2edbf%}]]>
           </visiblemacro>
         </properties>
         <settings>

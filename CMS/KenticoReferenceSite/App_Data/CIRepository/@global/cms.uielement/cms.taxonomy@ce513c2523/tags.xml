@@ -38,7 +38,7 @@
       </editactionurl>
       <displaybreadcrumbs>False</displaybreadcrumbs>
       <wherecondition>
-        <![CDATA[TagGroupID= {% ToInt(UIContext.ParentObjectID) |(identity)GlobalAdministrator|(hash)cacd7711a0e7be576341c4e7429428f19113773ccfc7ff7aade09d8c306d1124%}]]>
+        <![CDATA[TagGroupID= {% ToInt(UIContext.ParentObjectID) |(identity)GlobalAdministrator|(hash)780763f922957edbf211f3047d8edf079a232227456c7d24424b3efbe3933d04%}]]>
       </wherecondition>
     </data>
   </ElementProperties>

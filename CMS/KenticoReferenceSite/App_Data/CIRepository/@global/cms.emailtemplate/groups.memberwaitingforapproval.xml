@@ -8,7 +8,7 @@
   <EmailTemplateName>Groups.MemberWaitingForApproval</EmailTemplateName>
   <EmailTemplatePlainText>
 <![CDATA[
-User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)dd305481dd0207608802c019e410cca3fe74ce590a181bca8b2fc47d7262bf6a%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)292ff4f5f73c2e6d7184d651e470befd14643149ff9ae2a8c6ad9ac2075daa5b%}) is waiting for approval into group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.
+User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)d9dc3c70918ef65afd6e8ed15ba23ea5df787b34dd2db79f0885250c6fb439e8%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)aeb833f8934eaa4baf6f665214dc20998d7b960b7ba1229b4373f287d14245e2%}) is waiting for approval into group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)2833b065912c50f1eee73a004a230c43496bca47cdf43c416fca818f3cfa0f2c%}'.
 
 
 Best Regards,
@@ -23,7 +23,7 @@ The Community Team
 	<head>
 	</head>
 	<body>
-		<p>User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)dd305481dd0207608802c019e410cca3fe74ce590a181bca8b2fc47d7262bf6a%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)292ff4f5f73c2e6d7184d651e470befd14643149ff9ae2a8c6ad9ac2075daa5b%}) is waiting for approval into group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.</p>
+		<p>User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)d9dc3c70918ef65afd6e8ed15ba23ea5df787b34dd2db79f0885250c6fb439e8%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)aeb833f8934eaa4baf6f665214dc20998d7b960b7ba1229b4373f287d14245e2%}) is waiting for approval into group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)2833b065912c50f1eee73a004a230c43496bca47cdf43c416fca818f3cfa0f2c%}'.</p>
 		<br />
 		<br />
 		Best Regards,<br />

@@ -121,7 +121,7 @@
         <properties>
           <fieldcaption>{$om.scoring.page$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%!SiteContext.CurrentSite.SiteIsContentOnly|(identity)GlobalAdministrator|(hash)cd870f3b32d07306af22ef0b277559a6213231d8e6a8b11531c87bc0b39de074%}]]>
+            <![CDATA[{%!SiteContext.CurrentSite.SiteIsContentOnly|(identity)GlobalAdministrator|(hash)0b08c4f8a655f97cb74034d168d606f1ae3242f13c0a3d5c29718dd58400c658%}]]>
           </visiblemacro>
         </properties>
         <settings>

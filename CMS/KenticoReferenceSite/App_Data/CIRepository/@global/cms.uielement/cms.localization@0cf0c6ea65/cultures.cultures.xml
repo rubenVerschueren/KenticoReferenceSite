@@ -44,6 +44,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin)|(identity)GlobalAdministrator|(hash)a50f33d526294b9328c5a51f697fe70343acc8077ce919ace26e2ab3b6f8c4f3%}]]>
+    <![CDATA[{%CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin)|(identity)GlobalAdministrator|(hash)85702244a7b8fadb7774b31dc49a1b2ccb24ba23d2e81da7793271853b9f6ac1%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

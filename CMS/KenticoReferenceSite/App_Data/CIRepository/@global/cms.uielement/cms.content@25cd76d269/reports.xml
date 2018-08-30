@@ -34,6 +34,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%System.IsModuleLoaded("CMS.WebAnalytics")|(identity)GlobalAdministrator|(hash)eec155e45a08f11bb559633d9b17b8b909fa68cc8122529c3b6d4944bf76fcac%}]]>
+    <![CDATA[{%System.IsModuleLoaded("CMS.WebAnalytics")|(identity)GlobalAdministrator|(hash)e468e3edc194da4dc111f15c617011c0459a92177cdaa9a22511f55dcecde67e%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

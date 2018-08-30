@@ -32,7 +32,7 @@
     <data>
       <aftersavescript>
 <![CDATA[
-parent.location = '{% UIContext.GetElementUrl("cms.design", "Development.PageTemplates", false, EditedObject.ID) |(identity)GlobalAdministrator|(hash)3a33861683345cabf60c328222a190a4d1f62316c1593127f3c24e783a9bcc54%}';
+parent.location = '{% UIContext.GetElementUrl("cms.design", "Development.PageTemplates", false, EditedObject.ID) |(identity)GlobalAdministrator|(hash)6d5863c8cd8171777aa5090f9cf247f045e2a2992b08d5010113196ab2f97ca8%}';
 
 
 ]]>

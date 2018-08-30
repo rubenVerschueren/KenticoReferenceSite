@@ -50,7 +50,7 @@
           <ReturnColumnType>id</ReturnColumnType>
           <SelectionMode>6</SelectionMode>
           <Transformation>
-            <![CDATA[{%EditedObject.OrderShippingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)fdbc6cba3e829f445cec81dbc81eb38cae83211b23fa55fcba343d9d8f04ead4%}]]>
+            <![CDATA[{%EditedObject.OrderShippingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)388b08b84f7abe8b8779bacb977f287ee14c24b5bbb66f932f2453b9e74c2066%}]]>
           </Transformation>
           <UseAutocomplete>False</UseAutocomplete>
           <ValuesSeparator>;</ValuesSeparator>

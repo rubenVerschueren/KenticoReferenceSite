@@ -10,7 +10,7 @@
 <![CDATA[
 /* Variable determines whether global payment methods should be displayed */
 DECLARE @GlobalOptions bit;
-SET @GlobalOptions = {%Settings.CMSStoreAllowGlobalPaymentMethods?1:0|(identity)GlobalAdministrator|(hash)9b6a3a5af16aae0d64c40734326e7aab5d7d3317838e6677c5e26ba366a57a5f%};  
+SET @GlobalOptions = {%Settings.CMSStoreAllowGlobalPaymentMethods?1:0|(identity)GlobalAdministrator|(hash)da8ff647ec13f7f279cacc656a42346f32d8c6905196bcd2f43186e2449e5d5a%};  
 SELECT
    PaymentOptionDisplayName  AS '{$paymentoption_edit.itemlistlink$}',
    ISNULL(COUNT(OrderID),0) AS '{$ecommerce.report_numberoforders$}'

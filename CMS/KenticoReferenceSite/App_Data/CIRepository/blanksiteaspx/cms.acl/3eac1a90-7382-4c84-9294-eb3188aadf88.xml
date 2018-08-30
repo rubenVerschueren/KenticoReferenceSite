@@ -4,7 +4,7 @@
   <ACLInheritedACLs />
   <ACLSiteID>
     <CodeName>BlankSiteASPX</CodeName>
-    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <GUID>d8e499f0-bc01-4936-b85c-8608118dfc45</GUID>
     <ObjectType>cms.site</ObjectType>
   </ACLSiteID>
 </cms.acl>

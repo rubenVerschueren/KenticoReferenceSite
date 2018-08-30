@@ -27,13 +27,6 @@
         <ObjectType>cms.documenttype</ObjectType>
       </ParentClassID>
     </Binding>
-    <Binding id="cms.documenttype_CMS.ImageGallery">
-      <ParentClassID>
-        <CodeName>CMS.ImageGallery</CodeName>
-        <GUID>5d649c19-7348-47a3-9f19-356912545e8d</GUID>
-        <ObjectType>cms.documenttype</ObjectType>
-      </ParentClassID>
-    </Binding>
     <Binding id="cms.documenttype_CMS.MenuItem">
       <ParentClassID>
         <CodeName>CMS.MenuItem</CodeName>

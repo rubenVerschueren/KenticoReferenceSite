@@ -29,7 +29,7 @@
       <field column="ActivitySiteName" columnsize="200" columntype="text" guid="0560d6b1-ccf5-496f-8b91-342dd05f65eb" publicfield="false" visible="true">
         <properties>
           <defaultvalue>
-            <![CDATA[{% SiteContext.CurrentSiteName |(identity)GlobalAdministrator|(hash)5dcc6f649a1286bc8f2dae28ca99bff5e28ad7b155be1009ed778aff6cbf9ed1%}]]>
+            <![CDATA[{% SiteContext.CurrentSiteName |(identity)GlobalAdministrator|(hash)88910b80b8964e98b859480255d124b116560b6755913a164e3dc374ad46f9fe%}]]>
           </defaultvalue>
           <fieldcaption>{$om.activity.site$}</fieldcaption>
           <fielddescription>{$ma.action.logactivity.site.desc$}</fielddescription>

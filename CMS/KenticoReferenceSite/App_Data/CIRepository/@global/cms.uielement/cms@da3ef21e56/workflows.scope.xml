@@ -32,7 +32,7 @@
       <AllowGlobal>False</AllowGlobal>
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <EditActionURL ismacro="True">
-        <![CDATA[{% UIContext.GetElementUrl("CMS", "EditWorkflowScope", false) |(identity)GlobalAdministrator|(hash)afe4c35263c7b9e453fea0bc64582494c813c92946fb203fce73077e37658e82%}?siteID={% UIContext.SiteID |(identity)GlobalAdministrator|(hash)4925137182db17c53b51a74269b7e652c33f511e46567ccd2ab0911a951e5da7%}&scopeID={0}]]>
+        <![CDATA[{% UIContext.GetElementUrl("CMS", "EditWorkflowScope", false) |(identity)GlobalAdministrator|(hash)59efc52be009d360014c55f283da0d7abfd70d2dd621bf7f9e4a441d88a8ea85%}?siteID={% UIContext.SiteID |(identity)GlobalAdministrator|(hash)3a69cd9ea84cb5dd64c2859f06ecdc85076651ce1d2b9a3a5e0ecd59ab83e489%}&scopeID={0}]]>
       </EditActionURL>
       <ExtenderClassName>
         <![CDATA[CMS.WorkflowEngine.Web.UI.WorkflowScopeListControlExtender]]>
@@ -43,7 +43,7 @@
       <OrderBy>ScopeStartingPath, ScopeID</OrderBy>
       <SelectorType>Classic</SelectorType>
       <WhereCondition>
-        <![CDATA[ScopeWorkflowID = {% EditedObjectParent.ID |(identity)GlobalAdministrator|(hash)fd17beda88d4b93257726d54071fb9a52d7236f473f5bbac273bb593a0dd6468%} AND ScopeSiteID = {% UIContext.SiteID |(identity)GlobalAdministrator|(hash)4925137182db17c53b51a74269b7e652c33f511e46567ccd2ab0911a951e5da7%}]]>
+        <![CDATA[ScopeWorkflowID = {% EditedObjectParent.ID |(identity)GlobalAdministrator|(hash)b5bae29b63cd9c3717551bae955e17921a9e68fb0fa25c6fa1f7a0ee96aba142%} AND ScopeSiteID = {% UIContext.SiteID |(identity)GlobalAdministrator|(hash)3a69cd9ea84cb5dd64c2859f06ecdc85076651ce1d2b9a3a5e0ecd59ab83e489%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>
@@ -56,6 +56,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObject.IsDocumentWorkflow && (GlobalObjects.Sites.Count > 0)|(identity)GlobalAdministrator|(hash)d5bada9263be8b2842a59ee9a49708b279548b82bb845d3363798ae228cb27fd%}]]>
+    <![CDATA[{%EditedObject.IsDocumentWorkflow && (GlobalObjects.Sites.Count > 0)|(identity)GlobalAdministrator|(hash)2716472bab49a10e24bd657a7759666534a629e8fb6206faf4cb4a44e5893a73%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

@@ -40,6 +40,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObject.PageTemplateIsReusable && EditedObject.HasDesignMode && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) && !EditedObject.IsThemeFolderExternal && !EditedObject.IsAspx|(identity)GlobalAdministrator|(hash)f6e2073a68863fbe426a1fc4ca953577d200bb23aa4e4f514e2cecae1b984e01%}]]>
+    <![CDATA[{%EditedObject.PageTemplateIsReusable && EditedObject.HasDesignMode && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) && !EditedObject.IsThemeFolderExternal && !EditedObject.IsAspx|(identity)GlobalAdministrator|(hash)ed7d9507701164c59911595b0eb63ed5494d0e7e52e3b00d7e1ee471980e2c34%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

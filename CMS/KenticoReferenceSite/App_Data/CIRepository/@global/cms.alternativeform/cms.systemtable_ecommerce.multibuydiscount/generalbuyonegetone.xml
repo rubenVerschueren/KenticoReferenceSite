@@ -75,7 +75,7 @@ collections; {$com.multibuy.productsincollections$}
           <fieldcaption>{$com.multibuy.buyproductset$}</fieldcaption>
           <fielddescription>{$com.multibuy.buyproductsetdesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BuyDepartmentOrProduct.Value == "products"|(identity)GlobalAdministrator|(hash)d2d78c5357d733d37e4850af2f5ba0c66b2a5bd60ef964d73d6516cc5096a7be%}]]>
+            <![CDATA[{%BuyDepartmentOrProduct.Value == "products"|(identity)GlobalAdministrator|(hash)b948fbcce25fdfb73f4f202a9b0794672e116132a6d528d2652b0e3820eeac3e%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -118,7 +118,7 @@ collections; {$com.multibuy.productsincollections$}
           <fieldcaption>{$com.multibuy.departments$}</fieldcaption>
           <fielddescription>{$com.multibuy.buydepartmentsetdesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BuyDepartmentOrProduct.Value == "departments"|(identity)GlobalAdministrator|(hash)256c20bb7e77ed56be4ac68db79f7a323432c4cb27d36ab4ade7c1608b649c2d%}]]>
+            <![CDATA[{%BuyDepartmentOrProduct.Value == "departments"|(identity)GlobalAdministrator|(hash)b1dc3e7bbf6cc532c5f994690a641aa9aba157268fd3789291db0118ee7650ad%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -158,7 +158,7 @@ collections; {$com.multibuy.productsincollections$}
           <fieldcaption>{$com.multibuy.brands$}</fieldcaption>
           <fielddescription>{$com.multibuy.brands.description$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BuyDepartmentOrProduct.Value == "brands"|(identity)GlobalAdministrator|(hash)7da820a1371ea37889dd283e96e45880ed03e72ab96cab7115074a7acd6b7971%}]]>
+            <![CDATA[{%BuyDepartmentOrProduct.Value == "brands"|(identity)GlobalAdministrator|(hash)2337f89b4e1547bad9c74affbbf06944b270a4c35e564c2d1af918a57579c513%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -188,7 +188,7 @@ collections; {$com.multibuy.productsincollections$}
           <UseDefaultNameFilter>True</UseDefaultNameFilter>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
-            <![CDATA[BrandSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)b61114579c9eb7dbc8478d538fdbf40bd3bdac069784d208796b0503504b4204%}]]>
+            <![CDATA[BrandSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)324f4b862ace36fe54067970958d9ee126c3100ca0b352e14efbb8cb2b5eda61%}]]>
           </WhereCondition>
         </settings>
       </field>
@@ -198,7 +198,7 @@ collections; {$com.multibuy.productsincollections$}
           <fieldcaption>{$com.multibuy.collections$}</fieldcaption>
           <fielddescription>{$com.multibuy.collections.description$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BuyDepartmentOrProduct.Value == "collections"|(identity)GlobalAdministrator|(hash)c210ef32c84d7d4212680d3f08e43a46ba3ee6cc7fb351ed3cb331f9ab8af053%}]]>
+            <![CDATA[{%BuyDepartmentOrProduct.Value == "collections"|(identity)GlobalAdministrator|(hash)afcd6a0426736a814de81093f7156e621299cb3dd2ec8b9e1a2385e5fd67355f%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -228,7 +228,7 @@ collections; {$com.multibuy.productsincollections$}
           <UseDefaultNameFilter>True</UseDefaultNameFilter>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
-            <![CDATA[CollectionSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)b61114579c9eb7dbc8478d538fdbf40bd3bdac069784d208796b0503504b4204%}]]>
+            <![CDATA[CollectionSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)324f4b862ace36fe54067970958d9ee126c3100ca0b352e14efbb8cb2b5eda61%}]]>
           </WhereCondition>
         </settings>
         <rules>
@@ -243,7 +243,7 @@ collections; {$com.multibuy.productsincollections$}
           <fieldcaption>{$com.multibuy.sections$}</fieldcaption>
           <fielddescription>{$com.multibuy.buysectionsetdesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BuyDepartmentOrProduct.Value == "sections"|(identity)GlobalAdministrator|(hash)eb898b2e2486b094339d7c9647cb7305b2d2973c5ed7d948bca4d549202138d1%}]]>
+            <![CDATA[{%BuyDepartmentOrProduct.Value == "sections"|(identity)GlobalAdministrator|(hash)6d088ba3b8ba98da264ee3d9b93e77fccd9942f17b4562aa7366795251e1f661%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -272,7 +272,7 @@ collections; {$com.multibuy.productsincollections$}
         <properties>
           <fieldcaption>{$com.multibuy.excludeany$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%BuyDepartmentOrProduct.Value != "products"|(identity)GlobalAdministrator|(hash)b3b67e52d977097bf3f6d5825af3193b0c2242e44fcb1cd234d524dc532a8c8a%}]]>
+            <![CDATA[{%BuyDepartmentOrProduct.Value != "products"|(identity)GlobalAdministrator|(hash)c6f0b550c751d115bcfcc02b2987b2ecba13368d9c4102e728e16a93942edb63%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -282,9 +282,9 @@ collections; {$com.multibuy.productsincollections$}
           <Options>
 <![CDATA[
 none;{$general.selectnone$}
-sections;{$com.multibuy.productsinsections$};{%BuyDepartmentOrProduct.Value != "products" |(identity)GlobalAdministrator|(hash)e56a7c489ab202410a0f4204fcad741e1425e4e9d7e91d5407a9b7dcf9933592%}
-brands;{$com.multibuy.productsinbrands$};{%BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "collections" || BuyDepartmentOrProduct.Value == "sections" |(identity)GlobalAdministrator|(hash)7c8fdf08918adeb79b30996465524a71275dbc8e4d495fb09d619e96966b6f4a%}
-collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "brands" || BuyDepartmentOrProduct.Value == "sections" |(identity)GlobalAdministrator|(hash)14bc4ceb8e061fff921e8213f21fff9567d7b5e7d9af0d10441c42ba347d1d50%}
+sections;{$com.multibuy.productsinsections$};{%BuyDepartmentOrProduct.Value != "products" |(identity)GlobalAdministrator|(hash)52d177c532317783b1982e2886d3ea3ef15540e5d871d0b91100eefeca7869b1%}
+brands;{$com.multibuy.productsinbrands$};{%BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "collections" || BuyDepartmentOrProduct.Value == "sections" |(identity)GlobalAdministrator|(hash)4a89e9fdbbe588fd639385ff01508493f7f484f4dc98a562dc86e944afe18977%}
+collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "brands" || BuyDepartmentOrProduct.Value == "sections" |(identity)GlobalAdministrator|(hash)6c9336a2979684b1c20ca05291cceec01aa92e25b8c4cad64b6a0d62fe9a55a2%}
 ]]>
           </Options>
           <SortItems>False</SortItems>
@@ -295,7 +295,7 @@ collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Valu
           <controlcssclass>multibuydiscount-selector</controlcssclass>
           <fieldcaption>{$com.multibuy.excludedbrands$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Exclude.Value == "brands" && (BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "collections" || BuyDepartmentOrProduct.Value == "sections")|(identity)GlobalAdministrator|(hash)6269e4bcf3b2effa6a254586bbb39e545e0f6f3a1e9051b3e65d4c9c774ff15e%}]]>
+            <![CDATA[{%Exclude.Value == "brands" && (BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "collections" || BuyDepartmentOrProduct.Value == "sections")|(identity)GlobalAdministrator|(hash)d1f4d7cc42e31f6999273a5b7207787a2102c689842956871956be1562badf17%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -325,7 +325,7 @@ collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Valu
           <UseDefaultNameFilter>True</UseDefaultNameFilter>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
-            <![CDATA[BrandSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)b61114579c9eb7dbc8478d538fdbf40bd3bdac069784d208796b0503504b4204%}]]>
+            <![CDATA[BrandSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)324f4b862ace36fe54067970958d9ee126c3100ca0b352e14efbb8cb2b5eda61%}]]>
           </WhereCondition>
         </settings>
       </field>
@@ -334,7 +334,7 @@ collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Valu
           <controlcssclass>multibuydiscount-selector</controlcssclass>
           <fieldcaption>{$com.multibuy.excludedcollections$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Exclude.Value == "collections" && (BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "brands" || BuyDepartmentOrProduct.Value == "sections")|(identity)GlobalAdministrator|(hash)0682e46452af6f3c2d53736c32d446e1e865e8ff951b0dbf09c357f114efd570%}]]>
+            <![CDATA[{%Exclude.Value == "collections" && (BuyDepartmentOrProduct.Value == "departments" || BuyDepartmentOrProduct.Value == "brands" || BuyDepartmentOrProduct.Value == "sections")|(identity)GlobalAdministrator|(hash)b7eb630ae535d5570fea14ec7c0e682f2c5ad56df0d8cf415e19be03944ad79b%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -364,7 +364,7 @@ collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Valu
           <UseDefaultNameFilter>True</UseDefaultNameFilter>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
-            <![CDATA[CollectionSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)b61114579c9eb7dbc8478d538fdbf40bd3bdac069784d208796b0503504b4204%}]]>
+            <![CDATA[CollectionSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)324f4b862ace36fe54067970958d9ee126c3100ca0b352e14efbb8cb2b5eda61%}]]>
           </WhereCondition>
         </settings>
       </field>
@@ -373,7 +373,7 @@ collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Valu
           <controlcssclass>multibuydiscount-selector</controlcssclass>
           <fieldcaption>{$com.multibuy.excludedsections$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Exclude.Value == "sections" && BuyDepartmentOrProduct.Value != "products"|(identity)GlobalAdministrator|(hash)0e3c11a1fc7a70b783e8fd18caf807b0748bb8e43433c6da27390249d0388d0a%}]]>
+            <![CDATA[{%Exclude.Value == "sections" && BuyDepartmentOrProduct.Value != "products"|(identity)GlobalAdministrator|(hash)9d2f4c26aa67b265e1c341578fa2cc7a5dfa99474e23d8a6ea9b7fddc3eef5d0%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -416,7 +416,7 @@ collections;{$com.multibuy.productsincollections$};{%BuyDepartmentOrProduct.Valu
             <![CDATA[{%Rule("Value >= 1", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinValue\" ><p n=\"minvalue\"><t>1</t><v>1</v><r>0</r><d></d><vt>double</vt><tv>0</tv></p></r></rules>")%}]]>
           </rule>
           <rule errormsg="{$com.multibuy.validationmaxvalue$}">
-            <![CDATA[{%Rule("Value.Length <= 5", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>5</t><v>5</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)667d58428742b8c9ee6a4fc14cf890200fdd4131350e1bd3b99e2be8cac03eeb%}]]>
+            <![CDATA[{%Rule("Value.Length <= 5", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>5</t><v>5</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)aece14140896793fa05c30741b85becef6030299d2d95b73e94a9e649056ccff%}]]>
           </rule>
         </rules>
       </field>
@@ -461,7 +461,7 @@ specificUnit; {$com.multibuy.specificproductoption$}
           <fieldcaption>{$com.multibuy.specificproduct$}</fieldcaption>
           <validationerrormessage>{$com.multibuydiscount.applytoskuid$}</validationerrormessage>
           <visiblemacro ismacro="true">
-            <![CDATA[{%GetSpecificOrCheapestUnit.Value == "specificUnit"|(identity)GlobalAdministrator|(hash)b61fa2caf2f1ab533ae85162e1bbbe5546ef894691b4682d14da8255a4f822d2%}]]>
+            <![CDATA[{%GetSpecificOrCheapestUnit.Value == "specificUnit"|(identity)GlobalAdministrator|(hash)1a4dd1a0ff0f0edb179d34e97bdee3098f73c27bb2da0322685f66c3f646f1cd%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -502,7 +502,7 @@ true; {$com.discount.fixedamount$}
 	{
 		"%"
 	}
-|(identity)GlobalAdministrator|(hash)45968b313cbe472164bd1c2000827782f867f6c02c871cab76fb2667cd5ed185%}	
+|(identity)GlobalAdministrator|(hash)766d0ac2e912be2030491a6f51f3192634a6fe6653e81b92db3b0b0dbb796ba1%}	
 </span>
 ]]>
           </contentafter>
@@ -512,7 +512,7 @@ true; {$com.discount.fixedamount$}
         </properties>
         <rules>
           <rule errormsg="{$com.discount.amountpercentage$}">
-            <![CDATA[{%Rule("(MultiBuyDiscountIsFlat.Value? true: Value<=100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>MultiBuyDiscountIsFlat.Value? true: Value&lt;=100</t><v>MultiBuyDiscountIsFlat.Value? true: Value&lt;=100</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)fb023769a67a89dc7a151da701f4da68bec0cdcfe8a3391df7a7501c96224dc1%}]]>
+            <![CDATA[{%Rule("(MultiBuyDiscountIsFlat.Value? true: Value<=100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>MultiBuyDiscountIsFlat.Value? true: Value&lt;=100</t><v>MultiBuyDiscountIsFlat.Value? true: Value&lt;=100</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)7581eb20ab7f723bea56c181bd642b3ba589b44529af9377dc91cd620f445f96%}]]>
           </rule>
           <rule errormsg="{$com.discount.minamount$}">
             <![CDATA[{%Rule("(Value > 0)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>Value &gt; 0</t><v>Value &gt; 0</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")%}]]>
@@ -527,7 +527,7 @@ true; {$com.discount.fixedamount$}
           <defaultvalue>False</defaultvalue>
           <fieldcaption>{$com.multibuy.addtocartautomatically$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%(!MultiBuyDiscountIsFlat.Value && (GetSpecificOrCheapestUnit.Value == "specificUnit") && MultiBuyDiscountValue.Value == "100")|(identity)GlobalAdministrator|(hash)5f60b4d718ecd8afed01cc7ad033e45220c6dc9ed10e3f99a474af504b504366%}]]>
+            <![CDATA[{%(!MultiBuyDiscountIsFlat.Value && (GetSpecificOrCheapestUnit.Value == "specificUnit") && MultiBuyDiscountValue.Value == "100")|(identity)GlobalAdministrator|(hash)dd77cc021603186d0e85fee3d5a0b2e1650603ffd40124454c183e5342bea6b4%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -545,7 +545,7 @@ true; {$com.discount.fixedamount$}
           <contentafter>
 <![CDATA[
 <span ID="CouponsInfoLabel" class="form-control-text" style="display:none;" >
-{% GetResourceString("com.discount.couponsredirect")|(identity)GlobalAdministrator|(hash)8b8f0ef3dc459f1ab0cb31fac255e2f4328764aac9d407c174e51e3015604471%}
+{% GetResourceString("com.discount.couponsredirect")|(identity)GlobalAdministrator|(hash)4333710d5ebaf51ce691f62626c8ad62035ea13eb9c87cbc13e24f4d40976990%}
 </span>
 </div>
 ]]>
@@ -586,7 +586,7 @@ true; {$com.discount.fixedamount$}
       <field column="MultiBuyDiscountRoles" guid="72f32911-f3a6-4f65-b867-54c9e3379835" visible="true" order="32">
         <properties>
           <visiblemacro ismacro="true">
-            <![CDATA[{%MultiBuyDiscountCustomerRestriction.Value == "SelectedRoles"|(identity)GlobalAdministrator|(hash)b8f2b303d81f15823fa307755da2f1b3a05447e144f9aa6ffc306a8f47614d74%}]]>
+            <![CDATA[{%MultiBuyDiscountCustomerRestriction.Value == "SelectedRoles"|(identity)GlobalAdministrator|(hash)94eab54b193d9a2b86ab85fcfa53498b583e7e24aa3e919965586281be44890e%}]]>
           </visiblemacro>
           <enabledmacro />
         </properties>
@@ -616,7 +616,7 @@ true; {$com.discount.fixedamount$}
         </settings>
         <properties>
           <contentafter>
-            <![CDATA[<span class="form-control-text">{% GetResourceString("com.discount.times") |(identity)GlobalAdministrator|(hash)1b9ca934669b1de535ad1a6131037d15b821e858aff42e1ca97bdc32641453fd%}</span> ]]>
+            <![CDATA[<span class="form-control-text">{% GetResourceString("com.discount.times") |(identity)GlobalAdministrator|(hash)823f7471deae9aed2bcec651962cc01c519ad83251f46a2b02969e3abca48e31%}</span> ]]>
           </contentafter>
           <fieldcaption>{$com.discount.limitperordershort$}</fieldcaption>
           <fielddescription>{$com.discount.limitperorderdesc$}</fielddescription>

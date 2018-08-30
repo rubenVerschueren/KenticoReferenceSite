@@ -638,7 +638,7 @@ False;No
           <collapsedbydefault>true</collapsedbydefault>
           <collapsible>true</collapsible>
           <visible ismacro="true">
-            <![CDATA[{% IsModuleLoaded("CMS.WebAnalytics") || IsModuleLoaded("CMS.ContactManagement") |(identity)GlobalAdministrator|(hash)a4ca05c88101665609c8730a46ba424c3b5a5393155174ae8409cefb6cbfc6c2%}]]>
+            <![CDATA[{% IsModuleLoaded("CMS.WebAnalytics") || IsModuleLoaded("CMS.ContactManagement") |(identity)GlobalAdministrator|(hash)9af316a1e9ab73b9867607af3c8ec4d3041c7965885a9809cf9d48d7f3b33a24%}]]>
           </visible>
         </properties>
       </category>
@@ -648,7 +648,7 @@ False;No
           <fieldcaption>{$smartsearch.predictivelogsearchactivity$}</fieldcaption>
           <fielddescription>{$smartsearch.predictivelogsearchactivitydesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%IsModuleLoaded("CMS.ContactManagement")|(identity)GlobalAdministrator|(hash)6d082102d25adbce1766023cbfd1e5b26bdcb19006e749e932f4501117e04541%}]]>
+            <![CDATA[{%IsModuleLoaded("CMS.ContactManagement")|(identity)GlobalAdministrator|(hash)6db2f932f76a08b53983d9f0f969f9e07f70cb14101594668e194b5c7b316af3%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -661,7 +661,7 @@ False;No
           <fieldcaption>{$smartsearch.trackwebanalyticskeywords$}</fieldcaption>
           <fielddescription>{$smartsearch.trackwebanalyticskeywordsdesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%IsModuleLoaded("CMS.WebAnalytics")|(identity)GlobalAdministrator|(hash)2ee06405486bb9787b2a9d755a38ca82788b125871e7b24d9af5cfed38a48a5f%}]]>
+            <![CDATA[{%IsModuleLoaded("CMS.WebAnalytics")|(identity)GlobalAdministrator|(hash)6c8dcc4533faf33bfc077e26ede3ef8d7a90006711e36224526d80f7de51e853%}]]>
           </visiblemacro>
         </properties>
         <settings>

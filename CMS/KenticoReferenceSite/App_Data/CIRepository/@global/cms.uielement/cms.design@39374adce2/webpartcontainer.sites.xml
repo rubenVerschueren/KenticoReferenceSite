@@ -50,6 +50,6 @@
   <ElementTargetURL />
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%!UIContext.IsDialog|(identity)GlobalAdministrator|(hash)5d739afdcab6208ac960da80d995a2157542fec7342de6cec4fc131656618c2b%}]]>
+    <![CDATA[{%!UIContext.IsDialog|(identity)GlobalAdministrator|(hash)21e97f89221ca2e97cd09cef180b2edd5f9736830695d8a0f183f96be90cb528%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

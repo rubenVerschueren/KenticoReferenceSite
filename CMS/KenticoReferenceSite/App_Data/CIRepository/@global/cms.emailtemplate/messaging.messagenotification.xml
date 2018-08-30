@@ -5,13 +5,13 @@
   <EmailTemplateName>messaging.messagenotification</EmailTemplateName>
   <EmailTemplatePlainText>
 <![CDATA[
-Hello {%TrimSitePrefix(Recipient.UserName)|(identity)GlobalAdministrator|(hash)20e2f92ca961ba70f12e4a6a953673d3aa5b284be061b17c2f694bd4763469f9%}, 
-you've just recieved new message from user '{%TrimSitePrefix(Sender.UserName)|(identity)GlobalAdministrator|(hash)9b29448c10ac1e14571b9756dc6ae18568c0c56597562084c0801db39ef49c91%}'. 
+Hello {%TrimSitePrefix(Recipient.UserName)|(identity)GlobalAdministrator|(hash)a679b118971522ae563bc99d82c96d27b88d822b061a126f69de1b545e318f06%}, 
+you've just recieved new message from user '{%TrimSitePrefix(Sender.UserName)|(identity)GlobalAdministrator|(hash)87e0770f84abf4aff378ae21ea19d1cdf2daca1907912f4a1b30193fce83a0c8%}'. 
 Original message: 
 
 --------------------------------------------------------------------------------
 
-{%ResolveBBCode(Message.MessageBody)|(identity)GlobalAdministrator|(hash)60f0b1459a57517722d092fda7227083ed935514155120bdb1c1952fe17e76d6%} 
+{%ResolveBBCode(Message.MessageBody)|(identity)GlobalAdministrator|(hash)e1dcf23c42355322970e1b19a612b5b92e6523d767a28284c27c007362047d8c%} 
 
 --------------------------------------------------------------------------------
 
@@ -26,14 +26,14 @@ Logon URL: {%LogonUrl%}
 	</head>
 	<body style="font-size: 12px; font-family: arial">
 <p>
-Hello {%TrimSitePrefix(Recipient.UserName)|(identity)GlobalAdministrator|(hash)20e2f92ca961ba70f12e4a6a953673d3aa5b284be061b17c2f694bd4763469f9%},
+Hello {%TrimSitePrefix(Recipient.UserName)|(identity)GlobalAdministrator|(hash)a679b118971522ae563bc99d82c96d27b88d822b061a126f69de1b545e318f06%},
 <br />
-you've just recieved new message from user <strong>'{%TrimSitePrefix(Sender.UserName)|(identity)GlobalAdministrator|(hash)9b29448c10ac1e14571b9756dc6ae18568c0c56597562084c0801db39ef49c91%}'</strong>.
+you've just recieved new message from user <strong>'{%TrimSitePrefix(Sender.UserName)|(identity)GlobalAdministrator|(hash)87e0770f84abf4aff378ae21ea19d1cdf2daca1907912f4a1b30193fce83a0c8%}'</strong>.
 <br />
 Original message:
 <br />
 <hr />
-{%ResolveBBCode(Message.MessageBody)|(identity)GlobalAdministrator|(hash)60f0b1459a57517722d092fda7227083ed935514155120bdb1c1952fe17e76d6%}
+{%ResolveBBCode(Message.MessageBody)|(identity)GlobalAdministrator|(hash)e1dcf23c42355322970e1b19a612b5b92e6523d767a28284c27c007362047d8c%}
 <hr/>
 <br />
 You can use following <a href="{%LogonUrl%}">link</a> to logon to site and check new message.

@@ -38,7 +38,7 @@ Company;Business
         <properties>
           <fieldcaption>Company</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)c0a01f317be8fad36d37339e70613570a684dbef9794949d4cdf59c541c0eb32%}]]>
+            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)528ac245ff66d3b8d5792a0bbc98ec28f98a30eaafe508678e7f91fe95538618%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -53,7 +53,7 @@ Company;Business
         <properties>
           <fieldcaption>Organization ID</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)c0a01f317be8fad36d37339e70613570a684dbef9794949d4cdf59c541c0eb32%}]]>
+            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)528ac245ff66d3b8d5792a0bbc98ec28f98a30eaafe508678e7f91fe95538618%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -68,7 +68,7 @@ Company;Business
         <properties>
           <fieldcaption>Tax registration ID</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)c0a01f317be8fad36d37339e70613570a684dbef9794949d4cdf59c541c0eb32%}]]>
+            <![CDATA[{%AccountType.Value == "Company"|(identity)GlobalAdministrator|(hash)528ac245ff66d3b8d5792a0bbc98ec28f98a30eaafe508678e7f91fe95538618%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -102,13 +102,13 @@ Company;Business
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% CMSContext.CurrentUser.Email |(identity)GlobalAdministrator|(hash)87f3d5bfcf98de3949de87dc021103839cac1b92a2aa807030d124d9ebd585fb%}]]>
+            <![CDATA[{% CMSContext.CurrentUser.Email |(identity)GlobalAdministrator|(hash)81c4027f2ac185518c0e36abcf379f515bf273099f92fb7ff9ed865bec07a5c2%}]]>
           </defaultvalue>
           <fieldcaption>E-mail</fieldcaption>
         </properties>
         <rules>
           <rule>
-            <![CDATA[{%Rule("(Value.Length <= 100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)74ad2e69b4696a16a36086609bc887c9bc5331181d34f39d00f21f8b6ff10b16%}]]>
+            <![CDATA[{%Rule("(Value.Length <= 100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)c4ec9c81347f432da7da3584e41d55c1cde54ce88f096aab84bfd4e88962b254%}]]>
           </rule>
         </rules>
       </field>

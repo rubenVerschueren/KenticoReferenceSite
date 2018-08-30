@@ -5,7 +5,7 @@
   <EmailTemplateName>Membership.RegistrationWaitingForApproval</EmailTemplateName>
   <EmailTemplatePlainText>
 <![CDATA[
-Thank you for registering at our site {%currentsite.sitename|(identity)GlobalAdministrator|(hash)5af13fc13cbac0a97cd1d86cb70cbed0e189917c802c5501e96b8a7366096b12%}. Your registration must be approved by administrator.
+Thank you for registering at our site {%currentsite.sitename|(identity)GlobalAdministrator|(hash)3e4e0e3f98fbb5a194fd4b5e4e5f79bc90ffe8e1fd38018adccf041390092cb7%}. Your registration must be approved by administrator.
 
 ]]>
   </EmailTemplatePlainText>
@@ -16,7 +16,7 @@ Thank you for registering at our site {%currentsite.sitename|(identity)GlobalAdm
 	<head>
 	</head>
 	<body>
-		Thank you for registering at our site&nbsp;{%currentsite.sitename|(identity)GlobalAdministrator|(hash)5af13fc13cbac0a97cd1d86cb70cbed0e189917c802c5501e96b8a7366096b12%}. Your registration must be approved by administrator.<br />
+		Thank you for registering at our site&nbsp;{%currentsite.sitename|(identity)GlobalAdministrator|(hash)3e4e0e3f98fbb5a194fd4b5e4e5f79bc90ffe8e1fd38018adccf041390092cb7%}. Your registration must be approved by administrator.<br />
 	</body>
 </html>
 ]]>

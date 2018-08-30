@@ -10,14 +10,14 @@
 <![CDATA[
 New comment was added to the blog post you are subscribed to:
 
-Blog post: {%BlogPost.DocumentName|(identity)GlobalAdministrator|(hash)ffdf43a7d47ef16787a8f20ba9b6640023315ee69b6813bc98ebe6f35f18f3b9%}
+Blog post: {%BlogPost.DocumentName|(identity)GlobalAdministrator|(hash)d962f11ffe00531cb72f4723dd8d14a98300a517bf3bca81a4a8c98c65793376%}
 Blog post URL: {%BlogPostLink%}
-Blog: {%Blog.DocumentName|(identity)GlobalAdministrator|(hash)50e46f44f7eff982238fe417fc05b5fb844fdc85e6d0dfe09a8bf2aae0b2d4cd%}
+Blog: {%Blog.DocumentName|(identity)GlobalAdministrator|(hash)48993b78c8b027cf75b668ced105396526d0552962fda8e50fb4a5f7c74da0ed%}
 Blog URL: {%BlogLink%}
-Added by: {%TrimSitePrefix(Comment.CommentUserName)|(identity)GlobalAdministrator|(hash)7c323b2aab5586247033b208ad08a65b79ce21bb0649c004ff284e66829db63a%}
-Date and time: {%Comment.CommentDate|(identity)GlobalAdministrator|(hash)59d0be075683c604cac902e71d38125d56f997673397f93a41ddc8cc06368c38%}
+Added by: {%TrimSitePrefix(Comment.CommentUserName)|(identity)GlobalAdministrator|(hash)86e7428b9726f0d2e6dcd4007dba48c40cfe274c98bd84d74b6f7d38e58c1e53%}
+Date and time: {%Comment.CommentDate|(identity)GlobalAdministrator|(hash)67cecc417c97b1077f60af92d71e41736b0f5d68192385e6704819b7fb625b2b%}
 
-Text: {%Comment.CommentText|(identity)GlobalAdministrator|(hash)aca68c7fb1b723a18cc57018c488f0ec7118b6b2fd06aa51edd4bdb397a9bd1e%}
+Text: {%Comment.CommentText|(identity)GlobalAdministrator|(hash)55e50066158ea6438692c90f4596813b5d6733e338f1dafc7477d5a87ede90e9%}
 
 Unsubscription URL: {%unsubscriptionlink%}
 
@@ -25,7 +25,7 @@ Unsubscription URL: {%unsubscriptionlink%}
 ]]>
   </EmailTemplatePlainText>
   <EmailTemplateSubject>
-    <![CDATA[New comment was added to the blog post {%BlogPost.DocumentName|(identity)GlobalAdministrator|(hash)ffdf43a7d47ef16787a8f20ba9b6640023315ee69b6813bc98ebe6f35f18f3b9%}]]>
+    <![CDATA[New comment was added to the blog post {%BlogPost.DocumentName|(identity)GlobalAdministrator|(hash)d962f11ffe00531cb72f4723dd8d14a98300a517bf3bca81a4a8c98c65793376%}]]>
   </EmailTemplateSubject>
   <EmailTemplateText>
 <![CDATA[
@@ -49,7 +49,7 @@ Unsubscription URL: {%unsubscriptionlink%}
     <strong>Blog post:&nbsp;</strong>
     </td>
     <td>
-    <a href="{%BlogPostLink%}">{%BlogPost.DocumentName|(identity)GlobalAdministrator|(hash)ffdf43a7d47ef16787a8f20ba9b6640023315ee69b6813bc98ebe6f35f18f3b9%}</a>
+    <a href="{%BlogPostLink%}">{%BlogPost.DocumentName|(identity)GlobalAdministrator|(hash)d962f11ffe00531cb72f4723dd8d14a98300a517bf3bca81a4a8c98c65793376%}</a>
     </td>
     </tr>
     <tr valign="top">
@@ -57,7 +57,7 @@ Unsubscription URL: {%unsubscriptionlink%}
     <strong>Blog:&nbsp;</strong>
     </td>
     <td>
-    <a href="{%BlogLink%}">{%Blog.DocumentName|(identity)GlobalAdministrator|(hash)50e46f44f7eff982238fe417fc05b5fb844fdc85e6d0dfe09a8bf2aae0b2d4cd%}</a>
+    <a href="{%BlogLink%}">{%Blog.DocumentName|(identity)GlobalAdministrator|(hash)48993b78c8b027cf75b668ced105396526d0552962fda8e50fb4a5f7c74da0ed%}</a>
     </td>
     </tr>
     <tr valign="top">
@@ -65,7 +65,7 @@ Unsubscription URL: {%unsubscriptionlink%}
     <strong>Added by:&nbsp;</strong>
     </td>
     <td>
-    {%TrimSitePrefix(Comment.CommentUserName)|(identity)GlobalAdministrator|(hash)7c323b2aab5586247033b208ad08a65b79ce21bb0649c004ff284e66829db63a%}
+    {%TrimSitePrefix(Comment.CommentUserName)|(identity)GlobalAdministrator|(hash)86e7428b9726f0d2e6dcd4007dba48c40cfe274c98bd84d74b6f7d38e58c1e53%}
     </td>
     </tr>
     <tr valign="top">
@@ -73,7 +73,7 @@ Unsubscription URL: {%unsubscriptionlink%}
     <strong>Date and time:&nbsp;</strong>
     </td>
     <td>
-    {%Comment.CommentDate|(identity)GlobalAdministrator|(hash)59d0be075683c604cac902e71d38125d56f997673397f93a41ddc8cc06368c38%}
+    {%Comment.CommentDate|(identity)GlobalAdministrator|(hash)67cecc417c97b1077f60af92d71e41736b0f5d68192385e6704819b7fb625b2b%}
     </td>
     </tr>
     <tr valign="top">
@@ -81,7 +81,7 @@ Unsubscription URL: {%unsubscriptionlink%}
     <strong>Text:&nbsp;</strong>
     </td>
     <td>
-    {%Comment.CommentText|(identity)GlobalAdministrator|(hash)aca68c7fb1b723a18cc57018c488f0ec7118b6b2fd06aa51edd4bdb397a9bd1e%}
+    {%Comment.CommentText|(identity)GlobalAdministrator|(hash)55e50066158ea6438692c90f4596813b5d6733e338f1dafc7477d5a87ede90e9%}
     </td>
     </tr>
   </table>    

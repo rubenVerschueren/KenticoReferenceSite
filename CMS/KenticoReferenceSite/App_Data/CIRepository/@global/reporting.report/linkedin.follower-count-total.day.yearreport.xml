@@ -30,7 +30,7 @@
       <field column="FromDate" visible="true" columntype="datetime" fieldtype="CustomUserControl" columnprecision="7" publicfield="false" guid="4ed00c5b-b0ef-498e-8969-8140131f384f" reftype="Required">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddYears(-6).Date|(identity)GlobalAdministrator|(hash)fb52488ef1fcf15fd6f3982f1b549f59ed601e656cc48474e746a31dec224374%}]]>
+            <![CDATA[{%CurrentDateTime.AddYears(-6).Date|(identity)GlobalAdministrator|(hash)fa71a6539b749b35560fcb8774d9df11872a786833914ce36972d1d4ff1df679%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

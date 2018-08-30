@@ -49,7 +49,7 @@
         <properties>
           <fieldcaption>{$settings.parentcategoryname$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%FormMode == FormModeEnum.Update|(identity)GlobalAdministrator|(hash)8d46994000b8a7fd56ead39dede517217a58820a66fbbf4ecef205b654f94faa%}]]>
+            <![CDATA[{%FormMode == FormModeEnum.Update|(identity)GlobalAdministrator|(hash)e37f47a9b3b1dde535b0f15d3eca309b250916980e609285401a25d2ccaf9234%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -61,7 +61,7 @@
           <defaultvalue>false</defaultvalue>
           <fieldcaption>{$settings.iscustom$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%QueryString.treeroot != "customsettings"|(identity)GlobalAdministrator|(hash)d2803cb3bec7fae3c94a8092d52323a8317e96cd35050071039468455c78e3ca%}]]>
+            <![CDATA[{%QueryString.treeroot != "customsettings"|(identity)GlobalAdministrator|(hash)d98666480e58de425ca392d8338d64db91629151d0adb396c2a7f67a7d50da61%}]]>
           </visiblemacro>
         </properties>
         <settings>

@@ -38,6 +38,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObject.PollSiteID == NULL|(identity)GlobalAdministrator|(hash)a426e8fc87a4321bc5b31f843cbedd1a611c52dcd098de88f2f16e5b42b59211%}]]>
+    <![CDATA[{%EditedObject.PollSiteID == NULL|(identity)GlobalAdministrator|(hash)22ffc58a05ae23c7031578369e2a810d95ab9d0b86a6729379b500423456ca46%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

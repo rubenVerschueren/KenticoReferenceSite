@@ -16,10 +16,10 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value.Length >= 0", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinLength\" ><p n=\"minlength\"><t>0</t><v>0</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)2eb55876c6eaa7b56b4c463c868ab1268472dd4b181e0b2527775e1d8a5d4dab%}]]>
+            <![CDATA[{%Rule("Value.Length >= 0", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinLength\" ><p n=\"minlength\"><t>0</t><v>0</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)e4f2e5e898b8a98eb4a33637ecac52861afcf8336fabfe69a1963409b7be1791%}]]>
           </rule>
           <rule>
-            <![CDATA[{%Rule("Value.Length <= 0", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>0</t><v>0</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)4b0e309716a19b32dc79d9c3504d8666b367d1d2c14c8769af404a0fa2317f19%}]]>
+            <![CDATA[{%Rule("Value.Length <= 0", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>0</t><v>0</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)b936e70bd8dbedf746f87527af7a31ae5de803c416152a54dede30f37d3d739b%}]]>
           </rule>
           <rule>
             <![CDATA[{%Rule("Value >= 0", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinValue\" ><p n=\"minvalue\"><t>0</t><v>0</v><r>false</r><d></d><vt>double</vt></p></r></rules>")%}]]>

@@ -48,7 +48,7 @@
       <SelectorObjectType>cms.WebFarmServer</SelectorObjectType>
       <SelectorWhereCondition>ServerEnabled = 1</SelectorWhereCondition>
       <VisibleCondition ismacro="True">
-        <![CDATA[{% (GlobalObjects.WebFarmServers.Count > 1) |(identity)GlobalAdministrator|(hash)bb551ee7a6876cc95bfe5614bb5bb1bc9c209e3539dfd6fc4ceca5b839a8a7bb%}]]>
+        <![CDATA[{% (GlobalObjects.WebFarmServers.Count > 1) |(identity)GlobalAdministrator|(hash)1d8ad3987e886018b6ac6ab83f7b0d18fef0f0f84a2084b4b4e1d28f8c5174c4%}]]>
       </VisibleCondition>
       <WhereCondition>
 <![CDATA[
@@ -56,7 +56,7 @@
   {
     FormatNotEmpty(SQLEscape(UIContext.WebFarmServerName), "SearchTaskServerName = '{0}'");
   } |(handlesqlinjection)false
-|(identity)GlobalAdministrator|(hash)3057b9b031753af8baf90df4d6ec5b3be1013c6972d94ab9561a18e84f021cf1%}
+|(identity)GlobalAdministrator|(hash)a53be9fed8ee3ca0e9bd6556e544b0758df6230a7398921e3508fc8768a67a39%}
 ]]>
       </WhereCondition>
     </Data>

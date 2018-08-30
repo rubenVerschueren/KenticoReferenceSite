@@ -47,7 +47,7 @@
       <field column="WhereCondition" visible="" guid="864a9e07-60f2-40a3-9f76-7e4e9cb9d7f6" visibility="none" reftype="Required">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[GroupID IN (Select MemberGroupID FROM Community_GroupMember WHERE MemberUserID = '{%cmscontext.currentuser.userid|(identity)GlobalAdministrator|(hash)a0c17f0087eeb2290be56c1a880f8ded0502deac22ffbec88dd333c86d636ffb%}' AND MemberStatus = 0)]]>
+            <![CDATA[GroupID IN (Select MemberGroupID FROM Community_GroupMember WHERE MemberUserID = '{%cmscontext.currentuser.userid|(identity)GlobalAdministrator|(hash)7fefbe094f2d3303688f0ab1bdd37906379a37dbc263ebda29e0264bbecc42a9%}' AND MemberStatus = 0)]]>
           </defaultvalue>
         </properties>
       </field>

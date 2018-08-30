@@ -31,7 +31,7 @@
     <data>
       <wherecondition>
 <![CDATA[
-{% System.FormatId(UIContext.SiteID, " TemplateSiteID ={0} ", " TemplateSiteID IS NULL") |(identity)GlobalAdministrator|(hash)6254bc7946924d740bdcf05703a2614671ecaa191c6219a96af2c4274b374ae4%}
+{% System.FormatId(UIContext.SiteID, " TemplateSiteID ={0} ", " TemplateSiteID IS NULL") |(identity)GlobalAdministrator|(hash)0fe88c45f4bc493f5fad6605b8cf95f8cc1062cac527a0d109979ff123ed3f63%}
 
 ]]>
       </wherecondition>

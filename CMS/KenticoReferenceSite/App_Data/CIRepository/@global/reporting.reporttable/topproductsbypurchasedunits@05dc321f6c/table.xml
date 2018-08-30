@@ -8,9 +8,9 @@
 <![CDATA[
 /* Selects the products meeting the conditions from the filter and the number of purchased units. */
 DECLARE @GlobalProducts bit;
-SET @GlobalProducts = {%Settings.CMSStoreAllowGlobalProducts?1:0|(identity)GlobalAdministrator|(hash)42c78975475ab3a3b8703b0237c8b01d23d32a1c422efa7bdec7ad35bdb97fb6%};
+SET @GlobalProducts = {%Settings.CMSStoreAllowGlobalProducts?1:0|(identity)GlobalAdministrator|(hash)074d41adb2e92031c0b5ae6126b31dca76c1ffca5caa799cb1ed5667cf9eb001%};
 DECLARE @GlobalOptions bit;
-SET @GlobalOptions = {%Settings.CMSStoreAllowGlobalProductOptions?1:0|(identity)GlobalAdministrator|(hash)0d3ea12509b04a22bb4f35208f6bd7cf89392cb604ab52c79c2ea257f30e77a1%};
+SET @GlobalOptions = {%Settings.CMSStoreAllowGlobalProductOptions?1:0|(identity)GlobalAdministrator|(hash)8464066ca582247aeed3d6b92061ddfc3ea334a2b4d06b6cc4e498c19a923188%};
 
 SELECT TOP (@Limit) 
    ISNULL(parent.SKUName + ': ', '') + product.SKUName + ISNULL(' (' + COM_OptionCategory.CategoryDisplayName + ')', '') AS '{$product_list.productname$}',

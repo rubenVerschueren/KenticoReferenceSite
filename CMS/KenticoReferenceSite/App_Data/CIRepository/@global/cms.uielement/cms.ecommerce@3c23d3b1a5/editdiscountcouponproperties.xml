@@ -31,7 +31,7 @@
       <category_name_breadcrumbs>False</category_name_breadcrumbs>
       <includejquery>False</includejquery>
       <breadcrumbsitemtext>
-        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName : EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)1a632db3c97702d6629b0fa4902c31a797c9faf922a14e3b2f31b9c7cf97c951%}]]>
+        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName : EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)c7c697b3938b0d922571a80cc90600222d7bd05f8e9a4df3e65054aa871041cf%}]]>
       </breadcrumbsitemtext>
       <category_name_header>False</category_name_header>
       <displaybreadcrumbs>True</displaybreadcrumbs>

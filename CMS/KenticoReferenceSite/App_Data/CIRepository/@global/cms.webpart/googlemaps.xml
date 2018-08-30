@@ -473,7 +473,7 @@ TERRAIN - This map type displays maps with physical features such as terrain and
       <field allowempty="true" column="ShowStreetViewControl" columntype="boolean" guid="6d9c6b13-caa3-4fa2-8e53-d127d0c97150" publicfield="false" resolvedefaultvalue="True" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%ShowNavigationControl.Value|(identity)GlobalAdministrator|(hash)9a871597e8ee2d1e599a527cdff31efa62635f724747712862c3356c52dbe5c6%}]]>
+            <![CDATA[{%ShowNavigationControl.Value|(identity)GlobalAdministrator|(hash)dc1e2d01b782f645f951b04fd3ab702c76547da4c5d01b1154e3d2dd97fa9cf0%}]]>
           </defaultvalue>
           <fieldcaption>Show StreetView control</fieldcaption>
           <fielddescription>Indicates whether StreetView control is displayed.</fielddescription>
@@ -485,7 +485,7 @@ TERRAIN - This map type displays maps with physical features such as terrain and
       <field allowempty="true" column="ShowZoomControl" columntype="boolean" guid="6b30b66b-19a6-4b07-9bfc-a0161f2fdfef" publicfield="false" resolvedefaultvalue="True" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%ShowNavigationControl.Value|(identity)GlobalAdministrator|(hash)9a871597e8ee2d1e599a527cdff31efa62635f724747712862c3356c52dbe5c6%}]]>
+            <![CDATA[{%ShowNavigationControl.Value|(identity)GlobalAdministrator|(hash)dc1e2d01b782f645f951b04fd3ab702c76547da4c5d01b1154e3d2dd97fa9cf0%}]]>
           </defaultvalue>
           <fieldcaption>Show zoom control</fieldcaption>
           <fielddescription>Indicates if the zoom control should be displayed.</fielddescription>
@@ -526,7 +526,7 @@ Large - displays the larger control, with the zoom slider in addition to +/- but
       <field allowempty="true" column="ZoomControlType" columntype="integer" guid="9809cce1-60dc-4dcc-bf33-3493dfa0c7ef" publicfield="false" resolvedefaultvalue="True" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%NavigationControlType.Value|(identity)GlobalAdministrator|(hash)359156ab33f31ca2e479f51c4d99b98e87771195f914b63fef86764358d90ecb%}]]>
+            <![CDATA[{%NavigationControlType.Value|(identity)GlobalAdministrator|(hash)5355b11ae12f09e09c4d26fc6c21c0d90d85044c7eda310271539118d0ea5acc%}]]>
           </defaultvalue>
           <fieldcaption>Zoom control type</fieldcaption>
           <fielddescription>

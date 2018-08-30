@@ -4,7 +4,7 @@
   <EmailTemplateGUID>680db946-cefd-475f-b65f-84dc4d53051c</EmailTemplateGUID>
   <EmailTemplateName>Ecommerce.AutomaticRegistration</EmailTemplateName>
   <EmailTemplateSubject>
-    <![CDATA[Welcome to {% CurrentSite.SiteDomainName |(identity)GlobalAdministrator|(hash)9a8c9bfe1667f08d9178ecd0f843532c0edd19cf7782bf40385df26ec0728e71%}]]>
+    <![CDATA[Welcome to {% CurrentSite.SiteDomainName |(identity)GlobalAdministrator|(hash)f42f079f34a5f8617cd27b4bbbc8328c3ae654a013d4377b0807d9959e3ae6bd%}]]>
   </EmailTemplateSubject>
   <EmailTemplateText>
 <![CDATA[
@@ -13,13 +13,13 @@
   <body>  
     <p>
       Dear {% UserFullName %},welcome to 
-      <a href="{% CurrentSite.DataContext.RootDocument.AbsoluteURL |(identity)GlobalAdministrator|(hash)c5ab5a89509e9b681010e0bf0a9ce10988148d930ab0aabf3e7d8fdaf34541d9%}">{% CurrentSite.SiteDomainName |(identity)GlobalAdministrator|(hash)9a8c9bfe1667f08d9178ecd0f843532c0edd19cf7782bf40385df26ec0728e71%}</a>! 
+      <a href="{% CurrentSite.DataContext.RootDocument.AbsoluteURL |(identity)GlobalAdministrator|(hash)95094a14adce52013aae53ce27db487cdcb26be6585050b75f5e0efb18bb2e6a%}">{% CurrentSite.SiteDomainName |(identity)GlobalAdministrator|(hash)f42f079f34a5f8617cd27b4bbbc8328c3ae654a013d4377b0807d9959e3ae6bd%}</a>! 
       Meanwhile, we have prepared an account for you. 
       With your new account you can easily review your orders and manage your personal information.
       
       {% if (!String.IsNullOrEmpty(AccountUrl)){  %}
         Just login with your e-mail address and new password at <a href="{%AccountUrl%}">{%AccountUrl%}</a>.
-      {% } |(encode)false |(identity)GlobalAdministrator|(hash)d24c2e1f11a84660db0b0c637376f6af33ed7a9e1c7e2c7e446f65d40b70d6f5%}      
+      {% } |(encode)false |(identity)GlobalAdministrator|(hash)17c903771867c478d6f804855295b08269ebceeb812be74da6ca115fcf224dd9%}      
     </p>
     <p><strong>Login details:</strong></p>
     E-mail(username): {% TrimSitePrefix(UserName) %}<br/>

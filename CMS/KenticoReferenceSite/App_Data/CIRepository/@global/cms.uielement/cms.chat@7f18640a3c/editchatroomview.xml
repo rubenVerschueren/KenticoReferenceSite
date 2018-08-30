@@ -38,6 +38,6 @@
   <ElementTargetURL>~/CMSModules/Chat/Pages/Tools/ChatRoom/View.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%!(EditedObject.ChatRoomIsOneToOne && EditedObject.ChatRoomIsSupport)|(identity)GlobalAdministrator|(hash)eb6ece91d8d9f2b3be475fb3aedcd6c226a875335c445a98442ace0be5e0c92f%}]]>
+    <![CDATA[{%!(EditedObject.ChatRoomIsOneToOne && EditedObject.ChatRoomIsSupport)|(identity)GlobalAdministrator|(hash)3b8bc7bb44be0989c45878fffa9d1315846e12cbf5a5cd3d74e92012c9269683%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

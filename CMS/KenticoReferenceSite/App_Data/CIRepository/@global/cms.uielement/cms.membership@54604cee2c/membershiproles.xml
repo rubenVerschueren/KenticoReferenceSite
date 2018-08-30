@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Roles\",\"read\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Roles</t><v>CMS.Roles</v><r>false</r><d>select module</d><vt>Text</vt></p><p n=\"permission\"><t>read</t><v>read</v><r>false</r><d>select permission</d><vt>Text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)b6f3d4a39375835c894668277a7890bbc853a9d5ffe2d89e828869893d1374e6%}]]>
+    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Roles\",\"read\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Roles</t><v>CMS.Roles</v><r>false</r><d>select module</d><vt>Text</vt></p><p n=\"permission\"><t>read</t><v>read</v><r>false</r><d>select permission</d><vt>Text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)562c3725319c0a13a8d71ca16ad491c2134f6b2ff74f057b463c448e14b3328c%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$general.roles$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
@@ -37,10 +37,10 @@
       <listprefacetext>{$membership.assignedtoroles$}</listprefacetext>
       <displaybreadcrumbs>False</displaybreadcrumbs>
       <dialogwherecondition>
-        <![CDATA[RoleGroupID IS NULL AND ISNULL(SiteID,0) = {% UIContext.ObjectSiteID |(identity)GlobalAdministrator|(hash)9f8bcc991622e04d24dcb259ae9bba9b9283de871dabc96a2ac3c41eb9f4e5ae%}]]>
+        <![CDATA[RoleGroupID IS NULL AND ISNULL(SiteID,0) = {% UIContext.ObjectSiteID |(identity)GlobalAdministrator|(hash)b8dd5dd4aad6e1148739cc6625f502e2e0c268d2e33823225cf5cbfa2eec7858%}]]>
       </dialogwherecondition>
       <wherecondition>
-        <![CDATA[MembershipID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)2a013cbfa55e0cf8f8ad8d39f9c5273a2265f12ba0860e7cdd9b54c063fe786a%}]]>
+        <![CDATA[MembershipID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)ab737d3c38eeea02543c8e3e16b525b6d28c7bda9463591aca133785360147bf%}]]>
       </wherecondition>
       <includejquery>False</includejquery>
       <bindingobjectprovidertype>CMS.MembershipRole</bindingobjectprovidertype>

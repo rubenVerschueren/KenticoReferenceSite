@@ -15,7 +15,7 @@ if (!CurrentDevice.Data["IsMobile"]
     return false;
 }
 
-return true;|(identity)GlobalAdministrator|(hash)5ff0c950d2055abaeef734785c878d7fc7f02a3b2dc9f2dd4842445396bd7a8e%}
+return true;|(identity)GlobalAdministrator|(hash)f158fb0431a482853365d72386f8dec4e4793f6f082b6f14175c41088b95114c%}
 ]]>
   </ProfileMacro>
   <ProfileName>MediumDevice</ProfileName>

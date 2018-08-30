@@ -36,7 +36,7 @@
   {
     GetResourceString("personas.persona.displayname.watermark")
   }
-|(identity)GlobalAdministrator|(hash)6012b6343818abc9354f42a166d09cd7a6a94763f71ab27d5e54487d4e5b9946%}
+|(identity)GlobalAdministrator|(hash)b832ab9e2d9092439eeafb47fb88651a3aa45330bacea92714b66965800c261b%}
 ]]>
           </WatermarkText>
         </settings>
@@ -106,7 +106,7 @@
   {
     GetResourceString("personas.persona.description.watermark")
   }
-|(identity)GlobalAdministrator|(hash)bf892c3dfe0df9d0e2bd9411703f9b5e7ec03167f76b6c541447d3d26e36e076%}
+|(identity)GlobalAdministrator|(hash)61253e867c625d53298126615a170512f9eae69f1ba47d11717df11cb94940fe%}
 ]]>
           </WatermarkText>
           <Wrap>True</Wrap>

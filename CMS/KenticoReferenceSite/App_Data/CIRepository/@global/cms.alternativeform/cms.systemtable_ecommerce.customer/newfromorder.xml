@@ -134,7 +134,7 @@
       <field column="CustomerSiteID" guid="b986d250-cc3e-404f-86f2-987f25770524" order="15">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)c413ed558da74e93d768292c88468890bb7126d174067c98975ecb7df0ba31ec%}]]>
+            <![CDATA[{%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)26005f3eec3b92e44e7f87e36f9e7080fa13cca60dc088f1a4912180e2707d72%}]]>
           </defaultvalue>
         </properties>
       </field>

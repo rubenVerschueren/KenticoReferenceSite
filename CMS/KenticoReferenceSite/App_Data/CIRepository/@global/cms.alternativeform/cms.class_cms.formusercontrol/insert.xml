@@ -78,7 +78,7 @@
           <fieldcaption>{$general.filename$}</fieldcaption>
           <validationerrormessage>{$Development_FormUserControl_Edit.rfvFileName$}</validationerrormessage>
           <visiblemacro ismacro="true">
-            <![CDATA[{%UserControlCreation.Value == 0|(identity)GlobalAdministrator|(hash)34c84bc3a4ae411d6819dd704b2056b5a0fc92c4ecf951c3a09c0da849c82c7d%}]]>
+            <![CDATA[{%UserControlCreation.Value == 0|(identity)GlobalAdministrator|(hash)7f97dd52ae159c79eeeb97b5c516619371acd10ce548d31bade2c82d7e710192%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -215,7 +215,7 @@
         <properties>
           <fieldcaption>{$developmentwebpartedit.inheritedwebpart$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%UserControlCreation.Value == 1|(identity)GlobalAdministrator|(hash)ebd6eaff7e5b73055cebbdeacceb8b95e3232add36dd7aa0f0a2e217fbd3e95c%}]]>
+            <![CDATA[{%UserControlCreation.Value == 1|(identity)GlobalAdministrator|(hash)dffe9fad20f7d1660eeb72720221787c43dc98b54fc3e1370a6c8ae6247e5cd5%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -237,7 +237,7 @@ if (UserControlCreation.Value == 1)
 }
 
 return "CMS.FormEngine.Web.UI.FormEngineUserControl, CMS.FormEngine.Web.UI";
-|(identity)GlobalAdministrator|(hash)7cf7db2dbfcb36b343cd12fa3f60bcf229b485ab044613eaaef9b8d9eb27922c%}
+|(identity)GlobalAdministrator|(hash)f7d7d1269edb50fa662caf8ea5a5b061e8cb192fb27c3445cc655e8b1c628db4%}
 ]]>
           </BaseClassName>
         </settings>
@@ -250,11 +250,11 @@ if (UserControlCreation.Value == 2)
   return GetResourceString("developmentformcontrolclass");
 }
 return GetResourceString("developmentformcontrolextender");
-|(identity)GlobalAdministrator|(hash)bceeab394b92894a5edc8a69ceb185559502860baa99e8583d51010ea0541eed%}
+|(identity)GlobalAdministrator|(hash)2993895fd4e855e2e59ba30bb5999cfc33192cce7fa23f7045e1afdab58fd0e1%}
 ]]>
           </fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%UserControlCreation.Value == 1 || UserControlCreation.Value == 2|(identity)GlobalAdministrator|(hash)216267230717f69d0c853c4335ac8d9d2ce558b1c8dc94684fe8cc4e993a5dae%}]]>
+            <![CDATA[{%UserControlCreation.Value == 1 || UserControlCreation.Value == 2|(identity)GlobalAdministrator|(hash)3f7900c860860246b2cf4ebba42d0662d1a14f49fe30eada705b18271195536f%}]]>
           </visiblemacro>
         </properties>
       </field>

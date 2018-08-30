@@ -33,7 +33,7 @@
       <checkmodifypermission>True</checkmodifypermission>
       <resourceprefix>cms_relationshipname.select</resourceprefix>
       <listprefacetext>
-        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.cms_relationshipname").ToLower()) |(identity)GlobalAdministrator|(hash)69bb0ba02d9958d9afe1b43acb4f3247bfd03fdc5d469a6403ab65e6c023e72b%}]]>
+        <![CDATA[{% String.FormatString(GetResourceString("site_edit_siteobjects.objectsavailable"), GetResourceString("objecttasks.cms_relationshipname").ToLower()) |(identity)GlobalAdministrator|(hash)27068baa6c74fef4fd1d53abc7692ccc4d737abb01caf1f253129c1c1b7ba453%}]]>
       </listprefacetext>
       <displaybreadcrumbs>False</displaybreadcrumbs>
       <wherecondition>SiteID = {% UIContext.ObjectID @%}</wherecondition>

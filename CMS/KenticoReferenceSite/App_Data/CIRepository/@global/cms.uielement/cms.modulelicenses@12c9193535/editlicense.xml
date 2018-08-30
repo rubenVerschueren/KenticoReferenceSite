@@ -29,7 +29,7 @@
   <ElementProperties>
     <Data>
       <breadcrumbsitemtext>
-        <![CDATA[{% GetResourceString("modulelicenses.uieditlicense.caption") |(identity)GlobalAdministrator|(hash)7ca34d40193a08d2eafbfc07f4b04bd1649f6145859f8ac39aa9eb01130e00ab%}]]>
+        <![CDATA[{% GetResourceString("modulelicenses.uieditlicense.caption") |(identity)GlobalAdministrator|(hash)e0b5e4753403e7c4baf3c04f9f9890cdca66ac219e74b8526982b09b9f5a0de3%}]]>
       </breadcrumbsitemtext>
       <DefaultFieldLayout>twocolumns</DefaultFieldLayout>
       <DefaultFormLayout>Divs</DefaultFormLayout>
@@ -37,7 +37,7 @@
       <EditExtender>CMS.ModuleLicenses.Web.UI</EditExtender>
       <ExtenderClassName>CMS.ModuleLicenses.Web.UI.ModuleLicenseKeyExtender</ExtenderClassName>
       <RedirectURL ismacro="True">
-        <![CDATA[{% UIContext.GetElementUrl("CMS.ModuleLicenses", "ModuleLicenses") |(identity)GlobalAdministrator|(hash)2e9827d9be84b5708b70f2924c5b14ea30d3bf202725ae4fd258b8902a9202e0%}]]>
+        <![CDATA[{% UIContext.GetElementUrl("CMS.ModuleLicenses", "ModuleLicenses") |(identity)GlobalAdministrator|(hash)68c9d97101fe554df8b8f18568169fb10d670524d77ccd47e807516ceb827afa%}]]>
       </RedirectURL>
     </Data>
   </ElementProperties>

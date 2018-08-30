@@ -6,12 +6,12 @@
   <TableQuery>
 <![CDATA[
 DECLARE @Sum DECIMAL (10,2);
-SET @FromDate ={%DatabaseSchema%}.Func_Analytics_DateTrim(@FromDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)28c209aa60e6a1a143893d9419fcabf0ff452c70b9b62b96b4543787ea9c58ef%}');
-SET @ToDate ={%DatabaseSchema%}.Func_Analytics_EndDateTrim(@ToDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)28c209aa60e6a1a143893d9419fcabf0ff452c70b9b62b96b4543787ea9c58ef%}');
+SET @FromDate ={%DatabaseSchema%}.Func_Analytics_DateTrim(@FromDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)7028f8875a9da639c6887714d17eecc01cfbf272edcaf753657e06700290627e%}');
+SET @ToDate ={%DatabaseSchema%}.Func_Analytics_EndDateTrim(@ToDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)7028f8875a9da639c6887714d17eecc01cfbf272edcaf753657e06700290627e%}');
 
 SELECT @Sum = 
 SUM (HitsCount) FROM Analytics_Statistics 
-LEFT JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)b8ec447e0b995b5c0eda4d5f07606433a4a136d7487ee2fbf2be06ac769a7b77%} ON HitsStatisticsID = StatisticsID
+LEFT JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)dfafdb7f90ce291a967b1389d7be8e2bddccda18529aa1ac6303ae022e1f173d%} ON HitsStatisticsID = StatisticsID
 WHERE 
 ((StatisticsCode = 'referringsite_direct') OR (StatisticsCode = 'referringsite_search')  OR (StatisticsCode = 'referringsite_referring')  
 OR (StatisticsCode = 'referringsite_inbound')) 
@@ -21,7 +21,7 @@ AND (StatisticsObjectID = @NodeID) AND (StatisticsObjectCulture = @CultureCode))
 SELECT '{'+'$analytics_codename.' + StatisticsCode + '$}' AS '{$reporting.alltraficsources.columntitle$}',SUM(HitsCount) AS '{$general.views$}' ,
 CAST (CAST (SUM(HitsCount)/@Sum*100 AS DECIMAL(10,2)) AS NVARCHAR (20))+'%' AS '{$general.percent$}'
 FROM Analytics_Statistics 
-LEFT JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)b8ec447e0b995b5c0eda4d5f07606433a4a136d7487ee2fbf2be06ac769a7b77%} ON HitsStatisticsID = StatisticsID
+LEFT JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)dfafdb7f90ce291a967b1389d7be8e2bddccda18529aa1ac6303ae022e1f173d%} ON HitsStatisticsID = StatisticsID
 WHERE
 ((StatisticsCode = 'referringsite_direct') OR (StatisticsCode = 'referringsite_search')  OR (StatisticsCode = 'referringsite_referring')OR (StatisticsCode = 'referringsite_inbound'))
  AND 

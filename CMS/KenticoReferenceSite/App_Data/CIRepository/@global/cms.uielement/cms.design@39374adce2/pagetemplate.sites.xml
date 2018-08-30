@@ -34,7 +34,7 @@
       <listprefacetext>{$administration-pagetemplate_sites.sitetitle$}</listprefacetext>
       <displaybreadcrumbs>False</displaybreadcrumbs>
       <wherecondition>
-        <![CDATA[PageTemplateID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)2a013cbfa55e0cf8f8ad8d39f9c5273a2265f12ba0860e7cdd9b54c063fe786a%}]]>
+        <![CDATA[PageTemplateID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)ab737d3c38eeea02543c8e3e16b525b6d28c7bda9463591aca133785360147bf%}]]>
       </wherecondition>
       <includejquery>False</includejquery>
       <bindingobjectprovidertype>CMS.PageTemplateSite</bindingobjectprovidertype>
@@ -49,6 +49,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%return (!UIContext.IsDialog && EditedObject.PageTemplateIsReusable && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin))|(identity)GlobalAdministrator|(hash)43ad56715e3b570ed70c75d34c690282551f59cb2a2bae57e3deaf363c9c7464%}]]>
+    <![CDATA[{%return (!UIContext.IsDialog && EditedObject.PageTemplateIsReusable && CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin))|(identity)GlobalAdministrator|(hash)9c53bab118ab8d2d21aa66628dd1e9328bde548ea218e20624542766812283d1%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

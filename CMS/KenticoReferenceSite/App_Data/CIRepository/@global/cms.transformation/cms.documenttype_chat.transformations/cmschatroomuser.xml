@@ -11,7 +11,7 @@
   {{if KickUserPerm}}
       <div class="PermaKickButton">
               <a href="#" onclick="${KickUserPerm}">
-                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/permakick.png")|(identity)GlobalAdministrator|(hash)8099079f6978b3d065a6fd55caf982ab564975d13739092b5168fe50736b69f1%}' title="{$chat.kickuserperm$}" alt="{$chat.kickuserperm$}" width="12px" height="12px"/>
+                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/permakick.png")|(identity)GlobalAdministrator|(hash)df69b2c5de4d40f992f5b51469132f82110abe8c0b6363d3b1f8ac64b0a6cb99%}' title="{$chat.kickuserperm$}" alt="{$chat.kickuserperm$}" width="12px" height="12px"/>
                   </a>
           </div>
   {{/if}}
@@ -19,7 +19,7 @@
   {{if KickUser}}
       <div class="KickButton">
               <a href="#" onclick="${KickUser}">
-                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/kick.png")|(identity)GlobalAdministrator|(hash)ac8ca15ca225ec14ab57a0b0d5fd7eb1ae266730ffe71a04d3a1a9876dbb0eba%}' title="{$chat.kick$}" alt="{$chat.kick$}" width="12px" height="12px"/>
+                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/kick.png")|(identity)GlobalAdministrator|(hash)d6d8ca19ef2074668e0c05d280a5b63ff718a071afe74187898366dfa1d327b2%}' title="{$chat.kick$}" alt="{$chat.kick$}" width="12px" height="12px"/>
                   </a>
           </div>
   {{/if}}
@@ -27,7 +27,7 @@
   {{if DeleteAdmin}}
       <div class="DeleteAdminButton">
               <a href="#" onclick="${DeleteAdmin}">
-                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent_delete.png")|(identity)GlobalAdministrator|(hash)bedcf0495211eab6c99ea4100e0cf0b9a534d3e6d16c587e12a57f1ed8bb38c6%}' title="{$chat.deleteadmin$}" alt="{$chat.deleteadmin$}" width="12px" height="12px"/>
+                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent_delete.png")|(identity)GlobalAdministrator|(hash)273a2554ca41d0b3af247c56725d00d582e3d8ea9b147a411bc8134be5800eb4%}' title="{$chat.deleteadmin$}" alt="{$chat.deleteadmin$}" width="12px" height="12px"/>
                   </a>
           </div>
   {{/if}}
@@ -35,7 +35,7 @@
   {{if AddAdmin}}
       <div class="AddAdminButton">
               <a href="#" onclick="${AddAdmin}">
-                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent_add.png")|(identity)GlobalAdministrator|(hash)d3265d28183143a0cfff7ced2babb9b4e24017088c3b62769cf0ec7fad84c7ab%}' title="{$chat.addadmin$}" alt="{$chat.addadmin$}" width="12px" height="12px"/>
+                      <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent_add.png")|(identity)GlobalAdministrator|(hash)cbacfd8322bb308524f29c54661b785ae5d1f5f6db254f9d396bb3f2726512b9%}' title="{$chat.addadmin$}" alt="{$chat.addadmin$}" width="12px" height="12px"/>
                   </a>
           </div>
   {{/if}}
@@ -55,8 +55,8 @@
             <a href="#" onclick="return false;" title="{$chat.notpresent$}" style="text-decoration:none; cursor:default">${Nickname}</a>
         </span>
     {{/if}} 
-    {{if IsAdmin && !IsCreator}} <span class="UserAdmin"> <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent.png")|(identity)GlobalAdministrator|(hash)f5ae5f8b57290c64f5f98e43d5496f6ed5bbbd3bc965061b5d9113d5119726b3%}' title="{$chat.livesite.admin$}" alt="{$chat.livesite.admin$}" width="12px" height="12px"/></span>{{/if}}
-    {{if IsCreator}} <span class="UserCreator"> <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent_creator.png")|(identity)GlobalAdministrator|(hash)b67a786a0cf441433be17de40b5b29a170325fe80e0fad21341a04214c1151ac%}' title="{$chat.livesite.creator$}" alt="{$chat.livesite.creator$}" width="12px" height="12px"/></span>{{/if}}
+    {{if IsAdmin && !IsCreator}} <span class="UserAdmin"> <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent.png")|(identity)GlobalAdministrator|(hash)6e0af45df3d2d28ec7aea62e5d33e5a3a79381423d5535f0b8520a9456253fc9%}' title="{$chat.livesite.admin$}" alt="{$chat.livesite.admin$}" width="12px" height="12px"/></span>{{/if}}
+    {{if IsCreator}} <span class="UserCreator"> <img src='{%GetImageUrl("CMSModules/CMS_Chat/security_agent_creator.png")|(identity)GlobalAdministrator|(hash)85d8a7c3c7f8a023b096a585ab467bedbb8da3b209c16b440bb0539ddd9f5a88%}' title="{$chat.livesite.creator$}" alt="{$chat.livesite.creator$}" width="12px" height="12px"/></span>{{/if}}
   </div>
 </div>
 

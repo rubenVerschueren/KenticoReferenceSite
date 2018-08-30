@@ -7,7 +7,7 @@
   <ClassDefaultObjectType />
   <ClassDisplayName>Layout</ClassDisplayName>
   <ClassEditingPageUrl>
-    <![CDATA[{% UIContext.GetElementDialogUrl("cms.design", "EditPageLayout", EditedObject.ID, "") |(identity)GlobalAdministrator|(hash)5e024fe73eec76fef8d5fab93b3eb83fb211873db86a779385d2e4fe6a5f41d2%}]]>
+    <![CDATA[{% UIContext.GetElementDialogUrl("cms.design", "EditPageLayout", EditedObject.ID, "") |(identity)GlobalAdministrator|(hash)0f17ddf210588500f5ee51fe2b1d987c4d5d834a1e50a798536fffee33d3c69e%}]]>
   </ClassEditingPageUrl>
   <ClassFormDefinition>
     <form version="2">

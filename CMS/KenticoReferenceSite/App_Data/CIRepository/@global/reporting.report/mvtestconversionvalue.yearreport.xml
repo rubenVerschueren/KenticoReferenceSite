@@ -17,7 +17,7 @@
 	%%control:ReportGraph?mvtestconversionvalue.yearreport.graph%%<br />
 	&nbsp;</p>
 <p>
-	<span style="font-size:14px;"><strong>{%om.conversionvalue.results|(identity)GlobalAdministrator|(hash)804aa563a2c34fde0ed933d253993229c7de496d8deddc224e2603811bfb542c%}</strong></span></p>
+	<span style="font-size:14px;"><strong>{%om.conversionvalue.results|(identity)GlobalAdministrator|(hash)1b50c14c16faacbb8c419f48baf8784e25463fefee81127d943589d8b6711ae7%}</strong></span></p>
 <p>
 	%%control:ReportTable?mvtestconversionvalue.yearreport.table%%</p>
 <p>
@@ -35,7 +35,7 @@
       <field column="FromDate" visible="true" columntype="datetime" fieldtype="CustomUserControl" allowempty="true" publicfield="false" spellcheck="false" guid="7a87603b-60ec-420a-a955-dc19779a2db7" visibility="none">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddYears(-6).Date|(identity)GlobalAdministrator|(hash)fb52488ef1fcf15fd6f3982f1b549f59ed601e656cc48474e746a31dec224374%}]]>
+            <![CDATA[{%CurrentDateTime.AddYears(-6).Date|(identity)GlobalAdministrator|(hash)fa71a6539b749b35560fcb8774d9df11872a786833914ce36972d1d4ff1df679%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>
