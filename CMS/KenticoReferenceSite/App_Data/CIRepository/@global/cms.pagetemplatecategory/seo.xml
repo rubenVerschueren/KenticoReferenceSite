@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplatecategory>
+  <CategoryDisplayName>SEO</CategoryDisplayName>
+  <CategoryGUID>61bad81e-73b4-479d-8354-fe96e6a13dd2</CategoryGUID>
+  <CategoryImagePath />
+  <CategoryName>SEO</CategoryName>
+  <CategoryParentID>
+    <CodeName>/</CodeName>
+    <GUID>532264bf-95e9-4035-b4ce-fe403c81781a</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </CategoryParentID>
+</cms.pagetemplatecategory>

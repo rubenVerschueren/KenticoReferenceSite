@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.roleapplication>
+  <Parent>
+    <CodeName>CMSDesigner</CodeName>
+    <GUID>e4042363-8479-41b2-95a3-6f62ab3ac3c6</GUID>
+    <ObjectType>cms.role</ObjectType>
+    <Site>
+      <CodeName>BlankSite</CodeName>
+      <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.uielement_BannerManagement_cms.resource_CMS.BannerManagement">
+      <ElementID>
+        <CodeName>BannerManagement</CodeName>
+        <GUID>d1341d4d-e94d-477b-a8c3-5af3cef52aff</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.BannerManagement</CodeName>
+          <GUID>69a6884d-789d-4732-bf7c-96da001050d8</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_CustomTables_cms.resource_CMS.CustomTables">
+      <ElementID>
+        <CodeName>CustomTables</CodeName>
+        <GUID>e56cf9d4-8d83-4480-8146-2ccf5862830e</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.CustomTables</CodeName>
+          <GUID>99fac5bf-4371-473b-823a-d6f903a78f50</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Form_cms.resource_CMS.Form">
+      <ElementID>
+        <CodeName>Form</CodeName>
+        <GUID>1c55d3da-a29b-4df6-a0b2-dc72a065a317</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Form</CodeName>
+          <GUID>385e528a-e013-4a84-bad9-d5956408741a</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_MediaLibrary_cms.resource_CMS.MediaLibrary">
+      <ElementID>
+        <CodeName>MediaLibrary</CodeName>
+        <GUID>436564ee-89e9-4719-939a-0d7b57ece744</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.MediaLibrary</CodeName>
+          <GUID>f1ae7bb7-e5e2-4944-b0a6-c92be4f95982</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Polls_cms.resource_CMS.Polls">
+      <ElementID>
+        <CodeName>Polls</CodeName>
+        <GUID>3d90780f-f58b-4275-9ec6-165897095c82</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Polls</CodeName>
+          <GUID>587a4ab1-def8-451b-8b55-f885afe3c16b</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_content_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>content</CodeName>
+        <GUID>95a82f36-9c40-45f0-86f1-39aa44db9a77</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+  </Bindings>
+</cms.roleapplication>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription />
+  <RoleDisplayName>CMS Readers</RoleDisplayName>
+  <RoleGUID>b377826c-22d5-42e3-b70a-80ba3ed2fbbd</RoleGUID>
+  <RoleName>CMSReaders</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

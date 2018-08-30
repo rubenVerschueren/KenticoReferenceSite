@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+{%IfEmpty(CustomerFirstName + CustomerLastName, "", "<em>" + HTMLEncode(Localize(CustomerFirstName)) + " " + HTMLEncode(Localize(CustomerLastName)) + "</em><br/>") %} 
+{%IfEmpty(CustomerEmail, "", "<a href=\"mailto:" + HTMLEncode(Localize(CustomerEmail)) + "\">" + HTMLEncode(Localize(CustomerEmail)) +"</a><br/>")%}
+{%IfEmpty(CustomerPhone, "", HTMLEncode(Localize(CustomerPhone)) + "<br />")%}
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>3cb5ade5-b895-4e69-bf73-53aa364fcef2</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Order_CustomerDetail</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

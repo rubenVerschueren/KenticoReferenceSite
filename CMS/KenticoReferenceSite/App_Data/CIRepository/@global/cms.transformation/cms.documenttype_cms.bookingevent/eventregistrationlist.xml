@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div style="float:left"><a href="<%# Functions.GetUrl(Functions.GetAliasPath()) + "?eventid=" + Eval("NodeID") %>" ><%# Eval("EventName", true) %></a></div>
+<div style="float:right"><%# GetEventDateString(Eval("EventDate"),Eval("EventEndDate"),Eval<bool>("EventAllDay")) %></div>
+<div style="clear:both; height:0px; line-height:0px;">&nbsp;</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>10710af1-6398-4fe3-9eae-8eec54b85902</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>EventRegistrationList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

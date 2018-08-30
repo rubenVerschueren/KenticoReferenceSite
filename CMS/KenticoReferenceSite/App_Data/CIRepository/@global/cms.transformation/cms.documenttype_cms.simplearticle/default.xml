@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.SimpleArticle</CodeName>
+    <GUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h1><%# Eval("ArticleTitle",true) %></h1>
+<div class="TextContent">
+<%# Eval("ArticleText") %>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>1871c057-0ec8-43db-a014-6f6df5b0594e</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

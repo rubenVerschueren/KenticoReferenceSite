@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>SEO</CodeName>
+    <GUID>61bad81e-73b4-479d-8354-fe96e6a13dd2</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCloneAsAdHoc>False</PageTemplateCloneAsAdHoc>
+  <PageTemplateCodeName>robots.txt.default.template</PageTemplateCodeName>
+  <PageTemplateDescription>
+    <![CDATA[This templates contains a Custom response web part configured to return a robots.txt response.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>Robots.txt</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>7b833db1-1636-4ac8-9bef-1ab6b34dfaf9</PageTemplateGUID>
+  <PageTemplateIconClass>icon-cogwheels</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/</PageTemplateInheritPageLevels>
+  <PageTemplateIsAllowedForProductSection>False</PageTemplateIsAllowedForProductSection>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<cms:CMSWebPartZone ZoneID="zoneSingle" runat="server" />
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateLayoutType>ascx</PageTemplateLayoutType>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneSingle">
+        <webpart controlid="CustomResponse" guid="66b7fd5f-7f09-4c57-a98a-01618f36bc9f" type="CustomResponse">
+          <property name="content">
+<![CDATA[
+user-agent:*
+
+]]>
+          </property>
+          <property name="contenttype">text/plain</property>
+          <property name="controlid">CustomResponse</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="encoding">UTF-8</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">66b7fd5f-7f09-4c57-a98a-01618f36bc9f</property>
+          <property name="statuscode">200</property>
+          <property name="visible">True</property>
+          <property name="webparttype">CustomResponse</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

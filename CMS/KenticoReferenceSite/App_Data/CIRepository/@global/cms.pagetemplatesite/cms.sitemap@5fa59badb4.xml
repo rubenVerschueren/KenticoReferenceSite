@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplatesite>
+  <Parent>
+    <CodeName>cms.sitemap</CodeName>
+    <GUID>67febf72-3786-4c05-a4c4-fb14c4fff398</GUID>
+    <ObjectType>cms.pagetemplate</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="BlankSite">
+      <SiteID>
+        <CodeName>BlankSite</CodeName>
+        <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.pagetemplatesite>

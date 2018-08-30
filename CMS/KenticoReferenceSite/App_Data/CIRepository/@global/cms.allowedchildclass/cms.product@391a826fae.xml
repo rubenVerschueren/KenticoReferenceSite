@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.allowedchildclass>
+  <Parent>
+    <CodeName>CMS.Product</CodeName>
+    <GUID>1f1decea-2d34-4ecc-b53a-e38187922bd9</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_CMS.MenuItem">
+      <ParentClassID>
+        <CodeName>CMS.MenuItem</CodeName>
+        <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+  </Bindings>
+</cms.allowedchildclass>

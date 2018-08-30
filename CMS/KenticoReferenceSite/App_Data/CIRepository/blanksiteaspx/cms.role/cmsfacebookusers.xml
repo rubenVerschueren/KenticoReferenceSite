@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>
+    <![CDATA[Users who authenticated using Facebook Connect authentication.]]>
+  </RoleDescription>
+  <RoleDisplayName>Facebook users</RoleDisplayName>
+  <RoleGUID>4084cb84-183f-44c4-9b7c-e364eda6b981</RoleGUID>
+  <RoleIsDomain>False</RoleIsDomain>
+  <RoleName>CMSFacebookUsers</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

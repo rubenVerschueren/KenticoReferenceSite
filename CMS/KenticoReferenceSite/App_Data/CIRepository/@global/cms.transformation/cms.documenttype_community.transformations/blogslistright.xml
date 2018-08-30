@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="blogRightList">
+<%# IfEmpty(Eval("BlogTeaser",true),"","<div class=\"blogTeaser\"><img src=\""+GetAttachmentUrlByGUID(Eval("BlogTeaser"), Eval("NodeAlias"))+"?width=60\" /></div>") %>
+<p><a href="<%# GetDocumentUrl() %>" title="<%# Eval("BlogName",true) %>"><%# Eval("BlogName",true) %></a></p>
+<div class="clear">&nbsp;</div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>db569a93-6c96-4108-b9bd-b1254ddde773</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>BlogsListRight</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

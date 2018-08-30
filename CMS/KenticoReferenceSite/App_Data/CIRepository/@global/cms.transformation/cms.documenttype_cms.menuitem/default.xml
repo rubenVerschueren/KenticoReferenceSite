@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<table>
+  <tr>
+    <td>Document name:</td>
+    <td><%# Eval("MenuItemName") %></td>
+  </tr>
+  <tr>
+    <td>Teaser image:</td>
+    <td><%# Eval("MenuItemTeaserImage") %></td>
+  </tr>
+  <tr>
+    <td>Menu group:</td>
+    <td><%# Eval("MenuItemGroup") %></td>
+  </tr>
+</table>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>94af558a-7b98-4e7c-9efa-1618945cd93e</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

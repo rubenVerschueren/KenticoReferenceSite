@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="BookingEventID" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventName" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventSummary" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>480</Width>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventDetails" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>480</Width>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <Height>350</Height>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventLocation" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <Height>150</Height>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>480</Width>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <controlname>htmlareacontrol</controlname>
+          <height />
+        </settings>
+      </field>
+      <field column="EventDate" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventCapacity" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventAllowRegistrationOverCapacity" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventOpenFrom" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventOpenTo" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Intranet events</FormDisplayName>
+  <FormGUID>5d4a45ef-e5ff-46c9-be7a-319416c48a0d</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>IntranetEvents</FormName>
+</cms.alternativeform>

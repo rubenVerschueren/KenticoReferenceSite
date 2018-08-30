@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.metafile>
+  <MetaFileExtension>.png</MetaFileExtension>
+  <MetaFileGroupName>Thumbnail</MetaFileGroupName>
+  <MetaFileGUID>8ac077cc-1eac-403f-9abe-c9c96c0af32f</MetaFileGUID>
+  <MetaFileImageHeight>154</MetaFileImageHeight>
+  <MetaFileImageWidth>200</MetaFileImageWidth>
+  <MetaFileMimeType>image/png</MetaFileMimeType>
+  <MetaFileName>community.png</MetaFileName>
+  <MetaFileObjectID>
+    <CodeName>CommunitySite</CodeName>
+    <GUID>872ccfbc-3b4a-4c91-b99d-a5b15bcea3c3</GUID>
+    <ObjectType>cms.webtemplate</ObjectType>
+  </MetaFileObjectID>
+  <MetaFileObjectType>cms.webtemplate</MetaFileObjectType>
+  <MetaFileSize>43131</MetaFileSize>
+</cms.metafile>

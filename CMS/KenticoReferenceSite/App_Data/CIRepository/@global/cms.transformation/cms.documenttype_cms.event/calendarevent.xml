@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Event</CodeName>
+    <GUID>7a162473-ddf4-4b73-98b1-a5f212759440</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<a href="<%# GetDocumentUrl() %>"><%# Eval("EventName", true) %></a><br/>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>4e2be108-92f7-494a-82b8-55bb749a150d</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CalendarEvent</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

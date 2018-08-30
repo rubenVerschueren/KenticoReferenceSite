@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="NewsPreviewTitle"><a href="~/mobile/news/<%# Eval("NewsID") %>.aspx"><%# Eval("NewsTitle",true) %></a></div>
+<div class="NewsPreviewDate"><%# GetDateTime("NewsReleaseDate", "d") %></div>
+<div class="NewsPreviewSummary"><%# Eval("NewsSummary") %></div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>03b8d2da-4259-413e-8516-b8c0367ca3ef</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MobileNewsPreview</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

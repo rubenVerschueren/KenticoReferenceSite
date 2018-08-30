@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Faq</CodeName>
+    <GUID>bcd29a46-35c2-4f22-86b1-ada293df6ee6</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<strong><a href="#FAQLink<%# Eval("FAQID") %>" id="FAQLink<%# Eval("FAQID") %>" onclick="javascript: if (document.getElementById('FAQ<%# Eval("FAQID") %>').style.display == 'none') {document.getElementById('FAQ<%# Eval("FAQID") %>').style.display = 'block'} else {document.getElementById('FAQ<%# Eval("FAQID") %>').style.display = 'none'};"><%# Eval("FAQQuestion",true) %></a></strong><br />
+<div id="FAQ<%# Eval("FAQID") %>" style="display:none">
+<%# Eval("FAQAnswer") %><br/>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>2e1e0748-d930-4a70-beab-01123c64885b</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>QuestionAnswerDisplayHide</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

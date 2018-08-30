@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplatecategory>
+  <CategoryDisplayName>Blank ASPX</CategoryDisplayName>
+  <CategoryGUID>3fc5dd53-d4d3-439a-8196-29dbb2a94fdc</CategoryGUID>
+  <CategoryImagePath />
+  <CategoryName>BlankASPX</CategoryName>
+  <CategoryParentID>
+    <CodeName>/</CodeName>
+    <GUID>532264bf-95e9-4035-b4ce-fe403c81781a</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </CategoryParentID>
+</cms.pagetemplatecategory>

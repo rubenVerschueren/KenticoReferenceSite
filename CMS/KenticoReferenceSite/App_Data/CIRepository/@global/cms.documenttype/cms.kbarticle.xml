@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Knowledge base article</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="KBArticleID" columntype="integer" guid="bd514b59-fbf4-471f-bd01-22c5f566f210" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>KBArticleID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleIdentifier" columnsize="200" columntype="text" guid="8db61caf-fd4e-4e88-9364-3474f2253a09" publicfield="false" translatefield="true" visibility="none">
+        <properties>
+          <fieldcaption>Article ID</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ArticleName" columnsize="400" columntype="text" guid="8c7268e2-268f-4d11-ba68-c8e12a9fc33e" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Article name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ArticleSummary" columntype="longtext" guid="f3e4b254-2993-46fa-9929-9b787b41fadc" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Summary</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field column="ArticleAppliesTo" columntype="longtext" guid="401fa845-386e-4339-9250-e5125bf3e89d" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Applies to</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field column="ArticleText" columntype="longtext" guid="dd15f0ae-ce94-452e-b9d0-848875262dd3" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Text</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleSeeAlso" columntype="longtext" guid="b57eca24-d2e6-425c-bb87-b8fa59131b99" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>See also</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>bde39577-777c-44ed-bdc2-211e3a496a7a</ClassGUID>
+  <ClassIconClass>icon-light-bulb</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.KBArticle</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>ArticleName</ClassNodeNameSource>
+  <ClassSearchContentColumn>ArticleText</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="1eccd2eb-49a3-417d-ac19-5aaeecad7f19" name="ArticleSummary" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="32a4606e-108e-40ad-91de-88c4adc9161f" name="kbarticleID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="4012c696-8da1-407a-ac16-126687327984" name="ArticleText" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="538eed34-979f-40bd-97ba-6a5bddd095fe" name="ArticleAppliesTo" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="8f1b5a87-3111-4cd5-9a39-30ddfcf871c9" name="ArticleIdentifier" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="b53c67fd-3f56-4d25-a17b-cd7a0e5ded07" name="ArticleSeeAlso" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="b78178b4-3fe6-48a4-8497-df98d1fe4562" name="ArticleName" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_KBArticle</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

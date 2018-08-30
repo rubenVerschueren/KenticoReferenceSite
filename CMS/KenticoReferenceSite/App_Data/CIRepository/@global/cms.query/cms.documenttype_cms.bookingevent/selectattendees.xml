@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.query>
+  <ClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </ClassID>
+  <QueryConnectionString>CMSConnectionString</QueryConnectionString>
+  <QueryGUID>798d5554-023d-40c7-92a3-649e2eed24c2</QueryGUID>
+  <QueryIsCustom>True</QueryIsCustom>
+  <QueryIsLocked>True</QueryIsLocked>
+  <QueryName>selectattendees</QueryName>
+  <QueryRequiresTransaction>False</QueryRequiresTransaction>
+  <QueryText>
+<![CDATA[
+SELECT ##TOPN## ##COLUMNS## FROM View_BookingSystem_Joined INNER JOIN CONTENT_BookingEvent ON View_BookingSystem_Joined.DocumentForeignKeyValue = CONTENT_BookingEvent.BookingEventID WHERE ##WHERE## ORDER BY ##ORDERBY##
+
+]]>
+  </QueryText>
+  <QueryTypeID>0</QueryTypeID>
+</cms.query>

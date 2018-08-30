@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Product</CodeName>
+    <GUID>1f1decea-2d34-4ecc-b53a-e38187922bd9</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<table>
+<tr>
+<td>Product name:</td>
+<td><%# Eval("DocumentName", true) %></td>
+   <a href="<%# GetDocumentUrl() %>" title="See detail of <%# EvalText("SKUName", true) %>"><h2><%# LimitLength(EvalText("SKUName", true), 45, "...") %></h2></a>
+</tr>
+<tr>
+  <h1>
+<td>Price:</td>
+<td><%# GetSKUFormattedPrice() %></td>
+<td><%# GetSKUFormattedOriginalPrice() %></td>
+<td><%# GetSKUFormattedPriceSaving() %></td>
+</tr>
+  </h1>
+<tr>
+<td>Description:</td>
+<td><%# Eval("SKUDescription") %></td>
+</tr>
+<tr>
+<td>Photo:</td>
+<td><img src="<%# GetSKUImageUrl(200) %>" alt="<%# Eval("DocumentName", true) %> image" /></td>
+</tr>
+</table>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>a0f61111-ac49-40f1-ab71-b30f6260eccf</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

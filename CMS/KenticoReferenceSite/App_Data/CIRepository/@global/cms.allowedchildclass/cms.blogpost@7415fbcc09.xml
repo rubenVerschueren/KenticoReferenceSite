@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.allowedchildclass>
+  <Parent>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_CMS.Blog">
+      <ParentClassID>
+        <CodeName>CMS.Blog</CodeName>
+        <GUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+    <Binding id="cms.documenttype_CMS.BlogMonth">
+      <ParentClassID>
+        <CodeName>CMS.BlogMonth</CodeName>
+        <GUID>b3d8215b-fa66-460b-84ae-de8826b087d1</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+  </Bindings>
+</cms.allowedchildclass>

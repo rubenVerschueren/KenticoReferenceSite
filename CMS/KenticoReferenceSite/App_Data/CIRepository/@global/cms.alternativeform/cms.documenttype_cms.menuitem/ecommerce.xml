@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="MenuItemName" fieldcaption="{$com.sku.sectioname$}" visibility="none">
+        <settings>
+          <Trim>False</Trim>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="MenuItemTeaserImage" visible="" />
+      <field column="MenuItemGroup" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Product section properties</FormDisplayName>
+  <FormGUID>2329d713-ed52-4528-b4d7-af4281c9ceec</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Ecommerce</FormName>
+</cms.alternativeform>

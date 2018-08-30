@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplatecategory>
+  <CategoryDisplayName>Blogs</CategoryDisplayName>
+  <CategoryGUID>46542228-8fae-4e44-8b4b-6e301658ee8c</CategoryGUID>
+  <CategoryImagePath />
+  <CategoryName>Blogs</CategoryName>
+  <CategoryParentID>
+    <CodeName>/</CodeName>
+    <GUID>532264bf-95e9-4035-b4ce-fe403c81781a</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </CategoryParentID>
+</cms.pagetemplatecategory>

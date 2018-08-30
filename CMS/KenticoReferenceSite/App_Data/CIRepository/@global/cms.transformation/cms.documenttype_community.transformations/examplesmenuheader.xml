@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<ul>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>30c882e6-57b0-4eb3-b1ad-57de720ea684</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ExamplesMenuHeader</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

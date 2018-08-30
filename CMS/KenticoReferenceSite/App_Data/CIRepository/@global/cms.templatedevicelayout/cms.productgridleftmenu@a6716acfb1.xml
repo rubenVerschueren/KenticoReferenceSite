@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.templatedevicelayout>
+  <Parent>
+    <CodeName>cms.productgridleftmenu</CodeName>
+    <GUID>bb1cd0db-4683-4de2-8a5a-162ea69f7ce4</GUID>
+    <ObjectType>cms.pagetemplate</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.deviceprofile_SmallDevice">
+      <LayoutCode>
+<![CDATA[
+<!-- Container -->
+<div class="ProductGrid">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+      </LayoutCode>
+      <LayoutGUID>00c4a805-0f69-4d07-b041-ab0ae33965b3</LayoutGUID>
+      <LayoutType>ascx</LayoutType>
+      <ProfileID>
+        <CodeName>SmallDevice</CodeName>
+        <GUID>764e2796-dc5b-49a0-8ef1-167d296f0ba1</GUID>
+        <ObjectType>cms.deviceprofile</ObjectType>
+      </ProfileID>
+    </Binding>
+  </Bindings>
+</cms.templatedevicelayout>

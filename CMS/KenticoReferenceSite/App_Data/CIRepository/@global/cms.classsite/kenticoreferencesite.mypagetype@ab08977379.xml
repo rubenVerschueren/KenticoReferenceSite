@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.classsite>
+  <Parent>
+    <CodeName>KenticoReferenceSite.MyPageType</CodeName>
+    <GUID>f904e01a-037d-4b18-b3b8-59a4d06925a9</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="BlankSiteASPX">
+      <SiteID>
+        <CodeName>BlankSiteASPX</CodeName>
+        <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.classsite>

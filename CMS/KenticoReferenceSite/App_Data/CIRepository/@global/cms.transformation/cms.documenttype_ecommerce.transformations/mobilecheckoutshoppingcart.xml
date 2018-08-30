@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode />
+  <TransformationGUID>b28dae99-ce75-4d55-a636-a2669aca9f85</TransformationGUID>
+  <TransformationHierarchicalXML>
+    <![CDATA[<Items><Item ID="990222a5-168b-45ab-ba93-1c27d021ceba" Level="0" Type="item" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductitem" ApplyToSublevels="False" /><Item ID="2f8de6c4-f6c3-46b5-928c-fa05335bc37f" Level="0" Type="header" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductitemheader" ApplyToSublevels="False" /><Item ID="bd1aa0b2-e679-4869-993f-2e9a7b11d7b9" Level="0" Type="footer" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductitemfooter" ApplyToSublevels="False" /><Item ID="00c32e2d-0a7e-4847-8171-c4bf25cb5a73" Level="0" Type="separator" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductitemseparator" ApplyToSublevels="False" /><Item ID="d18ffbad-b53f-41f3-a3db-82187146beab" Level="1" Type="item" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductoptionitem" ApplyToSublevels="False" /><Item ID="7ca88367-0613-42a6-bb10-ea388f7348d8" Level="1" Type="header" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductoptionheader" ApplyToSublevels="False" /><Item ID="d47299bc-e3ff-4dfe-8f0d-d33fa0ef122e" Level="1" Type="footer" Value="" TransformationName="ecommercesite.transformations.mobilecheckoutshoppingcartproductoptionfooter" ApplyToSublevels="False" /></Items>]]>
+  </TransformationHierarchicalXML>
+  <TransformationIsHierarchical>True</TransformationIsHierarchical>
+  <TransformationName>MobileCheckoutShoppingCart</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

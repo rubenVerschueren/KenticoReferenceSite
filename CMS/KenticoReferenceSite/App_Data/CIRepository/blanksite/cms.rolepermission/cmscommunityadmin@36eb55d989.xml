@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.rolepermission>
+  <Parent>
+    <CodeName>CMSCommunityAdmin</CodeName>
+    <GUID>f7a4b723-9562-4061-b8ed-a0fb673cec62</GUID>
+    <ObjectType>cms.role</ObjectType>
+    <Site>
+      <CodeName>BlankSite</CodeName>
+      <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.permission_CreateRoomsFromLiveSite_cms.resource_CMS.Chat">
+      <PermissionID>
+        <CodeName>CreateRoomsFromLiveSite</CodeName>
+        <GUID>139465db-e606-4351-b289-6375a9131a16</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Chat</CodeName>
+          <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_EnterSupport_cms.resource_CMS.Chat">
+      <PermissionID>
+        <CodeName>EnterSupport</CodeName>
+        <GUID>4a626881-9275-4168-8eab-2c7a0a242a9c</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Chat</CodeName>
+          <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_ManageRooms_cms.resource_CMS.Chat">
+      <PermissionID>
+        <CodeName>ManageRooms</CodeName>
+        <GUID>da3c3f76-cc18-4278-abc1-6d0a9c15fbdc</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Chat</CodeName>
+          <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Manage_cms.resource_CMS.Blog">
+      <PermissionID>
+        <CodeName>Manage</CodeName>
+        <GUID>bb99dca6-8e3f-4666-ae3b-d15b8df0a4ce</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Blog</CodeName>
+          <GUID>16ff5f79-b1c3-4142-bf28-e9fec523a10e</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Manage_cms.resource_CMS.Groups">
+      <PermissionID>
+        <CodeName>Manage</CodeName>
+        <GUID>0370b817-718a-47fa-8e51-4c6ed312b695</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Groups</CodeName>
+          <GUID>65f419f4-00f1-4905-a344-fc5b94983097</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Modify_cms.resource_CMS.Chat">
+      <PermissionID>
+        <CodeName>Modify</CodeName>
+        <GUID>e48b6c1b-48ff-4f63-9a4d-4ddce9ca8a06</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Chat</CodeName>
+          <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Read_cms.resource_CMS.Blog">
+      <PermissionID>
+        <CodeName>Read</CodeName>
+        <GUID>6e5ae289-a7db-47a3-b624-4c56c75bfc9c</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Blog</CodeName>
+          <GUID>16ff5f79-b1c3-4142-bf28-e9fec523a10e</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Read_cms.resource_CMS.Chat">
+      <PermissionID>
+        <CodeName>Read</CodeName>
+        <GUID>37dd77ec-12a9-4bbe-ab40-20185bdfbfd0</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Chat</CodeName>
+          <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Read_cms.resource_CMS.Content">
+      <PermissionID>
+        <CodeName>Read</CodeName>
+        <GUID>c64b8b34-cdee-4e0c-9ddd-752c704a7913</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+    <Binding id="cms.permission_Read_cms.resource_CMS.Groups">
+      <PermissionID>
+        <CodeName>Read</CodeName>
+        <GUID>56e9bb59-90b3-489d-85fc-7a54aba140d4</GUID>
+        <ObjectType>cms.permission</ObjectType>
+        <Parent>
+          <CodeName>CMS.Groups</CodeName>
+          <GUID>65f419f4-00f1-4905-a344-fc5b94983097</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </PermissionID>
+    </Binding>
+  </Bindings>
+</cms.rolepermission>

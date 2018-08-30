@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<asp:PlaceHolder runat="server" ID="plcPreviousGroup"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcPageNumbers"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcNextGroup"></asp:PlaceHolder>&nbsp;
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>7f61b962-8f7c-4d54-9a93-50dd9c61a121</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Simple-PagerLayout</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Event (booking system) </ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="BookingEventID" columntype="integer" guid="dad026d7-7b06-48c6-8a73-fbfe998e4a8b" isPK="true" publicfield="false" visibility="none" />
+      <field column="EventName" columnsize="200" columntype="text" guid="214f01c3-693e-4368-a473-ab0db604a824" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Event name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventSummary" columntype="longtext" guid="0cc3ec35-b064-4723-9d66-96de71396bf1" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Event summary</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventDetails" columntype="longtext" guid="2197590c-069d-474b-ae72-6efada125b47" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Event details</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventLocation" columntype="longtext" guid="b3b13d86-86d2-4e3f-b46d-6a7e0ac6d79d" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Event location</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventDate" columntype="datetime" guid="60d4632f-b1b8-47b7-92e8-047851def573" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Start date</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <DisplayNow>True</DisplayNow>
+          <EditTime>True</EditTime>
+          <TimeZoneType>inherit</TimeZoneType>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventEndDate" columnprecision="7" columntype="datetime" guid="4be1cb3c-9a35-4309-a0ac-836c127c90ea" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>End date</fieldcaption>
+        </properties>
+        <settings>
+          <CheckRange>True</CheckRange>
+          <controlname>CalendarControl</controlname>
+          <DisplayNow>True</DisplayNow>
+          <EditTime>True</EditTime>
+          <TimeZoneType>inherit</TimeZoneType>
+        </settings>
+        <rules>
+          <rule errormsg="End date can not precede Start date.">
+            <![CDATA[{%Rule("Value >= Fields[\"60d4632f-b1b8-47b7-92e8-047851def573\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Start date</t><v>60d4632f-b1b8-47b7-92e8-047851def573</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than or equal</t><v>&gt;=</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)e24026fc0d3453272505100059052ab836cfdc276d0211bac94e858921f9ef1e%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field allowempty="true" column="EventAllDay" columntype="boolean" guid="0fc1cf8d-f57e-45bf-b7a0-cdfc0993c25b" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>All day event</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventCapacity" columntype="integer" guid="5cb1af54-540e-4442-af22-396164c049fa" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Capacity</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+        <rules>
+          <rule>
+            <![CDATA[{%Rule("Value >= 0", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinValue\" ><p n=\"minvalue\"><t>0</t><v>0</v><r>false</r><d></d><vt>double</vt></p></r></rules>")%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field allowempty="true" column="EventAllowRegistrationOverCapacity" columntype="boolean" guid="b6151d6e-98be-4923-963c-fe35c0d0620c" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>Allow registration over capacity</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventOpenFrom" columntype="datetime" guid="c45e5b03-0fc7-419c-9d61-69c30f14a93b" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Open from</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <DisplayNow>True</DisplayNow>
+          <EditTime>True</EditTime>
+          <TimeZoneType>inherit</TimeZoneType>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventOpenTo" columnprecision="7" columntype="datetime" guid="e6c5d489-9bef-4e07-bb1d-596b27ee1243" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Open to</fieldcaption>
+        </properties>
+        <settings>
+          <CheckRange>True</CheckRange>
+          <controlname>CalendarControl</controlname>
+          <DisplayNow>True</DisplayNow>
+          <EditTime>True</EditTime>
+          <TimeZoneType>inherit</TimeZoneType>
+        </settings>
+        <rules>
+          <rule errormsg="Open to can not precede Open from.">
+            <![CDATA[{%Rule("Value >= Fields[\"c45e5b03-0fc7-419c-9d61-69c30f14a93b\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Open from</t><v>c45e5b03-0fc7-419c-9d61-69c30f14a93b</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than or equal</t><v>&gt;=</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)5b39b180497f710c6c317d409c95cba7478119575472f94b5432b0a4aeb8eee4%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field allowempty="true" column="EventLogActivity" columntype="boolean" guid="ca863404-3007-4a16-a05c-97ac681824b7" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <defaultvalue>true</defaultvalue>
+          <fieldcaption>Log on-line marketing activity</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>226e24eb-9a04-4553-85a8-fbbdd22da943</ClassGUID>
+  <ClassIconClass>icon-calendar-number</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.BookingEvent</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>EventName</ClassNodeNameSource>
+  <ClassSearchContentColumn>EventDetails</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>EventDate</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="07736ba8-2af5-449c-994f-519082863e59" name="EventCapacity" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="25270cd2-0836-4c15-8172-4a5657e747ad" name="bookingeventID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="2f3ec36b-8345-4c46-a468-2a56bf9fb24b" name="EventName" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="6956ec87-e6d9-4113-9f99-7b39fdb58a69" name="EventOpenFrom" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="69bb3fc2-ee48-4da5-b761-79165c03e6a5" name="EventDate" searchable="True" tokenized="False" />
+      <item id="a9db0453-9d52-455b-b359-1bdc2fdeb436" name="EventEndDate" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="c17fd1c5-63ff-440e-a5ea-2513317d6302" name="EventDetails" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="defa3d6a-b0bc-4e84-bbc1-957c116c43fd" name="EventLocation" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="e09daf53-78ce-4a21-a2ca-11306d064539" name="EventSummary" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="e13a9ff1-c2b7-4cee-9336-b97e482f126d" name="EventOpenTo" searchable="True" tokenized="False" />
+      <item id="ec4be79f-715a-4c4b-a0ff-44dbc3009407" name="EventAllDay" />
+      <item azureretrievable="True" content="False" id="f0ffffa3-f41e-4656-aaa9-7b95cc46835e" name="EventAllowRegistrationOverCapacity" searchable="True" tokenized="False" />
+      <item id="fdb77a6c-b99c-4da2-a943-5f97a876a465" name="EventLogActivity" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_BookingEvent</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

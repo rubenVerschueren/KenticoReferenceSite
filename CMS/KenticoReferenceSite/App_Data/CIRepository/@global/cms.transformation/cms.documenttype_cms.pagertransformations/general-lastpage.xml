@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[&nbsp;<a href="<%# Eval("LastURL", true) %>">&gt;|</a>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>a1ebcd6a-7ce0-4c70-84a3-953e49f4996f</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>General-LastPage</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

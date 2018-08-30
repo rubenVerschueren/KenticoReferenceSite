@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<%# GetEditableValue("MainContentText") %>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>1a976b86-492e-409c-9939-9d70e9b7e423</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MobileHomePage</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

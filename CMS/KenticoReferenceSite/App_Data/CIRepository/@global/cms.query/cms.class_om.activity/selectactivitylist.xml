@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.query>
+  <ClassID>
+    <CodeName>OM.Activity</CodeName>
+    <GUID>77fa65bf-2a57-42a1-a738-c29d6f0f444a</GUID>
+    <ObjectType>cms.class</ObjectType>
+  </ClassID>
+  <QueryConnectionString>CMSOMConnectionString</QueryConnectionString>
+  <QueryGUID>f8de6622-c9ae-43b8-a43d-13ea83f8b027</QueryGUID>
+  <QueryIsCustom>False</QueryIsCustom>
+  <QueryIsLocked>False</QueryIsLocked>
+  <QueryName>selectactivitylist</QueryName>
+  <QueryRequiresTransaction>False</QueryRequiresTransaction>
+  <QueryText>
+<![CDATA[
+SELECT ##TOPN## ##COLUMNS## FROM (
+SELECT OM_Activity.ActivityID, OM_Activity.ActivityTitle, OM_Activity.ActivityType,
+OM_Activity.ActivityCreated, OM_Activity.ActivitySiteID, OM_Contact.ContactID,
+ISNULL(OM_Contact.ContactFirstName, '') + CASE WHEN (NULLIF(OM_Contact.ContactFirstName,'') IS NULL) THEN '' ELSE ' ' END +
+ISNULL(OM_Contact.ContactMiddleName, '') + CASE WHEN (NULLIF(OM_Contact.ContactMiddleName,'') IS NULL) THEN '' ELSE ' ' END +
+ISNULL(OM_Contact.ContactLastName, '') AS ContactFullNameJoined
+FROM OM_Activity
+LEFT JOIN OM_Contact ON OM_Activity.ActivityContactID = OM_Contact.ContactID
+) as tab WHERE ##WHERE## ORDER BY ##ORDERBY##
+]]>
+  </QueryText>
+  <QueryTypeID>0</QueryTypeID>
+</cms.query>

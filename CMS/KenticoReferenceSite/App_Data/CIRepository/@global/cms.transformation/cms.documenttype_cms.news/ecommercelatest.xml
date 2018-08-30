@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<p><strong><%# GetDate("NewsReleaseDate") %></strong></p>
+<div class="NewsReleaseTitle">
+<a href="<%# GetDocumentUrl() %>"><%# StripTags(Eval("NewsSummary")) %></a>
+</div>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>da273f5a-82ba-4c6f-9700-45080f081df2</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>EcommerceLatest</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

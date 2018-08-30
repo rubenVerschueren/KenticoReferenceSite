@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Office</CodeName>
+    <GUID>2b3a4fd0-6f1b-44ea-a2f1-b7c8fd013835</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="Office">
+<div class="Header">
+  <a href="<%# GetDocumentUrl() %>"><%# Eval("OfficeName",true) %></a>
+</div>
+<div class="Body">
+  <table>
+  <tr><td rowspan="2" style="vertical-align: top;"><%#IfEmpty(Eval("OfficePhoto"), "", "<img src='" + GetAttachmentUrlByGUID(Eval("OfficePhoto"), Eval("NodeAlias")) + "?height=50' alt='" + Eval("OfficeName") + "' />")%></td></tr>
+  <tr><td class="Address" style="vertical-align: top;">
+    <%# IfEmpty(Eval("OfficeAddress1"),"", Eval("OfficeAddress1",true)+"<br />") %>
+    <%# IfEmpty(Eval("OfficeAddress2"),"", Eval("OfficeAddress2",true)+"<br />") %>
+    <%# Eval("OfficeCity",true) %>, <%# Eval("OfficeState",true) %> <%# Eval("OfficeZIP",true) %>
+  </td></tr>
+  </table>
+<%# Eval("OfficeDescription") %>
+</div>
+</div>
+<br />
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>401ad427-758b-4ae6-8769-6560044941c8</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>SimpleList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

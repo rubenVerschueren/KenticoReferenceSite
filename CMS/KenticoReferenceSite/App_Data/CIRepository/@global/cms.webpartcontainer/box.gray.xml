@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webpartcontainer>
+  <ContainerCSS />
+  <ContainerDisplayName>Gray box</ContainerDisplayName>
+  <ContainerGUID>d48d9b0d-12a4-4c3c-9c41-b5a8aefec6ee</ContainerGUID>
+  <ContainerName>Box.Gray</ContainerName>
+  <ContainerTextAfter>
+    <![CDATA[</div>]]>
+  </ContainerTextAfter>
+  <ContainerTextBefore>
+    <![CDATA[<div class="grayBox">]]>
+  </ContainerTextBefore>
+</cms.webpartcontainer>

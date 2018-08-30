@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.SimpleArticle</CodeName>
+    <GUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="ArticleID" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ArticleTitle" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ArticleText" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <controlname>htmlareacontrol</controlname>
+          <width />
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Intranet articles</FormDisplayName>
+  <FormGUID>f8e7b587-ba76-4ec5-8aaa-7adb6ebc03c7</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>IntranetArticles</FormName>
+</cms.alternativeform>

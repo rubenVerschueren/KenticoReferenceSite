@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webpartcontainer>
+  <ContainerCSS />
+  <ContainerDisplayName>Content padding</ContainerDisplayName>
+  <ContainerGUID>2102cc78-54f5-4e85-9977-746d8b67c136</ContainerGUID>
+  <ContainerName>Padding.Content</ContainerName>
+  <ContainerTextAfter>
+    <![CDATA[</div>]]>
+  </ContainerTextAfter>
+  <ContainerTextBefore>
+    <![CDATA[<div class="ContentPadding">]]>
+  </ContainerTextBefore>
+</cms.webpartcontainer>

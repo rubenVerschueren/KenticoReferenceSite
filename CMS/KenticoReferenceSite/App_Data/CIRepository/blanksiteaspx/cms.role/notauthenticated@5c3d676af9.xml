@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>
+    <![CDATA[Special role which automatically covers all not authenticated users.]]>
+  </RoleDescription>
+  <RoleDisplayName>Not authenticated users</RoleDisplayName>
+  <RoleGUID>bc678dc0-608e-4174-bb54-4c1555223ee7</RoleGUID>
+  <RoleName>_notauthenticated_</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

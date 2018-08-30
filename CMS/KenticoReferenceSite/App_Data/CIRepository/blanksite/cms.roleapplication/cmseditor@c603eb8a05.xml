@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.roleapplication>
+  <Parent>
+    <CodeName>CMSEditor</CodeName>
+    <GUID>9e39857e-9f5a-44c1-ba43-a1db4c7e7a2c</GUID>
+    <ObjectType>cms.role</ObjectType>
+    <Site>
+      <CodeName>BlankSite</CodeName>
+      <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.uielement_Blog_cms.resource_CMS.Blog">
+      <ElementID>
+        <CodeName>Blog</CodeName>
+        <GUID>5c77292d-92cc-4400-829d-66a158205110</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Blog</CodeName>
+          <GUID>16ff5f79-b1c3-4142-bf28-e9fec523a10e</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_CheckedOutDocs_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>CheckedOutDocs</CodeName>
+        <GUID>57df65d7-c096-4212-8e7a-4fb3b14733dc</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_MediaLibrary_cms.resource_CMS.MediaLibrary">
+      <ElementID>
+        <CodeName>MediaLibrary</CodeName>
+        <GUID>436564ee-89e9-4719-939a-0d7b57ece744</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.MediaLibrary</CodeName>
+          <GUID>f1ae7bb7-e5e2-4944-b0a6-c92be4f95982</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_OutdatedDocs_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>OutdatedDocs</CodeName>
+        <GUID>a0815e15-d371-446b-8111-d008a8455d4b</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Pending_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>Pending</CodeName>
+        <GUID>62a7b8df-19fb-46e0-badf-3ca989339922</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Polls_cms.resource_CMS.Polls">
+      <ElementID>
+        <CodeName>Polls</CodeName>
+        <GUID>3d90780f-f58b-4275-9ec6-165897095c82</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Polls</CodeName>
+          <GUID>587a4ab1-def8-451b-8b55-f885afe3c16b</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_RecentDocs_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>RecentDocs</CodeName>
+        <GUID>35101e65-d12e-4528-9d2c-dd4ccdcc4988</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Translations_cms.resource_CMS.TranslationServices">
+      <ElementID>
+        <CodeName>Translations</CodeName>
+        <GUID>cc330171-8ab1-4c48-97c0-f52ea73aea3e</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.TranslationServices</CodeName>
+          <GUID>1ab44056-7cc1-4ad2-bc49-3adae489654f</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_content_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>content</CodeName>
+        <GUID>95a82f36-9c40-45f0-86f1-39aa44db9a77</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+  </Bindings>
+</cms.roleapplication>

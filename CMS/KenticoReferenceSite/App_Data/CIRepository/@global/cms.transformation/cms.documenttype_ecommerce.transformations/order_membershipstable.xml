@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[{% " - " + GetResourceString(MembershipDisplayName) + " (" + (String.IsNullOrEmpty(ValidTo) ? "never expires" : "expires after " + GetCurrentDateTimeString(Format(ValidTo,"{0:G}"), Customer.CustomerUser.UserName)) + ")" |(identity)GlobalAdministrator|(hash)386a7622be7c5cb012a5f2daad2817551315dd78afabecbbc5936a078f5e1762%} <br />]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>de7e35e0-bfa9-4aae-928c-0268848bce54</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Order_MembershipsTable</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

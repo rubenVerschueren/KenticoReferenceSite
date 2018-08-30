@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<div class="Content">No event</div>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>d68dd497-dece-4242-ab59-e14c9c118e96</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CalendarNoEvent</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

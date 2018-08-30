@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<strong><a href="<%# ResolveUrl(GetUrl( Eval("NodeAliasPath"), Eval("DocumentUrlPath"))) %>">
+<%# Eval("NewsTitle",true) %></a></strong>&nbsp;
+(<%# System.Convert.ToString(Convert.ToDateTime(Eval("NewsReleaseDate"))) %>)<br />
+<br />
+<em>
+<%# Eval("NewsSummary") %>
+</em>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>fb196ff2-000d-4167-8085-bd34ecceee1f</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CalendarEvent</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

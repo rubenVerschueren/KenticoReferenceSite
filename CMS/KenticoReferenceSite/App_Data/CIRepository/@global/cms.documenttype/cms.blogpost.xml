@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Blog post</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="BlogPostID" columntype="integer" guid="6bb4b42b-befe-49f3-b845-0c70aa8576aa" isPK="true" publicfield="false" visibility="none" />
+      <field column="BlogPostTitle" columnsize="200" columntype="text" guid="000d6585-fa7a-480f-9d3b-4d277ba88245" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Post title</fieldcaption>
+          <inputcontrolstyle>width:700px</inputcontrolstyle>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <Trim>False</Trim>
+        </settings>
+        <rules>
+          <rule>
+            <![CDATA[{%Rule("Value.Length <= 200", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>200</t><v>200</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)8b1240fd225ed7f4a899c6c31c486e826a5273aeee201bd953fd83dc84f20865%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field column="BlogPostDate" columntype="datetime" guid="16ad70fb-c2aa-43d8-b4cc-90b355db52f9" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <defaultvalue>##TODAY##</defaultvalue>
+          <fieldcaption>Post date</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <DisplayNow>True</DisplayNow>
+          <EditTime>True</EditTime>
+          <TimeZoneType>inherit</TimeZoneType>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogPostSummary" columntype="longtext" guid="14e6b28d-0432-41e5-8226-e294a163ad99" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Post summary</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field column="BlogPostBody" columntype="longtext" guid="7790b13f-13c1-45a2-9be6-cd5b06768eef" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Post text</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <Height>500</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogPostTeaser" columntype="file" guid="fb8f8a49-4964-4e29-bc2f-130cdc99285d" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Post teaser</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>directuploadcontrol</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field column="BlogPostAllowComments" columntype="boolean" guid="d9114eb8-86a6-4a91-b9b5-62c894b397ff" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>true</defaultvalue>
+          <fieldcaption>Allow comments</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="DocumentTags" columntype="longtext" external="true" guid="21d7fc24-23be-4537-86f5-d2f05e52a63f" publicfield="false" system="true" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Tags</fieldcaption>
+          <fielddescription>
+            <![CDATA[Tags which should be assigned to the current blog post.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>tagselector</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogLogActivity" columntype="boolean" guid="ef9c7d8a-7b71-499d-b901-fcc700314056" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <defaultvalue>true</defaultvalue>
+          <fieldcaption>Log on-line marketing activity</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <category name="FacebookAutoPost">
+        <properties>
+          <caption>{$sm.facebook.autopost$}</caption>
+          <collapsible>true</collapsible>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="FacebookAutoPost" columntype="longtext" guid="2ae67372-03b3-4a0f-b750-19efbbaca044" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>{$sm.facebook.autopost$}</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>facebook_auto_post</controlname>
+        </settings>
+      </field>
+      <category name="PostToTwitter">
+        <properties>
+          <caption>{$sm.twitter.autopost$}</caption>
+          <collapsible>true</collapsible>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="TwitterAutoPost" columntype="longtext" guid="5add8629-bd6e-40f5-b44e-6bb94f14294f" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>{$sm.twitter.autopost$}</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>twitter_auto_post</controlname>
+        </settings>
+      </field>
+      <category name="sm.linkedin.autopost">
+        <properties>
+          <caption>{$sm.linkedin.autopost$}</caption>
+          <collapsible>true</collapsible>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="LinkedInAutoPost" columnsize="200" columntype="text" guid="859bdb21-8623-46c2-a838-375798ebcc13" publicfield="false" spellcheck="false" visible="true">
+        <properties>
+          <fieldcaption>{$sm.linkedin.autopost$}</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>LinkedInAutoPost</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</ClassGUID>
+  <ClassIconClass>icon-rectangle-paragraph</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.BlogPost</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>BlogPostTitle</ClassNodeNameSource>
+  <ClassSearchContentColumn>BlogPostBody</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>BlogPostDate</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>BlogPostTeaser</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item id="19665e0c-2887-45a3-9227-6aac88cbdb74" name="TwitterAutoPost" />
+      <item azureretrievable="True" content="False" id="2c9bb21d-8578-4dc8-8c6f-289c7384a64c" name="BlogPostDate" searchable="True" tokenized="False" />
+      <item id="5ca75656-d709-42b9-8792-c2d78b34b13d" name="FacebookAutoPost" />
+      <item id="65316755-1bf2-4cd0-9f53-5e2e5fc8e770" name="LinkedInAutoPost" />
+      <item id="6d473dec-57a7-490c-a7ec-2c7c800890bd" name="BlogLogActivity" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="79a8ee7f-8744-4197-bedc-49a13dfa593f" name="BlogPostSummary" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="836b4443-0f0f-49dd-af82-d6f746139e3f" name="blogpostID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="9da15594-c143-43cf-88f1-5b9622855764" name="BlogPostBody" searchable="False" tokenized="True" />
+      <item content="False" id="bd07c788-a157-42b5-8632-e7889151c0b6" name="BlogPostTeaser" searchable="False" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="d09d5b7b-5099-41db-8dff-0dd69db0d706" name="BlogPostTitle" searchable="False" tokenized="True" />
+      <item content="False" id="d0cd4478-be24-41cd-ab19-1c73122c5855" name="BlogPostAllowComments" searchable="False" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_BlogPost</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

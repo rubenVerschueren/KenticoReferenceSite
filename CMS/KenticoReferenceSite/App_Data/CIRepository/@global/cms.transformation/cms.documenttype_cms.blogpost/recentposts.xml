@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<a href="<%# GetDocumentUrl() %>"><%# Eval("BlogPostTitle", true) %></a><br/>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>ea8b0d82-15cf-43d5-85af-d43e646d991d</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>RecentPosts</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

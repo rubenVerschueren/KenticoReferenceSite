@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Articles</CodeName>
+    <GUID>d3fb30d9-20f8-42cb-9c3d-f215ac84e1fe</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.simplearticlelist</PageTemplateCodeName>
+  <PageTemplateCSS />
+  <PageTemplateDescription>
+    <![CDATA[Displays a simple list of articles. The new articles are added underneath the node.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>Simple article list</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateForAllPages>True</PageTemplateForAllPages>
+  <PageTemplateGUID>a34626b4-5bb3-4d69-8892-cc462d4d0aff</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-list-title</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="articlesListSimple">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateLayoutType>ascx</PageTemplateLayoutType>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="ContributionList" guid="d3a59931-7242-4562-9821-aab9022ba2ca" type="ContributionList" v="1">
+          <property name="allowdelete">True</property>
+          <property name="allowedchildclasses">CMS.SimpleArticle</property>
+          <property name="allowedit">True</property>
+          <property name="allowinsert">True</property>
+          <property name="allowusers">2</property>
+          <property name="alternativeformname"></property>
+          <property name="checkdocpermissionsforinsert">False</property>
+          <property name="checkpermissions">True</property>
+          <property name="classnames"></property>
+          <property name="columns"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">ContributionList</property>
+          <property name="culturecode"></property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaylist">True</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">True</property>
+          <property name="instanceguid">d3a59931-7242-4562-9821-aab9022ba2ca</property>
+          <property name="listbuttontext"></property>
+          <property name="logactivity">False</property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="newdocumentpath">/%</property>
+          <property name="newitembuttontext"></property>
+          <property name="newitempagetemplate"></property>
+          <property name="orderby"></property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="path">/%</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="sitename"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="validationerrormessage"></property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">ContributionList</property>
+          <property name="wherecondition"></property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.SimpleArticle</CodeName>
+    <GUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form version="2">
+      <field column="ArticleText">
+        <settings>
+          <Width>100</Width>
+          <WidthUnitType>PERCENTAGE</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Corporate site</FormDisplayName>
+  <FormGUID>ff4d41d6-77b3-48cf-aa47-85bc826b6823</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>CorporateSite</FormName>
+</cms.alternativeform>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="MediaListItem">
+<table>
+	<tr>
+	<td class="MediaLibraryListPhoto">
+<%# IfEmpty(Eval("LibraryTeaserPath"), "<img border='0' src=\"~/App_Themes/CommunitySite/Images/DefaultMediaTeaser.gif\" alt=\"\" />", "<img src=\"" + GetAbsoluteUrl(ValidationHelper.GetString(Eval("LibraryTeaserPath"), "")) + "?width=180\" alt=\""+ Eval("name") +"\" border='0' />") %>
+		</td>
+		<td class="MediaLibraryListDescription">
+<strong>
+<%# LimitLength(ResHelper.LocalizeString(Convert.ToString(Eval("LibraryDisplayName", true))), 20, "...") %>
+</strong>
+
+
+<div class="MediaLibraryListDescriptionText">
+<%# LimitLength(ResHelper.LocalizeString(Convert.ToString(Eval("LibraryDescription", true))), 40, "...") %>
+</div>
+
+		</td>
+	</tr>
+</table>
+<div class="MediaListItemBottom"></div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>ed67ea54-7b9a-46de-93cc-aefe6bc91777</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MediaLibraryList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

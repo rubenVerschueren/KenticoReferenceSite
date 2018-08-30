@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("NodeGUID") %></guid>
+  <title><%# EvalCDATA("MenuItemName") %></title>
+  <description><%# EvalCDATA("NodeAliasPath") %></description>
+  <pubDate><%# GetRSSDateTime(Eval("DocumentCreatedWhen")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetDocumentUrlForFeed(), Eval<int>("NodeSiteID")) %>
+]]>
+<![CDATA[
+</link>
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>b0bcd365-eebd-4533-8e16-a37d9eb783aa</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>RSSItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

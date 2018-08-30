@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<a href="<%# GetDocumentUrl() %>"><%# Eval("BlogMonthName", true) %>(<asp:Label ID="lblPostCount" runat="server" EnableViewState="false"></asp:Label>)</a><br />]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>28dde887-fe5d-42aa-b277-db7a77784f66</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Archive</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

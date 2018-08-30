@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<entry>
+  <title><%# EvalCDATA("NewsTitle") %></title>
+  <link href="<%# GetAbsoluteUrl(GetDocumentUrlForFeed(), Eval<int>("NodeSiteID")) %>"/>
+  <id>urn:uuid:<%# Eval("NodeGUID") %></id>
+  <published><%# GetAtomDateTime(Eval("NewsReleaseDate")) %></published>
+  <updated><%# GetAtomDateTime(Eval("DocumentModifiedWhen")) %></updated>
+  <author>
+    <name><cms:ObjectTransformation runat="server" ObjectType="<%# CMS.DataEngine.PredefinedObjectType.USER %>" ObjectID='<%# Eval<int>("NodeOwner") %>' Transformation="{% FullName %}" NoDataTransformation="N/A" /></name>
+  </author>
+  <summary type="html"><%# EvalCDATA("NewsSummary") %></summary>
+</entry>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>d5c242e1-76da-4754-881f-af9e95136e63</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>AtomItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

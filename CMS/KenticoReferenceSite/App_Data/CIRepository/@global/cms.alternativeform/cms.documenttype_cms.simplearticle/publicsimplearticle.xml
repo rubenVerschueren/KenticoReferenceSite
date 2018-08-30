@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.SimpleArticle</CodeName>
+    <GUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form version="2">
+      <field column="ArticleText">
+        <settings>
+          <Width>100</Width>
+          <WidthUnitType>PERCENTAGE</WidthUnitType>
+          <controlname>HtmlAreaControl</controlname>
+          <ToolbarSet>Group</ToolbarSet>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Public simple article</FormDisplayName>
+  <FormGUID>3d17ba3a-4be3-41a9-a3dc-50733e24320d</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormLayout />
+  <FormName>PublicSimpleArticle</FormName>
+</cms.alternativeform>

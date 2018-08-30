@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<cms:usermenucontainer runat="server" ID="userMenuElem" MenuID="userContextMenu" Parameter='<%# Eval("UserID") %>' ContextMenuCssClass="UserContextMenu" >
+<div class="memberSmall">
+<div class="avatarSmall">
+<a href="<%# HTMLEncode(GetMemberProfileUrl(Eval("UserName"))) %>" title="<%# HTMLEncode(TrimSitePrefix(GetNotEmpty("UserNickname;UserName"))) %>">
+<%# GetUserAvatarImage(30, HTMLEncode(GetNotEmpty("UserNickname;UserName"))) %>
+</a>
+</div>
+<div class="memberInfoSmall">
+<h3><a href="<%# HTMLEncode(GetMemberProfileUrl(Eval("UserName"))) %>" title="<%# HTMLEncode(TrimSitePrefix(GetNotEmpty("UserNickname;UserName"))) %>"><%# HTMLEncode(TrimSitePrefix(GetNotEmpty("UserNickname;UserName"))) %></a></h3>
+Gender: <%# GetGender(Eval("UserGender")) %><br />
+Age: <%# GetAge(Eval("UserDateOfBirth"), "N/A") %>
+</div>
+</div>
+</cms:usermenucontainer>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>f1ce6d12-9612-4a65-b68d-6f96df63fc52</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MembersPreviewList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

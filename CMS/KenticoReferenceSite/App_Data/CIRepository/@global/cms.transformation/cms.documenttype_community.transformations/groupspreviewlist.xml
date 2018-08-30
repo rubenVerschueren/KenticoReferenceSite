@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<cms:groupmenucontainer runat="server" ID="groupMenuElem" MenuID="groupContextMenu" Parameter='<%# Eval("GroupID").ToString() %>' ContextMenuCssClass="UserContextMenu" >
+<div class="groupSmall">
+<div class="avatarSmall">
+<a href="<%# GetGroupProfileUrl(Eval("GroupName",true)) %>" title="<%# Eval("GroupDisplayName",true) %>">
+<%# GetGroupAvatarImage(30, Eval("GroupDisplayName",true)) %>
+</a>
+</div>
+<div class="groupInfoSmall">
+<h3><a href="<%# GetGroupProfileUrl(Eval("GroupName",true)) %>" title="<%# Eval("GroupDisplayName",true) %>"><%# Eval("GroupDisplayName",true) %></a></h3>
+<%# LimitLength(Eval("GroupDescription",true), 127, "...") %>
+</div>
+</div>
+</cms:groupmenucontainer>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>5922beec-d9fb-4463-b1ff-b6c75dc160be</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>GroupsPreviewList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

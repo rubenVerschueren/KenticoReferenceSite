@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="LatestPosts">
+  <div style="float:left;" class="Thread">
+    <a href="<%# ForumFunctions.GetPostURL(Eval("PostIDPath"), Eval("PostForumID")) %>">
+      <%# Eval("PostSubject", true) %>
+    </a>
+  </div>
+  <div style="float:right;" class="PostCount"><%# Eval("PostThreadPosts") %></div>
+  <div style="clear:both;"></div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>ecb9045c-929c-4cc8-a156-f67008cfb0d5</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ForumLatestPosts</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

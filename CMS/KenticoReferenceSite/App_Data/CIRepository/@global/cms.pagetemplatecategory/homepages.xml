@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplatecategory>
+  <CategoryDisplayName>Home pages</CategoryDisplayName>
+  <CategoryGUID>d5db3268-f2e5-48c9-aa7b-0c6807aa594e</CategoryGUID>
+  <CategoryImagePath />
+  <CategoryName>HomePages</CategoryName>
+  <CategoryParentID>
+    <CodeName>/</CodeName>
+    <GUID>532264bf-95e9-4035-b4ce-fe403c81781a</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </CategoryParentID>
+</cms.pagetemplatecategory>

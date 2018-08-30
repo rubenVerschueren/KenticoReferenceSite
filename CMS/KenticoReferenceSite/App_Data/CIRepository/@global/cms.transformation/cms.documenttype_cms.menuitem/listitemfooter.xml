@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[</ul>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>6a44e794-f88c-4717-aea5-c6c31556e840</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ListItemFooter</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Groups - Member join</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>7125b6a1-d72b-4e14-9995-2a4e73b910bc</EmailTemplateGUID>
+  <EmailTemplateName>Groups.MemberJoin</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)dd305481dd0207608802c019e410cca3fe74ce590a181bca8b2fc47d7262bf6a%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)292ff4f5f73c2e6d7184d651e470befd14643149ff9ae2a8c6ad9ac2075daa5b%}) joined group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.
+
+
+Best Regards,
+
+The Community Team
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject />
+  <EmailTemplateText>
+<![CDATA[
+<html>
+	<head>
+	</head>
+	<body>
+		<p>User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)dd305481dd0207608802c019e410cca3fe74ce590a181bca8b2fc47d7262bf6a%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)292ff4f5f73c2e6d7184d651e470befd14643149ff9ae2a8c6ad9ac2075daa5b%}) joined group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.</p>
+		<br />
+		<br />
+		Best Regards,<br />
+		<br />
+		The Community Team
+	</body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>groupmember</EmailTemplateType>
+</cms.emailtemplate>

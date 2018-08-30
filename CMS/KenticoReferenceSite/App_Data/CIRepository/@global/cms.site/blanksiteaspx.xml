@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.site>
+  <SiteDescription>Blank web site using ASPX templates</SiteDescription>
+  <SiteDisplayName>KenticoReferenceSite</SiteDisplayName>
+  <SiteDomainName>localhost</SiteDomainName>
+  <SiteGUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</SiteGUID>
+  <SiteIsOffline>False</SiteIsOffline>
+  <SiteName>BlankSiteASPX</SiteName>
+  <SiteOfflineMessage />
+</cms.site>

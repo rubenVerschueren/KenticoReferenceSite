@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDefaultObjectType />
+  <ClassDisplayName>Article</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ArticleID" columntype="integer" guid="53c38fa7-58d0-45f5-a67c-984ee1671b72" isPK="true" publicfield="false" visibility="none">
+        <properties>
+          <fieldcaption>Article name</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ArticleName" columnsize="450" columntype="text" guid="25de7f2c-0a13-4add-baa1-1b62b905228e" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Article name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <Trim>True</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleTeaserText" columntype="longtext" guid="62c32dcb-c2f9-4a17-949f-031ab5e32ed6" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Teaser text</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleTeaserImage" columntype="file" guid="35ab1e37-887e-4861-ac96-9a492edb14a7" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Teaser image</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>directuploadcontrol</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleText" columntype="longtext" guid="e67355cd-be72-47c5-89a1-3619cc289a81" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Article text</fieldcaption>
+          <fielddescription>Article text.</fielddescription>
+        </properties>
+        <settings>
+          <Autoresize>
+            <![CDATA[<AutoResize><autoresize /><autoresize_width /><autoresize_height /><autoresize_maxsidesize /></AutoResize>]]>
+          </Autoresize>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Dialogs_Groups>#current#</Dialogs_Groups>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>2568ad70-17a5-4c58-91d2-67101cdf4fb3</ClassGUID>
+  <ClassIconClass>icon-rectangle-paragraph</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.Article</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>ArticleName</ClassNodeNameSource>
+  <ClassSearchContentColumn>ArticleText</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>ArticleTeaserImage</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="389a7cf8-7ba5-4e43-bcb5-720fc9d393d8" name="ArticleText" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="True" azuresearchable="True" content="True" id="47d26358-4065-42e2-aa44-c0d7cb73b94c" name="ArticleName" searchable="True" tokenized="True" />
+      <item content="False" id="544c27c7-ab1d-485f-ab33-bef9e9623e5d" name="ArticleTeaserImage" searchable="False" tokenized="False" />
+      <item azureretrievable="True" content="False" id="aa1389b0-f6b7-44fb-85d7-2d8e4964b850" name="ArticleID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="dd3b76ac-aad0-4695-9953-214d608bfc70" name="ArticleTeaserText" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_Article</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

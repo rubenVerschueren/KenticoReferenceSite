@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.query>
+  <ClassID>
+    <CodeName>polls.poll</CodeName>
+    <GUID>35aefb4e-1944-48af-8725-0aedf4bb17be</GUID>
+    <ObjectType>cms.class</ObjectType>
+  </ClassID>
+  <QueryConnectionString>CMSConnectionString</QueryConnectionString>
+  <QueryGUID>cd685f8b-8216-461a-8acf-9e9570cca3b4</QueryGUID>
+  <QueryIsCustom>False</QueryIsCustom>
+  <QueryIsLocked>False</QueryIsLocked>
+  <QueryName>selectallofsite</QueryName>
+  <QueryRequiresTransaction>False</QueryRequiresTransaction>
+  <QueryText>
+    <![CDATA[SELECT ##COLUMNS## FROM Polls_Poll WHERE (PollID IN (SELECT PollID FROM Polls_PollSite WHERE SiteID=@SiteID) OR PollID IN (SELECT PollID FROM Polls_Poll WHERE PollSiteID=@SiteID)) ORDER BY ##ORDERBY##]]>
+  </QueryText>
+  <QueryTypeID>0</QueryTypeID>
+</cms.query>

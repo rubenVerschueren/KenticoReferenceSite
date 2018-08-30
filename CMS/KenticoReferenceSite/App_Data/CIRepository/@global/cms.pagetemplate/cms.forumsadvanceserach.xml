@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Forums</CodeName>
+    <GUID>4c63472e-52d5-48dc-b962-730c8ca6bf8c</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.forumsadvanceserach</PageTemplateCodeName>
+  <PageTemplateDescription>Display forum advance search page</PageTemplateDescription>
+  <PageTemplateDisplayName>Forums advance search</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>c72bea04-f4a3-41c7-b742-9d55e9299dfa</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-magnifier</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="forumSearch">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="breadcrumbs" guid="6d64bb0a-9cb8-4dd8-8464-e1f3d0b9be64" type="breadcrumbs">
+          <property name="applymenudesign">True</property>
+          <property name="breadcrumbseparator">
+            <![CDATA[&gt;]]>
+          </property>
+          <property name="breadcrumbseparatorrtl">
+            <![CDATA[&lt;]]>
+          </property>
+          <property name="cachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="checkpermissions">False</property>
+          <property name="container">Box.Gray</property>
+          <property name="controlid">breadcrumbs</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="encodename">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="ignoreshowinnavigation">False</property>
+          <property name="instanceguid">6d64bb0a-9cb8-4dd8-8464-e1f3d0b9be64</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="renderlinktitle">False</property>
+          <property name="selectnodesstartpath">/</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showcurrentitem">True</property>
+          <property name="showcurrentitemaslink">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="usertlbehaviour">True</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">breadcrumbs</property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+        <webpart controlid="editabletext" guid="445ee355-8b1b-4dd9-a728-8a0410af63db" type="editabletext">
+          <property name="checkpermissions">False</property>
+          <property name="contentafter">
+            <![CDATA[</h1>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<h1>]]>
+          </property>
+          <property name="controlid">editabletext</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="htmlareatoolbarlocation">In</property>
+          <property name="instanceguid">445ee355-8b1b-4dd9-a728-8a0410af63db</property>
+          <property name="regiontitle">Header</property>
+          <property name="regiontype">TextBox</property>
+          <property name="selectonlypublished">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">editabletext</property>
+          <property name="wordwrap">True</property>
+        </webpart>
+        <webpart controlid="ExtendedForumSearchDialog" guid="739cd3be-c179-464c-a2a4-2c4c13894b30" type="ExtendedForumSearchDialog">
+          <property name="contentafter">
+            <![CDATA[<br />]]>
+          </property>
+          <property name="controlid">ExtendedForumSearchDialog</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideforresult">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">739cd3be-c179-464c-a2a4-2c4c13894b30</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">ExtendedForumSearchDialog</property>
+        </webpart>
+        <webpart controlid="ForumSearchResults" guid="cea3768a-eaea-4f03-b4c6-60579f635045" type="ForumSearchResults">
+          <property name="avatarmaxsidesize">80</property>
+          <property name="controlid">ForumSearchResults</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaybadgeinfo">True</property>
+          <property name="enableavatars">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">cea3768a-eaea-4f03-b4c6-60579f635045</property>
+          <property name="noresultstext">There are no posts matching search criteria.</property>
+          <property name="redirecttouserprofile">True</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">ForumSearchResults</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

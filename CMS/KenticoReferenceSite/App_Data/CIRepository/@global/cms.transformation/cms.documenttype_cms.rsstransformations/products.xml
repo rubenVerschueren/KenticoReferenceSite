@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.RSSTransformations</CodeName>
+    <GUID>4e930f0e-4804-43ea-a37e-17923aa61455</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("SKUGUID") %></guid>
+  <title><%# EvalCDATA("SKUName") %></title>
+  <description><%# EvalCDATA("SKUDescription") %></description>
+  <pubDate><%# GetRSSDateTime(Eval("SKUCreated")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetProductUrlForFeed(Eval("SKUGUID"),Eval("SKUName"),Eval<int>("NodeSiteID")),Eval<int>("NodeSiteID")) %>
+]]>
+<![CDATA[
+</link>
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>9f912942-2532-44aa-9847-071bfc1673aa</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Products</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

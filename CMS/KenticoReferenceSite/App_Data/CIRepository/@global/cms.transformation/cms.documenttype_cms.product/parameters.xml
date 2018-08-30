@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Product</CodeName>
+    <GUID>1f1decea-2d34-4ecc-b53a-e38187922bd9</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<table class="parametersList">
+  <tbody>
+    <tr>
+      <td>No additional parameters are specified.</td>
+    </tr>
+  </tbody>
+</table>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>6185f600-ec9d-48a6-91c6-fc76a359e094</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Parameters</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

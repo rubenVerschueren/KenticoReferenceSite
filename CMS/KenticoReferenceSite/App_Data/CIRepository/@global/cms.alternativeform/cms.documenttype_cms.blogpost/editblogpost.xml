@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="BlogPostTitle">
+        <properties>
+          <inputcontrolstyle>width:545px !important</inputcontrolstyle>
+        </properties>
+      </field>
+      <field column="BlogPostSummary">
+        <settings>
+          <Width>550</Width>
+        </settings>
+      </field>
+      <field column="BlogPostBody" visibility="none">
+        <settings>
+          <Height>350</Height>
+          <Width>550</Width>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Edit blog post</FormDisplayName>
+  <FormGUID>b4367dc9-aae9-4c2b-9105-9500f8713dea</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormLayout>
+<![CDATA[
+<table>
+	<tbody>
+		<tr>
+			<td>$$label:BlogPostTitle$$</td>
+			<td>$$input:BlogPostTitle$$ $$validation:BlogPostTitle$$</td>
+		</tr>
+		<tr>
+			<td>$$label:BlogPostDate$$</td>
+			<td>$$input:BlogPostDate$$ $$validation:BlogPostDate$$</td>
+		</tr>
+		<tr>
+			<td>$$label:BlogPostSummary$$</td>
+			<td>$$input:BlogPostSummary$$ $$validation:BlogPostSummary$$</td>
+		</tr>
+		<tr>
+			<td>$$label:BlogPostBody$$</td>
+			<td>$$input:BlogPostBody$$ $$validation:BlogPostBody$$</td>
+		</tr>
+		<tr>
+			<td>$$label:BlogPostTeaser$$</td>
+			<td>$$input:BlogPostTeaser$$ $$validation:BlogPostTeaser$$</td>
+		</tr>
+		<tr>
+			<td>$$label:BlogPostAllowComments$$</td>
+			<td>
+			<p>$$input:BlogPostAllowComments$$ $$validation:BlogPostAllowComments$$</p>
+			</td>
+		</tr>
+		<tr>
+			<td>$$label:DocumentTags$$</td>
+			<td>$$input:DocumentTags$$ $$validation:DocumentTags$$</td>
+		</tr>
+	</tbody>
+</table>
+
+]]>
+  </FormLayout>
+  <FormLayoutType>html</FormLayoutType>
+  <FormName>EditBlogPost</FormName>
+</cms.alternativeform>

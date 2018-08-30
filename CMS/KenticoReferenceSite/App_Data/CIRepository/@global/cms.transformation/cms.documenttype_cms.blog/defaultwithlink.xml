@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Blog</CodeName>
+    <GUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="BlogPTitle"><strong><a href="<%# GetDocumentUrl() %>">
+  <%# Eval("BlogName", true) %></a></strong>
+</div>
+<div class="BlogPBody TextContent">
+  <%# Eval("BlogDescription") %>
+</div>
+<br />
+
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>d6cf7480-2bb5-46f2-9197-71327a55851d</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>DefaultWithLink</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

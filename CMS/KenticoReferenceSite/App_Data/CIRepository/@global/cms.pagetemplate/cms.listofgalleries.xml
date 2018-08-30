@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Images</CodeName>
+    <GUID>7085eb62-6f72-4280-820f-2dd6593bb440</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.listofgalleries</PageTemplateCodeName>
+  <PageTemplateDescription>Displays list of galleries.</PageTemplateDescription>
+  <PageTemplateDisplayName>List of galleries</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>68a0fc81-a72e-4b2c-a978-4e6395cb6c15</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-list-img-article</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="galleriesList">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="breadcrumbs" guid="d0f98da1-17f4-4915-b63e-32ad97cc64a4" type="breadcrumbs">
+          <property name="applymenudesign">True</property>
+          <property name="breadcrumbseparator">
+            <![CDATA[&gt;]]>
+          </property>
+          <property name="breadcrumbseparatorrtl">
+            <![CDATA[&lt;]]>
+          </property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container">Box.Gray</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">breadcrumbs</property>
+          <property name="culturecode"></property>
+          <property name="defaultpath"></property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="encodename">False</property>
+          <property name="filtername"></property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="ignoreshowinnavigation">False</property>
+          <property name="instanceguid">d0f98da1-17f4-4915-b63e-32ad97cc64a4</property>
+          <property name="path"></property>
+          <property name="renderlinktitle">False</property>
+          <property name="selectnodesstartpath">/</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showcurrentitem">True</property>
+          <property name="showcurrentitemaslink">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="sitename"></property>
+          <property name="urltarget"></property>
+          <property name="usertlbehaviour">True</property>
+          <property name="visible">True</property>
+          <property name="webparttype">breadcrumbs</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+        <webpart controlid="ListOfGalleries" guid="257f05ce-3fd4-4fd0-81c5-473b594b31e5" type="repeater">
+          <property name="alternatingtransformationname"></property>
+          <property name="backnextlocation">split</property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">CMS.MenuItem</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+<![CDATA[
+<br class="clear" />
+</div></div>
+]]>
+          </property>
+          <property name="contentbefore">
+<![CDATA[
+<br />
+<div class="photoGalleryContainer"><div class="photoGallery">
+]]>
+          </property>
+          <property name="controlid">ListOfGalleries</property>
+          <property name="culturecode"></property>
+          <property name="customtimezone"></property>
+          <property name="datasourcename"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enablepaging">False</property>
+          <property name="filtername"></property>
+          <property name="filteroutduplicates">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">True</property>
+          <property name="instanceguid">257f05ce-3fd4-4fd0-81c5-473b594b31e5</property>
+          <property name="itemseparator"></property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="nestedcontrolsid"></property>
+          <property name="nesteddatalistid"></property>
+          <property name="nestedrepeaterid"></property>
+          <property name="newbuttontext"></property>
+          <property name="orderby">NodeOrder ASC</property>
+          <property name="pagenumbersseparator">-</property>
+          <property name="pagerhtmlafter"></property>
+          <property name="pagerhtmlbefore"></property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="path">/Images/%</property>
+          <property name="querystringkey"></property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="resultsposition">top</property>
+          <property name="selecteditemtransformationname"></property>
+          <property name="selectonlypublished">True</property>
+          <property name="selecttopn"></property>
+          <property name="showeditdeletebuttons">False</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="shownewbutton">False</property>
+          <property name="sitename"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="transformationname">CMS.MenuItem.ImageGalleryList</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+        <webpart controlid="Subcontent" guid="3d6ee615-57dd-48f6-a70e-3433107e9953" type="pageplaceholder">
+          <property name="checkpermissions">True</property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[<br class="clear" /></div></div>]]>
+          </property>
+          <property name="contentbefore">
+<![CDATA[
+<br />
+<div class="photoGalleryContainer"><div class="photoGallery">
+]]>
+          </property>
+          <property name="controlid">Subcontent</property>
+          <property name="displaytoroles"></property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">3d6ee615-57dd-48f6-a70e-3433107e9953</property>
+          <property name="pagetemplate"></property>
+          <property name="showfordocumenttypes"></property>
+          <property name="visible">True</property>
+          <property name="webparttype">pageplaceholder</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

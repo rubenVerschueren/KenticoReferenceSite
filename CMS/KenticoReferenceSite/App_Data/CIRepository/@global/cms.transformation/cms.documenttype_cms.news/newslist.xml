@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="NewsPTitle"><a href="<%# GetDocumentUrl() %>">
+  <%# Eval("NewsTitle",true) %></a>&nbsp;|&nbsp;<%# GetDateTime("NewsReleaseDate", "MM/dd/yyyy HH:mm") %>
+</div>
+<div class="NewsPBody">
+  <div class="TextContent"><%# Eval("NewsSummary") %></div>
+</div>
+
+NewRelease Speciality <%# Eval("DateFormatMMM_YYYY") %>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>6ea5f6e7-fb26-4ed1-a7ee-9aab632cf1bd</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>newslist</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

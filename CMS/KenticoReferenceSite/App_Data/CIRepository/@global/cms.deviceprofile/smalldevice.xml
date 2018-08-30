@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.deviceprofile>
+  <ProfileDisplayName>Smartphone (320 x 480)</ProfileDisplayName>
+  <ProfileEnabled>True</ProfileEnabled>
+  <ProfileGUID>764e2796-dc5b-49a0-8ef1-167d296f0ba1</ProfileGUID>
+  <ProfileMacro>
+<![CDATA[
+{%maxSideSize = 480;
+
+width = CurrentDevice.Data["ScreenPixelsWidth"];
+height = CurrentDevice.Data["SreenPixelsHeight"];
+
+if (!CurrentDevice.Data["IsMobile"] 
+    || ((width > maxSideSize)||(height > maxSideSize))){
+    return false;
+}
+
+return true;|(identity)GlobalAdministrator|(hash)b0b813a4cb5063e3aec6244280850b74802516014a6a57c633ebc7efc6766c47%}
+]]>
+  </ProfileMacro>
+  <ProfileName>SmallDevice</ProfileName>
+  <ProfileOrder>1</ProfileOrder>
+  <ProfilePreviewHeight>480</ProfilePreviewHeight>
+  <ProfilePreviewWidth>320</ProfilePreviewWidth>
+  <ProfileUserAgents>
+<![CDATA[
+iphone
+ipod
+blackberry
+iemobile
+googlebot-mobile
+
+]]>
+  </ProfileUserAgents>
+</cms.deviceprofile>

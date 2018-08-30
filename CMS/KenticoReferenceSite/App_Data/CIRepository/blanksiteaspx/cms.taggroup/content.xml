@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.taggroup>
+  <TagGroupDescription>Main content group</TagGroupDescription>
+  <TagGroupDisplayName>Content</TagGroupDisplayName>
+  <TagGroupGUID>c39a95fb-66df-4c1d-8803-ae9e7da05064</TagGroupGUID>
+  <TagGroupIsAdHoc>False</TagGroupIsAdHoc>
+  <TagGroupName>content</TagGroupName>
+  <TagGroupSiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TagGroupSiteID>
+</cms.taggroup>

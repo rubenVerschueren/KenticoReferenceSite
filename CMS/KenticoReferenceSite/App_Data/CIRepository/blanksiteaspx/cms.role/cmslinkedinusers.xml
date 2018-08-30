@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>
+    <![CDATA[Users who authenticated using LinkedIn authentication.]]>
+  </RoleDescription>
+  <RoleDisplayName>LinkedIn users</RoleDisplayName>
+  <RoleGUID>cb43c811-51ec-4f6a-bd19-67a76b1c93a7</RoleGUID>
+  <RoleIsDomain>False</RoleIsDomain>
+  <RoleName>CMSLinkedInUsers</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

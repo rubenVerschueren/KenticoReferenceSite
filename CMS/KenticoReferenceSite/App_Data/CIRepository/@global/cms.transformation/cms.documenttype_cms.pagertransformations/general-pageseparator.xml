@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[&nbsp;]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>f122a865-846b-4df8-8fcf-e142769ff7be</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>General-PageSeparator</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

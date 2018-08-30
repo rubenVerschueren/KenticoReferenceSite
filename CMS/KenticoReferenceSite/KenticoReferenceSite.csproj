@@ -69,6 +69,103 @@
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticoreferencesite.mypagetype.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.acl\3eac1a90-7382-4c84-9294-eb3188aadf88.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.document\%40c61c3428a3#en-us\document.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.document\%40c61c3428a3.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\cmsbasicusers%4025e879dbec.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\cmscommunityadmin%40736b4c6bad.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\cmsdesigner%406ad768794c.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\cmsdeskadmin%4004ee993345.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\cmseditor%40d5322eb261.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\cmsreaders%408c4a7fd617.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleapplication\marketingmanager%40739d62bab6.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\authenticated%40dd4a77940e.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\cmsbasicusers%4025e879dbec.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\cmscommunityadmin%40736b4c6bad.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\cmsdesigner%406ad768794c.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\cmsdeskadmin%4004ee993345.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\cmseditor%40d5322eb261.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\cmsreaders%408c4a7fd617.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.rolepermission\marketingmanager%40739d62bab6.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\cmsbasicusers%4025e879dbec.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\cmscommunityadmin%40736b4c6bad.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\cmsdesigner%406ad768794c.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\cmsdeskadmin%4004ee993345.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\cmseditor%40d5322eb261.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\cmsreaders%408c4a7fd617.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.roleuielement\marketingmanager%40739d62bab6.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\authenticated%40b6994a21ce.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsbasicusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmscommunityadmin.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsdesigner.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsdeskadmin.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmseditor.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsfacebookusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmslinkedinusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsliveidusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsopenidusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\cmsreaders.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\everyone%40bfdaa68cc1.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\marketingmanager.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.role\notauthenticated%405c3d676af9.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.scheduledtask\content.publish.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.scheduledtask\ecommerce.deleteoldshoppingcarts.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.scheduledtask\newsletter.checkbounces.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.scheduledtask\staging.synchronization.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.scheduledtask\translationsretrieval.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.scheduledtask\usersdeletenonactivateduser.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.taggroup\content.xml" />
+    <Content Include="App_Data\CIRepository\blanksiteaspx\cms.widgetrole\marketingmanager%40739d62bab6.xml" />
+    <Content Include="App_Data\CIRepository\blanksitemvc\cms.acl\0072d163-58b7-495f-bbcd-1f15eaadf7e3.xml" />
+    <Content Include="App_Data\CIRepository\blanksitemvc\cms.document\%40c73288cb81#en-us\document.xml" />
+    <Content Include="App_Data\CIRepository\blanksitemvc\cms.document\%40c73288cb81.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.acl\f302cf1b-59b5-4ceb-b1c0-348fbc653fbb.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.document\%40d7240c6532#en-us\document.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.document\%40d7240c6532.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\cmsbasicusers%40501a6599b2.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\cmscommunityadmin%4036eb55d989.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\cmsdesigner%40edfe78aaf2.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\cmsdeskadmin%40ebe891a89a.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\cmseditor%40c603eb8a05.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\cmsreaders%406369fca77d.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleapplication\marketingmanager%4072e5c657ca.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\cmsbasicusers%40501a6599b2.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\cmscommunityadmin%4036eb55d989.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\cmsdesigner%40edfe78aaf2.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\cmsdeskadmin%40ebe891a89a.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\cmseditor%40c603eb8a05.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\cmsreaders%406369fca77d.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\everyone%40e270336fb7.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.rolepermission\marketingmanager%4072e5c657ca.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\cmsbasicusers%40501a6599b2.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\cmscommunityadmin%4036eb55d989.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\cmsdesigner%40edfe78aaf2.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\cmsdeskadmin%40ebe891a89a.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\cmseditor%40c603eb8a05.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\cmsreaders%406369fca77d.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\everyone%40e270336fb7.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.roleuielement\marketingmanager%4072e5c657ca.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\authenticated%40b6994a21ce.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsbasicusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmscommunityadmin.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsdesigner.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsdeskadmin.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmseditor.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsfacebookusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmslinkedinusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsliveidusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsopenidusers.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\cmsreaders.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\everyone%40bfdaa68cc1.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\marketingmanager.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.role\notauthenticated%405c3d676af9.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.scheduledtask\content.publish.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.scheduledtask\ecommerce.deleteoldshoppingcarts.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.scheduledtask\newsletter.checkbounces.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.scheduledtask\staging.synchronization.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.scheduledtask\translationsretrieval.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.scheduledtask\usersdeletenonactivateduser.xml" />
+    <Content Include="App_Data\CIRepository\blanksite\cms.widgetrole\marketingmanager%4072e5c657ca.xml" />
     <Content Include="App_Themes\KenticoReferenceSite.css" />
     <Content Include="CMSScripts\Custom\KenticoReferenceSite.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -82,16 +179,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AppOffline.htm_" />
+    <None Include="App_Config\AppSettings.Debug.config">
+      <DependentUpon>AppSettings.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
+    <None Include="App_Config\AppSettings.Release.config">
+      <DependentUpon>AppSettings.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
     <None Include="App_Config\AppSettings.Template.config" />
-    <Content Include="App_Config\AppSettings.config" />
+    <Content Include="App_Config\AppSettings.config">
+      <TransformOnBuild>true</TransformOnBuild>
+    </Content>
     <Content Include="App_Config\connectionStrings.config" />
     <None Include="App_Config\connectionStrings.Template.config" />
+    <Content Include="App_Data\CIRepository\repository.config" />
     <None Include="CIScripts\ExecuteCIScript.txt" />
     <None Include="CIScripts\Restore-CI.ps1" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +249,9 @@
   <PropertyGroup>
     <PostBuildEvent>
     </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>xcopy D:\Sites\KenticoReferenceSite\CMS\App_Data\CIRepository D:\Projects\KenticoReferenceSite\KenticoReferenceSite\CMS\KenticoReferenceSite\App_Data\CIRepository /L /I /Y /S /D</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

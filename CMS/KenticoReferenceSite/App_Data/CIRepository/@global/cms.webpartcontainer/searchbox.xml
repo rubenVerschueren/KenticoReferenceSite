@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webpartcontainer>
+  <ContainerCSS />
+  <ContainerDisplayName>Search box</ContainerDisplayName>
+  <ContainerGUID>6ef5e754-61f3-4e8b-854e-2299224c007a</ContainerGUID>
+  <ContainerName>SearchBox</ContainerName>
+  <ContainerTextAfter>
+<![CDATA[
+<div class="boxSearchLeftBot"><div></div></div>
+</div>
+]]>
+  </ContainerTextAfter>
+  <ContainerTextBefore>
+<![CDATA[
+<div class="boxSearchLeft">
+  <div class="boxSearchLeftTop"><div></div></div>
+]]>
+  </ContainerTextBefore>
+</cms.webpartcontainer>

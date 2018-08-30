@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:output method="xml" omit-xml-declaration="yes" />
+<xsl:template match="Table">
+NewsID: <xsl:value-of disable-output-escaping="yes" select="NewsID"/><br />
+News Title: <xsl:value-of disable-output-escaping="yes" select="NewsTitle"/><br />
+News Summary: <xsl:value-of disable-output-escaping="yes" select="NewsSummary"/><br />
+News Text: <xsl:value-of disable-output-escaping="yes" select="NewsText"/><br />
+Release Date: <xsl:value-of disable-output-escaping="yes" select="NewsReleaseDate"/><br />
+</xsl:template>
+</xsl:stylesheet>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>f7156ccb-d209-4d18-bb20-11c9f4c67eaf</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default_xslt</TransformationName>
+  <TransformationType>xslt</TransformationType>
+</cms.transformation>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<%@ Register Src="~/CMSModules/MediaLibrary/Controls/LiveControls/MediaFilePreview.ascx" TagName="MediaFilePreview" TagPrefix="cc1" %>
+<div class="mediaItem">
+<table>
+	<tr>
+		<td class="mediaLibraryPhoto"><a href="<%# HTMLHelper.HTMLEncode(MediaLibraryFunctions.GetMediaFileDetailUrl(Eval("FileID"))) %>" title="<%# ResHelper.GetString(Convert.ToString(Eval("FileDescription"))) %>">
+		<cc1:MediaFilePreview ID="filePreview" runat="server" maxsidesize="117" width="117" height="117" /></a>
+		</td>
+	</tr>
+	<tr>
+		<td class="mediaLibraryDescription">
+<a href="<%# HTMLHelper.HTMLEncode(MediaLibraryFunctions.GetMediaFileDetailUrl(Eval("FileID"))) %>" title="<%# ResHelper.GetString(Convert.ToString(Eval("FileDescription"))) %>">
+			<%# HTMLEncode(LimitLength(GetNotEmpty("FileTitle;FileName"), 18, "...")) %>
+			</a><br/>
+			Size:&nbsp;<%# DataHelper.GetSizeString(ValidationHelper.GetLong(Eval("FileSize"), 0)) %><br/>
+			Uploaded:&nbsp;<%# ((DateTime)Eval("FileCreatedWhen")).ToString("M/d/yyyy") %>
+
+		</td>
+	</tr>
+</table>
+<div class="mediaItemBottom"></div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>478ada33-0cef-4839-9998-78de89ad0735</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MediaLibrary</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

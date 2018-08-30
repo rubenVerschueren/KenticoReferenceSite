@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div style="font-size: 15px; padding-bottom: 7px;"><a href="<%# GetDocumentUrl() %>"><%# Eval("DocumentName", true) %></a></div>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>753a77f3-f242-4dc6-bd1b-6f3bb0fa0ce4</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>DocumentList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

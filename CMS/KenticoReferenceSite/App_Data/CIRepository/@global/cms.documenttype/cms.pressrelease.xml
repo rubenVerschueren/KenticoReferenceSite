@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Press release</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="PressReleaseID" columntype="integer" guid="c4f3b1e9-bf64-4367-ad1d-ef56b83356ce" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>PressReleaseID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="PressReleaseTitle" columnsize="400" columntype="text" guid="09e05c90-b4ea-4f34-9473-97bc6cd5e35b" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Title</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="PressReleaseDate" columntype="datetime" guid="3968574c-e4a0-4f57-ac96-924e8e16cf56" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Release date</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <editTime>false</editTime>
+        </settings>
+      </field>
+      <field column="PressReleaseSummary" columntype="longtext" guid="ae7f537e-8b59-47f7-9839-724db9b0fbd1" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Summary</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+          <height>150</height>
+        </settings>
+      </field>
+      <field column="PressReleaseText" columntype="longtext" guid="e60411e6-43dd-49cb-a95b-5b4b1fb01ae4" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Main text</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="PressReleaseAbout" columntype="longtext" guid="330238bc-0f8b-4371-bb35-29f5c7b965e6" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>About company</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="PressReleaseTrademarks" columntype="longtext" guid="029541a4-522c-4070-beff-e90b82b5bd2f" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Trademarks</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>4a5ea3ba-0025-4841-a0a0-acbacf2f8021</ClassGUID>
+  <ClassIconClass>icon-newspaper</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.PressRelease</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>PressReleaseTitle</ClassNodeNameSource>
+  <ClassSearchContentColumn>PressReleaseText</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>PressReleaseDate</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="47b8de7f-e811-429b-91b6-af2a57a57c5d" name="pressreleaseID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="54c8d20c-5e7f-4001-b66c-3ab95d20d097" name="PressReleaseAbout" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="89cd0ca2-3add-4dcf-af75-cedcf910759b" name="PressReleaseTitle" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="99664ebc-787f-4bcc-bf36-c4ac53aad54b" name="PressReleaseSummary" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="b078773a-351b-4c68-ae60-d4b3ccd3e6d5" name="PressReleaseDate" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="b560fa5e-3aad-4c27-a13b-a5ab80082bb1" name="PressReleaseText" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="be141cda-9fde-434e-8e50-d05163162b1a" name="PressReleaseTrademarks" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_PressRelease</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

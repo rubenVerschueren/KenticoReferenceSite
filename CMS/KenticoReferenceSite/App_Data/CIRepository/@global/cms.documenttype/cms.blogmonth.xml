@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDefaultObjectType />
+  <ClassDisplayName>Blog month</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="BlogMonthID" columntype="integer" guid="98b59fad-92b9-4006-b0b7-92957fc35af9" isPK="true" publicfield="false" visibility="none" />
+      <field column="BlogMonthName" columnsize="100" columntype="text" guid="f1e41cf4-d6ef-4c17-8178-bbba9bfca8af" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Month name</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+        <rules>
+          <rule>
+            <![CDATA[{%Rule("Value.Length <= 100", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>100</t><v>100</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)ef5f366de03cec94a6b16ccc1cf18f6bbe18056730cdf128ca0a57d22a8dad6c%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field column="BlogMonthStartingDate" columntype="datetime" guid="024d9543-5f25-4af9-bf06-811f09fa5648" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Month starting date</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <editTime>false</editTime>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>b3d8215b-fa66-460b-84ae-de8826b087d1</ClassGUID>
+  <ClassIconClass>icon-calendar</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.BlogMonth</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>BlogMonthName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>BlogMonthStartingDate</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="2abc8820-5ab7-4954-96c2-76e54f37bfb1" name="blogmonthID" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="c12db52e-e5e0-4804-8eef-4d4a60c8475f" name="BlogMonthStartingDate" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="d8343694-888f-42c7-97d3-c1b759b39471" name="BlogMonthName" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_BlogMonth</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>Live ID users</RoleDescription>
+  <RoleDisplayName>Live ID users</RoleDisplayName>
+  <RoleGUID>ebf53fbe-f230-43ad-a4a2-6a3d75fc9d4d</RoleGUID>
+  <RoleName>CMSLiveIDUsers</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

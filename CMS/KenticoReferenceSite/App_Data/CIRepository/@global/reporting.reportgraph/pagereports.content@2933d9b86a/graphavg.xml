@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reporting.reportgraph>
+  <GraphDisplayName>Average time on page</GraphDisplayName>
+  <GraphGUID>e04c141b-c004-4a0d-8f40-aa68ad9dcc08</GraphGUID>
+  <GraphHeight>300</GraphHeight>
+  <GraphLegendPosition>100</GraphLegendPosition>
+  <GraphName>graphAvg</GraphName>
+  <GraphQuery>
+<![CDATA[
+ SET @FromDate ={%DatabaseSchema%}.Func_Analytics_DateTrim(@FromDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)28c209aa60e6a1a143893d9419fcabf0ff452c70b9b62b96b4543787ea9c58ef%}');
+ 
+ SELECT {%if (Columns == null) { "Date" } else { Columns }|(identity)GlobalAdministrator|(hash)27f4f17d0170620c9916be715f405805aef74dfc712ba988a194599e7c8a72af%} AS StartTime , T1.Hits   AS Time FROM
+  {%DatabaseSchema%}.Func_Analytics_EnsureDates (@FromDate,@ToDate,'{%if (Interval == null) { "year" } else { Interval }|(identity)GlobalAdministrator|(hash)28c209aa60e6a1a143893d9419fcabf0ff452c70b9b62b96b4543787ea9c58ef%}') AS Dates   
+  LEFT JOIN
+  (SELECT HitsStartTime AS StartTime, SUM(HitsValue) / SUM(HitsCount) AS hits
+  FROM Analytics_Statistics
+  INNER JOIN {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)b8ec447e0b995b5c0eda4d5f07606433a4a136d7487ee2fbf2be06ac769a7b77%} ON {%if (AnalyticsTable == null) { "Analytics_YearHits" } else { AnalyticsTable }|(identity)GlobalAdministrator|(hash)b8ec447e0b995b5c0eda4d5f07606433a4a136d7487ee2fbf2be06ac769a7b77%}.HitsStatisticsID = Analytics_Statistics.StatisticsID
+  WHERE (StatisticsSiteID = @CMSContextCurrentSiteID) AND
+  (StatisticsCode = 'avgtimeonpage') AND StatisticsObjectID = @NodeID AND StatisticsObjectCulture = @CultureCode
+  GROUP BY HitsStartTime) AS T1
+  ON T1.StartTime = [Date]
+  
+  
+
+]]>
+  </GraphQuery>
+  <GraphQueryIsStoredProcedure>False</GraphQueryIsStoredProcedure>
+  <GraphReportID>
+    <CodeName>pagereports.content</CodeName>
+    <GUID>6970f1e7-13bd-443c-8e7a-8334d0d79a9d</GUID>
+    <ObjectType>reporting.report</ObjectType>
+  </GraphReportID>
+  <GraphSettings>
+    <CustomData>
+      <barorientation>Vertical</barorientation>
+      <baroverlay>False</baroverlay>
+      <displayitemvalue>False</displayitemvalue>
+      <exportenabled>True</exportenabled>
+      <legendinside>False</legendinside>
+      <legendposition>None</legendposition>
+      <linedrawinstyle>Line</linedrawinstyle>
+      <plotareagradient>None</plotareagradient>
+      <querynorecordtext>No data found</querynorecordtext>
+      <reverseyaxis>False</reverseyaxis>
+      <seriesgradient>None</seriesgradient>
+      <seriesitemtooltip>
+<![CDATA[
+#VALX{%xValueFormat%} - #SER: {%Format(ToInt((yval / 3600), ""), "{0:00}")|(identity)GlobalAdministrator|(hash)6ab2bcbb4afdb7d9a55546a0349e095aa4a534078c3c3845c2ec35764fe2b341%}:
+{%Format(round(yval/60), "{0:00}")|(identity)GlobalAdministrator|(hash)dc400ea9bac5f4653f0c743a560b96cf2ff0d97a0e7c2e28535d15a01db94070%}:{%Format(modulo(round(yval),60), "{0:00}")|(identity)GlobalAdministrator|(hash)23d23a88ea0c6441bbf80b6bcf3845b83e8d1f3df895137f7986fed28e0b12e2%} 
+
+
+]]>
+      </seriesitemtooltip>
+      <showas3d>False</showas3d>
+      <showmajorgrid>True</showmajorgrid>
+      <stackedbarmaxstacked>False</stackedbarmaxstacked>
+      <subscriptionenabled>True</subscriptionenabled>
+      <tenpowers>False</tenpowers>
+      <titleposition>Center</titleposition>
+      <valuesaspercent>False</valuesaspercent>
+      <xaxisformat>{%XAxisFormat%}</xaxisformat>
+      <xaxissort>True</xaxissort>
+      <xaxistitleposition>Center</xaxistitleposition>
+      <yaxistitleposition>Center</yaxistitleposition>
+      <yaxisusexaxissettings>True</yaxisusexaxissettings>
+    </CustomData>
+  </GraphSettings>
+  <GraphTitle>{$reports_pageviews.average$}</GraphTitle>
+  <GraphType>line</GraphType>
+  <GraphWidth>600</GraphWidth>
+  <GraphXAxisTitle>{%XAxisTitle%}</GraphXAxisTitle>
+  <GraphYAxisTitle>{$reports_pageviews.average$} [s]</GraphYAxisTitle>
+</reporting.reportgraph>

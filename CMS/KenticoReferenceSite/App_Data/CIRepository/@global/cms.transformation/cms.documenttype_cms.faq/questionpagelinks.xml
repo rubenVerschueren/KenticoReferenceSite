@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Faq</CodeName>
+    <GUID>bcd29a46-35c2-4f22-86b1-ada293df6ee6</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<a href="#FAQ<%# Eval("FAQID") %>"><%# Eval("FAQQuestion",true) %></a><br />
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>c2e47a70-dff9-401b-930e-c2260957ceda</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>QuestionPageLinks</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

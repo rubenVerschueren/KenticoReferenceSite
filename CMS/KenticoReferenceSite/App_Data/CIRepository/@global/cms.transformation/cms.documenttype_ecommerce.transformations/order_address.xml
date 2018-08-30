@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+{%IfEmpty(Customer.CustomerCompany, "", HTMLEncode(Localize(Customer.CustomerCompany)) + "<br />")|(identity)GlobalAdministrator|(hash)a81d253de6f09193eed746f132657b11e8fd18754918969e67f24aa34fc1f113%}
+{%IfEmpty(Customer.CustomerTaxRegistrationID, "", "Tax registration ID: " + HTMLEncode(Localize(Customer.CustomerTaxRegistrationID)) + "<br />")|(identity)GlobalAdministrator|(hash)bc27be3d3cceec1fa69e4d53b1783a23a4bb040f383c423d6f08995376ef60cf%}
+{%IfEmpty(Customer.CustomerOrganizationID, "", "Organization ID: " + HTMLEncode(Localize(Customer.CustomerOrganizationID)) + "<br />")|(identity)GlobalAdministrator|(hash)6c36bb7d1f48f22a6eaf9b726fc95d8e72244b9b914fc892ac15048cd1a2f85e%}
+{%HTMLEncode(Localize(AddressPersonalName))%}<br />
+{%HTMLEncode(Localize(AddressLine1))%}<br />
+{%IfEmpty(AddressLine2, "", HTMLEncode(Localize(AddressLine2)) + "<br />")%}
+{%HTMLEncode(Localize(AddressCity))%}<br />
+{%HTMLEncode(Localize(AddressZip))%}<br />
+{%HTMLEncode(Localize(Country.CountryDisplayName))|(identity)GlobalAdministrator|(hash)dc8ccba5333fdaeff3e4a14a3d7e9864b8348d89093d399c37da62cba369b3b6%} {%IfEmpty(State, "", ", " + HTMLEncode(Localize(State.StateDisplayName)))|(identity)GlobalAdministrator|(hash)9f3142577f7e6ce657bec6d67f6def6546203091bad370a68882dffb73a36cdc%}
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>1975f66d-874f-4caa-b9e5-627aeb0b2233</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Order_Address</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

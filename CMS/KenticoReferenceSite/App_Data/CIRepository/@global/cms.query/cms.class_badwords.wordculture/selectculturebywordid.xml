@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.query>
+  <ClassID>
+    <CodeName>badwords.wordculture</CodeName>
+    <GUID>ec176759-6109-4794-9de9-372f91efb878</GUID>
+    <ObjectType>cms.class</ObjectType>
+  </ClassID>
+  <QueryConnectionString>CMSConnectionString</QueryConnectionString>
+  <QueryGUID>0518c92f-d596-4dbf-bda0-359d85371bdd</QueryGUID>
+  <QueryIsCustom>False</QueryIsCustom>
+  <QueryIsLocked>False</QueryIsLocked>
+  <QueryName>selectculturebywordid</QueryName>
+  <QueryRequiresTransaction>False</QueryRequiresTransaction>
+  <QueryText>
+    <![CDATA[SELECT CultureCode FROM CMS_Culture WHERE CultureID IN (SELECT CultureID FROM BadWords_WordCulture WHERE WordID = @WordID)]]>
+  </QueryText>
+  <QueryTypeID>0</QueryTypeID>
+</cms.query>

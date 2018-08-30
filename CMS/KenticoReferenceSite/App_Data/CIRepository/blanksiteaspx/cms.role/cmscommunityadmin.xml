@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>
+    <![CDATA[Users who manage the community groups, members etc.]]>
+  </RoleDescription>
+  <RoleDisplayName>CMS Community administrators</RoleDisplayName>
+  <RoleGUID>f7a4b723-9562-4061-b8ed-a0fb673cec62</RoleGUID>
+  <RoleName>CMSCommunityAdmin</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

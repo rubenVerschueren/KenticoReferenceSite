@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>FAQs</CodeName>
+    <GUID>34bd2726-1f40-40be-ab70-cd5f32110273</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.questionlinks</PageTemplateCodeName>
+  <PageTemplateDescription>
+    <![CDATA[Displays list of questions and linked answers to them.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>
+    <![CDATA[Q&As - question links and list of Q&As]]>
+  </PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>043b7924-a41d-41e8-be5c-7cf263bbea78</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-list-article</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="qaLinksList">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="QuestionLinksRepeater" guid="6177a442-2136-4830-9b5d-d4287b9b9835" type="repeater">
+          <property name="alternatingtransformationname"></property>
+          <property name="backnextlocation">split</property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes">0</property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">cms.faq</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[<br />]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<h1>Questions</h1>]]>
+          </property>
+          <property name="controlid">QuestionLinksRepeater</property>
+          <property name="culturecode"></property>
+          <property name="displaytoroles"></property>
+          <property name="enablepaging">False</property>
+          <property name="filteroutduplicates">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">6177a442-2136-4830-9b5d-d4287b9b9835</property>
+          <property name="itemseparator"></property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="nesteddatalistid"></property>
+          <property name="nestedrepeaterid"></property>
+          <property name="newbuttontext">
+            <![CDATA[Add new question/answer <br />]]>
+          </property>
+          <property name="orderby">FAQQuestion</property>
+          <property name="pagenumbersseparator">-</property>
+          <property name="pagerhtmlafter"></property>
+          <property name="pagerhtmlbefore"></property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="path"></property>
+          <property name="querystringkey"></property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="relationshipwithnodeid">0</property>
+          <property name="resultsposition">top</property>
+          <property name="selecteditemtransformationname"></property>
+          <property name="selectonlypublished">True</property>
+          <property name="showeditdeletebuttons">True</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="shownewbutton">True</property>
+          <property name="sitename"></property>
+          <property name="transformationname">cms.faq.QuestionPageLinks</property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+        <webpart controlid="QuestionAnswerRepeater" guid="684de9ed-cd9d-48b6-a3a5-8cc8ea7c8316" type="repeater">
+          <property name="alternatingtransformationname"></property>
+          <property name="backnextlocation">split</property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes">0</property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">cms.faq</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore">
+            <![CDATA[<h1>Answers</h1>]]>
+          </property>
+          <property name="controlid">QuestionAnswerRepeater</property>
+          <property name="culturecode"></property>
+          <property name="displaytoroles"></property>
+          <property name="enablepaging">False</property>
+          <property name="filteroutduplicates">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">684de9ed-cd9d-48b6-a3a5-8cc8ea7c8316</property>
+          <property name="itemseparator"></property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="nesteddatalistid"></property>
+          <property name="nestedrepeaterid"></property>
+          <property name="newbuttontext"></property>
+          <property name="orderby">FAQQuestion</property>
+          <property name="pagenumbersseparator">-</property>
+          <property name="pagerhtmlafter"></property>
+          <property name="pagerhtmlbefore"></property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="path"></property>
+          <property name="querystringkey"></property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="relationshipwithnodeid">0</property>
+          <property name="resultsposition">top</property>
+          <property name="selecteditemtransformationname"></property>
+          <property name="selectonlypublished">True</property>
+          <property name="showeditdeletebuttons">False</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="shownewbutton">False</property>
+          <property name="sitename"></property>
+          <property name="transformationname">cms.faq.QuestionAnswer</property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

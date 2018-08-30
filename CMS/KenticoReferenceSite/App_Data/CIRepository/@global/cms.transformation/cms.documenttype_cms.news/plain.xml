@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h2><%# Eval("DocumentName") %></h2>
+<p>
+ <cms:ObjectTransformation ID="ucUsr" runat="server" ObjectType='<%# CMS.DataEngine.PredefinedObjectType.USER %>' ObjectID='<%# Eval<int>("NodeOwner") %>' Transformation = "This page is owned by {% FullName %}." NoDataTransformation = "This page has no owner." />  
+</p>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>1f468568-6aa8-4b0f-abe7-b7bd85307a34</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>plain</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

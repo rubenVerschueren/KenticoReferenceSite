@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h1><%# Eval("EventName", true) %></h1>
+<table width="100%" class="TextContent">
+<tr valign="top">
+<td>
+<%# Eval("EventDetails") %>
+</td>
+</tr>
+<tr>
+<td>
+<table>
+<tr valign="top">
+<td width="150">
+<strong>Event capacity:</strong>
+</td>
+<td>
+<%# IfEmpty(Eval("EventCapacity"),"N/A",Eval("EventCapacity")) %>
+</td>
+</tr>
+<tr valign="top">
+<td width="150">
+<strong>Event location:</strong>
+</td>
+<td>
+<%# Eval("EventLocation") %>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<strong>Event date:</strong>
+</td>
+<td>
+<%# GetEventDateString(Eval("EventDate"),Eval("EventEndDate"),Eval<bool>("EventAllDay")) %>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>d5f3acbc-c7da-46f7-8781-3835540c58b5</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode />
+  <TransformationGUID>8cfe1807-4689-4772-b3f6-4ccc4b97aa1e</TransformationGUID>
+  <TransformationHierarchicalXML>
+    <![CDATA[<Items><Item ID="abd3fd5a-f755-4c72-a322-b17c519d0f40" Level="-1" Type="item" Value="CMS.MenuItem" TransformationName="Community.Transformations.ExamplesMenuItem" ApplyToSublevels="True" /><Item ID="548be412-47fc-40ce-acc5-791ac17b12af" Level="-1" Type="currentitem" Value="CMS.MenuItem" TransformationName="Community.Transformations.ExamplesMenuItemCurrent" ApplyToSublevels="True" /><Item ID="9a7ea020-21f3-4025-a5b6-0b8d0462006e" Level="-1" Type="header" Value="" TransformationName="Community.Transformations.ExamplesMenuHeader" ApplyToSublevels="True" /><Item ID="8be10ad3-5a86-4d33-84dd-e858665dbb22" Level="-1" Type="footer" Value="" TransformationName="Community.Transformations.ExamplesMenuFooter" ApplyToSublevels="True" /></Items>]]>
+  </TransformationHierarchicalXML>
+  <TransformationIsHierarchical>True</TransformationIsHierarchical>
+  <TransformationName>ExamplesMenu</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

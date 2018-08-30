@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webtemplate>
+  <WebTemplateDescription>{$webtemplate.communitysite.description$}</WebTemplateDescription>
+  <WebTemplateDisplayName>Community Site</WebTemplateDisplayName>
+  <WebTemplateFileName>~\App_Data\Templates\CommunitySite</WebTemplateFileName>
+  <WebTemplateGUID>872ccfbc-3b4a-4c91-b99d-a5b15bcea3c3</WebTemplateGUID>
+  <WebTemplateLicenses>B;N;X;V</WebTemplateLicenses>
+  <WebTemplateName>CommunitySite</WebTemplateName>
+  <WebTemplateOrder>4</WebTemplateOrder>
+  <WebTemplateShortDescription>
+    <![CDATA[The Community Site demonstrates the capabilities of the social media features.]]>
+  </WebTemplateShortDescription>
+  <WebTemplateThumbnailGUID>8ac077cc-1eac-403f-9abe-c9c96c0af32f</WebTemplateThumbnailGUID>
+</cms.webtemplate>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription />
+  <RoleDisplayName>CMS Designers</RoleDisplayName>
+  <RoleGUID>e5d15938-d1bf-402a-ace8-6e03d5066dbe</RoleGUID>
+  <RoleIsGroupAdministrator>False</RoleIsGroupAdministrator>
+  <RoleName>CMSDesigner</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<tr>
+<td style="padding: 0px 8px 0px 5px; text-align: left;">{%HTMLEncode(Localize(Name))%}</td>
+<td style="vertical-align: top; text-align: right;">&#8209;&nbsp;{%HTMLEncode(Value.Format(Currency.CurrencyFormatString))|(identity)GlobalAdministrator|(hash)fb02928fc40e576688379d09cdb1abcd4217782e52f2f0707ad2e9b36edf9ea2%}</td>
+</tr>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>63d4cb96-7d6d-4e09-8c23-3390525b0911</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Order_OrderRelatedDiscountsContent</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+ <a href=" <%# Eval("NodeAliasPath") %>"> <strong><%# Eval("SearchResultName",true) %><br /></strong></a>
+Modified when: <%# Eval("DocumentModifiedWhen") %><br /><br /><br />
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>85af27df-2614-4295-9a73-e5b9b63074a3</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>SearchResults</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

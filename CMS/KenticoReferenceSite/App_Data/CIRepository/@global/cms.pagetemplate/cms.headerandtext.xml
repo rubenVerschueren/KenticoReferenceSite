@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>TemplatesWithEditableRegions</CodeName>
+    <GUID>ea953632-5e99-4808-8f11-fbbc79c27e0f</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCloneAsAdHoc>False</PageTemplateCloneAsAdHoc>
+  <PageTemplateCodeName>cms.headerandtext</PageTemplateCodeName>
+  <PageTemplateDescription>Displays header region and text underneath.</PageTemplateDescription>
+  <PageTemplateDisplayName>Header and text</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>e266d9b1-62f0-481f-99fd-3fc5ac7ec05a</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-header-text</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="textHeader">
+	<!-- Header zone -->
+	<div class="zoneHeader">
+		<cms:CMSWebPartZone ZoneID="zoneHeader" runat="server" />
+	</div>
+	<!-- Content -->
+	<div class="zoneContent">
+		<cms:CMSWebPartZone ZoneID="zoneContent" runat="server" />
+	</div>
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneContent" v="1">
+        <properties>
+          <property name="containerhideonsubpages">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+        </properties>
+      </webpartzone>
+      <webpartzone id="zoneHeader" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

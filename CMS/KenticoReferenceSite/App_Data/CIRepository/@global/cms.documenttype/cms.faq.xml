@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>FAQ</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="FAQID" columntype="integer" guid="0d6559a4-6f84-4ccd-8519-531abe9e4fc2" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>FAQID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FAQQuestion" columnsize="450" columntype="text" guid="c65497a6-d930-477c-83ad-3c0b48303c67" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Question</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FAQAnswer" columntype="longtext" guid="d8d416fa-b757-4a49-9c0b-5aca036987d8" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Answer</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>bcd29a46-35c2-4f22-86b1-ada293df6ee6</ClassGUID>
+  <ClassIconClass>icon-question-circle</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.Faq</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>FAQQuestion</ClassNodeNameSource>
+  <ClassSearchContentColumn>FAQQuestion</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="0171ad4a-cccb-42af-964a-d371c7894133" name="FAQAnswer" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="19615d7f-31d2-48f3-9627-232f5d925188" name="FAQID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="545b84af-fb3a-463f-ba3c-b18e1605406b" name="FAQQuestion" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_FAQ</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

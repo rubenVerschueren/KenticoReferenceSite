@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.RSSTransformations</CodeName>
+    <GUID>4e930f0e-4804-43ea-a37e-17923aa61455</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("PostGUID") %></guid>
+  <title><%# EvalCDATA("PostSubject") %></title>
+  <description><![CDATA[<strong><%# EvalCDATA("PostUserName",false) %></strong><br /><%# RemoveDynamicControls(ResolveDiscussionMacros(ValidationHelper.GetString(EvalCDATA("PostText",false),""))) %>
+]]>
+<![CDATA[
+</description>
+  <pubDate><%# GetRSSDateTime(Eval("PostTime")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetForumPostUrlForFeed(Eval("PostIDPath"),EvalInteger("PostForumID")), EvalInteger("ForumSiteID")) %>
+]]>
+<![CDATA[
+</link>
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>2103a4dc-a203-4935-9cec-d239fffe8d03</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ForumPosts</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.PressRelease</CodeName>
+    <GUID>4a5ea3ba-0025-4841-a0a0-acbacf2f8021</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="PressReleaseTitle">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="PressReleaseDate">
+        <settings>
+          <TimeZoneType>inherit</TimeZoneType>
+          <controlname>datetimefilter</controlname>
+          <DisplayNow>True</DisplayNow>
+          <editTime>False</editTime>
+        </settings>
+      </field>
+      <field column="PressReleaseSummary">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="PressReleaseText">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="PressReleaseAbout" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="PressReleaseTrademarks" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>5f21f1bf-f0d8-47db-a62a-d931c4c3fc62</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

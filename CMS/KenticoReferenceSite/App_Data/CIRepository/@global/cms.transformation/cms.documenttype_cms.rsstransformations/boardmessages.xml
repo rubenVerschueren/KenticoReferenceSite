@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.RSSTransformations</CodeName>
+    <GUID>4e930f0e-4804-43ea-a37e-17923aa61455</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("MessageGUID") %></guid>
+  <title><![CDATA[<%# TextHelper.LimitLength(ValidationHelper.GetString(EvalCDATA("MessageText",false),string.Empty),100) %>
+]]>
+<![CDATA[
+</title>
+  <description><![CDATA[<strong><%# EvalCDATA("MessageUserName",false) %></strong><br /><%# EvalCDATA("MessageText",false) %>
+]]>
+<![CDATA[
+</description>
+  <pubDate><%# GetRSSDateTime(Eval("MessageInserted")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetMessageBoardUrlForFeed(EvalInteger("BoardDocumentID")), EvalInteger("BoardSiteID")) %>
+]]>
+<![CDATA[
+</link>
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>295b3e58-0b68-4de7-9096-29db65326ba2</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>BoardMessages</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

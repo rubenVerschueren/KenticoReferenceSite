@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[&nbsp;<a href="<%# Eval("NextURL", true) %>">&gt;</a>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>126a86f3-e2d2-4df3-a7c4-873f5f68a87a</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>General-NextPage</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

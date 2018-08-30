@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<a href="<%# GetDocumentUrl() %>"><%# Eval("EventName", true) %></a><br/>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>58ba5b5a-ebc3-4902-a232-02673b2d9a99</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CalendarEvent</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

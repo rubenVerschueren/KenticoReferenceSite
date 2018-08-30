@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>StrandsRecommender.Transformations</CodeName>
+    <GUID>b163904e-c63a-469b-b2e4-567c5400cbd2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <id>{% ItemID %}</id> 
+  {% foreach (document in LanguageVersions) { %}
+     {% cultureCode = document.DocumentCulture.Replace("-", "").ToLower();; #%}
+    <title_{% cultureCode %}><![CDATA[{% document.DocumentName #%}
+]]>
+<![CDATA[
+</title_{% cultureCode %}>
+    <url_{% cultureCode %}><![CDATA[{% document.AbsoluteUrl + "?lang=" + document.DocumentCulture #%}
+]]>
+<![CDATA[
+</url_{% cultureCode %}>
+    <description_{% cultureCode %}><![CDATA[{% document.DocumentSKUDescription %}
+]]>
+<![CDATA[
+</description_{% cultureCode %}>
+  {% } |(identity)GlobalAdministrator|(hash)d4e09225e9fc12746745cc4ac0df1c85d6d4b2bbcd1182dcfb9860827f4f74d0%}
+  
+  {% foreach (currency in Currencies) { %}
+    {% currencyCode = currency.CurrencyCode.ToLower();; #%}
+    <price_{% currencyCode %}>{% Math.Round(SKU.GetPrice(currency), currency.CurrencyRoundTo, "AwayFromZero") %}</price_{% currencyCode %}>
+    <cur_{% currencyCode %}>{% currency.CurrencyCode %}</cur_{% currencyCode %}>
+  {% } |(identity)GlobalAdministrator|(hash)951d69edcf9bd4cc2b5901133839503ed5bc28ef5c78d8c79a8218e5781e89d1%}
+  
+  <price>{% SKU.SKUPrice |(identity)GlobalAdministrator|(hash)a05c26ea70089189c7c47698556231d453442439e31b0e63c51135fce1b8ce4f%}</price>
+  <image_link><![CDATA[{% GetAbsoluteUrl(SKU.SKUImagePath) |(identity)GlobalAdministrator|(hash)e01e24a2aafb9bbd5f4fe6762d5aefef016b5950b24631e4a6a86a9f6b06d354%}
+]]>
+<![CDATA[
+</image_link>
+  <category>{% ItemCategory %}</category>
+  <SKUDepartmentID>{% SKU.SKUDepartmentID |(identity)GlobalAdministrator|(hash)b41581e24697ad78f218bbb4bdc3355dfc789a131e85b4efeaed12b6e334f40d%}</SKUDepartmentID>
+  <SKUProductType><![CDATA[{% SKU.SKUProductType |(identity)GlobalAdministrator|(hash)630092c5352f0f936a19f2e06fb8f9bec33122de63939c2667890e2d27223e68%}
+]]>
+<![CDATA[
+</SKUProductType>
+  <SKUSupplierID>{% SKU.SKUSupplierID |(identity)GlobalAdministrator|(hash)d1d522725ed87ee59afe385fb3190d6ca1a1238a53fb28a26a0d852f35fdf597%}</SKUSupplierID>
+  <SKUManufacturerID>{% SKU.SKUManufacturerID |(identity)GlobalAdministrator|(hash)41140c354d320b56c56a81aabcae4f878c773ab02e0fbd533275c7e8140ea5c7%}</SKUManufacturerID>
+</item>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>1775cc50-9213-41f6-b3c3-5c5ab6a3bf5b</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CatalogFeedTransformation</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

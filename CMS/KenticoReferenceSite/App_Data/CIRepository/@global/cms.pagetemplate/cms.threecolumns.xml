@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>TemplatesWithEditableRegions</CodeName>
+    <GUID>ea953632-5e99-4808-8f11-fbbc79c27e0f</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.threecolumns</PageTemplateCodeName>
+  <PageTemplateDescription>Page template with three editable columns.</PageTemplateDescription>
+  <PageTemplateDisplayName>Three columns</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>d7c4a47c-ebbf-4ff2-8002-21ed18346d48</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-cols-3</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="threeCols">
+	<!-- Left zone -->
+	<div class="zoneLeft" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+	</div>
+	<!-- Center zone -->
+	<div class="zoneCenter" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneCenter" runat="server" />
+	</div>
+	<!-- Right zone -->
+	<div class="zoneRight" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneRight" runat="server" />
+	</div>
+	<div style="clear: both;"></div>
+</div>
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft" v="1">
+        <properties>
+          <property name="containerhideonsubpages">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+        </properties>
+      </webpartzone>
+      <webpartzone id="zoneCenter" v="1">
+        <properties>
+          <property name="containerhideonsubpages">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+        </properties>
+      </webpartzone>
+      <webpartzone id="zoneRight" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

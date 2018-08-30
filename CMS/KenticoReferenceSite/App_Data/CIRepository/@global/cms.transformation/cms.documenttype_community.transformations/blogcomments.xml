@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<strong><a href="<%# GetDocumentUrlById(Eval("CommentPostDocumentID")) %>#comments" ><%# GetDateTime(Eval("CommentDate")).ToString("d") %></a></strong><br />
+<strong><%# TrimSitePrefix(Eval("CommentUserName", true)) %></strong><br />
+<%# HTMLEncode(LimitLength(Eval("CommentText"), 62, "...")) %><br /><br />
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>7572e43b-b876-4fbe-967b-e8b9490b2b6c</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>BlogComments</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

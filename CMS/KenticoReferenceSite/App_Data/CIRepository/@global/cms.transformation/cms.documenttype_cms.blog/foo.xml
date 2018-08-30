@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Blog</CodeName>
+    <GUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode />
+  <TransformationGUID>830e8fb1-3523-41c1-a6a8-377fc57defdc</TransformationGUID>
+  <TransformationIsHierarchical>True</TransformationIsHierarchical>
+  <TransformationName>Foo</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Events</CodeName>
+    <GUID>9b24a425-4b22-494c-a07b-e400c371ce79</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCloneAsAdHoc>False</PageTemplateCloneAsAdHoc>
+  <PageTemplateCodeName>cms.eventcalendar</PageTemplateCodeName>
+  <PageTemplateDescription>Displays only the calendar of events.</PageTemplateDescription>
+  <PageTemplateDisplayName>Event calendar</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateForAllPages>True</PageTemplateForAllPages>
+  <PageTemplateGUID>d2b1f646-a498-448e-90ce-c094d2adffce</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-calendar-number</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="eventCalendar">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" /> 
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="PageTitle" guid="244ca93f-f852-42ee-9f3f-e062b60f0dbc" type="statictext">
+          <property name="container">Gradient.LightBlue</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">PageTitle</property>
+          <property name="displaytoroles"></property>
+          <property name="hideonsubpages">True</property>
+          <property name="instanceguid">244ca93f-f852-42ee-9f3f-e062b60f0dbc</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="text">
+            <![CDATA[<h1>Event calendar</h1>]]>
+          </property>
+          <property name="visible">True</property>
+          <property name="webparttype">statictext</property>
+        </webpart>
+        <webpart controlid="cmscalendar" guid="5552eac5-9d0e-4c14-bcaa-766aea62ba19" type="cmscalendar" v="1">
+          <property name="cachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes">0</property>
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones">True</property>
+          <property name="cat_open_visibility"></property>
+          <property name="categoryname"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">CMS.Event;CMS.BookingEvent</property>
+          <property name="columns"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">cmscalendar</property>
+          <property name="culturecode"></property>
+          <property name="customtimezone">MidwayIslandSamoa</property>
+          <property name="dayfield">EventDate</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displayonlysingledayitem">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="filtername"></property>
+          <property name="hidedefaultdaynumber">False</property>
+          <property name="hideonsubpages">True</property>
+          <property name="instanceguid">5552eac5-9d0e-4c14-bcaa-766aea62ba19</property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="noeventtransformationname">CMS.BookingEvent.CalendarNoEvent</property>
+          <property name="orderby"></property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes">0</property>
+          <property name="path">/calendar/%</property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="sitename"></property>
+          <property name="skinid">EventCalendar</property>
+          <property name="timezonetype">custom</property>
+          <property name="transformationname">cms.event.calendarevent</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">cmscalendar</property>
+          <property name="wherecondition"></property>
+        </webpart>
+        <webpart controlid="repeater" guid="2d16fb75-efa0-4246-b72e-9c415c4de99b" type="repeater">
+          <property name="alternatingtransformationname"></property>
+          <property name="backnextlocation">split</property>
+          <property name="cacheitemname"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">cms.event</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[</div>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<br /><div style="margin-left: 10px;">]]>
+          </property>
+          <property name="controlid">repeater</property>
+          <property name="culturecode"></property>
+          <property name="displaytoroles"></property>
+          <property name="enablepaging">False</property>
+          <property name="filteroutduplicates">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">2d16fb75-efa0-4246-b72e-9c415c4de99b</property>
+          <property name="itemseparator"></property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="nesteddatalistid"></property>
+          <property name="nestedrepeaterid"></property>
+          <property name="newbuttontext"></property>
+          <property name="orderby"></property>
+          <property name="pagenumbersseparator">-</property>
+          <property name="pagerhtmlafter"></property>
+          <property name="pagerhtmlbefore"></property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="path">/{0}/%</property>
+          <property name="querystringkey"></property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="resultsposition">top</property>
+          <property name="selecteditemtransformationname">CMS.Event.Preview</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showeditdeletebuttons">False</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="shownewbutton">False</property>
+          <property name="sitename"></property>
+          <property name="transformationname"></property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

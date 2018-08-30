@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.SimpleArticle</CodeName>
+    <GUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("NodeGUID") %></guid>
+  <title><%# EvalCDATA("ArticleTitle") %></title>
+  <description><%# EvalCDATA("ArticleText") %></description>
+  <pubDate><%# GetRSSDateTime(Eval("DocumentCreatedWhen")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetDocumentUrlForFeed(), Eval<int>("NodeSiteID")) %>
+]]>
+<![CDATA[
+</link>
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>75519c29-3fb2-47d2-a42f-5888e87ccae7</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>RSSItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

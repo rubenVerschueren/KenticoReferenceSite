@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Offices</CodeName>
+    <GUID>d64b17bd-1039-4713-9b78-9916b46479f3</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.officelist</PageTemplateCodeName>
+  <PageTemplateDescription>Displays list of offices with short summary.</PageTemplateDescription>
+  <PageTemplateDisplayName>Office list</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>f6ed417f-cf57-4614-8ef1-95f96d07f752</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-list-article</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="officeList">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="breadcrumbs" guid="1aea6bd1-954b-439e-b2f7-e76f89f85966" type="breadcrumbs">
+          <property name="applymenudesign">True</property>
+          <property name="breadcrumbseparator">
+            <![CDATA[&gt;]]>
+          </property>
+          <property name="breadcrumbseparatorrtl">
+            <![CDATA[&lt;]]>
+          </property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes">0</property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container">Box.Gray</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">breadcrumbs</property>
+          <property name="culturecode"></property>
+          <property name="defaultpath"></property>
+          <property name="displaytoroles"></property>
+          <property name="hideonsubpages">False</property>
+          <property name="ignoreshowinnavigation">False</property>
+          <property name="instanceguid">1aea6bd1-954b-439e-b2f7-e76f89f85966</property>
+          <property name="path"></property>
+          <property name="renderlinktitle">False</property>
+          <property name="selectnodesstartpath">/</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showcurrentitem">True</property>
+          <property name="showcurrentitemaslink">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="sitename"></property>
+          <property name="urltarget"></property>
+          <property name="usertlbehaviour">True</property>
+          <property name="visible">True</property>
+          <property name="webparttype">breadcrumbs</property>
+          <property name="wherecondition"></property>
+        </webpart>
+        <webpart controlid="OfficeRepeater" guid="05d29fd0-97ee-4586-b1ce-36e3b5f25e30" type="repeater">
+          <property name="alternatingtransformationname"></property>
+          <property name="backnextlocation">split</property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes">0</property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">cms.office</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[</div>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<div class="GeneralList">]]>
+          </property>
+          <property name="controlid">OfficeRepeater</property>
+          <property name="culturecode"></property>
+          <property name="displaytoroles"></property>
+          <property name="enablepaging">True</property>
+          <property name="filteroutduplicates">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">05d29fd0-97ee-4586-b1ce-36e3b5f25e30</property>
+          <property name="itemseparator">
+            <![CDATA[<hr/>]]>
+          </property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="nesteddatalistid"></property>
+          <property name="nestedrepeaterid"></property>
+          <property name="newbuttontext">Add new office</property>
+          <property name="orderby">OfficeName</property>
+          <property name="pagenumbersseparator">-</property>
+          <property name="pagerhtmlafter"></property>
+          <property name="pagerhtmlbefore"></property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="path"></property>
+          <property name="querystringkey"></property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="relationshipwithnodeid">0</property>
+          <property name="resultsposition">top</property>
+          <property name="selecteditemtransformationname">cms.office.Default</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showeditdeletebuttons">True</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="shownewbutton">True</property>
+          <property name="sitename"></property>
+          <property name="transformationname">CMS.Office.Simple</property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

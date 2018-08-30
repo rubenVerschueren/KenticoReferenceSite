@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Personas.Transformations</CodeName>
+    <GUID>2dd49e75-9a31-4ce6-a912-4a446b100041</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h1><%# Eval("NewsTitle",true) %></h1>
+<%# GetDateTime("NewsReleaseDate", "d") %><br/>
+<%# IfEmpty(Eval("NewsTeaser"), "", GetImage("NewsTeaser")) %>
+<%# IfEmpty(Eval("NewsSummary"), "", Eval("NewsSummary") + "<br />") %>
+<%# Eval("NewsText") %>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>0a439378-b5d9-4997-8da4-fc8474a0c308</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>NewsDefault</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

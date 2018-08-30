@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.Office</CodeName>
+    <GUID>2b3a4fd0-6f1b-44ea-a2f1-b7c8fd013835</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="OfficeName">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="OfficeCompanyName">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="OfficeAddress1" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeAddress2" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeCity">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="OfficeZIP" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeState" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeCountry">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="OfficePhone" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeEmail" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeDirections" visible="">
+        <settings>
+          <displayautoresize />
+          <displayemailtabsetting />
+          <controlname />
+          <dialogs_content_hide />
+        </settings>
+      </field>
+      <field column="OfficeLatitude" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficeLongitude" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="OfficePhoto" visible="" />
+      <field column="OfficeDescription">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="OfficeIsHeadquarters">
+        <settings>
+          <controlname>booleanfilter</controlname>
+        </settings>
+      </field>
+      <field column="OfficeIconURL" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>368fefae-a26e-4ba6-a359-1d10dbb8c595</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

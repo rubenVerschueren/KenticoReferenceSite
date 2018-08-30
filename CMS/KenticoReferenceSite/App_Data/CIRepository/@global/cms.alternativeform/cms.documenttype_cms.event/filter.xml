@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.Event</CodeName>
+    <GUID>7a162473-ddf4-4b73-98b1-a5f212759440</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="EventName">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="EventSummary">
+        <settings>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="EventDetails">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="EventLocation">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <FilterMode>False</FilterMode>
+          <controlname>textfilter</controlname>
+          <Wrap>True</Wrap>
+        </settings>
+      </field>
+      <field column="EventDate">
+        <settings>
+          <TimeZoneType>inherit</TimeZoneType>
+          <controlname>datetimefilter</controlname>
+          <DisplayNow>True</DisplayNow>
+          <editTime>True</editTime>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>300ea182-007c-476b-b105-f87dd5c6b2b7</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

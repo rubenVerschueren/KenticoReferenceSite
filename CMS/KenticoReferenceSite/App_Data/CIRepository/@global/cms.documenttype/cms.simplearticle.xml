@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Simple article</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ArticleID" columntype="integer" guid="b8e92757-21b6-4e2c-a19a-e61e4cdedf44" isPK="true" publicfield="false" visibility="none" />
+      <field column="ArticleTitle" columnsize="400" columntype="text" guid="de6ca33c-e6c7-4d24-830d-a9733ce32e7a" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Article title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ArticleText" columntype="longtext" guid="838e7289-4bc5-45fe-8140-8de0a37033cf" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Article text</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayoutType>Ascx</ClassFormLayoutType>
+  <ClassGUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</ClassGUID>
+  <ClassIconClass>icon-rectangle-paragraph</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.SimpleArticle</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>ArticleTitle</ClassNodeNameSource>
+  <ClassSearchContentColumn>ArticleText</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="0ecdd444-84d4-4937-bc0c-c67220939a51" name="ArticleTitle" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="e745c28f-85a9-4518-82ab-bd13585e2d79" name="ArticleID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="ff2c8c50-1907-4859-9844-1eeaaeefcd17" name="ArticleText" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_SimpleArticle</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

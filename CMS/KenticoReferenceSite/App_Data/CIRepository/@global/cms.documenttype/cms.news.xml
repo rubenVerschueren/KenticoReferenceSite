@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>News</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="NewsID" columntype="integer" guid="3076cf29-df6a-46a3-9e29-b4a58dde1b1d" isPK="true" publicfield="false" visibility="none" />
+      <field column="NewsTitle" columnsize="450" columntype="text" guid="bc737625-a5ad-4282-9068-b540890d1134" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>News Title</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="NewsReleaseDate" columntype="datetime" guid="ca3633b8-4b84-4661-86f6-243e228e74e3" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Release Date</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <editTime>false</editTime>
+        </settings>
+      </field>
+      <field column="NewsSummary" columntype="longtext" guid="bbaeddd4-d8e7-4478-986c-c89243b81347" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>News Summary</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="NewsText" columntype="longtext" guid="d319dc82-1112-4fc2-b599-5d3882015534" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>News Text</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="NewsTeaser" columntype="file" guid="29c95e7a-0df5-431f-91ca-49fce46b347f" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Teaser</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>directuploadcontrol</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</ClassGUID>
+  <ClassIconClass>icon-newspaper</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.News</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>NewsTitle</ClassNodeNameSource>
+  <ClassSearchContentColumn>NewsSummary</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>NewsReleaseDate</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>NewsTeaser</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="04c7ba9d-904b-453c-bd7e-2e5eb6055792" name="NewsText" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="081b30d6-b5fd-48d1-a43e-575e94b4c458" name="NewsID" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="0b38fe32-2a8c-40d7-92a9-cd9b66ae79a3" name="NewsReleaseDate" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="8be217b3-d6fd-48b1-9a0d-79936d686a54" name="NewsTitle" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="c7d40d34-f893-4af7-81ca-a85f81ef2340" name="NewsSummary" searchable="False" tokenized="True" />
+      <item content="False" id="fb825c10-dda6-4ac4-84d7-ba5a556f6623" name="NewsTeaser" searchable="False" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_News</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

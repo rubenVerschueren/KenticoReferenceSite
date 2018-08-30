@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.SimpleArticle</CodeName>
+    <GUID>2e57191d-5306-4c1e-8fb2-8cfaa2b9890b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="ArticleTitle">
+        <settings>
+          <controlname>textfilter</controlname>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <Trim />
+          <AutoCompleteFirstRowSelected />
+          <FilterMode />
+        </settings>
+      </field>
+      <field column="ArticleText">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>0f205f8b-0584-4915-9c8e-423a513c5845</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

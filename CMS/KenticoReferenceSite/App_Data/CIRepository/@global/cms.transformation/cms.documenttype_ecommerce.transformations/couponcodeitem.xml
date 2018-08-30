@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="cart-coupon-code">
+  <div class="label">
+    <span>{% HTMLEncode(Code) %}</span>
+  </div>
+  <div class="button">
+    {% GetDiscountCouponCodeRemoveButton(Code) %}
+  </div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>2890a691-2f65-4b1e-ba43-6fcca6d6f1a6</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CouponCodeItem</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

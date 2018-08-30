@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="BlogPostID" hasdependingfields="false" />
+      <field column="BlogPostTitle" hasdependingfields="false" />
+      <field column="BlogPostDate" hasdependingfields="false" />
+      <field column="BlogPostSummary" hasdependingfields="false">
+        <settings>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>500</Width>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <cssstylesheet />
+        </settings>
+      </field>
+      <field column="BlogPostBody" hasdependingfields="false">
+        <settings>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>500</Width>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <cssstylesheet />
+        </settings>
+      </field>
+      <field column="BlogPostTeaser" hasdependingfields="false" />
+      <field column="BlogPostAllowComments" hasdependingfields="false" />
+      <field column="DocumentTags" hasdependingfields="false" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Intranet blog posts</FormDisplayName>
+  <FormGUID>b4af5788-5f27-43ca-b402-6f4e1c317153</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>IntranetBlogPosts</FormName>
+</cms.alternativeform>

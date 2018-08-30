@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.BookingEvent</CodeName>
+    <GUID>226e24eb-9a04-4553-85a8-fbbdd22da943</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form version="2">
+      <field column="BookingEventID" isunique="true" reftype="Required" />
+      <field column="EventName" reftype="Required">
+        <settings>
+          <controlname>textfilter</controlname>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <Trim />
+          <AutoCompleteFirstRowSelected />
+          <FilterMode />
+        </settings>
+      </field>
+      <field column="EventSummary" reftype="Required">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="EventDetails" reftype="Required">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="EventLocation" reftype="Required">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <Trim>False</Trim>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+        </settings>
+      </field>
+      <field column="EventDate" reftype="Required">
+        <settings>
+          <controlname>datetimefilter</controlname>
+        </settings>
+      </field>
+      <field column="EventEndDate" reftype="Required" visible="">
+        <settings>
+          <TimeZoneType />
+          <controlname />
+          <DisplayNow />
+          <EditTime />
+        </settings>
+      </field>
+      <field column="EventAllDay" reftype="Required" visible="">
+        <settings>
+          <controlname />
+        </settings>
+      </field>
+      <field column="EventCapacity" reftype="Required" visible="">
+        <settings>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <Trim />
+          <AutoCompleteFirstRowSelected />
+          <controlname />
+          <FilterMode />
+        </settings>
+      </field>
+      <field column="EventAllowRegistrationOverCapacity" reftype="Required" visible="" />
+      <field column="EventOpenFrom" reftype="Required" visible="">
+        <settings>
+          <TimeZoneType />
+          <controlname />
+          <DisplayNow />
+          <EditTime />
+        </settings>
+      </field>
+      <field column="EventOpenTo" reftype="Required" visible="">
+        <settings>
+          <TimeZoneType />
+          <controlname />
+          <DisplayNow />
+          <EditTime />
+        </settings>
+      </field>
+      <field column="EventLogActivity" reftype="Required" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>80afe957-51fb-426c-ab5d-aca6f2054986</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

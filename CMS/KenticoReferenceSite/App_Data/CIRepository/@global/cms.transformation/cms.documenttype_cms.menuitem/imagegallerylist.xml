@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="gallery">
+<h3><%# Eval("DocumentName",true) %></h3>
+<a href="<%# GetDocumentUrl() %>"><img class="teaser" src="<%# GetAttachmentUrlByGUID(Eval("MenuItemTeaserImage"), Eval("NodeAlias")) %>?height=150&amp;width=200" alt="<%# Eval("DocumentName",true) %>" /></a>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>b2ae3e1e-953f-4f02-93a0-94eb0b239081</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ImageGalleryList</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

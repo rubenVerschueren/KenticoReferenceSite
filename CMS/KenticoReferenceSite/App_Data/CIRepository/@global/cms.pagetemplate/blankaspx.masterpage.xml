@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateAllowInheritHeader>True</PageTemplateAllowInheritHeader>
+  <PageTemplateCategoryID>
+    <CodeName>BlankASPX</CodeName>
+    <GUID>3fc5dd53-d4d3-439a-8196-29dbb2a94fdc</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCloneAsAdHoc>False</PageTemplateCloneAsAdHoc>
+  <PageTemplateCodeName>blankaspx.masterpage</PageTemplateCodeName>
+  <PageTemplateDescription>Master page for the Blank site.</PageTemplateDescription>
+  <PageTemplateDisplayName>Master page template</PageTemplateDisplayName>
+  <PageTemplateFile>~/CMSTemplates/BlankSiteASPX/root.aspx</PageTemplateFile>
+  <PageTemplateForAllPages>True</PageTemplateForAllPages>
+  <PageTemplateGUID>5c1c3012-c07c-49ff-b0ff-346f3155bf8c</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-square-dashed</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels />
+  <PageTemplateInheritParentHeader>False</PageTemplateInheritParentHeader>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout />
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>aspx</PageTemplateType>
+  <PageTemplateWebParts>
+    <page />
+  </PageTemplateWebParts>
+</cms.pagetemplate>

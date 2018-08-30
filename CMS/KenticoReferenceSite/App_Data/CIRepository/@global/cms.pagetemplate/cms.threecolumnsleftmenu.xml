@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>TemplatesWithEditableRegions</CodeName>
+    <GUID>ea953632-5e99-4808-8f11-fbbc79c27e0f</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.threecolumnsleftmenu</PageTemplateCodeName>
+  <PageTemplateDescription>
+    <![CDATA[Page template with three editable columns and left menu.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>Three columns with left menu</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>0685690a-4776-48a4-be88-b1887d60a89d</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-menu-cols-3</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="threeColsLeftMenu">
+	<!-- Left menu zone -->
+	<div class="zoneLeftMenu" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneLeftMenu" runat="server" />
+	</div>
+	<!-- Left zone -->
+	<div class="zoneLeft" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+	</div>
+	<!-- Center zone -->
+	<div class="zoneCenter" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneCenter" runat="server" />
+	</div>
+	<!-- Right zone -->
+	<div class="zoneRight" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneRight" runat="server" />
+	</div>
+	<div style="clear: both;"></div>
+</div>
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeftMenu" v="1">
+        <properties>
+          <property name="containerhideonsubpages">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+        </properties>
+        <webpart controlid="LeftMenu" guid="bb8666ee-9f2f-4ba3-b695-45e621d80fa9" type="cmslistmenu" v="1">
+          <property name="applymenudesign">True</property>
+          <property name="cachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes"></property>
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames"></property>
+          <property name="columns"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">LeftMenu</property>
+          <property name="cssprefix"></property>
+          <property name="culturecode"></property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displayhighlighteditemaslink">True</property>
+          <property name="displayonlyselectedpath">True</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="encodemenucaption">True</property>
+          <property name="filtername"></property>
+          <property name="firstitemcssclass"></property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="highlightallitemsinpath">True</property>
+          <property name="highlightednodepath"></property>
+          <property name="hovercssclassname"></property>
+          <property name="instanceguid">bb8666ee-9f2f-4ba3-b695-45e621d80fa9</property>
+          <property name="itemidprefix"></property>
+          <property name="lastitemcssclass"></property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="onmouseoutscript"></property>
+          <property name="onmouseoverscript"></property>
+          <property name="orderby"></property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="path"></property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="rendercssclasses">False</property>
+          <property name="renderimagealt">True</property>
+          <property name="renderitemid">False</property>
+          <property name="renderlinktitle">False</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="sitename"></property>
+          <property name="submenuindicator"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="urltarget"></property>
+          <property name="usealternatingstyles">False</property>
+          <property name="useitemimagesforhiglighteditem">False</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">cmslistmenu</property>
+          <property name="wherecondition"></property>
+          <property name="wordwrap">True</property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="LeftContentText" guid="88d9f6d7-682a-4366-880a-d9bbf7d627c2" type="editabletext" v="1">
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="checkpermissions">False</property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">LeftContentText</property>
+          <property name="customtimezone"></property>
+          <property name="defaulttext"></property>
+          <property name="dialogheight"></property>
+          <property name="dialogwidth"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="htmlareatoolbar"></property>
+          <property name="htmlareatoolbarlocation">In</property>
+          <property name="htmleditorcssstylesheet"></property>
+          <property name="imageautoresize">
+            <![CDATA[<AutoResize><autoresize /><autoresize_width /><autoresize_height /><autoresize_maxsidesize /></AutoResize>]]>
+          </property>
+          <property name="instanceguid">88d9f6d7-682a-4366-880a-d9bbf7d627c2</property>
+          <property name="maxlength"></property>
+          <property name="minlength"></property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="regiontitle"></property>
+          <property name="regiontype">HtmlEditor</property>
+          <property name="resolvedynamiccontrols">True</property>
+          <property name="selectonlypublished">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="useparentcontent">False</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">editabletext</property>
+          <property name="wordwrap">True</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneCenter">
+        <webpart controlid="CenterContentText" guid="d95784ed-f9be-4527-9ce7-2a5084fa40d7" type="editabletext">
+          <property name="checkpermissions">False</property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">CenterContentText</property>
+          <property name="disablemacros">false</property>
+          <property name="disableviewstate">false</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">false</property>
+          <property name="hideonsubpages">False</property>
+          <property name="htmlareatoolbar"></property>
+          <property name="htmlareatoolbarlocation">In</property>
+          <property name="htmleditorcssstylesheet"></property>
+          <property name="instanceguid">d95784ed-f9be-4527-9ce7-2a5084fa40d7</property>
+          <property name="outputfixattributes">true</property>
+          <property name="outputfixhtml5">true</property>
+          <property name="outputfixjavascript">true</property>
+          <property name="outputfixlowercase">true</property>
+          <property name="outputfixselfclose">true</property>
+          <property name="outputfixtags">true</property>
+          <property name="outputresolveurls">true</property>
+          <property name="preservepartialcacheonpostback"></property>
+          <property name="regiontitle">Center column</property>
+          <property name="regiontype">HtmlEditor</property>
+          <property name="resolvedynamiccontrols">true</property>
+          <property name="selectonlypublished">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="useparentcontent">false</property>
+          <property name="useupdatepanel">false</property>
+          <property name="visible">True</property>
+          <property name="webparttype">editabletext</property>
+          <property name="wordwrap">True</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneRight" v="1">
+        <properties>
+          <property name="containerhideonsubpages">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+        </properties>
+        <webpart controlid="RightContentText" guid="45d7dde7-4655-42f5-a9fc-e7725dc03a66" type="editabletext" v="1">
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="checkpermissions">False</property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">RightContentText</property>
+          <property name="customtimezone"></property>
+          <property name="defaulttext"></property>
+          <property name="dialogheight"></property>
+          <property name="dialogwidth"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="htmlareatoolbar"></property>
+          <property name="htmlareatoolbarlocation">In</property>
+          <property name="htmleditorcssstylesheet"></property>
+          <property name="imageautoresize">
+            <![CDATA[<AutoResize><autoresize /><autoresize_width /><autoresize_height /><autoresize_maxsidesize /></AutoResize>]]>
+          </property>
+          <property name="instanceguid">45d7dde7-4655-42f5-a9fc-e7725dc03a66</property>
+          <property name="maxlength"></property>
+          <property name="minlength"></property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="regiontitle"></property>
+          <property name="regiontype">HtmlEditor</property>
+          <property name="resolvedynamiccontrols">True</property>
+          <property name="selectonlypublished">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="useparentcontent">False</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">editabletext</property>
+          <property name="wordwrap">True</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

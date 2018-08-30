@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="newsItem">
+<%#IfEmpty(Eval("NewsTeaser"), "", "<div class='teaser'><img src='" + GetAttachmentUrlByGUID(Eval("NewsTeaser"), Eval("NodeAlias")) + "?maxsidesize=66' alt='" + Eval("NewsTitle", true) + " ' /></div>")%>
+<h3><a href="<%# GetDocumentUrl() %>"><%# Eval("NewsTitle",true) %></a> | <%# GetDateTime("NewsReleaseDate", "d") %></h3>
+<p><%# Eval("NewsSummary") %></p>
+<div class="clear">&nbsp;</div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>c8e8e4e1-9929-4a89-8174-2fbba53ee5f0</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>NewsPreview</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

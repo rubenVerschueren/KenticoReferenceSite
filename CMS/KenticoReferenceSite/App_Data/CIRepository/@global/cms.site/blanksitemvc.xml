@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.site>
+  <SiteDescription>
+    <![CDATA[MVC sample site used for creating new websites from scratch, based on ASP.NET MVC.]]>
+  </SiteDescription>
+  <SiteDisplayName>MVC Blank Site</SiteDisplayName>
+  <SiteDomainName>localhost</SiteDomainName>
+  <SiteGUID>4818a20f-901e-4b6b-8ea9-6d477b3c0e88</SiteGUID>
+  <SiteIsContentOnly>True</SiteIsContentOnly>
+  <SiteIsOffline>False</SiteIsOffline>
+  <SiteName>BlankSiteMvc</SiteName>
+  <SiteOfflineMessage />
+</cms.site>

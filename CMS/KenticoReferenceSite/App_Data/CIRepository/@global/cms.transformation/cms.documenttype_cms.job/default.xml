@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Job</CodeName>
+    <GUID>5d97ecb5-2e67-475a-8200-89f369bd449a</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="TextContent">
+<h1><%# Eval("JobName",true) %></h1>
+<p>
+<%# Eval("JobDescription") %>
+</p>
+</div>
+<table class="TextContent">
+<tr valign="top">
+<td>
+Location:
+</td>
+<td>
+<%# Eval("JobLocation") %>
+</td>
+</tr>
+<tr valign="top">
+<td>
+Compensation:
+</td>
+<td>
+<%# Eval("JobCompensation") %>
+</td>
+</tr>
+<tr valign="top">
+<td>
+Contact:
+</td>
+<td>
+<%# Eval("JobContact") %>
+</td>
+</tr>
+<tr valign="top">
+<td>
+Attachment:
+</td>
+<td>
+<%#IfEmpty(Eval("JobAttachment"), "N/A", "<a href='" + GetAttachmentUrlByGUID(Eval("JobAttachment"), Eval("NodeAlias")) + "' >Download document</a>")%>
+</td>
+</tr>
+</table>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>b18277ee-89b0-46ae-8bb5-f2f58569325d</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

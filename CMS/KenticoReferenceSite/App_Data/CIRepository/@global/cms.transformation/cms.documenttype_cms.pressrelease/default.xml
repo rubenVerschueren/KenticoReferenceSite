@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PressRelease</CodeName>
+    <GUID>4a5ea3ba-0025-4841-a0a0-acbacf2f8021</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h1><%# Eval("PressReleaseTitle",true) %></h1>
+<p>
+<strong>Release date: <%# GetDate("PressReleaseDate") %></strong>
+</p>
+<p>
+<strong><%# Eval("PressReleaseSummary") %></strong>
+</p>
+<p><%# Eval("PressReleaseText") %></p>
+<p><%# Eval("PressReleaseAbout") %></p>
+<p><%# Eval("PressReleaseTrademarks") %></p>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>2c1d8ce6-1718-4385-b861-b467a0582e7e</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

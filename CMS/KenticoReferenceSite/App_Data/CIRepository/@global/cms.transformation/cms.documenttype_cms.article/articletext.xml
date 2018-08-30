@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Article</CodeName>
+    <GUID>2568ad70-17a5-4c58-91d2-67101cdf4fb3</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<%# Eval("ArticleText") %>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>0733d9ff-d039-4f81-995b-4a2d994181b0</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ArticleText</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

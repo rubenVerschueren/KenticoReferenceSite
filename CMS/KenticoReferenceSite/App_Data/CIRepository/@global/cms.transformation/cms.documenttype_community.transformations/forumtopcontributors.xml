@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="TopContributors">
+  <div style="float:left;" class="UserName">
+    <%#IfEmpty(GetUserProfileURL(Eval("UserName")), "", "<a href='" + HTMLEncode(GetUserProfileURL(Eval("UserName"))) + "'>")%>
+      <%# HTMLEncode(GetNotEmpty("UserNickname;UserName")) %>
+    <%# IfEmpty(GetUserProfileURL(Eval("UserName")), "", "</a>") %>
+  </div>
+  <div style="float:right;" class="PostCount"><%# ValidationHelper.GetInteger(Eval("UserForumPosts"), 0) %></div>
+  <div style="clear:both;"></div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>2f893dba-619a-44a6-a00e-574395c60ca0</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ForumTopContributors</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

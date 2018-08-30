@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="NewsID" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="NewsTitle" fieldtype="CustomUserControl" publicfield="true" spellcheck="true" ismacro="false" hasdependingfields="false" defaultvalue="" fielddescription="" regularexpression="" minstringlength="" maxstringlength="" minnumericvalue="" maxnumericvalue="" mindatetimevalue="" maxdatetimevalue="" validationerrormessage="" captionstyle="" inputcontrolstyle="" fileextensions="">
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="NewsReleaseDate" fieldtype="CustomUserControl" spellcheck="true" ismacro="false" hasdependingfields="false" defaultvalue="" columnsize="" fielddescription="" regularexpression="" minstringlength="" maxstringlength="" minnumericvalue="" maxnumericvalue="" mindatetimevalue="" maxdatetimevalue="" validationerrormessage="" captionstyle="" inputcontrolstyle="" fileextensions="">
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field column="NewsSummary" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>700</Width>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <Height>150</Height>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field column="NewsText" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <Height>350</Height>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>700</Width>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field column="NewsTeaser" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>directuploadcontrol</controlname>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Intranet news</FormDisplayName>
+  <FormGUID>36047963-d6f7-4f0f-8c4b-65a67e4cb728</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>IntranetNews</FormName>
+</cms.alternativeform>

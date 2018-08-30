@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Blogs</CodeName>
+    <GUID>46542228-8fae-4e44-8b4b-6e301658ee8c</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.listofblogs</PageTemplateCodeName>
+  <PageTemplateDescription>Displays list of blogs with blog description.</PageTemplateDescription>
+  <PageTemplateDisplayName>List of blogs</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>bc35ece0-afe6-4c85-95b2-a27459090696</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-list-article</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="zoneBlogList">
+	<cms:CMSWebPartZone ZoneID="zoneBlogList" runat="server" />      
+</div>
+ 
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft" />
+      <webpartzone id="zoneRight" />
+      <webpartzone id="zoneCenter" />
+      <webpartzone id="zoneBlogList">
+        <webpart controlid="breadcrumbs" guid="ceebff77-56e4-43cb-8420-39d42f75a7ec" type="breadcrumbs">
+          <property name="applymenudesign">True</property>
+          <property name="breadcrumbseparator">
+            <![CDATA[&gt;]]>
+          </property>
+          <property name="breadcrumbseparatorrtl">
+            <![CDATA[&lt;]]>
+          </property>
+          <property name="checkpermissions">False</property>
+          <property name="container">Box.Gray</property>
+          <property name="controlid">breadcrumbs</property>
+          <property name="hideonsubpages">False</property>
+          <property name="ignoreshowinnavigation">False</property>
+          <property name="instanceguid">ceebff77-56e4-43cb-8420-39d42f75a7ec</property>
+          <property name="renderlinktitle">False</property>
+          <property name="selectnodesstartpath">/</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showcurrentitem">True</property>
+          <property name="showcurrentitemaslink">False</property>
+          <property name="showfordocumenttypes">CMS.MenuItem</property>
+          <property name="usertlbehaviour">True</property>
+          <property name="visible">True</property>
+          <property name="webparttype">breadcrumbs</property>
+        </webpart>
+        <webpart controlid="HeaderText" guid="48d546bb-b49c-40aa-8458-f320e48b73cc" type="editabletext">
+          <property name="checkpermissions">False</property>
+          <property name="contentafter">
+            <![CDATA[</h1>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<h1>]]>
+          </property>
+          <property name="controlid">HeaderText</property>
+          <property name="hideonsubpages">False</property>
+          <property name="htmlareatoolbarlocation">In</property>
+          <property name="instanceguid">48d546bb-b49c-40aa-8458-f320e48b73cc</property>
+          <property name="regiontitle">Header text</property>
+          <property name="regiontype">TextBox</property>
+          <property name="selectonlypublished">False</property>
+          <property name="showfordocumenttypes">CMS.MenuItem</property>
+          <property name="visible">True</property>
+          <property name="webparttype">editabletext</property>
+          <property name="wordwrap">True</property>
+        </webpart>
+        <webpart controlid="ContentText" guid="7c9afd76-8b6d-4fcd-a3f3-78f21fd5cd45" type="editabletext">
+          <property name="checkpermissions">False</property>
+          <property name="container">TextContent</property>
+          <property name="contentafter">
+            <![CDATA[</div>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<div style="margin-bottom:20px">]]>
+          </property>
+          <property name="controlid">ContentText</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="htmlareatoolbarlocation">In</property>
+          <property name="instanceguid">7c9afd76-8b6d-4fcd-a3f3-78f21fd5cd45</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="regiontype">HtmlEditor</property>
+          <property name="resolvedynamiccontrols">True</property>
+          <property name="selectonlypublished">False</property>
+          <property name="showfordocumenttypes">CMS.MenuItem</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">editabletext</property>
+          <property name="wordwrap">True</property>
+        </webpart>
+        <webpart controlid="rptBlogs" guid="3a804f87-5a55-49ed-b482-5fea805a1966" type="repeater">
+          <property name="backnextlocation">split</property>
+          <property name="cachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">cms.blog</property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="controlid">rptBlogs</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="enablepaging">False</property>
+          <property name="filteroutduplicates">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">3a804f87-5a55-49ed-b482-5fea805a1966</property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="pagenumbersseparator">-</property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="resultsposition">top</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showeditdeletebuttons">False</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes">CMS.MenuItem</property>
+          <property name="shownewbutton">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="transformationname">cms.blog.DefaultWithLink</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+        <webpart controlid="pageplaceholderSubContent" guid="26363273-40a2-4a45-8aec-4946abbec393" type="pageplaceholder">
+          <property name="checkpermissions">True</property>
+          <property name="controlid">pageplaceholderSubContent</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">26363273-40a2-4a45-8aec-4946abbec393</property>
+          <property name="visible">True</property>
+          <property name="webparttype">pageplaceholder</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

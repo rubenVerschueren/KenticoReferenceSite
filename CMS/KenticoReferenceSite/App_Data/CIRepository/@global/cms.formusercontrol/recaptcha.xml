@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.formusercontrol>
+  <UserControlCodeName>ReCAPTCHA</UserControlCodeName>
+  <UserControlDefaultDataType>Text</UserControlDefaultDataType>
+  <UserControlDefaultDataTypeSize>1</UserControlDefaultDataTypeSize>
+  <UserControlDescription>
+    <![CDATA[Provides a robust CAPTCHA service based on reCAPTCHA, which requires retyping two words to the provided field. The options allow setting the control theme.]]>
+  </UserControlDescription>
+  <UserControlDisplayName>reCAPTCHA</UserControlDisplayName>
+  <UserControlFileName>~/CMSFormControls/Captcha/ReCaptcha.ascx</UserControlFileName>
+  <UserControlForBinary>False</UserControlForBinary>
+  <UserControlForBoolean>False</UserControlForBoolean>
+  <UserControlForDateTime>False</UserControlForDateTime>
+  <UserControlForDecimal>False</UserControlForDecimal>
+  <UserControlForDocAttachments>False</UserControlForDocAttachments>
+  <UserControlForDocRelationships>False</UserControlForDocRelationships>
+  <UserControlForFile>False</UserControlForFile>
+  <UserControlForGuid>False</UserControlForGuid>
+  <UserControlForInteger>False</UserControlForInteger>
+  <UserControlForLongText>False</UserControlForLongText>
+  <UserControlForText>True</UserControlForText>
+  <UserControlForVisibility>False</UserControlForVisibility>
+  <UserControlGUID>e22078f1-e5b4-4879-9040-216ab2cbf11d</UserControlGUID>
+  <UserControlIsSystem>False</UserControlIsSystem>
+  <UserControlParameters>
+    <form version="2">
+      <category name="General">
+        <properties>
+          <visible>true</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="Theme" columnsize="10" columntype="text" guid="f51ccf2d-a926-4eb9-8863-8687658c4559" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>clean</defaultvalue>
+          <fieldcaption>Control theme</fieldcaption>
+          <fielddescription>Choose a design theme for the control.</fielddescription>
+        </properties>
+        <settings>
+          <controlname>dropdownlistcontrol</controlname>
+          <EditText>False</EditText>
+          <Options>
+<![CDATA[
+blackglass;Black glass
+clean;Clean
+red;Red
+white;White
+]]>
+          </Options>
+        </settings>
+      </field>
+    </form>
+  </UserControlParameters>
+  <UserControlPriority>0</UserControlPriority>
+  <UserControlShowInBizForms>True</UserControlShowInBizForms>
+  <UserControlShowInCustomTables>True</UserControlShowInCustomTables>
+  <UserControlShowInDocumentTypes>True</UserControlShowInDocumentTypes>
+  <UserControlShowInReports>False</UserControlShowInReports>
+  <UserControlShowInSystemTables>False</UserControlShowInSystemTables>
+  <UserControlShowInWebParts>False</UserControlShowInWebParts>
+  <UserControlType>7</UserControlType>
+</cms.formusercontrol>

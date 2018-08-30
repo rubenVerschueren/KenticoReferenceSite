@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.KBArticle</CodeName>
+    <GUID>bde39577-777c-44ed-bdc2-211e3a496a7a</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h2><a href="<%# GetDocumentUrl() %>">Article <%# Eval("ArticleIdentifier",true) %>: <%# Eval("ArticleName",true) %></a></h2>
+<p><%# Eval("ArticleSummary") %></p>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>adb785c6-9739-4c9c-b9ed-5ee0b65df747</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Preview</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

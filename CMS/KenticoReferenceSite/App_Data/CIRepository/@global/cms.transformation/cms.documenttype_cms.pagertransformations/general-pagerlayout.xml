@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<asp:PlaceHolder runat="server" ID="plcFirstPage"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcPreviousPage"></asp:PlaceHolder>&nbsp;
+<asp:PlaceHolder runat="server" ID="plcPreviousGroup"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcPageNumbers"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcNextGroup"></asp:PlaceHolder>&nbsp;
+<asp:PlaceHolder runat="server" ID="plcNextPage"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcLastPage"></asp:PlaceHolder>
+<asp:PlaceHolder runat="server" ID="plcDirectPage"></asp:PlaceHolder>
+<%-- Results <%# Eval("FirstOnPage")%> - <%# Eval("LastOnPage") %> of <%# Eval("Items")%><br /> --%>
+ Pages:  <%# Eval("CurrentPage") %> of <%# Eval("Pages") %><br /> 
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>609a66f4-eb1e-492b-aa10-93e3833708bb</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>General-PagerLayout</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.Article</CodeName>
+    <GUID>2568ad70-17a5-4c58-91d2-67101cdf4fb3</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="ArticleName">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="ArticleTeaserText">
+        <settings>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <ShowAddStampButton />
+          <Height />
+          <Autoresize_Hashtable />
+          <HeightUnitType />
+          <Dialogs_Libraries_Site />
+          <Dialogs_Content_Hide />
+          <WidthUnitType />
+          <Dialogs_Content_Site />
+          <MediaDialogConfiguration />
+        </settings>
+      </field>
+      <field column="ArticleTeaserImage" visible="" visibility="" />
+      <field column="ArticleText" visible="true" visibility="">
+        <settings>
+          <controlname>textfilter</controlname>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <WidthUnitType>PX</WidthUnitType>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <HeightUnitType>PX</HeightUnitType>
+          <IsTextArea>True</IsTextArea>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>f5015642-2903-43d4-b59f-b0142e669c8e</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

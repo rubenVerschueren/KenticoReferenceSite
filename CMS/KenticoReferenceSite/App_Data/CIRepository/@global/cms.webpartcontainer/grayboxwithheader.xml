@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webpartcontainer>
+  <ContainerCSS />
+  <ContainerDisplayName>Gray box with header</ContainerDisplayName>
+  <ContainerGUID>91bf2937-b812-4fb8-8589-700e7d8a87e1</ContainerGUID>
+  <ContainerName>GrayBoxWithHeader</ContainerName>
+  <ContainerTextAfter>
+    <![CDATA[</div></div>]]>
+  </ContainerTextAfter>
+  <ContainerTextBefore>
+<![CDATA[
+<div class="grayBoxWH"><h2>{%ContainerTitle%}</h2>
+<div class="inner">
+]]>
+  </ContainerTextBefore>
+</cms.webpartcontainer>

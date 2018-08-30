@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Friends - Friend request</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>6fe616ca-b9d8-4980-90be-9124c2546cde</EmailTemplateGUID>
+  <EmailTemplateName>Friends.Request</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+{%FORMATTEDSENDERNAME%} wants to be your friend.
+
+Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}
+
+Sent: {%Friendship.FriendRequestedWhen|(identity)GlobalAdministrator|(hash)91b7d38c5afb9c93982160348137a8e6dc635c44213ed63d1cf55b5df131ff9d%}
+
+Choose one of the following actions:
+
+Accept or reject URL: {%MANAGEMENTURL%}
+
+User profile URL: {%PROFILEURL%}
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject>{%FORMATTEDSENDERNAME%} wants to be your friend</EmailTemplateSubject>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+  </head>
+  <body>
+    <p>{%FORMATTEDSENDERNAME%} wants to be your friend.</p>
+    <p>Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}</p>
+    <p>Sent: {%Friendship.FriendRequestedWhen.HTMLEncode()|(identity)GlobalAdministrator|(hash)0ce4cdc5f7799c3f4e35cc235ca23751b6a1b034527fdec962c21d4cb2d30118%}</p>
+    <p>Choose one of the following actions:</p>    
+    <p><a href="{%MANAGEMENTURL%}">Accept or reject</a></p>
+    <p><a href="{%PROFILEURL%}">Open user profile</a></p>
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>friends</EmailTemplateType>
+</cms.emailtemplate>

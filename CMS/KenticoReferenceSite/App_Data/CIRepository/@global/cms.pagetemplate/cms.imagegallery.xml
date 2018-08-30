@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Images</CodeName>
+    <GUID>7085eb62-6f72-4280-820f-2dd6593bb440</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.imagegallery</PageTemplateCodeName>
+  <PageTemplateDescription>Displays list of images in gallery.</PageTemplateDescription>
+  <PageTemplateDisplayName>Image gallery</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateForAllPages>False</PageTemplateForAllPages>
+  <PageTemplateGUID>efb3eaa4-6826-49d8-ab4c-c051ccdbadb3</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-pictures</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="imageGallery">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="ImageGallery" guid="05a5833a-c8ed-4b48-967e-c3f2a7d47a00" type="ImageGallery">
+          <property name="cachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="checkpermissions">False</property>
+          <property name="columns">3</property>
+          <property name="controlid">ImageGallery</property>
+          <property name="detailtransformation">CMS.File.ImageGallery_detail600</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">05a5833a-c8ed-4b48-967e-c3f2a7d47a00</property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagingmode">querystring</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="path">/Images/France/%</property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">isrelatedto</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="repeatdirection">horizontal</property>
+          <property name="rowsperpage">2</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showbuttonsontop">True</property>
+          <property name="showfirstlast">True</property>
+          <property name="thumbnailtransformation">CMS.File.ImageGallery_thumbnails180</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">ImageGallery</property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.scheduledtask>
+  <TaskAllowExternalService>True</TaskAllowExternalService>
+  <TaskAssemblyName>CMS.SynchronizationEngine</TaskAssemblyName>
+  <TaskClass>CMS.Synchronization.StagingWorker</TaskClass>
+  <TaskCondition />
+  <TaskData />
+  <TaskDeleteAfterLastRun>False</TaskDeleteAfterLastRun>
+  <TaskDisplayName>Content synchronization</TaskDisplayName>
+  <TaskEnabled>False</TaskEnabled>
+  <TaskGUID>27f41103-f09e-47bd-bc09-4b7181822550</TaskGUID>
+  <TaskInterval>
+    <![CDATA[hour;11/8/2007 3:56:01 PM;1;00:00:00;23:59:00;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]]>
+  </TaskInterval>
+  <TaskName>Staging.Synchronization</TaskName>
+  <TaskRunIndividually>False</TaskRunIndividually>
+  <TaskRunInSeparateThread>True</TaskRunInSeparateThread>
+  <TaskServerName />
+  <TaskSiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TaskSiteID>
+  <TaskUseExternalService>True</TaskUseExternalService>
+</cms.scheduledtask>

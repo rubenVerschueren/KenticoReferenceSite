@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<li class="item"><a href='<%# GetDocumentUrl() %>'><%# Eval("MenuItemName") %></a></li>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>d34ed98e-eea4-4d00-b79e-327b99a0d5f2</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ExamplesMenuItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

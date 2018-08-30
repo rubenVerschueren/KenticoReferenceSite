@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<%@ Register Src="~/CMSModules/MessageBoards/Controls/MessageActions.ascx" TagName="MessageActions" TagPrefix="cms" %>
+<%@ Register Src="~/CMSModules/AbuseReport/Controls/InlineAbuseReport.ascx" TagName="AbuseReport" TagPrefix="cms" %>
+<div class="CommentDetail">
+    <asp:Panel ID="pnlRating" runat="server" CssClass="CommentRating" />
+    <table width="100%">
+        <tr>
+            <td class="CommentUserName" style="width: 100%">
+		<%# IfEmpty(Eval("MessageURL"), TrimSitePrefix(Eval("MessageUserName", true)), "<a href=\"" + Eval("MessageURL", true) + "\" target=\"_blank\"" + IfCompare(HTMLHelper.UseNoFollowForUsersLinks(CMS.SiteProvider.SiteContext.CurrentSiteName), true, "", " rel=\"nofollow\" ") + ">" + TrimSitePrefix(Eval("MessageUserName", true)) + "</a>")%>                
+	    </td>
+        </tr>
+        <tr>
+            <td class="CommentText">
+		<%# TextHelper.EnsureLineEndings(Convert.ToString(Eval("MessageText", true)), "<br />")%>
+	    </td>
+        </tr>
+        <tr>
+            <td class="CommentDate">
+		<%# GetDateTime(Eval("MessageInserted")) %>
+            </td>
+        </tr>
+        <tr>
+            <td class="CommentAction TextRight">
+			<cms:MessageActions ID="messageActions" runat="server" />
+            </td>
+        </tr>
+        <tr>
+            <td class="CommentAction TextRight">
+			<cms:AbuseReport ID="ucInlineAbuseReport" runat="server" ReportObjectType="board.message" ReportObjectID='<%# Eval("MessageID") %>'  ReportTitle='<%# "Message board abuse report: " + Eval("MessageText") %>' CMSPanel-SecurityAccess="AuthenticatedUsers" /> 
+            </td>
+        </tr>
+    </table>
+</div>
+<hr style="border: 1px solid #CCCCCC;"/>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>4fbc0925-6f0f-4b77-b2aa-30a7a317c7d4</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MessageBoard</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

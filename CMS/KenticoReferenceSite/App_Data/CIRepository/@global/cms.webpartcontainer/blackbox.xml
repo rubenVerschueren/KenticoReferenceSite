@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webpartcontainer>
+  <ContainerCSS />
+  <ContainerDisplayName>Black box</ContainerDisplayName>
+  <ContainerGUID>8dd8abba-d7ea-473c-a194-436add312719</ContainerGUID>
+  <ContainerName>BlackBox</ContainerName>
+  <ContainerTextAfter>
+<![CDATA[
+
+  </div>
+</div>
+]]>
+  </ContainerTextAfter>
+  <ContainerTextBefore>
+<![CDATA[
+<div class="blackBox">
+  <h2 class="title">{%ContainerTitle%}</h2>
+  <div class="content">
+    
+]]>
+  </ContainerTextBefore>
+</cms.webpartcontainer>

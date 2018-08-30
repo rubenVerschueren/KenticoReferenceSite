@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Personas.Transformations</CodeName>
+    <GUID>2dd49e75-9a31-4ce6-a912-4a446b100041</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<table>
+<tr>
+<td>Product name:</td>
+<td><%# Eval("DocumentName", true) %></td>
+  
+</tr>
+<tr>
+<td>Price:</td>
+<td><%# GetSKUFormattedPrice() %></td>
+</tr>
+<tr>
+<td>Description:</td>
+<td><%# Eval("SKUDescription") %></td>
+</tr>
+<tr>
+<td>Photo:</td>
+<td><img src="<%# GetSKUImageUrl(200) %>" alt="<%# Eval("DocumentName", true) %> image" /></td>
+</tr>
+</table>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>fbfea248-6078-4ec6-ad2e-2896d45ee9db</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ProductDefault</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>MembershipAndSecurity</CodeName>
+    <GUID>809bc312-ab88-4997-935c-f3d65ea63574</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.logonpage</PageTemplateCodeName>
+  <PageTemplateDescription>Displays logon dialog and a registration form.</PageTemplateDescription>
+  <PageTemplateDisplayName>Log-on page with registration form</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>39037778-2e13-4ad8-b52f-cde21d8e36d8</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-forms-2</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="logonReg">
+	<!-- Top zone -->
+	<div class="topZone">
+		<cms:CMSWebPartZone ZoneID="zoneTop" runat="server" />
+	</div>
+	<!-- Left zone -->
+	<div class="zoneLeft" style="width: 50%; float: left;">
+		<div style="width: 300px; margin: 10px auto;">
+			<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />  
+		</div>
+	</div>
+	<!-- Right zone -->
+	<div class="zoneRight" style="width: 50%; float: right;">
+		<div style="width: 300px; margin: 10px auto;">
+			<cms:CMSWebPartZone ZoneID="zoneRight" runat="server" />
+		</div>
+	</div>
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="LogonForm" guid="fd6c2073-0500-4c5a-ba3f-397b77de0fd8" type="logonform">
+          <property name="allowpasswordretrieval">True</property>
+          <property name="container">OrangeBox</property>
+          <property name="containertitle">Log on</property>
+          <property name="contentafter">
+            <![CDATA[</div>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<div style="min-height: 160px;height:auto">]]>
+          </property>
+          <property name="controlid">LogonForm</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">fd6c2073-0500-4c5a-ba3f-397b77de0fd8</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="passwordretrieval">True</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">logonform</property>
+        </webpart>
+        <webpart controlid="FacebookConnectLogon" guid="06097f0d-fba1-43b4-b38c-1fd0ef2dc0a3" type="FacebookConnectLogon" v="1">
+          <property name="buttonwidth">500</property>
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">FacebookConnectLogon</property>
+          <property name="conversionvalue"></property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">06097f0d-fba1-43b4-b38c-1fd0ef2dc0a3</property>
+          <property name="maxrows">1</property>
+          <property name="notifyadministrator">False</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="scope"></property>
+          <property name="showasbutton">True</property>
+          <property name="showfaces">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="showsignout">True</property>
+          <property name="signintext">kuk</property>
+          <property name="signoutimageurl"></property>
+          <property name="signouttext"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="trackconversionname"></property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">FacebookConnectLogon</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneRight">
+        <webpart controlid="RegistrationForm" guid="18a73657-9e60-4dd6-a55b-938312cde2a6" type="registrationform">
+          <property name="approvalpage">~/CMSPages/Dialogs/UserRegistration.aspx</property>
+          <property name="container">OrangeBox</property>
+          <property name="containertitle">Not a member yet? Sign up now!</property>
+          <property name="controlid">RegistrationForm</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaycaptcha">False</property>
+          <property name="enableuserafterregistration">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">18a73657-9e60-4dd6-a55b-938312cde2a6</property>
+          <property name="notifyadministrator">False</property>
+          <property name="passwordminlength">0</property>
+          <property name="sendwelcomeemail">True</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttype">registrationform</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneBottom" />
+      <webpartzone id="zoneTop">
+        <webpart controlid="OpenIDlogon" guid="6b7c72a7-a9d1-43ba-b206-7df5e0ba1678" type="OpenIDlogon" v="1">
+          <property name="birthdate">request</property>
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">OpenIDlogon</property>
+          <property name="conversionvalue"></property>
+          <property name="country">request</property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytextbox">True</property>
+          <property name="displaytoroles"></property>
+          <property name="email">require</property>
+          <property name="enableoutputfilter">False</property>
+          <property name="fullname">request</property>
+          <property name="gender">request</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">6b7c72a7-a9d1-43ba-b206-7df5e0ba1678</property>
+          <property name="language">request</property>
+          <property name="nickname">request</property>
+          <property name="notifyadministrator">False</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="postalcode">request</property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="providers">
+<![CDATA[
+Yahoo!|http://me.yahoo.com/|yahoo.png
+AOL|http://openid.aol.com/|aol.png
+Blogger|http://##username##.blogspot.com/|blogger.png
+Livejournal|http://##username##.livejournal.com/|livejournal.png
+Verisign|http://##username##.pip.verisignlabs.com/|verisign.png
+]]>
+          </property>
+          <property name="showasbutton">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="showsignout">True</property>
+          <property name="signinimageurl"></property>
+          <property name="signintext">Sign in</property>
+          <property name="signoutimageurl"></property>
+          <property name="signouttext">Sign out</property>
+          <property name="timezone">request</property>
+          <property name="timezonetype">inherit</property>
+          <property name="trackconversionname"></property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">OpenIDlogon</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

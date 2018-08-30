@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h1 class="BlogPTitleDetail">
+  <%# Eval("BlogPostTitle",true) %>
+</h1>
+<div class="BlogPBodyDetail textContent">
+<div class="summary">
+  <%# IfEmpty(Eval("BlogPostTeaser"),"","<div class=\"teaser\"><img src=\""+GetAttachmentUrlByGUID(Eval("BlogPostTeaser"), Eval("NodeAlias"))+"?maxsidesize=66\" alt=\""+Eval("BlogPostTitle",true)+" \" /></div>") %>
+<div class="BlogPostSummaryText"><%# Eval("BlogPostSummary") %></div>
+<br class="clear" />
+</div>
+  <%# Eval("BlogPostBody") %>
+  <div class="clear">&nbsp;</div>
+</div>
+<div class="BlogPDateWhole">
+    Posted by <a href="~/Members/<%# BlogFunctions.GetUserName(Eval("NodeOwner")) %>.aspx"><strong><%# BlogFunctions.GetUserFullName(Eval("NodeOwner")) %></strong></a> on <span class="BlogPDate"><%# Eval("BlogPostDate") %></span></div><div class="BlogTagsWhole">
+<%# IfEmpty(Eval("DocumentTags"),"","Filed under: " + BlogFunctions.GetDocumentTags(Eval("DocumentTagGroupID"), Eval("DocumentTags"), "~/Blogs/Blog-posts.aspx")) %></div>
+<br/>
+<br/>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>1499154e-8685-4c31-b8d9-292504d9ab73</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>BlogPostDetail</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

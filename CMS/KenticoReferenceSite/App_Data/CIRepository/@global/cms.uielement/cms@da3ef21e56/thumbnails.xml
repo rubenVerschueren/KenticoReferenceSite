@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.uielement>
+  <ElementCaption>Thumbnails</ElementCaption>
+  <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>
+  <ElementDisplayName>Thumbnails</ElementDisplayName>
+  <ElementFromVersion>8.0</ElementFromVersion>
+  <ElementGUID>eaa3340e-b2a3-44ca-b64c-1b8b1067b84c</ElementGUID>
+  <ElementIconClass />
+  <ElementIsCustom>False</ElementIsCustom>
+  <ElementIsGlobalApplication>False</ElementIsGlobalApplication>
+  <ElementIsMenu>False</ElementIsMenu>
+  <ElementName>Thumbnails</ElementName>
+  <ElementOrder>11</ElementOrder>
+  <ElementPageTemplateID>
+    <CodeName>CustomControl</CodeName>
+    <GUID>df52ca8a-ad10-4b67-8dfb-a1311d571615</GUID>
+    <ObjectType>cms.pagetemplate</ObjectType>
+  </ElementPageTemplateID>
+  <ElementParentID>
+    <CodeName>EditClass</CodeName>
+    <GUID>f4c97d07-378a-4693-b9dd-00df3a252d68</GUID>
+    <ObjectType>cms.uielement</ObjectType>
+    <Parent>
+      <CodeName>CMS</CodeName>
+      <GUID>ce1a65a0-80dc-4c53-b0e7-bdecf0aa8c02</GUID>
+      <ObjectType>cms.resource</ObjectType>
+    </Parent>
+  </ElementParentID>
+  <ElementProperties>
+    <data>
+      <category_name_custom>False</category_name_custom>
+      <metafilegroupname>
+        <![CDATA[{% ObjectAttachments.Thumbnail |(identity)GlobalAdministrator|(hash)b93319db3c5e8cd332afacbce14cb2c5d82fc577de8c1eb5ef9f15cc2c6f38ac%}]]>
+      </metafilegroupname>
+      <includejquery>False</includejquery>
+      <metafileobjectid>
+        <![CDATA[{% UIContext.EditedObject.ID |(identity)GlobalAdministrator|(hash)e0117ab1fda72b7e268b31a3e0bde60f5c7dbd2b6d7474b0de7070e19f6c9632%}]]>
+      </metafileobjectid>
+      <metafileobjecttype>cms.class</metafileobjecttype>
+      <pagecontentcssclass>PageContent</pagecontentcssclass>
+      <displaybreadcrumbs>False</displaybreadcrumbs>
+      <controlpath>
+        <![CDATA[~/CMSModules/AdminControls/Controls/UIControls/MetaFileList.ascx]]>
+      </controlpath>
+    </data>
+  </ElementProperties>
+  <ElementRequiresGlobalAdminPriviligeLevel>False</ElementRequiresGlobalAdminPriviligeLevel>
+  <ElementResourceID>
+    <CodeName>CMS</CodeName>
+    <GUID>ce1a65a0-80dc-4c53-b0e7-bdecf0aa8c02</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </ElementResourceID>
+  <ElementSize>0</ElementSize>
+  <ElementType>PageTemplate</ElementType>
+  <ElementVisibilityCondition>
+    <![CDATA[{%System.GetObject("cms.resource",Convert.ToInt(QueryString.parentObjectId, 0)).ResourceName == "CMS.Personas"|(identity)GlobalAdministrator|(hash)fa3ec9dbc3d47aa84f3e25017497b6107e7e1499ff0083306c3aae076d931c20%}]]>
+  </ElementVisibilityCondition>
+</cms.uielement>

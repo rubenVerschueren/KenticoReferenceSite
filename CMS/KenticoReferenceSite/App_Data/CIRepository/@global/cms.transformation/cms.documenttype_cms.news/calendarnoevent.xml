@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+No event
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>fdd47ae0-7bb8-4f78-8367-c611fd3ef83b</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CalendarNoEvent</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

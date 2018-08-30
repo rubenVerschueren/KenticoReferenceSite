@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<tr>
+<td style="padding: 0px 8px 0px 8px;">{%HTMLEncode(Localize(Name))%}</td>
+<td>{%HTMLEncode(Value.Format(Currency.CurrencyFormatString))|(identity)GlobalAdministrator|(hash)fb02928fc40e576688379d09cdb1abcd4217782e52f2f0707ad2e9b36edf9ea2%}</td>
+</tr>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>c1ee16cb-7eb5-4810-b35e-a413db1d75a3</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Order_TaxesTable</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

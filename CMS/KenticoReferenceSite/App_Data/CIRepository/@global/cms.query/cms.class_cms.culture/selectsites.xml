@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.query>
+  <ClassID>
+    <CodeName>cms.culture</CodeName>
+    <GUID>21ea0bc0-a9b7-4888-8255-9bd5255e2ef0</GUID>
+    <ObjectType>cms.class</ObjectType>
+  </ClassID>
+  <QueryConnectionString>CMSConnectionString</QueryConnectionString>
+  <QueryGUID>0c79a0db-927b-48a1-a052-567c82670520</QueryGUID>
+  <QueryIsCustom>False</QueryIsCustom>
+  <QueryIsLocked>False</QueryIsLocked>
+  <QueryName>selectsites</QueryName>
+  <QueryRequiresTransaction>False</QueryRequiresTransaction>
+  <QueryText>
+    <![CDATA[SELECT CMS_Site.*, CMS_SiteCulture.CultureID FROM CMS_Site LEFT OUTER JOIN CMS_SiteCulture ON CMS_SiteCulture.SiteID = CMS_Site.SiteID AND (CMS_SiteCulture.CultureID = @CultureID OR CMS_SiteCulture.CultureID IS NULL) ORDER BY ##ORDERBY##]]>
+  </QueryText>
+  <QueryTypeID>0</QueryTypeID>
+</cms.query>

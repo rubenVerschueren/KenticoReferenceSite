@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.Blog</CodeName>
+    <GUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="BlogID" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogName" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogDescription" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>500</Width>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogSideColumnText" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false">
+        <settings>
+          <Dialogs_Libraries_Hide>True</Dialogs_Libraries_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <DisplayAutoResize>True</DisplayAutoResize>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <Height>150</Height>
+          <ToolbarSet>SimpleEdit</ToolbarSet>
+          <Width>500</Width>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <Dialogs_Content_Hide>True</Dialogs_Content_Hide>
+          <DisplayEmailTabSetting>True</DisplayEmailTabSetting>
+          <controlname>htmlareacontrol</controlname>
+          <height />
+        </settings>
+      </field>
+      <field column="BlogTeaser" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>directuploadcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogOpenCommentsFor" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" defaultvalue="" fielddescription="" regularexpression="" minstringlength="" maxstringlength="" minnumericvalue="" maxnumericvalue="" mindatetimevalue="" maxdatetimevalue="" validationerrormessage="" captionstyle="" inputcontrolstyle="" fileextensions="">
+        <settings>
+          <controlname>dropdownlistcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogSendCommentsToEmail" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" />
+      <field column="BlogAllowAnonymousComments" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" columnsize="" fielddescription="" regularexpression="" minstringlength="" maxstringlength="" minnumericvalue="" maxnumericvalue="" mindatetimevalue="" maxdatetimevalue="" validationerrormessage="" captionstyle="" inputcontrolstyle="" fileextensions="">
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogUseCAPTCHAForComments" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogRequireEmails" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogUnsubscriptionUrl" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogEnableSubscriptions" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false">
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogModerateComments" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" columnsize="" fielddescription="" regularexpression="" minstringlength="" maxstringlength="" minnumericvalue="" maxnumericvalue="" mindatetimevalue="" maxdatetimevalue="" validationerrormessage="" captionstyle="" inputcontrolstyle="" fileextensions="">
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogModerators" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Intranet blogs</FormDisplayName>
+  <FormGUID>bcfda11d-5b34-4bf7-8cfe-97eac0d04eee</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>IntranetBlogs</FormName>
+</cms.alternativeform>

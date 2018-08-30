@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Blog</CodeName>
+    <GUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<%# Eval("BlogSideColumnText") %>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>f39fe72e-cd64-4ce7-bd50-2c5fa5003b69</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>SideColumn</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

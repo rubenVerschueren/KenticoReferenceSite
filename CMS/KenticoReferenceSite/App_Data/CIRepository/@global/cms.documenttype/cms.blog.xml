@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDefaultObjectType />
+  <ClassDefaultPageTemplateID>
+    <CodeName>cms.blog</CodeName>
+    <GUID>a698f0d4-a4e7-4725-bcc5-e0311e1d6fb4</GUID>
+    <ObjectType>cms.pagetemplate</ObjectType>
+  </ClassDefaultPageTemplateID>
+  <ClassDisplayName>Blog</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="BlogID" columntype="integer" guid="24e74421-9659-4aad-a45f-c9d8c7bbc3f3" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>BlogID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogName" columnsize="200" columntype="text" guid="32e05a6c-c7e6-48fb-bccb-055f4ec1bfc0" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Blog name</fieldcaption>
+          <inputcontrolstyle>width:500px</inputcontrolstyle>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+        <rules>
+          <rule>
+            <![CDATA[{%Rule("Value.Length <= 200", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>200</t><v>200</v><r>false</r><d></d><vt>integer</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)8b1240fd225ed7f4a899c6c31c486e826a5273aeee201bd953fd83dc84f20865%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field column="BlogDescription" columntype="longtext" guid="06cbdf05-bffe-4f8a-b1c3-afcc9138b315" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Blog description</fieldcaption>
+          <fielddescription>
+            <![CDATA[An introduction for the blog readers that is displayed together with the blog title. It's a good practice to introduce the blog author and covered topics.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogSideColumnText" columntype="longtext" guid="7ead10b4-b84d-4a50-8789-0bb61ad64d5f" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Blog short description</fieldcaption>
+          <fielddescription>
+            <![CDATA[A brief text that is displayed instead of the blog description when there is a limited space on a page.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogTeaser" columntype="file" guid="21d4a3a8-bd24-4e17-ba8f-411b19565a0f" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Blog teaser image</fieldcaption>
+          <fielddescription>
+            <![CDATA[An image that is displayed together with the blog name and description.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>directuploadcontrol</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <category name="Blog_comments">
+        <properties>
+          <caption>Comments</caption>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field column="BlogOpenCommentsFor" columnsize="10" columntype="text" guid="eee8e5ce-5a7c-43df-b2e6-61e5885dbebd" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>For how long can readers add comments</fieldcaption>
+          <fielddescription>
+            <![CDATA[Readers can add comments only over the selected time period.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>dropdownlistcontrol</controlname>
+          <EditText>False</EditText>
+          <Options>
+<![CDATA[
+-1;Always
+0;Never
+1;1 day
+2;2 days
+5;5 days
+10;10 days
+14;14 days
+30;30 days
+60;60 days
+90;90 days
+]]>
+          </Options>
+          <SortItems>False</SortItems>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogRequireEmails" columntype="boolean" guid="53f94950-e607-408a-ad98-9783648e38a2" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>Require e-mail address from readers</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogSendCommentsToEmail" columnsize="254" columntype="text" guid="d3a60cb0-b7ec-44d9-88c5-08780cdc5a10" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Send notifications to e-mail</fieldcaption>
+          <fielddescription>
+            <![CDATA[Notification will be sent to the specified e-mail address when new comments are posted on your blog. This way, comments can be monitored for spam and deleted when necessary.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>emailinput</controlname>
+        </settings>
+      </field>
+      <category name="Comments_Protection">
+        <properties>
+          <caption>Comments: Protection</caption>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field column="BlogAllowAnonymousComments" columntype="boolean" guid="fbb9cb03-0fe8-45b2-8262-851cdd919df7" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>True</defaultvalue>
+          <fieldcaption>Allow comments from anonymous readers</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogUseCAPTCHAForComments" columntype="boolean" guid="6c6c85c3-065e-4a8d-85c1-27f5cef377dd" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>True</defaultvalue>
+          <fieldcaption>Enable CAPTCHA</fieldcaption>
+          <fielddescription>
+            <![CDATA[When readers want to add a comment they must complete a simple test to prove that they are human beings. It prevents automated spamming systems from posting meaningless comments on your blog.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field column="BlogModerateComments" columntype="boolean" guid="78f9a3a0-3f50-4dda-81f8-b1cb8cbc0b09" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>False</defaultvalue>
+          <fieldcaption>Comments must be approved</fieldcaption>
+          <fielddescription>
+            <![CDATA[The selected users can view new comments and approve or reject them before they appear on your blog.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogModerators" columnsize="450" columntype="text" guid="f06ece1f-990c-4e68-bfe3-b80bcd2e959b" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Who can approve comments</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>multipleuserselector</controlname>
+          <ShowSiteFilter>False</ShowSiteFilter>
+        </settings>
+      </field>
+      <category name="Comments_Subscription">
+        <properties>
+          <caption>Comments: Subscription</caption>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="BlogEnableSubscriptions" columntype="boolean" guid="aab0618f-843f-47f0-bd8a-1b3bccb357cd" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>Allow subscription to comments</fieldcaption>
+          <fielddescription>
+            <![CDATA[Readers can subscribe to receive e-mail notifications about new comments.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogEnableOptIn" columntype="integer" guid="85782a2e-d978-4c9a-92f6-402156e59ec4" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>-1</defaultvalue>
+          <fieldcaption>Enable subscription confirmation (double opt-in)</fieldcaption>
+          <fielddescription>
+            <![CDATA[Prevents unsolicited subscriptions. Readers who want to subscribe to comments will receive an e-mail with a confirmation link to verify the request.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>threestatecheckbox</controlname>
+          <SettingKeyName>CMSBlogEnableOptIn</SettingKeyName>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogSendOptInConfirmation" columntype="integer" guid="72975e35-9964-435b-82fb-4b7e594108d5" publicfield="false" visible="true">
+        <properties>
+          <defaultvalue>-1</defaultvalue>
+          <fieldcaption>Send confirmation notification</fieldcaption>
+          <fielddescription>
+            <![CDATA[If double opt-in is enabled, readers will receive an e-mail notification that they have been subscribed to comments. Without double opt-in enabled the notification is always sent.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>threestatecheckbox</controlname>
+          <SettingKeyName>CMSBlogEnableOptInConfirmation</SettingKeyName>
+        </settings>
+      </field>
+      <category name="Double_opt-in">
+        <properties>
+          <caption>Comments: Configuration</caption>
+          <collapsedbydefault>true</collapsedbydefault>
+          <collapsible>true</collapsible>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="BlogUnsubscriptionUrl" columnsize="250" columntype="text" guid="68ece54e-45e1-43e1-9cb0-ff74f22b21d6" publicfield="false" spellcheck="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Unsubscribe link URL</fieldcaption>
+          <fielddescription>
+            <![CDATA[Page URL where readers can unsubscribe from comments (intended for web developers).]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textboxcontrol</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="BlogOptInApprovalURL" columnsize="450" columntype="text" guid="a15ea326-77f3-4c93-97e5-da6c2023ccf9" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Confirmation page path</fieldcaption>
+          <fielddescription>
+            <![CDATA[Page where readers confirm a subscription request (intended for web developers).]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <AllowSetPermissions>False</AllowSetPermissions>
+          <controlname>singlepathselectorwithpermissions</controlname>
+          <SinglePathMode>True</SinglePathMode>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</ClassGUID>
+  <ClassIconClass>icon-notebook</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.Blog</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>BlogName</ClassNodeNameSource>
+  <ClassPageTemplateCategoryID>
+    <CodeName>/</CodeName>
+    <GUID>532264bf-95e9-4035-b4ce-fe403c81781a</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </ClassPageTemplateCategoryID>
+  <ClassSearchContentColumn>BlogDescription</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>BlogTeaser</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item content="False" id="16d11990-a315-414f-819d-9f6ab0368fdd" name="BlogUnsubscriptionUrl" searchable="False" tokenized="False" />
+      <item content="False" id="18919375-ed31-423d-95a2-b2a189976832" name="BlogModerateComments" searchable="False" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="1e1294a1-31fc-4733-a045-128dcab8a2c6" name="BlogSideColumnText" searchable="False" tokenized="True" />
+      <item id="335e0c8f-2a36-4dbc-a299-5014e87da4b1" name="BlogSendOptInConfirmation" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="4068c238-a6f2-40a3-b58d-4a67a5f156ef" name="BlogDescription" searchable="False" tokenized="True" />
+      <item content="False" id="45790c7f-c4a2-4c58-b35f-fd722d7e618d" name="BlogEnableSubscriptions" searchable="False" tokenized="False" />
+      <item content="False" id="47b02829-c6f9-4234-8034-7ba89cfc28b4" name="BlogSendCommentsToEmail" searchable="False" tokenized="False" />
+      <item content="False" id="4c04fd27-5480-4652-8112-71b132f9bc2c" name="BlogAllowAnonymousComments" searchable="False" tokenized="False" />
+      <item azureretrievable="True" content="False" id="75e1a795-5925-4507-a9af-4e28b9350f64" name="blogID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="8aca6cb5-873e-43b7-9eba-13e362e6d5d0" name="BlogName" searchable="False" tokenized="True" />
+      <item id="ae5e5af5-512b-459a-a2b7-18967935e071" name="BlogOptInApprovalURL" />
+      <item content="False" id="b688d1e8-1eb1-48f0-9079-48002a483a51" name="BlogRequireEmails" searchable="False" tokenized="False" />
+      <item content="False" id="b6e0299e-81d6-4c42-9919-ca86c7af4d07" name="BlogTeaser" searchable="False" tokenized="False" />
+      <item content="False" id="c92a87aa-e42f-4b03-9e4a-437d7962687b" name="BlogUseCAPTCHAForComments" searchable="False" tokenized="False" />
+      <item id="cba94257-5c0c-496a-bed9-0b4cea3f5a79" name="BlogEnableOptIn" />
+      <item content="False" id="cde5bd23-1692-4b07-a58a-47dfae4f3268" name="BlogModerators" searchable="False" tokenized="False" />
+      <item content="False" id="edc8b246-d6f3-4edc-adf3-ace7c4c41f26" name="BlogOpenCommentsFor" searchable="False" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>True</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_Blog</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

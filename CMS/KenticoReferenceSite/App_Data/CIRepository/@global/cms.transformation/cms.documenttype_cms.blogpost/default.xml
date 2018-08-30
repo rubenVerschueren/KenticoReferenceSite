@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h1>
+  <%# Eval("BlogPostTitle", true) %>
+</h1>
+<div class="BlogPBody TextContent">
+  <%# Eval("BlogPostBody") %>
+</div>
+<div class="BlogPDateWhole">
+    Posted: <span class="BlogPDate"><%# Eval("BlogPostDate") %></span> by 
+<strong><%# BlogFunctions.GetUserFullName(Eval("DocumentCreatedByUserID")) %></strong> | with <a href="<%# GetDocumentUrl() %>"><%# BlogFunctions.GetBlogCommentsCount(Eval("DocumentID"),Eval("NodeAliasPath")) %> comments</a><br /><%# IfEmpty(Eval("DocumentTags"),"","Filed under: " + BlogFunctions.GetDocumentTags(Eval("DocumentTagGroupID"), Eval("DocumentTags"), "~/Blogs/My-blog-1.aspx")) %></div>
+<br/>
+<br/>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>4fe464e5-d73d-4615-803c-e34eb93801ff</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Default</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

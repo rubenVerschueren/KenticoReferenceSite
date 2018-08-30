@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>StrandsRecommender.Transformations</CodeName>
+    <GUID>b163904e-c63a-469b-b2e4-567c5400cbd2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+{%/*  
+
+For more information about custom layout transformation, please refer to our documentation: https://docs.kentico.com/x/CYJsAw
+For available fields, please refer to Strands Recommender documentation: http://recommender.strands.com/developers/#advRenderer
+
+*/|(identity)GlobalAdministrator|(hash)1e759c2a31e6f46b1d236e3965459dda61453eff3c62596f5b98b9850470c1cc%}
+<div class="customTemplate">
+  <h1>
+    Recommendation title
+  </h1>
+  <table>
+    <tbody>
+      <tr>
+        {{each(i, rec) recommendations}}
+        <td>
+          <div>
+            <a href="${rec.metadata.link}" onclick="SBS.Tracking.onRecClick('${rec.itemId}','${tpl}','${rrq}');return true;" >
+              <img src="${rec.metadata.picture}" alt="${rec.metadata.name}" />
+            </a>
+          </div>
+          <a href="${rec.metadata.link}" onclick="SBS.Tracking.onRecClick('${rec.itemId}','${tpl}','${rrq}');return true;">
+            ${rec.metadata.name}
+          </a>
+          <br />
+          <a href="${rec.metadata.link}" onclick="SBS.Tracking.onRecClick('${rec.itemId}','${tpl}','${rrq}');return true;">
+            {% ECommerceContext.CurrentCurrency != null ? string.FormatString(ECommerceContext.CurrentCurrency.CurrencyFormatString, "${rec.metadata.price}") : "${rec.metadata.price}" |(identity)GlobalAdministrator|(hash)387f56e29d33b437377ae2873c45a436bf88d0f1e0dbef748be7b3857feab608%}
+          </a>
+        </td>
+        {{/each}}
+      </tr>
+    </tbody>
+  </table>
+  <div class="strandsLogo">
+    <a href="http://recommender.strands.com">
+      <img src="http://recommender.strands.com/img-new/powered_strands.png" border="0">
+    </a>
+  </div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+.customTemplate .strandsLogo {
+  text-align: center;
+}
+
+.customTemplate h1 {
+  font-size: 15px;
+  color: white;
+  background-color: #9BC02B;
+  padding: 0px 5px;
+}
+
+.customTemplate * {
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+}
+
+.customTemplate {
+  border: 1px solid #718C1F;
+  display: inline-block;
+  margin:10px;
+}
+
+.customTemplate td{
+  text-align: center;
+  vertical-align:middle;
+  padding:10px;
+  font-size:12px;
+  line-height:16px;
+}
+
+.customTemplate img {
+  max-width: 120px;
+}
+
+.customTemplate a:link, .customTemplate a:hover, .customTemplate a:visited {
+  color:#495BBD;
+  max-width:120px;
+  display:inline-block;
+}
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>3326f6b4-9553-434c-a328-f9ee1837ecde</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>StrandsDefault</TransformationName>
+  <TransformationType>jquery</TransformationType>
+</cms.transformation>

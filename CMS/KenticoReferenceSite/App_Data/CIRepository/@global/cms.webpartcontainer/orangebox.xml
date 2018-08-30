@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.webpartcontainer>
+  <ContainerCSS>
+<![CDATA[
+
+
+]]>
+  </ContainerCSS>
+  <ContainerDisplayName>Orange box</ContainerDisplayName>
+  <ContainerGUID>e6abcd4b-e99b-4ed9-b23c-041938c4f6be</ContainerGUID>
+  <ContainerName>OrangeBox</ContainerName>
+  <ContainerTextAfter>
+<![CDATA[
+</div>
+</div>
+]]>
+  </ContainerTextAfter>
+  <ContainerTextBefore>
+<![CDATA[
+<div class="orangeBox">
+<h3 class="title">{%ContainerTitle%}</h3>
+<div class="content">
+]]>
+  </ContainerTextBefore>
+</cms.webpartcontainer>

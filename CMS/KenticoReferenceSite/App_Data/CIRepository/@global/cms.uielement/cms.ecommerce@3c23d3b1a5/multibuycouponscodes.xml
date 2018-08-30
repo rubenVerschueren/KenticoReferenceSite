@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.uielement>
+  <ElementCaption>{$com.discount.coupons$}</ElementCaption>
+  <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
+  <ElementDisplayName>{$com.discount.coupons$}</ElementDisplayName>
+  <ElementFromVersion>8.1</ElementFromVersion>
+  <ElementGUID>1ae3b7a1-8955-4e77-bdfd-a5525ea3728b</ElementGUID>
+  <ElementIconClass />
+  <ElementIsCustom>False</ElementIsCustom>
+  <ElementIsGlobalApplication>False</ElementIsGlobalApplication>
+  <ElementIsMenu>False</ElementIsMenu>
+  <ElementName>MultiBuyCouponsCodes</ElementName>
+  <ElementOrder>2</ElementOrder>
+  <ElementPageTemplateID>
+    <CodeName>Listing</CodeName>
+    <GUID>226b13a3-97c2-4895-99e4-39ea6247a399</GUID>
+    <ObjectType>cms.pagetemplate</ObjectType>
+  </ElementPageTemplateID>
+  <ElementParentID>
+    <CodeName>EditBuyXGetY</CodeName>
+    <GUID>e7aac5f1-b1ba-45a5-a343-b6f51fef7f7d</GUID>
+    <ObjectType>cms.uielement</ObjectType>
+    <Parent>
+      <CodeName>CMS.Ecommerce</CodeName>
+      <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+      <ObjectType>cms.resource</ObjectType>
+    </Parent>
+  </ElementParentID>
+  <ElementProperties>
+    <Data>
+      <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
+      <EditInDialog>False</EditInDialog>
+      <includejquery>False</includejquery>
+      <informationtext>
+        <![CDATA[{% (!EditedObjectParent.MultiBuyDiscountUsesCoupons)? GetResourceString("com.discount.couponcodenotused"):"" |(identity)GlobalAdministrator|(hash)01b07b8335e1a06e1ed9fd2bcb91e98e33fb02ad4e7418cb31a61c7bee7b464a%}]]>
+      </informationtext>
+      <ObjectType>ecommerce.multibuycouponcode</ObjectType>
+      <OpenInDialog>False</OpenInDialog>
+      <PageExtenderAssemblyName>CMS.Ecommerce.Web.UI</PageExtenderAssemblyName>
+      <PageExtenderClassName>CMS.Ecommerce.Web.UI.CouponCodesListPageExtender</PageExtenderClassName>
+      <ParentObjectType>ecommerce.multibuydiscount</ParentObjectType>
+      <Text ismacro="True">
+        <![CDATA[{% GetMultiBuyCouponsMessage(EditedObjectParent); %}]]>
+      </Text>
+      <WhereCondition ismacro="True">
+        <![CDATA[MultiBuyCouponCodeMultiBuyDiscountID = {%EditedObjectParent.MultiBuyDiscountID|(identity)GlobalAdministrator|(hash)31677782905ff0588c87fdc030d5dab8d95c0a9799d21557589f45b2f1d63091%}]]>
+      </WhereCondition>
+      <ZeroRowsText ismacro="True">{$com.discount.codenodatafound$}</ZeroRowsText>
+    </Data>
+  </ElementProperties>
+  <ElementRequiresGlobalAdminPriviligeLevel>False</ElementRequiresGlobalAdminPriviligeLevel>
+  <ElementResourceID>
+    <CodeName>CMS.Ecommerce</CodeName>
+    <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </ElementResourceID>
+  <ElementSize>0</ElementSize>
+  <ElementType>PageTemplate</ElementType>
+  <ElementVisibilityCondition>
+    <![CDATA[{%EditedObject.HasOrUsesCoupon|(identity)GlobalAdministrator|(hash)386ff9b9e3a95c78b1eb55b2e176ebf3f2bc6d6d057145aa69563d1a3d79189e%}]]>
+  </ElementVisibilityCondition>
+</cms.uielement>

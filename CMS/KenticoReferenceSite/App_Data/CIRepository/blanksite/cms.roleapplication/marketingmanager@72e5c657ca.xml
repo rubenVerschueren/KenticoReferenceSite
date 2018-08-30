@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.roleapplication>
+  <Parent>
+    <CodeName>MarketingManager</CodeName>
+    <GUID>8f24cb38-a987-41a6-adbd-9210eebf008e</GUID>
+    <ObjectType>cms.role</ObjectType>
+    <Site>
+      <CodeName>BlankSite</CodeName>
+      <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.uielement_CMSWebAnalytics_cms.resource_CMS.WebAnalytics">
+      <ElementID>
+        <CodeName>CMSWebAnalytics</CodeName>
+        <GUID>1d1c5944-9943-40b8-94b8-a5ab9616e03b</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.WebAnalytics</CodeName>
+          <GUID>d3c82114-86f7-4aa9-8206-9b006100641c</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Conversions_cms.resource_CMS.WebAnalytics">
+      <ElementID>
+        <CodeName>Conversions</CodeName>
+        <GUID>928c0610-9fc8-4944-b99f-e2e3aa0c6f10</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.WebAnalytics</CodeName>
+          <GUID>d3c82114-86f7-4aa9-8206-9b006100641c</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Form_cms.resource_CMS.Form">
+      <ElementID>
+        <CodeName>Form</CodeName>
+        <GUID>1c55d3da-a29b-4df6-a0b2-dc72a065a317</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Form</CodeName>
+          <GUID>385e528a-e013-4a84-bad9-d5956408741a</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Newsletter_cms.resource_CMS.Newsletter">
+      <ElementID>
+        <CodeName>Newsletter</CodeName>
+        <GUID>1623aac1-f3f1-41df-8690-fbfc7d3b9b7a</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Newsletter</CodeName>
+          <GUID>82445572-642a-4f53-a411-063e5f4b63c0</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Scoring_cms.resource_CMS.Scoring">
+      <ElementID>
+        <CodeName>Scoring</CodeName>
+        <GUID>4d5e49ee-10e4-446b-81fd-45ed330f1c7d</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Scoring</CodeName>
+          <GUID>65210a3e-5aef-4a10-aa23-17906fcd7039</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_content_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>content</CodeName>
+        <GUID>95a82f36-9c40-45f0-86f1-39aa44db9a77</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+  </Bindings>
+</cms.roleapplication>

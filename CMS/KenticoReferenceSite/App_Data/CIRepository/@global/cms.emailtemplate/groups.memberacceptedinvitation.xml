@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Groups - Member accepted invitation</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>0f68bc2f-bf08-40cf-b4e4-c2550e94f570</EmailTemplateGUID>
+  <EmailTemplateName>Groups.MemberAcceptedInvitation</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+{%Sender.FullName|(identity)GlobalAdministrator|(hash)2275cd9e9835feb306d0d2d8f5c023cf044e597f8f77cbaf67366759fc133dd6%}({%TrimSitePrefix(Sender.UserName)|(identity)GlobalAdministrator|(hash)9b29448c10ac1e14571b9756dc6ae18568c0c56597562084c0801db39ef49c91%}) has accepted your invitation to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.
+When: {%GroupMember.MemberJoined|(identity)GlobalAdministrator|(hash)3c07d4e66eb30a23554e1a631b86635e65371d63c8b1dffcdff28fb47f0876e7%}
+
+
+Best Regards,
+
+The Community Team
+
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject>
+    <![CDATA[Invitation to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}' was accepted]]>
+  </EmailTemplateSubject>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+	<head>
+	</head>
+	<body>
+		<p>{%Sender.FullName|(identity)GlobalAdministrator|(hash)2275cd9e9835feb306d0d2d8f5c023cf044e597f8f77cbaf67366759fc133dd6%}({%TrimSitePrefix(Sender.UserName)|(identity)GlobalAdministrator|(hash)9b29448c10ac1e14571b9756dc6ae18568c0c56597562084c0801db39ef49c91%}) has accepted your invitation to group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)f4e0720285b18dc95a610d0d29f6bcd0f0d7b3ed6800bdcea27c14dadde82f7f%}'.<br />
+		When: {%GroupMember.MemberJoined|(identity)GlobalAdministrator|(hash)3c07d4e66eb30a23554e1a631b86635e65371d63c8b1dffcdff28fb47f0876e7%}</p>
+		<br />
+		<br />
+		Best Regards,<br />
+		<br />
+		The Community Team
+	</body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>groupmemberinvitation</EmailTemplateType>
+</cms.emailtemplate>

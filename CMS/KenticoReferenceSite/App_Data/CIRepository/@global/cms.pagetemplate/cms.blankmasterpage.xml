@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>MasterTemplates</CodeName>
+    <GUID>1865c5c4-81ad-459b-b1d5-8a24c701035e</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCloneAsAdHoc>False</PageTemplateCloneAsAdHoc>
+  <PageTemplateCodeName>cms.blankmasterpage</PageTemplateCodeName>
+  <PageTemplateDescription>Generic default page template.</PageTemplateDescription>
+  <PageTemplateDisplayName>Blank master page</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>b9cc45c2-bced-4ae8-88c7-102ef58ad3b1</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-square-dashed</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<div class="topBlock">
+	<cms:CMSWebPartZone ZoneID="zoneTop" runat="server" />
+</div>
+<div class="mainBlock">
+	<cms:CMSWebPartZone ZoneID="zoneContent" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>True</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneContent">
+        <webpart controlid="pageplaceholder" guid="efb02274-7a01-41c7-882d-75a87c6f7591" type="pageplaceholder">
+          <property name="checkpermissions">True</property>
+          <property name="controlid">pageplaceholder</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">efb02274-7a01-41c7-882d-75a87c6f7591</property>
+          <property name="timezonetype">inherit</property>
+          <property name="visible">True</property>
+          <property name="webparttype">pageplaceholder</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneTop" v="1" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

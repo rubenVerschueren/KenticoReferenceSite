@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription />
+  <RoleDisplayName>CMS Desk Administrators</RoleDisplayName>
+  <RoleGUID>248f2982-4fa5-4be5-89ef-c06947db63bf</RoleGUID>
+  <RoleIsGroupAdministrator>False</RoleIsGroupAdministrator>
+  <RoleName>CMSDeskAdmin</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

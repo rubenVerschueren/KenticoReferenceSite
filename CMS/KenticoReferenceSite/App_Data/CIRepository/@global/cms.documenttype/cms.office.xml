@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Office</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="OfficeID" columntype="integer" guid="b08688d8-ae65-4871-810e-9fb731181192" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>OfficeID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="OfficeName" columnsize="400" columntype="text" guid="4548773b-0073-468a-8337-b474d13b7266" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Office name</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeCompanyName" columnsize="200" columntype="text" guid="04461b9f-5901-4b26-ba21-b29c6d5bdcb4" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Company name</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeAddress1" columnsize="400" columntype="text" guid="4206a2cc-90b5-4931-821a-90edff53b169" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Address line 1</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeAddress2" columnsize="400" columntype="text" guid="f4f6d82f-4917-4ce9-8e0b-1c3cf44f3a6f" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Address line 2</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeCity" columnsize="400" columntype="text" guid="b7a767b0-fd8f-4284-9004-fd081c6940a2" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>City</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeZIP" columnsize="50" columntype="text" guid="26a7e5a3-1b5a-403e-9870-0cf29b0cecd3" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>ZIP code</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeState" columnsize="200" columntype="text" guid="0058b621-7381-4973-9cfe-b7c311698673" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>State</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeCountry" columnsize="200" columntype="text" guid="75af6a43-4a77-45ef-bd52-912b9cf8f3fb" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Country</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficePhone" columnsize="100" columntype="text" guid="d4fe6c79-991a-44d1-9074-8c0ba84d5038" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Phone</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeEmail" columnsize="254" columntype="text" guid="d8344b7b-edd6-451b-a5b9-d5e96e50c07d" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>E-mail</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>emailinput</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeDirections" columntype="longtext" guid="03842351-623e-4767-9bd7-b335fb43ae4b" publicfield="false" spellcheck="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Office directions</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+          <dialogs_content_hide>False</dialogs_content_hide>
+          <displayautoresize>True</displayautoresize>
+          <displayemailtabsetting>True</displayemailtabsetting>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeLatitude" columntype="double" guid="75da2789-7939-475b-94e3-f8551f9391be" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Latitude</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeLongitude" columntype="double" guid="221ca1e9-5d27-46aa-8d54-b13453d33a10" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Longitude</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficePhoto" columntype="file" guid="e47de249-ca53-4533-a921-1d6c17bff8fd" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Office photo</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>directuploadcontrol</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeDescription" columntype="longtext" guid="fd041b4c-b298-4d5f-b71b-74c8e6706d4b" publicfield="false" spellcheck="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Office description</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+          <dialogs_content_hide>False</dialogs_content_hide>
+          <displayautoresize>True</displayautoresize>
+          <displayemailtabsetting>True</displayemailtabsetting>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeIsHeadquarters" columntype="boolean" guid="72b68a68-9913-4ffb-91f6-7be551942e56" publicfield="false" visibility="none" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>Is headquarters</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>checkboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="OfficeIconURL" columnsize="200" columntype="text" guid="58448851-ee7a-47aa-88f4-b2df1e25ea6d" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Icon URL</fieldcaption>
+        </properties>
+        <settings>
+          <Configuration>True</Configuration>
+          <controlname>urlselector</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>2b3a4fd0-6f1b-44ea-a2f1-b7c8fd013835</ClassGUID>
+  <ClassIconClass>icon-building</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.Office</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>OfficeName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>OfficePhoto</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="10474545-4fc2-4e97-909a-d5414cb7b2f7" name="officeID" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="1bc49d92-9fd0-4475-89fe-74598b72f333" name="OfficeLongitude" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="1d8d6d3f-32b4-440d-908b-6cdda97f14bc" name="OfficeLatitude" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="1f430f57-da6e-47d7-bfa7-0708e4edd80d" name="OfficeDirections" searchable="False" tokenized="True" />
+      <item id="29b1598f-9151-4cac-9679-442912b671aa" name="OfficeIsHeadquarters" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="442d359f-6fee-4931-a0d3-626778c2cb74" name="OfficeAddress2" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="4d7410e1-dce0-4eac-a902-cdd57f7d4288" name="OfficeZIP" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="57db37fc-55c8-4823-bdbb-99f8effc593c" name="OfficeEmail" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="True" azuresearchable="True" content="True" id="5a2e5d78-f571-4799-9606-3481c27e1320" name="OfficeDescription" searchable="True" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="73d06b65-1d18-4d0d-b9ce-6e76ca19c97c" name="OfficePhone" searchable="False" tokenized="True" />
+      <item id="9867ad2a-8354-42b6-aa10-b7bd51b5753e" name="OfficeIconURL" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="9ee36886-d8a4-4b28-884e-4d74791b1d95" name="OfficeCity" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="a68aaedb-1aae-4eea-9577-8d6bf755ccd3" name="OfficeAddress1" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="True" azuresearchable="True" content="True" id="b1dd5a6c-c551-4565-98ab-2bcf3d947af4" name="OfficeCountry" searchable="True" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="bc29d6b9-6c73-4e20-8119-f81797ad0838" name="OfficeName" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="True" azuresearchable="True" content="True" id="d281be94-1342-4c3d-ad57-d5d25ad4e4fc" name="OfficeState" searchable="True" tokenized="True" />
+      <item content="False" id="db8258c8-3fc0-4a84-993f-6b8d0227ef2d" name="OfficePhoto" searchable="False" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="e40a1290-6037-42b4-a98c-aef4897ef45f" name="OfficeCompanyName" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_Office</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

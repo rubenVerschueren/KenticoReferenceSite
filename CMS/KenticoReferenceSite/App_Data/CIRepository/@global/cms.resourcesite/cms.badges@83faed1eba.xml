@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.Badges</CodeName>
+    <GUID>c431cf4a-3734-447e-8c7b-7e01a7aaa202</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="BlankSite">
+      <SiteID>
+        <CodeName>BlankSite</CodeName>
+        <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+    <Binding id="BlankSiteASPX">
+      <SiteID>
+        <CodeName>BlankSiteASPX</CodeName>
+        <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+    <Binding id="BlankSiteMvc">
+      <SiteID>
+        <CodeName>BlankSiteMvc</CodeName>
+        <GUID>4818a20f-901e-4b6b-8ea9-6d477b3c0e88</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

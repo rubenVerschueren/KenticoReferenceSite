@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Friends - Friend rejection</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>d5d2b5f4-bcbc-4746-a5af-08833dd4c51a</EmailTemplateGUID>
+  <EmailTemplateName>Friends.Reject</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+{%FORMATTEDSENDERNAME%} has rejected the friendship.
+
+Comment: {%Friendship.FriendComment|(identity)GlobalAdministrator|(hash)280d96f4624e7584f7823bf97697a20d5f83e2d4c2b38103fa8d347c2f38ab2e%}
+
+Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)1fb9171d71c8510a5331d72d023694f9caf41c948f182be1e4ecd72421d373f2%}
+
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject>{%FORMATTEDSENDERNAME%} rejected the friendship</EmailTemplateSubject>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+  </head>
+  <body>
+    <p>{%FORMATTEDSENDERNAME%} rejected the friendship.</p>
+    <p>Comment: {%Friendship.FriendComment.HTMLEncode()|(identity)GlobalAdministrator|(hash)7b6bc2c802d6112b2740a6e785cf737a6fb621a88f0e40c3848ea548f6dd9ecb%}</p>
+    <p>Sent: {%Friendship.FriendRejectedWhen|(identity)GlobalAdministrator|(hash)1fb9171d71c8510a5331d72d023694f9caf41c948f182be1e4ecd72421d373f2%}</p>
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>friends</EmailTemplateType>
+</cms.emailtemplate>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("NodeGUID") %></guid>
+  <title><%# EvalCDATA("BlogPostTitle") %></title>
+  <description><%# EvalCDATA("BlogPostSummary") %></description>
+  <pubDate><%# GetRSSDateTime(Eval("BlogPostDate")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetDocumentUrlForFeed(), Eval<int>("NodeSiteID")) %>
+]]>
+<![CDATA[
+</link>     	
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>aa437d58-1405-4b1b-b13f-306c1601a9f7</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>RssItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

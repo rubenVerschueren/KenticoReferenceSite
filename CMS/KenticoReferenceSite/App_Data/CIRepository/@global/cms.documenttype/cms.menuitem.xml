@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Page (menu item)</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="MenuItemID" columntype="integer" guid="b8c6fc28-aaad-495c-a4c9-da8714d3ab39" isPK="true" publicfield="false" visibility="none" />
+      <field column="MenuItemName" columnsize="450" columntype="text" guid="3c8a72da-28cf-48cb-9943-201933a04d0f" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>{$newpage.pagename$}</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>True</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="MenuItemTeaserImage" columntype="file" guid="bb42f563-fc49-4124-9f26-b72cc83d7837" publicfield="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Teaser image</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>directuploadcontrol</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field allowempty="true" column="MenuItemGroup" columnsize="100" columntype="text" guid="9b76eb00-03f0-42f1-b83d-6a58eac5c7cc" publicfield="false" spellcheck="false" translatefield="true" visibility="none" visible="true">
+        <properties>
+          <fieldcaption>Menu group</fieldcaption>
+          <fielddescription>
+            <![CDATA[Group of the menu item. It can be used to distinguish documents among the multiple menus on a one page.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>dropdownlistcontrol</controlname>
+          <Options>
+            <![CDATA[<item value="" text="{$general.empty$}" /><item value="top" text="{$menugroup.top$}" /><item value="footer" text="{$menugroup.footer$}" /><item value="left" text="{$menugroup.left$}" />]]>
+          </Options>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>60787c08-18f1-40df-ab59-49b0415800b5</ClassGUID>
+  <ClassIconClass>icon-doc</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>True</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>True</ClassIsProductSection>
+  <ClassName>CMS.MenuItem</ClassName>
+  <ClassNewPageUrl>~/CMSModules/Content/CMSDesk/New/NewPage.aspx</ClassNewPageUrl>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>MenuItemName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>MenuItemTeaserImage</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="50f000ee-cfc5-45fd-8009-dcfe3943844e" name="MenuItemName" searchable="False" tokenized="True" />
+      <item id="6f9c3e85-568f-4d9f-b631-f4986cd8dce7" name="MenuItemGroup" />
+      <item azureretrievable="True" content="False" id="7655f5e8-2f7b-4d6c-a0c0-0540deaf896a" name="MenuItemID" searchable="True" tokenized="False" />
+      <item content="False" id="c58dd2a6-23c2-4933-a886-e65f9ef767f7" name="MenuItemTeaserImage" searchable="False" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_MenuItem</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

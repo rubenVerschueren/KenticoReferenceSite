@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<strong><%# Eval("Page") %></strong>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>ccc025c7-d88f-446c-8aac-032c9d7ce458</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>General-CurrentPage</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Article</CodeName>
+    <GUID>2568ad70-17a5-4c58-91d2-67101cdf4fb3</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<table>
+<tr>
+<td width="60" valign="top">
+<%# IfEmpty(Eval("ArticleTeaserImage"), "", "<img alt=\"" + Eval("ArticleName",true) + "\" src=\"" + GetAttachmentUrlByGUID(Eval("ArticleTeaserImage"), Eval("NodeAlias")) + "?maxsidesize=50\" />") %></td>
+<td>
+<h2><a href="<%# GetDocumentUrl() %>"><%# Eval("ArticleName",true) %></a></h2>
+<p><%# Eval("ArticleTeaserText") %></p>
+</td>
+</tr>
+</table>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>3e1c9a5e-21b9-43c7-81a8-9850dcbc46fa</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>PreviewWithTeasers</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

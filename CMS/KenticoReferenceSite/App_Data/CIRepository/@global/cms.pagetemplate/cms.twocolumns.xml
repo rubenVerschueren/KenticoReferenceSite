@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>TemplatesWithEditableRegions</CodeName>
+    <GUID>ea953632-5e99-4808-8f11-fbbc79c27e0f</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.twocolumns</PageTemplateCodeName>
+  <PageTemplateDescription>Page template with two editable columns.</PageTemplateDescription>
+  <PageTemplateDisplayName>Two columns</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>ec18e797-9cd0-49e7-b1c9-cbf947690d46</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-cols-2</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="twoCols">
+	<!-- Left zone -->
+	<div class="zoneLeft" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+	</div>
+	<!-- Right zone -->
+	<div class="zoneRight" style="float: left;">
+		<cms:CMSWebPartZone ZoneID="zoneRight" runat="server" />
+	</div>
+	<div style="clear: both;"></div>
+</div>
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft" />
+      <webpartzone id="zoneRight" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassCustomizedColumns />
+  <ClassDisplayName>Event</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="EventID" columntype="integer" guid="6f56f17a-1eba-4872-9ff2-aaefc048249e" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>EventID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="EventName" columnsize="200" columntype="text" guid="96d3447f-3c43-46f1-bf8f-344599b94719" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Event name</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>textboxcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventSummary" columntype="longtext" guid="e8b0618d-0c54-4323-b873-dbdb001b3aa6" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Event summary</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize_Hashtable>True</Autoresize_Hashtable>
+          <controlname>htmlareacontrol</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Height>150</Height>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventDetails" columntype="longtext" guid="bf7d5727-232a-49be-9210-66186bca4665" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Event details</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventLocation" columntype="longtext" guid="1926d287-3fc7-4c4a-8181-ea866044687b" publicfield="false" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Event location</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>htmlareacontrol</controlname>
+          <height>150</height>
+        </settings>
+      </field>
+      <field allowempty="true" column="EventDate" columntype="datetime" guid="0a6d489a-2503-4cbe-b79e-5f8975405d01" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Event date and time</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+          <editTime>true</editTime>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassFormLayout />
+  <ClassFormLayoutType>html</ClassFormLayoutType>
+  <ClassGUID>7a162473-ddf4-4b73-98b1-a5f212759440</ClassGUID>
+  <ClassIconClass>icon-calendar-number</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsProduct>False</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>CMS.Event</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource>EventName</ClassNodeNameSource>
+  <ClassSearchContentColumn>EventDetails</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>EventDate</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="42b225dc-359b-493d-95ce-0217557305d1" name="EventDate" searchable="True" tokenized="False" />
+      <item azureretrievable="True" content="False" id="5ffbae5a-45fa-4f7f-b323-f5ea613a9ee7" name="eventID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="8b9abc4f-f8ac-4854-8ea5-5b49a432825f" name="EventName" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="9c9a7705-9a17-4bfc-8eb1-01620a9ec7b4" name="EventDetails" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="aaab8df4-3828-4b11-87e8-927066d5cc91" name="EventSummary" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="ad8cf898-6edb-4536-b532-e2d4101d27ac" name="EventLocation" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowColumns />
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>CONTENT_Event</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

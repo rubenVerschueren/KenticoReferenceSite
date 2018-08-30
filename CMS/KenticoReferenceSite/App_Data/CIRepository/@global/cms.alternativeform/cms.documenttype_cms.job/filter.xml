@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.Job</CodeName>
+    <GUID>5d97ecb5-2e67-475a-8200-89f369bd449a</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form version="2">
+      <field column="JobID" isunique="true" reftype="Required" />
+      <field column="JobName" reftype="Required">
+        <settings>
+          <controlname>textfilter</controlname>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <Trim />
+          <AutoCompleteFirstRowSelected />
+          <FilterMode />
+        </settings>
+      </field>
+      <field column="JobSummary" reftype="Required">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="JobDescription" reftype="Required">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="JobLocation" reftype="Required">
+        <settings>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Trim>False</Trim>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="JobCompensation" reftype="Required" visible="">
+        <settings>
+          <Dialogs_Email_Hide />
+          <Autoresize_Hashtable />
+          <Dialogs_Libraries_Hide />
+          <Height />
+          <Dialogs_Attachments_Hide />
+          <Dialogs_Anchor_Hide />
+          <Dialogs_Content_Hide />
+          <Dialogs_Web_Hide />
+          <controlname />
+          <MediaDialogConfiguration />
+        </settings>
+      </field>
+      <field column="JobContact" reftype="Required" visible="">
+        <settings>
+          <Dialogs_Email_Hide />
+          <Autoresize_Hashtable />
+          <Dialogs_Libraries_Hide />
+          <Dialogs_Attachments_Hide />
+          <Dialogs_Anchor_Hide />
+          <Dialogs_Content_Hide />
+          <Dialogs_Web_Hide />
+          <controlname />
+          <MediaDialogConfiguration />
+        </settings>
+      </field>
+      <field column="JobAttachment" reftype="Required" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>1d92bc09-df9a-4455-8ede-c469787fdf98</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

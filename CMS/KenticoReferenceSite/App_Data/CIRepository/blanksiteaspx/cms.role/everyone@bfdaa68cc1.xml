@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>Special role which automatically covers all users.</RoleDescription>
+  <RoleDisplayName>Everyone</RoleDisplayName>
+  <RoleGUID>b0911308-69da-4c6f-bc38-79e8026e9af8</RoleGUID>
+  <RoleName>_everyone_</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

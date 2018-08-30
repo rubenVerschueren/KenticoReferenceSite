@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.PagerTransformations</CodeName>
+    <GUID>e789c7e1-4de2-4786-b91d-4a06774279d1</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+Page
+<asp:TextBox ID="directPageControl" runat="server" Style="width: 25px;" />
+of
+<%# Eval("Pages") %>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>5d401c91-9314-4ae4-a12c-632497d0c538</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>General-DirectPage</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

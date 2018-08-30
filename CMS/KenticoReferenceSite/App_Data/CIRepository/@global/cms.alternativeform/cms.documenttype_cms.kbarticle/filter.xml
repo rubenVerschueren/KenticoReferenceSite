@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.KBArticle</CodeName>
+    <GUID>bde39577-777c-44ed-bdc2-211e3a496a7a</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="ArticleName">
+        <settings>
+          <controlname>textfilter</controlname>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <Trim />
+          <AutoCompleteFirstRowSelected />
+          <FilterMode />
+        </settings>
+      </field>
+      <field column="ArticleSummary">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="ArticleAppliesTo" visible="">
+        <settings>
+          <ShowAddStampButton />
+          <Height />
+          <Autoresize_Hashtable />
+          <HeightUnitType />
+          <Dialogs_Content_Hide />
+          <WidthUnitType />
+          <controlname />
+          <MediaDialogConfiguration />
+        </settings>
+      </field>
+      <field column="ArticleText">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="ArticleSeeAlso" visible="">
+        <settings>
+          <ShowAddStampButton />
+          <Height />
+          <Autoresize_Hashtable />
+          <HeightUnitType />
+          <Dialogs_Content_Hide />
+          <WidthUnitType />
+          <controlname />
+          <MediaDialogConfiguration />
+        </settings>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>ca5941ba-5d9c-4200-b321-f03031387790</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

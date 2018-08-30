@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<CMS_News>
+  <NewsID><%# EvalCDATA("NewsID") %></NewsID>
+  <NewsTitle><%# EvalCDATA("NewsTitle") %></NewsTitle>
+  <NewsReleaseDate><%# EvalCDATA("NewsReleaseDate") %></NewsReleaseDate>
+  <NewsSummary><%# EvalCDATA("NewsSummary") %></NewsSummary>
+  <NewsText><%# EvalCDATA("NewsText") %></NewsText>
+</CMS_News>
+
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>9b387db8-2496-4a7a-b6e2-5c500770c0b5</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>XMLItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

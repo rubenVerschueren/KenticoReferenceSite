@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Office</CodeName>
+    <GUID>2b3a4fd0-6f1b-44ea-a2f1-b7c8fd013835</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<span class="Header">
+<a href="<%# GetDocumentUrl() %>"><%# Eval("OfficeName",true) %></a>
+</span>
+  <table>
+  <tr><td rowspan="2" style="vertical-align: top;"><%#IfEmpty(Eval("OfficePhoto"), "", "<img src='" + GetAttachmentUrlByGUID(Eval("OfficePhoto"), Eval("NodeAlias")) + "?height=50' alt='Photo' />")%></td></tr>
+  <tr><td class="Address">
+    <%# Eval("OfficeAddress1",true) %><br />
+    <%# Eval("OfficeAddress2",true) %><br />
+    <%# Eval("OfficeCity",true) %><br />
+    <%# Eval("OfficeZIP",true) %><br />
+    <%# Eval("OfficeState",true) %><br />
+  </td></tr>
+  </table>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>7eec08cc-3564-4d00-9af1-101f9d478555</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Preview</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

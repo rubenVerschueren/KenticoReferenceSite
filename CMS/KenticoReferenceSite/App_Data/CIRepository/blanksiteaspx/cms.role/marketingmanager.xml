@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription />
+  <RoleDisplayName>Marketing Manager</RoleDisplayName>
+  <RoleGUID>8f24cb38-a987-41a6-adbd-9210eebf008e</RoleGUID>
+  <RoleIsDomain>False</RoleIsDomain>
+  <RoleName>MarketingManager</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

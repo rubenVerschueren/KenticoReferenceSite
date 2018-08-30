@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>General</CodeName>
+    <GUID>ad3614d8-ab48-4714-9ce0-a60f205950a0</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.empty</PageTemplateCodeName>
+  <PageTemplateDescription>Empty template with page placeholder.</PageTemplateDescription>
+  <PageTemplateDisplayName>Empty</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>2b9d01bd-6291-4c2e-a3b6-09edc68b0903</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-square-dashed</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<cms:CMSWebPartZone runat="server" ZoneID="zoneMain" />
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateLayoutType>ascx</PageTemplateLayoutType>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneMain" v="1">
+        <properties>
+          <property name="containerhideonsubpages">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="timezonetype">inherit</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+        </properties>
+        <webpart controlid="pageplaceholder" guid="726079f3-0b81-4117-8389-36856b915d67" type="pageplaceholder" v="1">
+          <property name="cacheminutes"></property>
+          <property name="cat_open_output_filter">True</property>
+          <property name="cat_open_performance">True</property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="checkpermissions">True</property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">pageplaceholder</property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">726079f3-0b81-4117-8389-36856b915d67</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="pagetemplate"></property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="path"></property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="usedefaulttemplateonsubpages">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">pageplaceholder</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneCenter" />
+      <webpartzone id="zoneMain1" v="1" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

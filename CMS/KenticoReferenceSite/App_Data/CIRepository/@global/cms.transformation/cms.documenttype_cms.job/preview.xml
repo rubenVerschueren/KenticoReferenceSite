@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Job</CodeName>
+    <GUID>5d97ecb5-2e67-475a-8200-89f369bd449a</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<div class="Carrier">
+<div class="Header">
+  <a href="<%# GetDocumentUrl() %>"><%# Eval("JobName",true) %></a>
+</div>
+<div class="Body TextContent">
+  <p><%# Eval("JobSummary") %></p>
+  <strong>Location:</strong> <%# Eval("JobLocation") %>
+</div>
+</div>
+<br />
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>9a245c54-b689-415f-87f5-9a51de43a4d8</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Preview</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.BlogPost</CodeName>
+    <GUID>a9551b4b-8fd7-48c6-88ed-f42bdf5310c2</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form version="2">
+      <field column="BlogPostID" isunique="true" />
+      <field column="BlogPostTitle">
+        <settings>
+          <controlname>textfilter</controlname>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteFirstRowSelected />
+          <Trim />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+        </settings>
+        <properties>
+          <inputcontrolstyle />
+        </properties>
+      </field>
+      <field column="BlogPostDate">
+        <settings>
+          <controlname>datetimefilter</controlname>
+        </settings>
+        <properties>
+          <defaultvalue />
+        </properties>
+      </field>
+      <field column="BlogPostSummary">
+        <settings>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="BlogPostBody">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="BlogPostTeaser" visible="" />
+      <field column="BlogPostAllowComments" visible="">
+        <properties>
+          <defaultvalue>True</defaultvalue>
+        </properties>
+      </field>
+      <field column="DocumentTags" visible="" />
+      <field column="BlogLogActivity" visible="" />
+      <field column="FacebookAutoPost" visible="" />
+      <field column="TwitterAutoPost" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>e2e069c9-1e9d-4d4c-b6f3-11b2a3c0063a</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

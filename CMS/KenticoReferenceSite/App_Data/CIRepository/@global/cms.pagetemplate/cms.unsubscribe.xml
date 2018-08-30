@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Newsletter</CodeName>
+    <GUID>be8442df-8b7a-47e0-870c-05a9807e873b</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.unsubscribe</PageTemplateCodeName>
+  <PageTemplateDescription>
+    <![CDATA[Contains the unsubscription web part where the user can be redirected for unsubscription.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>Unsubscribe page</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>24cac47b-db32-4edf-beb4-3d02a49a4a8e</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-message</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="unsubscribe">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="NewsletterUnsubscription" guid="54a1946a-4b21-4e70-aabb-7ffe068b3562" type="NewsletterUnsubscription" v="1">
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[<br /><br />]]>
+          </property>
+          <property name="contentbefore"></property>
+          <property name="controlid">NewsletterUnsubscription</property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">54a1946a-4b21-4e70-aabb-7ffe068b3562</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="sendconfirmationemail">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="unsubscribedtext">
+            <![CDATA[You've been unsubscribed.]]>
+          </property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">NewsletterUnsubscription</property>
+        </webpart>
+        <webpart controlid="ForumUnsubscription" guid="5e1722d0-36b4-4226-b0a3-56a05f656494" type="ForumUnsubscription">
+          <property name="containerhideonsubpages">False</property>
+          <property name="contentafter">
+            <![CDATA[<br /><br />]]>
+          </property>
+          <property name="controlid">ForumUnsubscription</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="enableoutputfilter">false</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">5e1722d0-36b4-4226-b0a3-56a05f656494</property>
+          <property name="outputfixattributes">true</property>
+          <property name="outputfixhtml5">true</property>
+          <property name="outputfixjavascript">true</property>
+          <property name="outputfixlowercase">true</property>
+          <property name="outputfixselfclose">true</property>
+          <property name="outputresolveurls">true</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="preservepartialcacheonpostback"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="unsubscriptiontext">You have been unsubscribed.</property>
+          <property name="unsuccessfulunsubscriptiontext">
+            <![CDATA[Unsubscription wasn't successful.]]>
+          </property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">False</property>
+          <property name="webparttype">ForumUnsubscription</property>
+        </webpart>
+        <webpart controlid="SubscriptionApproval" guid="30be6590-4d74-42d3-bc70-cfe254a784b0" type="SubscriptionApproval" v="1">
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[</h3>]]>
+          </property>
+          <property name="contentbefore">
+            <![CDATA[<h3>]]>
+          </property>
+          <property name="controlid">SubscriptionApproval</property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">30be6590-4d74-42d3-bc70-cfe254a784b0</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="successfulapprovaltext">Your subscription was approved.</property>
+          <property name="timezonetype">inherit</property>
+          <property name="unsuccessfulapprovaltext">
+            <![CDATA[Something went wrong. Your subscription wasn't approved.]]>
+          </property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">SubscriptionApproval</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

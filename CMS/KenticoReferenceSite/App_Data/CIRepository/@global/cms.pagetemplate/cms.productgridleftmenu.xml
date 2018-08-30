@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Products</CodeName>
+    <GUID>44c2cd48-5140-48f9-8eea-05fc0bdccd3c</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.productgridleftmenu</PageTemplateCodeName>
+  <PageTemplateDescription>
+    <![CDATA[Displays a grid view with products. When a product is clicked, its details are displayed.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>Product grid view</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>bb1cd0db-4683-4de2-8a5a-162ea69f7ce4</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-table</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="ProductGrid">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateLayoutType>ascx</PageTemplateLayoutType>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="breadcrumbs" guid="62cba3d7-6f57-42bd-ad89-0c8ccc815a0d" type="breadcrumbs">
+          <property name="applymenudesign">True</property>
+          <property name="breadcrumbseparator">
+            <![CDATA[&gt;]]>
+          </property>
+          <property name="breadcrumbseparatorrtl">
+            <![CDATA[&lt;]]>
+          </property>
+          <property name="cacheitemname"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container">Box.Gray</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">breadcrumbs</property>
+          <property name="culturecode"></property>
+          <property name="defaultpath"></property>
+          <property name="disablemacros">false</property>
+          <property name="disableviewstate">false</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">false</property>
+          <property name="encodename">true</property>
+          <property name="hidecontrolforzerorows">true</property>
+          <property name="hideonsubpages">False</property>
+          <property name="ignoreshowinnavigation">False</property>
+          <property name="instanceguid">62cba3d7-6f57-42bd-ad89-0c8ccc815a0d</property>
+          <property name="outputfixattributes">true</property>
+          <property name="outputfixhtml5">true</property>
+          <property name="outputfixjavascript">true</property>
+          <property name="outputfixlowercase">true</property>
+          <property name="outputfixselfclose">true</property>
+          <property name="outputfixtags">true</property>
+          <property name="outputresolveurls">true</property>
+          <property name="path"></property>
+          <property name="renderlinktitle">False</property>
+          <property name="selectnodesstartpath">/</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showcurrentitem">True</property>
+          <property name="showcurrentitemaslink">False</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="sitename"></property>
+          <property name="urltarget"></property>
+          <property name="usertlbehaviour">True</property>
+          <property name="useupdatepanel">false</property>
+          <property name="visible">True</property>
+          <property name="webparttype">breadcrumbs</property>
+          <property name="wherecondition"></property>
+        </webpart>
+        <webpart controlid="BasicRepeater" guid="c9b68014-d901-4aec-a872-abbe9de7e85c" type="BasicRepeater" v="1">
+          <property name="alternatingitemtransformationname"></property>
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">BasicRepeater</property>
+          <property name="customtimezone"></property>
+          <property name="datasourcename">DocumentsDataSource</property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displaytoroles"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="footertransformationname"></property>
+          <property name="headertransformationname"></property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">c9b68014-d901-4aec-a872-abbe9de7e85c</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="partialcachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="partialcacheminutes"></property>
+          <property name="preservepartialcacheonpostback">False</property>
+          <property name="selecteditemfootertransformationname"></property>
+          <property name="selecteditemheadertransformationname"></property>
+          <property name="selecteditemtransformationname"></property>
+          <property name="separatortransformationname"></property>
+          <property name="showfordocumenttypes"></property>
+          <property name="timezonetype">inherit</property>
+          <property name="transformationname">cms.product.preview</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">BasicRepeater</property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+        <webpart controlid="DocumentsDataSource" guid="c3bb3c52-4dec-46bc-ab9d-65f1a01d0cf2" type="DocumentsDataSource" v="1">
+          <property name="cachedependencies">
+<![CDATA[
+##DEFAULT##
+
+]]>
+          </property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes"></property>
+          <property name="cat_open_performance"></property>
+          <property name="categoryname"></property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames"></property>
+          <property name="columns"></property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="controlid">DocumentsDataSource</property>
+          <property name="culturecode"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="enableselecteditem">True</property>
+          <property name="filtername"></property>
+          <property name="filteroutduplicates">False</property>
+          <property name="instanceguid">c3bb3c52-4dec-46bc-ab9d-65f1a01d0cf2</property>
+          <property name="loadpagesindividually">True</property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="orderby"></property>
+          <property name="path"></property>
+          <property name="selectonlypublished">True</property>
+          <property name="selecttopn"></property>
+          <property name="sitename"></property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">DocumentsDataSource</property>
+          <property name="wherecondition"></property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneRight" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

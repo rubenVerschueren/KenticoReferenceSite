@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Job</CodeName>
+    <GUID>5d97ecb5-2e67-475a-8200-89f369bd449a</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode />
+  <TransformationCSS />
+  <TransformationGUID>86872786-a8fc-4a09-a9f3-39b3c6b3563f</TransformationGUID>
+  <TransformationHierarchicalXML>
+    <![CDATA[<Items><Item ID="f1850ab3-8622-4086-9267-db0f07835a95" Level="-1" Type="item" Value="CMS.Job" TransformationName="CMS.Job.Preview" /><Item ID="22b3896e-f38d-41aa-9165-ea234c5f4f13" Level="-1" Type="item" Value="CMS.Office" TransformationName="CMS.Office.Simple" /><Item ID="9397b19b-40c8-4959-8edd-1ebfd97b6d8c" Level="-1" Type="header" Value="" TransformationName="CMS.MenuItem.ListItemHeader " /><Item ID="c190e116-b94f-4f5f-af22-f728e50288f8" Level="-1" Type="footer" Value="" TransformationName="CMS.MenuItem.ListItemFooter" /><Item ID="31108cf7-bfff-4da6-9db9-5990b9627892" Level="-1" Type="item" Value="CMS.MenuItem" TransformationName="CMS.MenuItem.ListItem" /><Item ID="92ffaf5d-2f8e-4c16-8048-d9ff32c5a2e5" Level="-1" Type="currentitem" Value="CMS.Office" TransformationName="CMS.Office.Default" /><Item ID="edbc9d29-eb9d-45c4-ba2c-f53ea6a9dbb7" Level="-1" Type="currentitem" Value="CMS.Job" TransformationName="CMS.Job.Default" /></Items>]]>
+  </TransformationHierarchicalXML>
+  <TransformationIsHierarchical>True</TransformationIsHierarchical>
+  <TransformationName>HierarchicalJobsCareer</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

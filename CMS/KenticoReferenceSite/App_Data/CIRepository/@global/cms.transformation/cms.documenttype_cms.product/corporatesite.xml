@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.Product</CodeName>
+    <GUID>1f1decea-2d34-4ecc-b53a-e38187922bd9</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<%@ Register Src="~/CMSModules/Ecommerce/Controls/ProductOptions/ShoppingCartItemSelector.ascx" TagName="CartItemSelector" TagPrefix="uc1" %>
+<h1><%# EvalText("SKUName", true) %></h1>
+<div class="productDetail">
+<div class="productImage">
+<img src="<%# GetSKUImageUrl(200) %>" alt="<%# EvalText("SKUName", true) %> image" />
+</div>
+<div class="productDescription">
+<h3>Product description</h3>
+<div class="TextContent productDetailDescription">
+<%# Eval("SKUDescription") %>
+</div>
+<div class="ourPrice listBoxHead">Our price: <span class="ProductPrice"><%# GetSKUFormattedPrice() %></span></div>
+<div class="addToCart contentBox">
+<uc1:CartItemSelector id="cartItemSelector" runat="server" SKUID='<%# ValidationHelper.GetInteger(Eval("SKUID"), 0) %>' SKUEnabled='<%# ValidationHelper.GetBoolean(Eval("SKUEnabled"), false) %> ' AddToCartImageButton="addtocart.gif" AddToCartLinkText="Add to shopping cart" ShowProductOptions="true" ShowUnitsTextBox="true"/>
+<div class="addToWishlist">
+<%# EcommerceFunctions.GetAddToWishListLink(Eval("NodeSKUID"), "~/App_Themes/CorporateSite/Images/addtowishlist.png") %>
+</div>  
+</div>
+</div>
+<div class="clear"></div>
+</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>28271fb4-ce00-4cdd-8be3-bf711baffdb2</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>CorporateSite</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

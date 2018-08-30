@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplatecategory>
+  <CategoryDisplayName>Forums</CategoryDisplayName>
+  <CategoryGUID>4c63472e-52d5-48dc-b962-730c8ca6bf8c</CategoryGUID>
+  <CategoryImagePath />
+  <CategoryName>Forums</CategoryName>
+  <CategoryParentID>
+    <CodeName>/</CodeName>
+    <GUID>532264bf-95e9-4035-b4ce-fe403c81781a</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </CategoryParentID>
+</cms.pagetemplatecategory>

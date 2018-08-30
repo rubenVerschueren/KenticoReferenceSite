@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.usersettings>
+  <UserAccountLockReason>0</UserAccountLockReason>
+  <UserActivationDate>2018-08-27 13:32:10Z</UserActivationDate>
+  <UserAuthenticationGUID>6778750d-e5d2-4738-a407-d671505e58e8</UserAuthenticationGUID>
+  <UserDialogsConfiguration />
+  <UserFacebookID />
+  <UserInvalidLogOnAttempts>0</UserInvalidLogOnAttempts>
+  <UserLogActivities>False</UserLogActivities>
+  <UserMessagingNotificationEmail />
+  <UserNickName />
+  <UserPasswordLastChanged>2018-08-27 13:32:10Z</UserPasswordLastChanged>
+  <UserPreferences />
+  <UserRegistrationInfo />
+  <UserSettingsUserGUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</UserSettingsUserGUID>
+  <UserSettingsUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </UserSettingsUserID>
+  <UserSignature />
+  <UserWaitingForApproval>False</UserWaitingForApproval>
+</cms.usersettings>

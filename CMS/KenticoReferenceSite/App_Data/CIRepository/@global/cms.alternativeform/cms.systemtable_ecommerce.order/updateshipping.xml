@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>ecommerce.order</CodeName>
+    <GUID>58eb48fc-83f4-41f7-add2-bc3ce5de8909</GUID>
+    <ObjectType>cms.systemtable</ObjectType>
+  </FormClassID>
+  <FormCustomizedColumns />
+  <FormDefinition>
+    <form version="2">
+      <field column="OrderShippingOptionID" reftype="Required" visible="true" order="1">
+        <settings>
+          <AddAllItemsRecord>False</AddAllItemsRecord>
+          <AddNoneRecord>True</AddNoneRecord>
+          <controlname>shippingselector</controlname>
+          <DisplayOnlyEnabled>True</DisplayOnlyEnabled>
+          <EnsureSelectedItem>True</EnsureSelectedItem>
+          <UseShippingNameForSelection>False</UseShippingNameForSelection>
+        </settings>
+        <properties>
+          <enabledmacro ismacro="true">{%!OrderIsPaid%}</enabledmacro>
+          <fieldcaption>{$Order_Edit_Shipping.lblOption$}</fieldcaption>
+        </properties>
+      </field>
+      <field column="OrderShippingAddressID" visible="true" order="2">
+        <settings>
+          <AddGlobalObjectNamePrefix>False</AddGlobalObjectNamePrefix>
+          <AddGlobalObjectSuffix>False</AddGlobalObjectSuffix>
+          <AllowAll>False</AllowAll>
+          <AllowDefault>False</AllowDefault>
+          <AllowEditTextBox>False</AllowEditTextBox>
+          <AllowEmpty>False</AllowEmpty>
+          <controlname>uni_selector</controlname>
+          <DialogWindowHeight>590</DialogWindowHeight>
+          <DialogWindowName>SelectionDialog</DialogWindowName>
+          <DialogWindowWidth>668</DialogWindowWidth>
+          <EditDialogWindowHeight>620</EditDialogWindowHeight>
+          <EditDialogWindowWidth>680</EditDialogWindowWidth>
+          <EditItemElementName>EditAddressPropertiesShipping</EditItemElementName>
+          <EditWindowName>EditWindow</EditWindowName>
+          <ElementResourceName>CMS.Ecommerce</ElementResourceName>
+          <EncodeOutput>False</EncodeOutput>
+          <GlobalObjectSuffix>(global)</GlobalObjectSuffix>
+          <ItemsPerPage>25</ItemsPerPage>
+          <LocalizeItems>True</LocalizeItems>
+          <MaxDisplayedItems>25</MaxDisplayedItems>
+          <MaxDisplayedTotalItems>50</MaxDisplayedTotalItems>
+          <ObjectType>ecommerce.orderaddress</ObjectType>
+          <RemoveMultipleCommas>False</RemoveMultipleCommas>
+          <ReturnColumnType>id</ReturnColumnType>
+          <SelectionMode>6</SelectionMode>
+          <Transformation>
+            <![CDATA[{%EditedObject.OrderShippingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)fdbc6cba3e829f445cec81dbc81eb38cae83211b23fa55fcba343d9d8f04ead4%}]]>
+          </Transformation>
+          <UseAutocomplete>False</UseAutocomplete>
+          <ValuesSeparator>;</ValuesSeparator>
+        </settings>
+        <properties>
+          <controlcssclass>form-control-text</controlcssclass>
+          <fieldcaption>{$com.ShippingAddress$}</fieldcaption>
+          <visiblemacro ismacro="true">{%OrderShippingAddressID != null%}</visiblemacro>
+        </properties>
+      </field>
+      <field column="OrderTrackingNumber" visible="true">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+        <properties>
+          <fieldcaption>{$order_edit.lbltrackingnumber$}</fieldcaption>
+          <fielddescription>
+            <![CDATA[A number or any combination of characters according to which the order will be tracked by the delivery service.]]>
+          </fielddescription>
+        </properties>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Update shipping</FormDisplayName>
+  <FormGUID>c3094efc-46f7-4420-bae3-bde7fa3e218f</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormIsCustom>False</FormIsCustom>
+  <FormName>UpdateShipping</FormName>
+</cms.alternativeform>

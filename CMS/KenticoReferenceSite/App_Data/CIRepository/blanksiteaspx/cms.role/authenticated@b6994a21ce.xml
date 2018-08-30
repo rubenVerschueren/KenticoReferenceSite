@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDescription>
+    <![CDATA[Special role which automatically covers all authenticated users.]]>
+  </RoleDescription>
+  <RoleDisplayName>Authenticated users</RoleDisplayName>
+  <RoleGUID>72153da2-ae8a-40b9-b6f7-98d9b5a6cf50</RoleGUID>
+  <RoleName>_authenticated_</RoleName>
+  <SiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

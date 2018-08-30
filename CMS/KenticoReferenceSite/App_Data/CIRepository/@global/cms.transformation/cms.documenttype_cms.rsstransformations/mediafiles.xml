@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.RSSTransformations</CodeName>
+    <GUID>4e930f0e-4804-43ea-a37e-17923aa61455</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<%@ Register Src="~/CMSModules/MediaLibrary/Controls/LiveControls/MediaFilePreview.ascx" TagName="MediaFilePreview" TagPrefix="cc1" %>
+<item>
+  <guid isPermaLink="false"><%# Eval("FileGUID") %></guid>
+  <title><%# EvalCDATA("FileTitle") %></title>
+  <description><![CDATA[<cc1:MediaFilePreview ID="filePreview" runat="server" maxsidesize="200" width="200" height="200" DisplayActiveContent="false" /><br /><%# EvalCDATA("FileDescription",false) %>
+]]>
+<![CDATA[
+</description>
+  <pubDate><%# GetRSSDateTime(Eval("FileCreatedWhen")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetMediaFileUrlForFeed(Eval("FileGUID"), Eval("FileName")), EvalInteger("FileSiteID")) %>
+]]>
+<![CDATA[
+</link>
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS>
+<![CDATA[
+
+
+]]>
+  </TransformationCSS>
+  <TransformationGUID>4fa365c7-c0c6-4283-adcd-188ad4fd6300</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MediaFiles</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

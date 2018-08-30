@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.RSSTransformations</CodeName>
+    <GUID>4e930f0e-4804-43ea-a37e-17923aa61455</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h2>
+
+ <a href="<%# Eval("link")%>">
+
+ <%# Eval("title") %>
+
+ </a>
+
+</h2>
+
+<p>
+
+ <strong>Published</strong>: <%# Eval("pubdate") %>
+
+</p>
+
+<p>
+
+ <%# Eval("description") %>
+
+</p>
+
+<br/>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>240c8241-cde4-493e-ba63-7e0413a7ee1a</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ExampleTransformation</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

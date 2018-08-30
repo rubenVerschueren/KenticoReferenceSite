@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.roleapplication>
+  <Parent>
+    <CodeName>CMSReaders</CodeName>
+    <GUID>13c0a5fa-f5e1-409d-afe6-dce1cd14bb94</GUID>
+    <ObjectType>cms.role</ObjectType>
+    <Site>
+      <CodeName>BlankSite</CodeName>
+      <GUID>0fe4e5aa-9f9a-4626-a2e6-52c8728ad0be</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.uielement_Customers_cms.resource_CMS.Ecommerce">
+      <ElementID>
+        <CodeName>Customers</CodeName>
+        <GUID>1a4538c9-6a13-4adb-9686-81d4a966f625</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Ecommerce</CodeName>
+          <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_ECReports_cms.resource_CMS.Ecommerce">
+      <ElementID>
+        <CodeName>ECReports</CodeName>
+        <GUID>5317b48f-b04e-49b0-b336-54d03f4e52b7</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Ecommerce</CodeName>
+          <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Forums_cms.resource_CMS.Forums">
+      <ElementID>
+        <CodeName>Forums</CodeName>
+        <GUID>cd638e2a-6ace-4e0c-85e0-14cc8a4ee1a5</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Forums</CodeName>
+          <GUID>16e96e6c-f16f-49dc-a640-2357418668b8</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_MyDeskDashBoardItem_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>MyDeskDashBoardItem</CodeName>
+        <GUID>6cac111b-174e-4a6c-abdd-5580662c4d45</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Newsletter_cms.resource_CMS.Newsletter">
+      <ElementID>
+        <CodeName>Newsletter</CodeName>
+        <GUID>1623aac1-f3f1-41df-8690-fbfc7d3b9b7a</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Newsletter</CodeName>
+          <GUID>82445572-642a-4f53-a411-063e5f4b63c0</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_OMDashBoard_cms.resource_CMS.OnlineMarketing">
+      <ElementID>
+        <CodeName>OMDashBoard</CodeName>
+        <GUID>4a63b3a6-bb69-43e4-9273-39e864ddbbbb</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.OnlineMarketing</CodeName>
+          <GUID>bd03e629-e677-42a6-8b12-5277fa04add7</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_Orders_cms.resource_CMS.Ecommerce">
+      <ElementID>
+        <CodeName>Orders</CodeName>
+        <GUID>b72ad042-31bf-4ff2-8436-25a647bba548</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Ecommerce</CodeName>
+          <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+    <Binding id="cms.uielement_content_cms.resource_CMS.Content">
+      <ElementID>
+        <CodeName>content</CodeName>
+        <GUID>95a82f36-9c40-45f0-86f1-39aa44db9a77</GUID>
+        <ObjectType>cms.uielement</ObjectType>
+        <Parent>
+          <CodeName>CMS.Content</CodeName>
+          <GUID>98c6ee00-230a-4207-a6d3-03677b83b245</GUID>
+          <ObjectType>cms.resource</ObjectType>
+        </Parent>
+      </ElementID>
+    </Binding>
+  </Bindings>
+</cms.roleapplication>

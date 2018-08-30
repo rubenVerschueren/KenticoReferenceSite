@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form>
+      <field column="NewsTitle" publicfield="false">
+        <settings>
+          <controlname>textfilter</controlname>
+        </settings>
+      </field>
+      <field column="NewsReleaseDate">
+        <settings>
+          <TimeZoneType>inherit</TimeZoneType>
+          <controlname>datetimefilter</controlname>
+          <DisplayNow>True</DisplayNow>
+          <editTime>False</editTime>
+        </settings>
+      </field>
+      <field column="NewsSummary">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <FilterMode>False</FilterMode>
+          <controlname>textfilter</controlname>
+          <Wrap>True</Wrap>
+        </settings>
+      </field>
+      <field column="NewsText">
+        <settings>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="NewsTeaser" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>ef8a4653-abc4-4e79-94a7-c10084ce5f93</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormLayoutType>html</FormLayoutType>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<li>
+  <span><%# HTMLHelper.HTMLEncode(Convert.ToString(Eval("MenuItemName"))) %></span>
+  <cms:SubLevelPlaceHolder runat="server" ID="plcSub" />
+</li>
+
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>0f192ac3-d518-439f-b104-dcf0cd987c22</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>ListItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

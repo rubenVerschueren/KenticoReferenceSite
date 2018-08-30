@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.MenuItem</CodeName>
+    <GUID>60787c08-18f1-40df-ab59-49b0415800b5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<h3>Print transformation is missing</h3>
+<div>The transformation of the current document type is missing. You have to define the transformation in the Document types application.</div>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>eab00bf3-d1aa-4191-abf7-96cb537f4e99</TransformationGUID>
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>Print</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

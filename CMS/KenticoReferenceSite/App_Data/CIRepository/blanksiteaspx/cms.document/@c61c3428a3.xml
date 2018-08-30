@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for / -->
+<cms.node>
+  <NodeACLID>
+    <GUID>3eac1a90-7382-4c84-9294-eb3188aadf88</GUID>
+    <ObjectType>cms.acl</ObjectType>
+    <Site>
+      <CodeName>BlankSiteASPX</CodeName>
+      <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeACLID>
+  <NodeAlias />
+  <NodeClassID>
+    <CodeName>CMS.Root</CodeName>
+    <GUID>a585aea3-10b5-4b74-9aad-747fcce72493</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </NodeClassID>
+  <NodeCustomData />
+  <NodeDocType>
+    <![CDATA[<!DOCTYPE html>]]>
+  </NodeDocType>
+  <NodeGUID>158b6956-fa6c-4ad7-8590-d76091094d71</NodeGUID>
+  <NodeInheritPageLevels />
+  <NodeIsACLOwner>True</NodeIsACLOwner>
+  <NodeIsContentOnly>False</NodeIsContentOnly>
+  <NodeName />
+  <NodeOrder>3</NodeOrder>
+  <NodeOwner>
+    <CodeName>public</CodeName>
+    <GUID>3758b9b5-045c-4b7d-b020-80f9b068d990</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </NodeOwner>
+  <NodeSiteID>
+    <CodeName>BlankSiteASPX</CodeName>
+    <GUID>990fc9c6-4703-4ebf-b49e-1b62ed683f20</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NodeSiteID>
+</cms.node>

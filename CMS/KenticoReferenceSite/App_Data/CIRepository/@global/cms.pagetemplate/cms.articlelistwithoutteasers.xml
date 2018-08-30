@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>Articles</CodeName>
+    <GUID>d3fb30d9-20f8-42cb-9c3d-f215ac84e1fe</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.articlelistwithoutteasers</PageTemplateCodeName>
+  <PageTemplateDescription>
+    <![CDATA[Displays a simple list of articles without teasers.]]>
+  </PageTemplateDescription>
+  <PageTemplateDisplayName>Article list without teasers</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateForAllPages>False</PageTemplateForAllPages>
+  <PageTemplateGUID>14b65b13-9eeb-4bb9-9b91-692aed9dd95d</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-l-list-article</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<!-- Container -->
+<div class="articlesList">
+	<cms:CMSWebPartZone ZoneID="zoneLeft" runat="server" />
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft">
+        <webpart controlid="ArticleRepeater" guid="4a64c5f3-3900-4a2a-bee9-ccce364f2ec1" type="repeater">
+          <property name="alternatingtransformationname"></property>
+          <property name="cacheitemname"></property>
+          <property name="cacheminutes">0</property>
+          <property name="checkpermissions">False</property>
+          <property name="classnames">cms.article</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containertitle"></property>
+          <property name="contentafter"></property>
+          <property name="contentbefore"></property>
+          <property name="controlid">ArticleRepeater</property>
+          <property name="culturecode"></property>
+          <property name="enablepaging">True</property>
+          <property name="hidecontrolforzerorows">True</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">4a64c5f3-3900-4a2a-bee9-ccce364f2ec1</property>
+          <property name="itemseparator"></property>
+          <property name="maxrelativelevel">-1</property>
+          <property name="newbuttontext">Add new article</property>
+          <property name="orderby"></property>
+          <property name="pagerposition">bottom</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="path"></property>
+          <property name="querystringkey"></property>
+          <property name="relatednodeisontheleftside">False</property>
+          <property name="relationshipname">1</property>
+          <property name="relationshipwithnodeguid">00000000-0000-0000-0000-000000000000</property>
+          <property name="relationshipwithnodeid">0</property>
+          <property name="selecteditemtransformationname">cms.article.defaultwithoutteasers</property>
+          <property name="selectonlypublished">True</property>
+          <property name="showeditdeletebuttons">True</property>
+          <property name="showfirstlast">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="shownewbutton">True</property>
+          <property name="sitename"></property>
+          <property name="transformationname">cms.article.simplepreview</property>
+          <property name="visible">True</property>
+          <property name="webparttype">repeater</property>
+          <property name="wherecondition"></property>
+          <property name="zerorowstext">No data found</property>
+        </webpart>
+      </webpartzone>
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>

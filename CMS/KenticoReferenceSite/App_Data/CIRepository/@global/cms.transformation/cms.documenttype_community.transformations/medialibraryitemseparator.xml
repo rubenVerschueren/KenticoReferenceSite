@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Community.Transformations</CodeName>
+    <GUID>179e8501-ed7a-442b-b224-eff63513de84</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+    <![CDATA[<div class="photoSeparator"></div>]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>ad04fdb5-643f-43aa-9fb9-2771fd71e84b</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>MediaLibraryItemSeparator</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

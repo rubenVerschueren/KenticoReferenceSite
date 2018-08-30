@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>CMS.News</CodeName>
+    <GUID>0f19800e-80a8-4dc5-ba6c-404e5a64ed9e</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<item>
+  <guid isPermaLink="false"><%# Eval("NodeGUID") %></guid>
+  <title><%# EvalCDATA("NewsTitle") %></title>
+  <description><%# EvalCDATA("NewsSummary") %></description>
+  <pubDate><%# GetRSSDateTime(Eval("NewsReleaseDate")) %></pubDate>
+  <link><![CDATA[<%# GetAbsoluteUrl(GetDocumentUrlForFeed(), Eval<int>("NodeSiteID")) %>
+]]>
+<![CDATA[
+</link>     	
+</item>
+]]>
+  </TransformationCode>
+  <TransformationCSS />
+  <TransformationGUID>295d16e6-af46-444a-ba55-10cb47ee8663</TransformationGUID>
+  <TransformationHierarchicalXML />
+  <TransformationIsHierarchical>False</TransformationIsHierarchical>
+  <TransformationName>RSSItem</TransformationName>
+  <TransformationType>ascx</TransformationType>
+</cms.transformation>

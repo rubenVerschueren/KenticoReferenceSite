@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>CMS.Blog</CodeName>
+    <GUID>5def0a2f-9c47-49a9-839f-86df5aca1ea0</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </FormClassID>
+  <FormDefinition>
+    <form version="2">
+      <field column="BlogName">
+        <settings>
+          <controlname>textfilter</controlname>
+          <Trim />
+          <AutoCompleteFirstRowSelected />
+          <FilterMode />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <AutoCompleteEnableCaching />
+        </settings>
+        <properties>
+          <inputcontrolstyle />
+        </properties>
+      </field>
+      <field column="BlogDescription">
+        <settings>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <Trim>False</Trim>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="BlogSideColumnText">
+        <settings>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <Wrap>True</Wrap>
+          <IsTextArea>True</IsTextArea>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>textfilter</controlname>
+          <FilterMode>False</FilterMode>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+        </settings>
+      </field>
+      <field column="BlogTeaser" visible="" />
+      <field column="BlogOpenCommentsFor" visible="" />
+      <field column="BlogRequireEmails" visible="" />
+      <field column="BlogSendCommentsToEmail" visible="" />
+      <field column="BlogAllowAnonymousComments" visible="" />
+      <field column="BlogUseCAPTCHAForComments" visible="" />
+      <field column="BlogModerateComments" visible="" />
+      <field column="BlogModerators" visible="" />
+      <field column="BlogEnableSubscriptions" visible="" />
+      <field column="BlogEnableOptIn" visible="" />
+      <field column="BlogSendOptInConfirmation" visible="" />
+      <field column="BlogUnsubscriptionUrl" visible="" />
+      <field column="BlogOptInApprovalURL" visible="" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>{$content.listingfilter$}</FormDisplayName>
+  <FormGUID>7a5cf6f8-5f20-4196-ae95-95ef2ab5cf88</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormName>Filter</FormName>
+</cms.alternativeform>

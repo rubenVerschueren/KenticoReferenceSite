@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pagetemplate>
+  <PageTemplateCategoryID>
+    <CodeName>General</CodeName>
+    <GUID>ad3614d8-ab48-4714-9ce0-a60f205950a0</GUID>
+    <ObjectType>cms.pagetemplatecategory</ObjectType>
+  </PageTemplateCategoryID>
+  <PageTemplateCodeName>cms.search</PageTemplateCodeName>
+  <PageTemplateDescription>Search page template.</PageTemplateDescription>
+  <PageTemplateDisplayName>Search</PageTemplateDisplayName>
+  <PageTemplateFile />
+  <PageTemplateGUID>578665ae-7ec4-4a7c-aee3-833845c79414</PageTemplateGUID>
+  <PageTemplateHeader />
+  <PageTemplateIconClass>icon-magnifier</PageTemplateIconClass>
+  <PageTemplateInheritPageLevels>/{0}</PageTemplateInheritPageLevels>
+  <PageTemplateIsReusable>True</PageTemplateIsReusable>
+  <PageTemplateLayout>
+<![CDATA[
+<div class="subcontentDiv">
+<div class="zoneCenterHome">
+	<cms:CMSWebPartZone ZoneID="zoneCenter" runat="server" />
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+
+]]>
+  </PageTemplateLayout>
+  <PageTemplateShowAsMasterTemplate>False</PageTemplateShowAsMasterTemplate>
+  <PageTemplateType>portal</PageTemplateType>
+  <PageTemplateWebParts>
+    <page>
+      <webpartzone id="zoneLeft" />
+      <webpartzone id="zoneCenter">
+        <webpart controlid="TitleText" guid="4b61f2cb-4d52-44c1-9206-42c606e6f01a" type="statictext">
+          <property name="controlid">TitleText</property>
+          <property name="hideonsubpages">False</property>
+          <property name="instanceguid">4b61f2cb-4d52-44c1-9206-42c606e6f01a</property>
+          <property name="text">
+            <![CDATA[<h1 class="header">Search results</h1>]]>
+          </property>
+          <property name="visible">True</property>
+          <property name="webparttype">statictext</property>
+        </webpart>
+        <webpart controlid="SearchDialogWithResults" guid="a198817c-515e-4301-a4aa-f4a8ebb4b759" type="SearchDialogWithResults" v="1">
+          <property name="attachmentsorderby"></property>
+          <property name="attachmentswhere"></property>
+          <property name="blockfieldonlysearch">False</property>
+          <property name="cat_open_ajax"></property>
+          <property name="cat_open_output_filter"></property>
+          <property name="cat_open_performance"></property>
+          <property name="cat_open_time zones"></property>
+          <property name="cat_open_visibility"></property>
+          <property name="checkpermissions">False</property>
+          <property name="combinewithdefaultculture"></property>
+          <property name="container"></property>
+          <property name="containercssclass"></property>
+          <property name="containercustomcontent"></property>
+          <property name="containerhideonsubpages">False</property>
+          <property name="containertitle"></property>
+          <property name="contentafter">
+            <![CDATA[<br />]]>
+          </property>
+          <property name="contentbefore"></property>
+          <property name="controlid">SearchDialogWithResults</property>
+          <property name="culturecode"></property>
+          <property name="currentpage">CMS.PagerTransformations.General-CurrentPage</property>
+          <property name="customtimezone"></property>
+          <property name="disablemacros">False</property>
+          <property name="disableviewstate">False</property>
+          <property name="displayfirstlastautomatically">False</property>
+          <property name="displaypreviousnextautomatically">False</property>
+          <property name="displaytoroles"></property>
+          <property name="documenttypes"></property>
+          <property name="enableoutputfilter">False</property>
+          <property name="firstpage">CMS.PagerTransformations.General-FirstPage</property>
+          <property name="groupsize">10</property>
+          <property name="hideonsubpages">False</property>
+          <property name="hidepagerforsinglepage">True</property>
+          <property name="indexes"></property>
+          <property name="instanceguid">a198817c-515e-4301-a4aa-f4a8ebb4b759</property>
+          <property name="lastpage">CMS.PagerTransformations.General-LastPage</property>
+          <property name="maxpages">200</property>
+          <property name="maxresults"></property>
+          <property name="nextgroup">CMS.PagerTransformations.General-NextGroup</property>
+          <property name="nextpage">CMS.PagerTransformations.General-NextPage</property>
+          <property name="noresultstext">No results were found.</property>
+          <property name="outputconverttablestodivs">none</property>
+          <property name="outputfixattributes">True</property>
+          <property name="outputfixhtml5">True</property>
+          <property name="outputfixjavascript">True</property>
+          <property name="outputfixlowercase">True</property>
+          <property name="outputfixselfclose">True</property>
+          <property name="outputfixtags">True</property>
+          <property name="outputresolveurls">True</property>
+          <property name="pagerlayout">CMS.PagerTransformations.General-PagerLayout</property>
+          <property name="pages">CMS.PagerTransformations.General-Pages</property>
+          <property name="pageseparator">CMS.PagerTransformations.General-PageSeparator</property>
+          <property name="pagesize">10</property>
+          <property name="pagingmode">querystring</property>
+          <property name="partialcachedependencies"></property>
+          <property name="partialcacheminutes"></property>
+          <property name="path">/%</property>
+          <property name="previousgroup">CMS.PagerTransformations.General-PreviousGroup</property>
+          <property name="previouspage">CMS.PagerTransformations.General-PreviousPage</property>
+          <property name="querystringkey">page</property>
+          <property name="resetscrollpositiononpostback">False</property>
+          <property name="searchbutton"></property>
+          <property name="searchcondition"></property>
+          <property name="searchforlabel"></property>
+          <property name="searchinattachments">False</property>
+          <property name="searchmode">anyword</property>
+          <property name="searchmodelabel"></property>
+          <property name="searchoneachpageload">False</property>
+          <property name="searchoptions">fullsearch</property>
+          <property name="searchsort"></property>
+          <property name="searchtextrequired">True</property>
+          <property name="showfordocumenttypes"></property>
+          <property name="showparsingerrors">False</property>
+          <property name="showsearchmode">True</property>
+          <property name="timezonetype">inherit</property>
+          <property name="transformationname">CMS.Root.SmartSearchResultsWithImages</property>
+          <property name="useupdatepanel">False</property>
+          <property name="visible">True</property>
+          <property name="watermarkcssclass"></property>
+          <property name="watermarktext"></property>
+          <property name="webparttitle"></property>
+          <property name="webparttype">SearchDialogWithResults</property>
+        </webpart>
+      </webpartzone>
+      <webpartzone id="zoneRight" />
+    </page>
+  </PageTemplateWebParts>
+</cms.pagetemplate>
