@@ -66,9 +66,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticoreferencesite.mypagetype.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="App_Themes\KenticoReferenceSite.css" />
     <Content Include="CMSScripts\Custom\KenticoReferenceSite.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -94,7 +91,17 @@
     <Content Include="App_Config\AppSettings.config">
       <TransformOnBuild>true</TransformOnBuild>
     </Content>
-    <Content Include="App_Config\connectionStrings.config" />
+    <Content Include="App_Config\connectionStrings.config">
+      <TransformOnBuild>true</TransformOnBuild>
+    </Content>
+    <None Include="App_Config\connectionStrings.Debug.config">
+      <DependentUpon>connectionStrings.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
+    <None Include="App_Config\connectionStrings.Release.config">
+      <DependentUpon>connectionStrings.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
     <None Include="App_Config\connectionStrings.Template.config" />
     <None Include="CIScripts\ExecuteCIScript.txt" />
     <None Include="CIScripts\Restore-CI.ps1" />
@@ -153,7 +160,8 @@
     </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>xcopy D:\Sites\KenticoReferenceSite\CMS\App_Data\CIRepository D:\Projects\KenticoReferenceSite\KenticoReferenceSite\CMS\KenticoReferenceSite\App_Data\CIRepository /L /I /Y /S /D</PreBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
